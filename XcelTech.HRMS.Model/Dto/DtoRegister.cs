@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace XcelTech.HRMS.Model.Dto
 {
-    internal class DtoRegister
+    public class DtoRegister
 
     {
 

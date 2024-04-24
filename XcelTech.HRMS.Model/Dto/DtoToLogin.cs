@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace XcelTech.HRMS.Model.Dto
 {
-    internal class DtoToLogin
+    public class DtoToLogin
     {
 
         [Required]
@@ -17,6 +17,7 @@ namespace XcelTech.HRMS.Model.Dto
 
         [Required]
         public string Password { get; set; } = String.Empty;
+        //public string Token { get; set; } = string.Empty ;
     }
 
 }
