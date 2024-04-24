@@ -6,7 +6,7 @@ namespace XcelTech.HRMS.Model.Model
 
     {
         public int EmployeeId { get; set; }
-        public string EmployeeFullName { get; set; }
+        public string EmployeeName { get; set; }
         public int EmployeeAge { get; set; }
         public DateOnly EmployyDOB { get; set; }
         public DateOnly EmployeeHiredDate { get; set; }

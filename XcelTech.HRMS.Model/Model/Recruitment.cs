@@ -6,7 +6,7 @@ namespace XcelTech.HRMS.Model.Model
     {
         public int RecruitmentId { get; set; }
         public string Position { get; set; }
-        public string POsitionDescription { get; set; }
+       
         public DateOnly StartDate { get; set; }
         public int DepartementID { get; set; }
         [ForeignKey("DepartmentId")]
