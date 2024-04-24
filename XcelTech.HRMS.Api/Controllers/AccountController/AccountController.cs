@@ -54,7 +54,7 @@ namespace XcelTech.HRMS.Api.Controllers
         }
 
         [HttpPost("login")]
-        public async Task<IActionResult> Login(DtoToLogin login)
+        public async Task<IActionResult> Login([FromBody]DtoToLogin login)
         {
             if (!ModelState.IsValid)
             {
