@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "FdHefOmUw0eMoDepxnT2sEYaxrR1GDaFMNfR9C/H9S8=",
+  "Source": "XcelTech.HRMS.Api",
+  "BasePath": "_content/XcelTech.HRMS.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

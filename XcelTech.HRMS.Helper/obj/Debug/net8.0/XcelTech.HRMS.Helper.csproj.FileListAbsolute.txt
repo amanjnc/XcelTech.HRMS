@@ -1,0 +1,14 @@
+C:\Users\yeabb\Music\C#\XcelTech.HRMS\XcelTech.HRMS.Helper\bin\Debug\net8.0\XcelTech.HRMS.Helper.deps.json
+C:\Users\yeabb\Music\C#\XcelTech.HRMS\XcelTech.HRMS.Helper\bin\Debug\net8.0\XcelTech.HRMS.Helper.runtimeconfig.json
+C:\Users\yeabb\Music\C#\XcelTech.HRMS\XcelTech.HRMS.Helper\bin\Debug\net8.0\XcelTech.HRMS.Helper.dll
+C:\Users\yeabb\Music\C#\XcelTech.HRMS\XcelTech.HRMS.Helper\bin\Debug\net8.0\XcelTech.HRMS.Helper.pdb
+C:\Users\yeabb\Music\C#\XcelTech.HRMS\XcelTech.HRMS.Helper\obj\Debug\net8.0\XcelTech.HRMS.Helper.csproj.AssemblyReference.cache
+C:\Users\yeabb\Music\C#\XcelTech.HRMS\XcelTech.HRMS.Helper\obj\Debug\net8.0\XcelTech.HRMS.Helper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yeabb\Music\C#\XcelTech.HRMS\XcelTech.HRMS.Helper\obj\Debug\net8.0\XcelTech.HRMS.Helper.AssemblyInfoInputs.cache
+C:\Users\yeabb\Music\C#\XcelTech.HRMS\XcelTech.HRMS.Helper\obj\Debug\net8.0\XcelTech.HRMS.Helper.AssemblyInfo.cs
+C:\Users\yeabb\Music\C#\XcelTech.HRMS\XcelTech.HRMS.Helper\obj\Debug\net8.0\XcelTech.HRMS.Helper.csproj.CoreCompileInputs.cache
+C:\Users\yeabb\Music\C#\XcelTech.HRMS\XcelTech.HRMS.Helper\obj\Debug\net8.0\XcelTech.HRMS.Helper.dll
+C:\Users\yeabb\Music\C#\XcelTech.HRMS\XcelTech.HRMS.Helper\obj\Debug\net8.0\refint\XcelTech.HRMS.Helper.dll
+C:\Users\yeabb\Music\C#\XcelTech.HRMS\XcelTech.HRMS.Helper\obj\Debug\net8.0\XcelTech.HRMS.Helper.pdb
+C:\Users\yeabb\Music\C#\XcelTech.HRMS\XcelTech.HRMS.Helper\obj\Debug\net8.0\XcelTech.HRMS.Helper.genruntimeconfig.cache
+C:\Users\yeabb\Music\C#\XcelTech.HRMS\XcelTech.HRMS.Helper\obj\Debug\net8.0\ref\XcelTech.HRMS.Helper.dll

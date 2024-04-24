@@ -1,0 +1,6 @@
+@XcelTech.HRMS.Api_HostAddress = http://localhost:5277
+
+GET {{XcelTech.HRMS.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
