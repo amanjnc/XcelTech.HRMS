@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿//using AutoMapper;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -15,9 +16,12 @@ namespace XcelTech.HRMS.Repo.Repo
         private readonly UserManager<AppUser> _userManager;
         private readonly ITokeNService _tokenService;
         private readonly ApplicationDbContext _applicationDbContext;
+        //private readonly IMapper _mapper;
 
         public Account(UserManager<AppUser> userManager, ITokeNService tokenService, ApplicationDbContext applicationDbContext)
+
         {
+            //_mapper = mapper;
             _userManager = userManager;
             _tokenService = tokenService;
             _applicationDbContext = applicationDbContext;
@@ -33,12 +37,34 @@ namespace XcelTech.HRMS.Repo.Repo
 
                 if (roleResult.Succeeded)
                 {
+
+
+
+
+                    //aman freaking make it a separate repo
+
+                    
+
+                    //till this
                     var newUserDto = new NewUserDto
                     {
                         EmployeeName = appUser.UserName,
                         EmployeeEmail = appUser.Email,
                         Token = _tokenService.CreateToken(appUser)
                     };
+
+
+
+                    var employyyyeeeeeee = new Employee
+                    {
+                        EmployeeName = appUser.UserName,
+                        EmployeeEmail = appUser.Email,
+                        AppUserId = appUser.Id
+                    };
+
+                    _applicationDbContext.Employees.Add(employyyyeeeeeee);
+                    await _applicationDbContext.SaveChangesAsync();
+
 
                     return new OkObjectResult(newUserDto);
                 }

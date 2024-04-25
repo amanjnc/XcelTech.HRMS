@@ -50,19 +50,19 @@ namespace XcelTech.HRMS.Repo.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "41852cb9-c952-4753-be39-01e25edd2677",
+                            Id = "7616d68e-6e14-4714-a6fd-44a9b969f5ed",
                             Name = "admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "ce9de0c0-f0ea-4a62-9d17-20f4b1161f5e",
+                            Id = "3b6e5764-c540-45c3-ba89-580a2c1688c0",
                             Name = "buyer",
                             NormalizedName = "BUYER"
                         },
                         new
                         {
-                            Id = "98d97fed-8947-495e-a10b-499db8a13eea",
+                            Id = "8cc39d52-7a1c-495a-bd43-eab3cb318aea",
                             Name = "seller",
                             NormalizedName = "SELLER"
                         });
@@ -297,10 +297,13 @@ namespace XcelTech.HRMS.Repo.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("EmployeeId"));
 
-                    b.Property<int>("DepartmentID")
+                    b.Property<string>("AppUserId")
+                        .HasColumnType("text");
+
+                    b.Property<int?>("DepartmentID")
                         .HasColumnType("integer");
 
-                    b.Property<int>("DepartmentId")
+                    b.Property<int?>("DepartmentId")
                         .HasColumnType("integer");
 
                     b.Property<string>("EmployeeAddress")
@@ -311,29 +314,30 @@ namespace XcelTech.HRMS.Repo.Migrations
                         .HasColumnType("integer");
 
                     b.Property<string>("EmployeeEmail")
-                        .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<DateOnly>("EmployeeHiredDate")
+                    b.Property<DateOnly?>("EmployeeHiredDate")
                         .HasColumnType("date");
 
                     b.Property<string>("EmployeeName")
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<int>("EmployeePhone")
+                    b.Property<int?>("EmployeePhone")
                         .HasColumnType("integer");
 
-                    b.Property<DateOnly>("EmployyDOB")
+                    b.Property<DateOnly?>("EmployyDOB")
                         .HasColumnType("date");
 
-                    b.Property<int>("PayrollId")
+                    b.Property<int?>("PayrollId")
                         .HasColumnType("integer");
 
-                    b.Property<int>("ProjectId")
+                    b.Property<int?>("ProjectId")
                         .HasColumnType("integer");
 
                     b.HasKey("EmployeeId");
+
+                    b.HasIndex("AppUserId");
 
                     b.HasIndex("DepartmentID");
 
@@ -580,23 +584,23 @@ namespace XcelTech.HRMS.Repo.Migrations
 
             modelBuilder.Entity("XcelTech.HRMS.Model.Model.Employee", b =>
                 {
+                    b.HasOne("XcelTech.HRMS.Model.Model.AppUser", "AppUser")
+                        .WithMany()
+                        .HasForeignKey("AppUserId");
+
                     b.HasOne("XcelTech.HRMS.Model.Model.Department", "department")
                         .WithMany()
-                        .HasForeignKey("DepartmentID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("DepartmentID");
 
                     b.HasOne("XcelTech.HRMS.Model.Model.Payroll", "payroll")
                         .WithMany()
-                        .HasForeignKey("PayrollId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("PayrollId");
 
                     b.HasOne("XcelTech.HRMS.Model.Model.Project", "project")
                         .WithMany()
-                        .HasForeignKey("ProjectId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("ProjectId");
+
+                    b.Navigation("AppUser");
 
                     b.Navigation("department");
 

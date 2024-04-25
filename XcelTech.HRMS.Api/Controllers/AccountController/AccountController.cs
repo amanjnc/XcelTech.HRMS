@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -42,6 +43,8 @@ namespace XcelTech.HRMS.Api.Controllers
                     Email = dtoRegister.EmployeeEmail,
                     // since appuser doesn't need the password, it can be initialized without it
                 };
+
+                
 
                 var result = await _account.createUser(appUser, dtoRegister.Password);
 

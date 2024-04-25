@@ -12,11 +12,12 @@
 
 //namespace XcelTech.HRMS.Model.Profiles
 //{
-//    public  class UserProfile : Profile
+//    public class UserProfile : Profile
 //    {
-//        public UserProfile() {
+//        public UserProfile()
+//        {
 
-//            CreateMap<Employee,DtoRegister>();
+//            CreateMap<Employee, DtoRegister>();
 
 
 

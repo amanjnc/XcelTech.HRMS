@@ -10,6 +10,7 @@ using XcelTech.HRMS.Repo;
 using XcelTech.HRMS.Repo.IRepo;
 using XcelTech.HRMS.Repo.Repo;
 using XcelTech.HRMS.Bloc;
+//using XcelTech.HRMS.Model.Profiles;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -80,6 +81,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+
+
+//builder.Services.AddAutoMapper(typeof(UserProfile));
+
+
+
 
 app.UseHttpsRedirection();
 
