@@ -64,14 +64,14 @@ namespace XcelTech.HRMS.Api.Controllers
             var user = await _userManager.Users.FirstOrDefaultAsync(u => u.Email == login.EmployeeEmail.ToLower());
             if (user == null)
             {
-                return Unauthorized("Invalid Username");
+                return Unauthorized("Invalid Email");
             }
 
             var result = await _signInManager.CheckPasswordSignInAsync(user, login.Password, false);
 
             if (!result.Succeeded)
             {
-                return Unauthorized("Username not found or password incorrect");
+                return Unauthorized("password incorrect");
             }
 
             return Ok(new NewUserDto

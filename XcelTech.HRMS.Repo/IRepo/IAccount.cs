@@ -11,7 +11,7 @@ namespace XcelTech.HRMS.Repo.IRepo
 {
     public interface IAccount
     {
-        Task<OkObjectResult> createUser (AppUser appUser, string Password);
+        Task<IActionResult> createUser (AppUser appUser, string Password);
 
     }
 }

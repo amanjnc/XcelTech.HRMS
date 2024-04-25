@@ -1,7 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System;
-using System.Threading.Tasks;
+using System.Collections.Generic;
+using System.Linq;
 using XcelTech.HRMS.Bloc;
 using XcelTech.HRMS.Model.Dto;
 using XcelTech.HRMS.Model.Model;
@@ -11,158 +12,52 @@ namespace XcelTech.HRMS.Repo.Repo
 {
     public class Account : IAccount
     {
-        private readonly ApplicationDbContext _applicationDbContext;
         private readonly UserManager<AppUser> _userManager;
         private readonly ITokeNService _tokenService;
+        private readonly ApplicationDbContext _applicationDbContext;
 
-        public Account(ApplicationDbContext applicationDbContext, ITokeNService tokeNService, UserManager<AppUser> userManager)
+        public Account(UserManager<AppUser> userManager, ITokeNService tokenService, ApplicationDbContext applicationDbContext)
         {
-            _applicationDbContext = applicationDbContext;
             _userManager = userManager;
-            _tokenService = tokeNService;
+            _tokenService = tokenService;
+            _applicationDbContext = applicationDbContext;
         }
 
-        public async Task<OkObjectResult> createUser(AppUser appUser, string Password)
+        public async Task<IActionResult> createUser(AppUser appUser, string password)
         {
-            var createdUser = await _userManager.CreateAsync(appUser, Password);
+            var createdUser = await _userManager.CreateAsync(appUser, password);
 
             if (createdUser.Succeeded)
             {
-                if (false)
-                {
-                    var roleResult = await _userManager.AddToRoleAsync(appUser, "buyer");
-                    if (roleResult.Succeeded)
-                    {
-                        var newUserDto = new NewUserDto
-                        {
-                            EmployeeName = appUser.UserName,
-                            EmployeeEmail = appUser.Email,
-                            Token = _tokenService.CreateToken(appUser)
-                        };
+                var roleResult = await _userManager.AddToRoleAsync(appUser, "buyer");
 
-                        return new OkObjectResult(newUserDto);
-                    }
-                    else
+                if (roleResult.Succeeded)
+                {
+                    var newUserDto = new NewUserDto
                     {
-                        throw new Exception("Failed to add user to the buyer role.");
-                    }
+                        EmployeeName = appUser.UserName,
+                        EmployeeEmail = appUser.Email,
+                        Token = _tokenService.CreateToken(appUser)
+                    };
+
+                    return new OkObjectResult(newUserDto);
                 }
                 else
                 {
-                    var roleResult = await _userManager.AddToRoleAsync(appUser, "seller");
-                    if (roleResult.Succeeded)
-                    {
-                        var newUserDto = new NewUserDto
-                        {
-                            EmployeeName = appUser.UserName,
-                            EmployeeEmail = appUser.Email,
-                            Token = _tokenService.CreateToken(appUser)
-                        };
-
-                        return new OkObjectResult(newUserDto);
-                    }
-                    else
-                    {
-                        throw new Exception("Failed to add user to the seller role.");
-                    }
+                    var errorMessage = "Failed to add user to the buyer role. Reason: " + GetIdentityErrorMessage(roleResult.Errors);
+                    throw new Exception(errorMessage);
                 }
             }
             else
             {
-                throw new Exception("Failed to create user.");
+                var errorMessage = "Failed to create user. Reason: " + GetIdentityErrorMessage(createdUser.Errors);
+                throw new Exception(errorMessage);
             }
+        }
+
+        private string GetIdentityErrorMessage(IEnumerable<IdentityError> errors)
+        {
+            return string.Join(", ", errors.Select(e => e.Description));
         }
     }
 }
-
-
-
-
-
-//using Microsoft.AspNetCore.Identity;
-//using System;
-//using System.Collections.Generic;
-//using System.Linq;
-//using System.Text;
-//using System.Threading.Tasks;
-//using XcelTech.HRMS.Model.Model;
-//using XcelTech.HRMS.Repo.IRepo;
-//using Microsoft.AspNetCore.Mvc;
-
-//using XcelTech.HRMS.Model.Dto;
-//using XcelTech.HRMS.Bloc;
-
-//namespace XcelTech.HRMS.Repo.Repo
-//{
-//    public class Account : IAccount
-//    {
-//        private readonly ApplicationDbContext _applicationDbContext;
-//        private readonly UserManager<AppUser> _userManager;
-//        private readonly ITokeNService _tokenService;
-
-
-//        public Account(ApplicationDbContext applicationDbContext, ITokeNService tokeNService,UserManager<AppUser> userManager)
-
-//        {
-//            _applicationDbContext = applicationDbContext;
-//            _userManager = userManager;
-//            _tokenService = tokeNService;   
-//        }
-
-
-//        public async Task<IActionResult> createUser(AppUser appUser, string Password)
-//        {
-//            var createdUser = await _userManager.CreateAsync(appUser, Password);
-
-//            if (createdUser.Succeeded)
-//            {
-//                if (false)
-//                {
-//                    var roleResult = await _userManager.AddToRoleAsync(appUser, "buyer");
-//                    if (roleResult.Succeeded)
-//                    {
-//                        var newUserDto = new NewUserDto
-//                        {
-//                            EmployeeName = appUser.UserName,
-//                            EmployeeEmail = appUser.Email,
-//                            Token = _tokenService.CreateToken(appUser)
-
-//                            //Token = _tokenService.CreateToken(appUser)
-//                        };
-
-//                        return ok(newUserDto);
-//                    }
-//                    else
-//                    {
-//                        throw new Exception("Failed to add user to the buyer role.");
-//                    }
-//                }
-//                else
-//                {
-//                    var roleResult = await _userManager.AddToRoleAsync(appUser, "seller");
-//                    if (roleResult.Succeeded)
-//                    {
-//                        var newUserDto = new NewUserDto
-//                        {
-//                            EmployeeName = appUser.UserName,
-//                            EmployeeEmail = appUser.Email,
-//                            Token = _tokenService.CreateToken(appUser)
-
-//                            //Token = _tokenService.CreateToken(appUser)
-//                        };
-
-//                        return ok(newUserDto);
-//                    }
-//                    else
-//                    {
-//                        throw new Exception("Failed to add user to the seller role.");
-//                    }
-//                }
-//            }
-//            else
-//            {
-//                throw new Exception("Failed to create user.");
-//            }
-//        }
-//    }
-//}
