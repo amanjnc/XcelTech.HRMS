@@ -88,6 +88,10 @@
               "target": "Package",
               "version": "[8.0.4, )"
             },
+            "Microsoft.Orleans.Core.Abstractions": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.2, )"
