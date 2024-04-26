@@ -1,6 +1,7 @@
 ﻿//using AutoMapper;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Rewrite;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,7 +30,19 @@ namespace XcelTech.HRMS.Repo.Repo
 
         public async Task<IActionResult> createUser(AppUser appUser, string password)
         {
+
+            var existingUserWithSameEmail = await _userManager.FindByEmailAsync(appUser.Email);
+            if (existingUserWithSameEmail != null)
+            {
+                var customErrorMessage = "Email with the same Name Exists, use a different one :";
+                throw  new Exception(customErrorMessage);
+            }
+            
             var createdUser = await _userManager.CreateAsync(appUser, password);
+
+            
+                
+            
 
             if (createdUser.Succeeded)
             {
