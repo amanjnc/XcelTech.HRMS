@@ -11,16 +11,16 @@ namespace XcelTech.HRMS.Model.Dto
 
     {
 
-        [Required]
+        //[Required]
         public string EmployeeName { get; set; } = String.Empty;
 
 
-        [Required]
-        [EmailAddress]
+        //[Required]
+        //[EmailAddress]
         public string EmployeeEmail { get; set; } = String.Empty;
 
 
-        [Required]
+        //[Required]
         public string Password { get; set; } = String.Empty;    
 
     }

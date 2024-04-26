@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "h8uQUPtqc3DLZEwKXJeEErTl7oiieh1hD1bYCXYjkpGl5lk9MEm1A/bRHB2myYxFndiwTl5zT8ygcklen+Tbyg==",
+  "dgSpecHash": "95zGotzP86/9ZGZbu4tgAYll6vTfw1sEPQkgtfhj3LBjqRbyAH21A+kKmVBg11KFdcpXzcgjEgpEoY7ibJfbpQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yeabb\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\yeabb\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "C:\\Users\\yeabb\\.nuget\\packages\\fluentvalidation\\11.9.1\\fluentvalidation.11.9.1.nupkg.sha512",
     "C:\\Users\\yeabb\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\yeabb\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\yeabb\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",

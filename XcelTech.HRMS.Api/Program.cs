@@ -6,10 +6,14 @@ using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 
 using XcelTech.HRMS.Model.Model;
+using XcelTech.HRMS.Model.Validations;
 using XcelTech.HRMS.Repo;
 using XcelTech.HRMS.Repo.IRepo;
 using XcelTech.HRMS.Repo.Repo;
 using XcelTech.HRMS.Bloc;
+using FluentValidation;
+using System;
+using XcelTech.HRMS.Model.Dto;
 //using XcelTech.HRMS.Model.Profiles;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -24,6 +28,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+
 
 
 //  ///identity
@@ -69,6 +74,8 @@ builder.Services.AddAuthentication(options =>
 
 
 builder.Services.AddScoped<IAccount, Account>();
+builder.Services.AddScoped<IValidator<AppUser>, UserInfoValidator>();
+
 builder.Services.AddScoped<ITokeNService, TokenService>();
 
 

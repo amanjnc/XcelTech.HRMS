@@ -1,9 +1,12 @@
 ﻿using AutoMapper;
+using FluentValidation;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Orleans.Providers;
+using System;
+using System.ComponentModel.DataAnnotations;
 using System.Drawing.Drawing2D;
 using XcelTech.HRMS.Bloc;
 using XcelTech.HRMS.Model.Dto;
@@ -20,10 +23,12 @@ namespace XcelTech.HRMS.Api.Controllers
         private readonly ITokeNService _tokenService;
         private readonly SignInManager<AppUser> _signInManager;
         private readonly IAccount _account;
+        private IValidator<AppUser> _validator;
 
-        public AccountController(UserManager<AppUser> userManager, ITokeNService tokenService, SignInManager<AppUser> signInManager, IAccount account)
+        public AccountController(UserManager<AppUser> userManager, ITokeNService tokenService, SignInManager<AppUser> signInManager, IAccount account, IValidator<AppUser> validator )
         {
             _userManager = userManager;
+            _validator = validator;
             _tokenService = tokenService;
             _signInManager = signInManager;
             _account = account;
@@ -34,18 +39,30 @@ namespace XcelTech.HRMS.Api.Controllers
         {
             try
             {
-                if (!ModelState.IsValid)
-                {
-                    return BadRequest(ModelState);
-                }
 
                 var appUser = new AppUser
                 {
                     UserName = dtoRegister.EmployeeName,
                     Email = dtoRegister.EmployeeEmail,
-                    // since appuser doesn't need the password, it can be initialized without it
+                    // since appuser doesn't need the password here, it can be initialized without it
                 };
 
+
+
+
+                var fluentValidationResult =await  _validator.ValidateAsync(appUser);
+
+
+                if (!fluentValidationResult.IsValid)
+                {
+                    foreach (var error in fluentValidationResult.Errors)
+                    {
+                        ModelState.AddModelError(error.PropertyName, error.ErrorMessage);
+                    }
+                    return BadRequest(ModelState);
+                }
+
+                
 
 
                 var result = await _account.createUser(appUser, dtoRegister.Password);

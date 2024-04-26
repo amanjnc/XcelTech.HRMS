@@ -17,6 +17,8 @@ namespace XcelTech.HRMS.Repo.Repo
         private readonly UserManager<AppUser> _userManager;
         private readonly ITokeNService _tokenService;
         private readonly ApplicationDbContext _applicationDbContext;
+
+
         //private readonly IMapper _mapper;
 
         public Account(UserManager<AppUser> userManager, ITokeNService tokenService, ApplicationDbContext applicationDbContext)
@@ -32,14 +34,15 @@ namespace XcelTech.HRMS.Repo.Repo
         {
 
             var existingUserWithSameEmail = await _userManager.FindByEmailAsync(appUser.Email);
-            if (existingUserWithSameEmail != null)
-            {
-                var customErrorMessage = "Email with the same Name Exists, use a different one :";
-                throw  new Exception(customErrorMessage);
-            }
-            
-            var createdUser = await _userManager.CreateAsync(appUser, password);
 
+            //if (existingUserWithSameEmail != null)
+            //{
+            //    var customErrorMessage = "Email with the same Name Exists, use a different one :";
+            //    throw  new Exception(customErrorMessage);
+            //}
+            
+
+            var createdUser = await _userManager.CreateAsync(appUser, password);
             
                 
             

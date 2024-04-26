@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "eGcMTOz8ExFBppmoFPPU8ax0s3wmAoDj+km6CPJKrkP19cAXkURMD78/JUuWX8VHkbEv3SJ6DlOlhcrjoI0AwQ==",
+  "dgSpecHash": "UAw/lNMT4DpPw5W8h8ah51R40hkF7YzaLGFV6rIORiy6x+vYPEVtaNja4zt12LzFkqDViMb69Z78avFqR05zHw==",
   "success": true,
   "projectFilePath": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yeabb\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\yeabb\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "C:\\Users\\yeabb\\.nuget\\packages\\fluentvalidation\\11.9.1\\fluentvalidation.11.9.1.nupkg.sha512",
     "C:\\Users\\yeabb\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\yeabb\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\yeabb\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

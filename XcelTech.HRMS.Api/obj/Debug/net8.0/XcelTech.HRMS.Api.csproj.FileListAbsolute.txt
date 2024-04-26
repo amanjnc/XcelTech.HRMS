@@ -380,3 +380,6 @@ C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\XcelTech.HRMS.Api\bin\Debug\net
 C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\XcelTech.HRMS.Api\bin\Debug\net8.0\Orleans.Serialization.dll
 C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\XcelTech.HRMS.Api\bin\Debug\net8.0\Orleans.Serialization.Abstractions.dll
 C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\XcelTech.HRMS.Api\bin\Debug\net8.0\System.IO.Hashing.dll
+C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\XcelTech.HRMS.Api\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\XcelTech.HRMS.Api\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\XcelTech.HRMS.Api\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
