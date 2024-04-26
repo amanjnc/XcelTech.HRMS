@@ -29,6 +29,11 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 //  ///identity
 builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
 {
+
+    //just to override bc no whitespace is allowed in the default implementation i guess so. and you cant just assign it to white space
+    //Orelse it will only allow whitespaces .
+    options.User.AllowedUserNameCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 "; 
+
     options.Password.RequireDigit = true;
     options.Password.RequireLowercase = true;
     options.Password.RequireUppercase = true;
