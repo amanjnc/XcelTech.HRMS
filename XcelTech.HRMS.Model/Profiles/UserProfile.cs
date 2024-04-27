@@ -14,9 +14,6 @@ namespace XcelTech.HRMS.Model.Profiles
             .ForMember(dest => dest.EmployeeEmail, opt => opt.MapFrom(src => src.Email))
             .ForMember(dest => dest.EmployeeName, opt => opt.MapFrom(src => src.UserName));
 
-
-
-
         }
 
     }

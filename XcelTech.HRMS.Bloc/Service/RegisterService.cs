@@ -87,7 +87,6 @@ namespace XcelTech.HRMS.Bloc.Service
                 await _accountRegister.addEmployyetoTable(employee);
 
 
-                //return new OkObjectResult(result);
             }
             catch (Exception ex)
             {

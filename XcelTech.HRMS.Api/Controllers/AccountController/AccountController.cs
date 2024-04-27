@@ -16,10 +16,14 @@ namespace XcelTech.HRMS.Api.Controllers
         private readonly UserManager<AppUser> _userManager;
         private readonly ITokeNService _tokenService;
         private readonly SignInManager<AppUser> _signInManager;
+        private readonly ILoginService _loginService;
+        
         
 
-        public AccountController(UserManager<AppUser> userManager, ITokeNService tokenService, SignInManager<AppUser> signInManager, IRegisterService registerService)
+        public AccountController(UserManager<AppUser> userManager, ITokeNService tokenService, SignInManager<AppUser> signInManager, IRegisterService registerService, ILoginService loginService
+            )
         {
+            _loginService = loginService;
             _registerService = registerService;
             _userManager = userManager;
             _tokenService = tokenService;
@@ -54,32 +58,9 @@ namespace XcelTech.HRMS.Api.Controllers
                 return BadRequest(ModelState);
             }
 
-            var user = await _userManager.Users.FirstOrDefaultAsync(u => u.Email == login.EmployeeEmail.ToLower());
-            if (user == null)
-            {
-                return Unauthorized("Invalid Email");
-            }
+            var finalResult = await _loginService.checkPasswordThenSignIn(login, rememberMe);
 
-            var result = await _signInManager.CheckPasswordSignInAsync(user, login.Password, rememberMe);
-
-            if (!result.Succeeded)
-            {
-                return Unauthorized("Password incorrect");
-            }
-
-            await _signInManager.SignInAsync(user, rememberMe);
-
-
-            var authCookie = Request.Cookies[".AspNetCore.Identity.Application"];
-
-            Console.WriteLine($"Remember Me Cookie: {authCookie}");
-
-            return Ok(new NewUserDto
-            {
-                EmployeeName = user.UserName,
-                EmployeeEmail = user.Email,
-                Token = _tokenService.CreateToken(user)
-            });
+           return Ok(finalResult);
 }
     }
 }

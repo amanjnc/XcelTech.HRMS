@@ -9,10 +9,6 @@ namespace XcelTech.HRMS.Bloc.Validations
     {
         private readonly IAccountRegister _accountregister;
 
-
-
-
-
         public UserInfoValidator(IAccountRegister accountRegister)
         {
             _accountregister = accountRegister;

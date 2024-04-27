@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using XcelTech.HRMS.Model.Dto;
 using XcelTech.HRMS.Model.Model;
+using SignInResult = Microsoft.AspNetCore.Identity.SignInResult;
 
 namespace XcelTech.HRMS.Repo.IRepo
 {
@@ -18,6 +19,11 @@ namespace XcelTech.HRMS.Repo.IRepo
         Task<IdentityResult> createRole(AppUser appUser, string userRole);
 
 
+
+
+        Task<AppUser> checkOnlyEmail(DtoToLogin login);
+        Task <SignInResult> checkPasswordThenSignIn(AppUser appUser, DtoToLogin login, bool rememberMe = false);
+        Task finalSignIN(AppUser appUser,bool RememberMe);
 
     }
 }

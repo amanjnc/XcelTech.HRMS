@@ -77,13 +77,13 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
-
+builder.Services.AddHttpContextAccessor();
 builder.Services.AddAutoMapper(typeof(RegInfo_AppUser));
 builder.Services.AddAutoMapper(typeof(UserProfile));
 
 
 
-
+builder.Services.AddScoped<ILoginService, LoginService>();
 builder.Services.AddScoped<IAccountRegister, AccountRegister>();
 builder.Services.AddScoped<IRegisterService, RegisterService>();
 builder.Services.AddScoped<IValidator<DtoRegister>, UserInfoValidator>();

@@ -1,8 +1,10 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using XcelTech.HRMS.Model.Dto;
 using XcelTech.HRMS.Model.Model;
+using SignInResult = Microsoft.AspNetCore.Identity.SignInResult;
 using XcelTech.HRMS.Repo.IRepo;
 
 namespace XcelTech.HRMS.Repo.Repo
@@ -11,12 +13,15 @@ namespace XcelTech.HRMS.Repo.Repo
     {
         private readonly UserManager<AppUser> _userManager;
         private readonly ApplicationDbContext _applicationDbContext;
+        private readonly SignInManager<AppUser> _signInManager;
 
-        public AccountRegister(UserManager<AppUser> userManager, ApplicationDbContext applicationDbContext)
+
+        public AccountRegister(UserManager<AppUser> userManager, ApplicationDbContext applicationDbContext, SignInManager<AppUser> signInManager)
 
         {
             _userManager = userManager;
             _applicationDbContext = applicationDbContext;
+            _signInManager = signInManager;
         }
         public async Task addEmployyetoTable(Employee employee)
         {
@@ -49,6 +54,42 @@ namespace XcelTech.HRMS.Repo.Repo
             return existingUserWithSameEmail == null;
 
         }
+
+
+
+
+        /////login part 
+        ///
+
+
+
+
+
+        public async Task<AppUser> checkOnlyEmail(DtoToLogin login)
+        {
+            return await  _userManager.Users.FirstOrDefaultAsync(u => u.Email == login.EmployeeEmail.ToLower());
+            
+        }
+
+        public async Task<SignInResult> checkPasswordThenSignIn(AppUser appUser, DtoToLogin login, bool rememberMe = false)
+        {
+            var result = await _signInManager.CheckPasswordSignInAsync(appUser, login.Password, rememberMe);
+            return result; 
+        }
+
+        public async Task finalSignIN(AppUser appUser, bool RememberMe)
+        {
+            await _signInManager.SignInAsync(appUser, RememberMe);
+
+        }
+
+
+
+    
+
+
+
+
 
     }
 }
