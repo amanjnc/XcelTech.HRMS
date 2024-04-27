@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,9 +12,11 @@ namespace XcelTech.HRMS.Repo.IRepo
 {
     public interface IAccountRegister
     {
-        Task<IActionResult> createEmployee (AppUser appUser, string Password,Employee employee);
+        Task<IdentityResult> createUser(AppUser appUser, string Password,Employee employee);
         Task<bool> isUniqueEmail(string Email,CancellationToken cancellationToken);
         Task addEmployyetoTable(Employee employee);
+        Task<IdentityResult> createRole(AppUser appUser, string userRole);
+
 
 
     }
