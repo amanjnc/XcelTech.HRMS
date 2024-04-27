@@ -21,7 +21,6 @@
           "Newtonsoft.Json": "13.0.3",
           "Npgsql": "8.0.2",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.2",
-          "XcelTech.HRMS.Bloc": "1.0.0",
           "XcelTech.HRMS.Model": "1.0.0"
         },
         "runtime": {
@@ -1976,22 +1975,6 @@
           }
         }
       },
-      "XcelTech.HRMS.Bloc/1.0.0": {
-        "dependencies": {
-          "AutoMapper": "12.0.0",
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.2",
-          "Microsoft.AspNetCore.Identity": "2.2.0",
-          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "8.0.2",
-          "Newtonsoft.Json": "13.0.3",
-          "Npgsql": "8.0.2",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.2",
-          "XcelTech.HRMS.Model": "1.0.0"
-        },
-        "runtime": {
-          "XcelTech.HRMS.Bloc.dll": {}
-        }
-      },
       "XcelTech.HRMS.Model/1.0.0": {
         "dependencies": {
           "AutoMapper": "12.0.0",
@@ -3247,11 +3230,6 @@
       "sha512": "sha512-bR4qdCmssMMbo9Fatci49An5B1UaVJZHKNq70PRgzoLYIlitb8Tj7ns/Xt5Pz1CkERiTjcVBDU2y1AVrPBYkaw==",
       "path": "system.windows.extensions/7.0.0",
       "hashPath": "system.windows.extensions.7.0.0.nupkg.sha512"
-    },
-    "XcelTech.HRMS.Bloc/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     },
     "XcelTech.HRMS.Model/1.0.0": {
       "type": "project",

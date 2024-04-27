@@ -21,9 +21,7 @@ C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\XcelTech.HRMS.Repo\bin\Debug\ne
 C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\XcelTech.HRMS.Repo\bin\Debug\net8.0\XcelTech.HRMS.Repo.runtimeconfig.json
 C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\XcelTech.HRMS.Repo\bin\Debug\net8.0\XcelTech.HRMS.Repo.dll
 C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\XcelTech.HRMS.Repo\bin\Debug\net8.0\XcelTech.HRMS.Repo.pdb
-C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\XcelTech.HRMS.Repo\bin\Debug\net8.0\XcelTech.HRMS.Bloc.dll
 C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\XcelTech.HRMS.Repo\bin\Debug\net8.0\XcelTech.HRMS.Model.dll
-C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\XcelTech.HRMS.Repo\bin\Debug\net8.0\XcelTech.HRMS.Bloc.pdb
 C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\XcelTech.HRMS.Repo\bin\Debug\net8.0\XcelTech.HRMS.Model.pdb
 C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\XcelTech.HRMS.Repo\obj\Debug\net8.0\XcelTech.HRMS.Repo.csproj.AssemblyReference.cache
 C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\XcelTech.HRMS.Repo\obj\Debug\net8.0\XcelTech.HRMS.Repo.GeneratedMSBuildEditorConfig.editorconfig

@@ -1,11 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Reflection;
-using System.Text;
 using XcelTech.HRMS.Model;
 using XcelTech.HRMS.Model.Model;
 using Microsoft.AspNetCore.Identity;

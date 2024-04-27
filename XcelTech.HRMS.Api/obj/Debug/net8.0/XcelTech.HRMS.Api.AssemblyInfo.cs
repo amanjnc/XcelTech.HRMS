@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("4a925f74-82c6-49f5-a91c-3ef82bee4cbf")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("XcelTech.HRMS.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c974f3f39e1f14ce320cdd550e2a2eb394efcb25")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7214ec8e8c5d82d8e79c637766e859b1ea03d9d8")]
 [assembly: System.Reflection.AssemblyProductAttribute("XcelTech.HRMS.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XcelTech.HRMS.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

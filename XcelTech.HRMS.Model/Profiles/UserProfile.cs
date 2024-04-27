@@ -1,27 +1,23 @@
-﻿//using System;
-//using System.Collections.Generic;
-//using System.Linq;
-//using System.Text;
-//using System.Threading.Tasks;
-//using XcelTech.HRMS.Model.Model;
-//using XcelTech.HRMS.Model.Dto;
+﻿using System;
+using XcelTech.HRMS.Model.Model;
+using AutoMapper;
+
+namespace XcelTech.HRMS.Model.Profiles
+{
+    public class UserProfile : Profile
+    {
+        public UserProfile()
+        {
+
+            CreateMap<AppUser, Employee>()
+            .ForMember(dest => dest.AppUserId, opt => opt.MapFrom(src => src.Id))
+            .ForMember(dest => dest.EmployeeEmail, opt => opt.MapFrom(src => src.Email))
+            .ForMember(dest => dest.EmployeeName, opt => opt.MapFrom(src => src.UserName));
 
 
 
-//using AutoMapper;
 
-//namespace XcelTech.HRMS.Model.Profiles
-//{
-//    public class UserProfile : Profile
-//    {
-//        public UserProfile()
-//        {
+        }
 
-//            CreateMap<Employee, DtoRegister>();
-
-
-
-//        }
-
-//    }
-//}
+    }
+}

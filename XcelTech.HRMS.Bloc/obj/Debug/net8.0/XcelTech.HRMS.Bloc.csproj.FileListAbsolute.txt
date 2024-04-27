@@ -30,3 +30,5 @@ C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\XcelTech.HRMS.Bloc\obj\Debug\ne
 C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\XcelTech.HRMS.Bloc\bin\Debug\net8.0\XcelTech.HRMS.Model.dll
 C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\XcelTech.HRMS.Bloc\bin\Debug\net8.0\XcelTech.HRMS.Model.pdb
 C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\XcelTech.HRMS.Bloc\obj\Debug\net8.0\XcelTech.72996A98.Up2Date
+C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\XcelTech.HRMS.Bloc\bin\Debug\net8.0\XcelTech.HRMS.Repo.dll
+C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\XcelTech.HRMS.Bloc\bin\Debug\net8.0\XcelTech.HRMS.Repo.pdb
