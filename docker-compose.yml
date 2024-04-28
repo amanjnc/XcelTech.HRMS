@@ -1,5 +1,4 @@
 version: '3.4'
-
 services:
   xceltech.hrms.api:
     image: ${DOCKER_REGISTRY-}xceltechhrmsapi
