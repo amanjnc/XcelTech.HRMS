@@ -41,3 +41,6 @@ C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\bin\Debug\XcelTech.HRMS.Repo.pd
 C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\obj\Debug\docker-c.35A3FFBA.Up2Date
+C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\bin\Debug\AutoMapper.dll
+C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll

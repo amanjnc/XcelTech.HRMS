@@ -3,6 +3,25 @@ version: '3.4'
 services:
   xceltech.hrms.api:
     image: ${DOCKER_REGISTRY-}xceltechhrmsapi
+    container_name: xceltech.hrms.api
     build:
       context: .
       dockerfile: XcelTech.HRMS.Api/Dockerfile
+    ports:
+      - "5000:5000"
+      - "5001:5001"
+
+  xcelTech.hrms.repo:
+    image: postgres:latest
+    container_name: xcelTech.hrms.repo
+    environment:
+      - POSTGRES_DB=xceltechhrms
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - 5432:5432
+    volumes:
+      - ./.containers/products-db:/var/lib/postgresql/data
+
+
+    
