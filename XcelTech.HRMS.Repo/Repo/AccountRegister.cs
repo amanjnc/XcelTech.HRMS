@@ -34,7 +34,7 @@ namespace XcelTech.HRMS.Repo.Repo
         public async Task<IdentityResult> createUser(AppUser appUser, string password, Employee employee)
         {
 
-
+            //internal password hashing-with salt PBKDF2 (Password-Based Key Derivation Function 2)
             var createdUser = await _userManager.CreateAsync(appUser, password);
             return createdUser;
         }
@@ -73,6 +73,8 @@ namespace XcelTech.HRMS.Repo.Repo
 
         public async Task<SignInResult> checkPasswordThenSignIn(AppUser appUser, DtoToLogin login, bool rememberMe = false)
         {
+
+            //internal password hashing then matching happens here
             var result = await _signInManager.CheckPasswordSignInAsync(appUser, login.Password, rememberMe);
             return result; 
         }

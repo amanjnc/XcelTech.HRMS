@@ -11,8 +11,6 @@ namespace XcelTech.HRMS.Model.Dto
     public class DtoRegister
 
     {
-
- 
         public string EmployeeName { get; set; } = String.Empty; 
 
 

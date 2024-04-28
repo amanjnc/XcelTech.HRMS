@@ -17,8 +17,8 @@ namespace XcelTech.HRMS.Api.Controllers
         private readonly ITokeNService _tokenService;
         private readonly SignInManager<AppUser> _signInManager;
         private readonly ILoginService _loginService;
-        
-        
+
+
 
         public AccountController(UserManager<AppUser> userManager, ITokeNService tokenService, SignInManager<AppUser> signInManager, IRegisterService registerService, ILoginService loginService
             )
@@ -35,14 +35,15 @@ namespace XcelTech.HRMS.Api.Controllers
         {
 
 
-            try { 
+            try
+            {
 
                 if (ModelState.IsValid)
                 {
-                    var result =  await _registerService.createUser(dtoRegister);
+                    var result = await _registerService.createUser(dtoRegister);
                     return Ok(result);
                 }
-                    return BadRequest(ModelState);             
+                return BadRequest(ModelState);
             }
             catch (Exception ex)
             {
@@ -60,11 +61,14 @@ namespace XcelTech.HRMS.Api.Controllers
 
             var finalResult = await _loginService.checkPasswordThenSignIn(login, rememberMe);
 
-           return Ok(finalResult);
-}
+            return Ok(finalResult);
+        }
+
+        //    [HttpGet("getEmployee")]
+        //public async Task<Employee> GetEmployeebyName()
+        //}
     }
 }
-
 
 
 
