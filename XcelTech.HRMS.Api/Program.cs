@@ -12,6 +12,8 @@ using XcelTech.HRMS.Repo.IRepo;
 using XcelTech.HRMS.Repo.Repo;
 using XcelTech.HRMS.Bloc;
 using FluentValidation;
+using XcelTech.HRMS.Api.Extensions;
+
 using System;
 using XcelTech.HRMS.Model.Dto;
 using XcelTech.HRMS.Model.Profiles;
@@ -104,6 +106,7 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    app.ApplyMigrations();
     
 }
 
@@ -120,3 +123,5 @@ app.MapControllers();
 app.MapControllers();
 
 app.Run();
+
+

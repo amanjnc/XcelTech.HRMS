@@ -3,8 +3,8 @@
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 USER app
 WORKDIR /app
-EXPOSE 8080
-EXPOSE 8081
+EXPOSE 5000
+EXPOSE 5001
 
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
@@ -18,6 +18,7 @@ RUN dotnet restore "./XcelTech.HRMS.Api/XcelTech.HRMS.Api.csproj"
 COPY . .
 WORKDIR "/src/XcelTech.HRMS.Api"
 RUN dotnet build "./XcelTech.HRMS.Api.csproj" -c $BUILD_CONFIGURATION -o /app/build
+#RUN dotnet ef database update --project "XcelTech.HRMS.Api.csproj" --context XcelTech.HRMS.Repo.ApplicationDbContext --no-build --output-dir /app/migrations
 
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
