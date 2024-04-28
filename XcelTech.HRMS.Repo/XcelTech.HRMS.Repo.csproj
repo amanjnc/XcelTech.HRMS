@@ -29,7 +29,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\XcelTech.HRMS.Bloc\XcelTech.HRMS.Bloc.csproj" />
     <ProjectReference Include="..\XcelTech.HRMS.Model\XcelTech.HRMS.Model.csproj" />
   </ItemGroup>
 

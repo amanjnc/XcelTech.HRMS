@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XcelTech.HRMS.Bloc", "XcelTech.HRMS.Bloc\XcelTech.HRMS.Bloc.csproj", "{893B7898-3342-43F4-94F0-1054208EA8FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XcelTech.HRMS.Bloc", "XcelTech.HRMS.Bloc\XcelTech.HRMS.Bloc.csproj", "{893B7898-3342-43F4-94F0-1054208EA8FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XcelTech.HRMS.Repo", "XcelTech.HRMS.Repo\XcelTech.HRMS.Repo.csproj", "{1F1361CF-BF73-4B15-AB0B-D38EAD184528}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XcelTech.HRMS.Repo", "XcelTech.HRMS.Repo\XcelTech.HRMS.Repo.csproj", "{1F1361CF-BF73-4B15-AB0B-D38EAD184528}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XcelTech.HRMS.Api", "XcelTech.HRMS.Api\XcelTech.HRMS.Api.csproj", "{17C871AF-E862-4A03-B23E-1207BFC35073}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XcelTech.HRMS.Api", "XcelTech.HRMS.Api\XcelTech.HRMS.Api.csproj", "{17C871AF-E862-4A03-B23E-1207BFC35073}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XcelTech.HRMS.Helper", "XcelTech.HRMS.Helper\XcelTech.HRMS.Helper.csproj", "{13DC2B95-E759-40E8-9F6B-4618CCC042DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XcelTech.HRMS.Helper", "XcelTech.HRMS.Helper\XcelTech.HRMS.Helper.csproj", "{13DC2B95-E759-40E8-9F6B-4618CCC042DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XcelTech.HRMS.Model", "XcelTech.HRMS.Model\XcelTech.HRMS.Model.csproj", "{E8616F2C-92CC-4E10-A52B-E96EE6320083}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XcelTech.HRMS.Model", "XcelTech.HRMS.Model\XcelTech.HRMS.Model.csproj", "{E8616F2C-92CC-4E10-A52B-E96EE6320083}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{12B19178-81D1-4D24-B11B-E1531581DA84}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{E8616F2C-92CC-4E10-A52B-E96EE6320083}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8616F2C-92CC-4E10-A52B-E96EE6320083}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8616F2C-92CC-4E10-A52B-E96EE6320083}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12B19178-81D1-4D24-B11B-E1531581DA84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12B19178-81D1-4D24-B11B-E1531581DA84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12B19178-81D1-4D24-B11B-E1531581DA84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12B19178-81D1-4D24-B11B-E1531581DA84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

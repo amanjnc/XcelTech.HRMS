@@ -6,7 +6,7 @@ using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 
 using XcelTech.HRMS.Model.Model;
-using XcelTech.HRMS.Model.Validations;
+using XcelTech.HRMS.Bloc;
 using XcelTech.HRMS.Repo;
 using XcelTech.HRMS.Repo.IRepo;
 using XcelTech.HRMS.Repo.Repo;
@@ -14,6 +14,11 @@ using XcelTech.HRMS.Bloc;
 using FluentValidation;
 using System;
 using XcelTech.HRMS.Model.Dto;
+using XcelTech.HRMS.Model.Profiles;
+using XcelTech.HRMS.Bloc.Validations;
+using Microsoft.EntityFrameworkCore.Internal;
+using XcelTech.HRMS.Bloc.IService;
+using XcelTech.HRMS.Bloc.Service;
 //using XcelTech.HRMS.Model.Profiles;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -72,9 +77,16 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddAutoMapper(typeof(RegInfo_AppUser));
+builder.Services.AddAutoMapper(typeof(UserProfile));
 
-builder.Services.AddScoped<IAccount, Account>();
-builder.Services.AddScoped<IValidator<AppUser>, UserInfoValidator>();
+
+
+builder.Services.AddScoped<ILoginService, LoginService>();
+builder.Services.AddScoped<IAccountRegister, AccountRegister>();
+builder.Services.AddScoped<IRegisterService, RegisterService>();
+builder.Services.AddScoped<IValidator<DtoRegister>, UserInfoValidator>();
 
 builder.Services.AddScoped<ITokeNService, TokenService>();
 
@@ -92,12 +104,8 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    
 }
-
-
-
-//builder.Services.AddAutoMapper(typeof(UserProfile));
-
 
 
 
