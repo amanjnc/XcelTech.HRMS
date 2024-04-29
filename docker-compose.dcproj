@@ -4,7 +4,7 @@
     <ProjectVersion>2.1</ProjectVersion>
     <DockerTargetOS>Linux</DockerTargetOS>
     <DockerPublishLocally>False</DockerPublishLocally>
-    <ProjectGuid>12b19178-81d1-4d24-b11b-e1531581da84</ProjectGuid>
+    <ProjectGuid>e396cc0b-ed37-4c2a-a951-cf4fea8289ef</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}/swagger</DockerServiceUrl>
     <DockerServiceName>xceltech.hrms.api</DockerServiceName>

@@ -1,5 +1,25 @@
 name: dockercompose10805835735657280604
 services:
+  xcelTech.hrms.repo:
+    container_name: xcelTech.hrms.repo
+    environment:
+      POSTGRES_DB: xceltechhrmss
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+    image: postgres:latest
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 5432
+        published: "5432"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\pgdata
+        target: /var/lib/postgresql/data
+        bind:
+          create_host_path: true
   xceltech.hrms.api:
     build:
       context: C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS
@@ -10,15 +30,15 @@ services:
         com.microsoft.created-by: visual-studio
         com.microsoft.visual-studio.project-name: XcelTech.HRMS.Api
       target: base
-    container_name: XcelTech.HRMS.Api
+    container_name: xceltech.hrms.api
     entrypoint:
       - tail
       - -f
       - /dev/null
     environment:
       ASPNETCORE_ENVIRONMENT: Development
-      ASPNETCORE_HTTP_PORTS: "8080"
-      ASPNETCORE_HTTPS_PORTS: "8081"
+      ASPNETCORE_HTTP_PORTS: "5000"
+      ASPNETCORE_HTTPS_PORTS: "5001"
       ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
       DOTNET_USE_POLLING_FILE_WATCHER: "1"
       NUGET_FALLBACK_PACKAGES: ""
@@ -32,10 +52,12 @@ services:
       default: null
     ports:
       - mode: ingress
-        target: 8080
+        target: 5000
+        published: "5000"
         protocol: tcp
       - mode: ingress
-        target: 8081
+        target: 5001
+        published: "5001"
         protocol: tcp
     tty: true
     volumes:

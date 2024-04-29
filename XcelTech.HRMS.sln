@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XcelTech.HRMS.Helper", "Xce
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XcelTech.HRMS.Model", "XcelTech.HRMS.Model\XcelTech.HRMS.Model.csproj", "{E8616F2C-92CC-4E10-A52B-E96EE6320083}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{12B19178-81D1-4D24-B11B-E1531581DA84}"
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{E396CC0B-ED37-4C2A-A951-CF4FEA8289EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +41,10 @@ Global
 		{E8616F2C-92CC-4E10-A52B-E96EE6320083}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8616F2C-92CC-4E10-A52B-E96EE6320083}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8616F2C-92CC-4E10-A52B-E96EE6320083}.Release|Any CPU.Build.0 = Release|Any CPU
-		{12B19178-81D1-4D24-B11B-E1531581DA84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{12B19178-81D1-4D24-B11B-E1531581DA84}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{12B19178-81D1-4D24-B11B-E1531581DA84}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{12B19178-81D1-4D24-B11B-E1531581DA84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E396CC0B-ED37-4C2A-A951-CF4FEA8289EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E396CC0B-ED37-4C2A-A951-CF4FEA8289EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E396CC0B-ED37-4C2A-A951-CF4FEA8289EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E396CC0B-ED37-4C2A-A951-CF4FEA8289EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

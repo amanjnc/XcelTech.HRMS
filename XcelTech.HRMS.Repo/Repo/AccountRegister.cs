@@ -27,7 +27,10 @@ namespace XcelTech.HRMS.Repo.Repo
         {
 
             _applicationDbContext.Employees.Add(employee);
+
             await _applicationDbContext.SaveChangesAsync();
+            Console.WriteLine("Employee Details:");
+            Console.WriteLine($"Name: {employee.EmployeeName}");
 
         }
 

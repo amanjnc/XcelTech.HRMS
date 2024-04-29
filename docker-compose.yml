@@ -14,13 +14,10 @@ services:
     image: postgres:latest
     container_name: xcelTech.hrms.repo
     environment:
-      - POSTGRES_DB=xceltechhrms
+      - POSTGRES_DB=xceltechhrmss
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
     ports:
       - 5432:5432
     volumes:
-      - ./.containers/products-db:/var/lib/postgresql/data
-
-
-    
+      - ./pgdata:/var/lib/postgresql/data

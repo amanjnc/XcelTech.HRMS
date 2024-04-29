@@ -47,7 +47,8 @@ namespace XcelTech.HRMS.Bloc.Service
 
 
 
-                var CreatedUser= await _accountRegister.createUser(appUser, dtoRegister.Password, employee);
+
+                var CreatedUser = await _accountRegister.createUser(appUser, dtoRegister.Password, employee);
 
 
                 if (CreatedUser.Succeeded)
@@ -67,8 +68,10 @@ namespace XcelTech.HRMS.Bloc.Service
                             Token = _tokenService.CreateToken(appUser)
                         };
 
+                        await _accountRegister.addEmployyetoTable(employee);
 
                         return new OkObjectResult(newUserDto);
+
                     }
                     else
                     {
@@ -84,7 +87,6 @@ namespace XcelTech.HRMS.Bloc.Service
 
 
 
-                await _accountRegister.addEmployyetoTable(employee);
 
 
             }
