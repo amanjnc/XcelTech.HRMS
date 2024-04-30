@@ -47,13 +47,17 @@ namespace XcelTech.HRMS.Bloc.Service
                 var employee = _mapper.Map<Employee>(appUser);
 
 
-                var CreatedUser= await _accountRegister.createUser(appUser, dtoRegister.Password, employee);
+
+
+                var CreatedUser = await _accountRegister.createUser(appUser, dtoRegister.Password, employee);
 
 
                 if (CreatedUser.Succeeded)
                 {
 
+
                     var userRole = DetermineUserRoleByEmail(dtoRegister.EmployeeEmail);
+                    var roleName =  userRole;
 
 
                     var roleResult = await _accountRegister.createRole(appUser, userRole);
@@ -65,7 +69,8 @@ namespace XcelTech.HRMS.Bloc.Service
                         {
                             EmployeeName = appUser.UserName,
                             EmployeeEmail = appUser.Email,
-                            Token = _tokenService.CreateToken(appUser)
+                            Token = _tokenService.CreateToken(appUser),
+                            RoleName = roleName
                         };
 
                         await _employeeRepository.addEmployyetoTable(employee);

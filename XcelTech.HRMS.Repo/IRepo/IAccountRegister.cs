@@ -24,6 +24,7 @@ namespace XcelTech.HRMS.Repo.IRepo
         Task<AppUser> checkOnlyEmail(DtoToLogin login);
         Task <SignInResult> checkPasswordThenSignIn(AppUser appUser, DtoToLogin login, bool rememberMe = false);
         Task finalSignIN(AppUser appUser,bool RememberMe);
+        Task<string>  getRoleOfUser(AppUser user);
 
     }
 }

@@ -56,6 +56,9 @@ namespace XcelTech.HRMS.Repo.Repo
             return existingUserWithSameEmail == null;
 
         }
+        //var user = await _userManager.FindByEmailAsync(Email);
+        //var roles = await _userManager.GetRolesAsync(user);
+        //return roles.Name
 
 
 
@@ -87,13 +90,16 @@ namespace XcelTech.HRMS.Repo.Repo
 
         }
 
+      
+        public async Task<string> getRoleOfUser(AppUser user)
+        {
+            var roles = await _userManager.GetRolesAsync(user);
+            if (roles.Count >0)
+            {
 
-
-    
-
-
-
-
-
+                return roles[0];
+            }
+            return null;
+        }
     }
 }

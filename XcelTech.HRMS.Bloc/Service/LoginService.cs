@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
 using System.Threading.Tasks;
 using XcelTech.HRMS.Bloc.IService;
 using XcelTech.HRMS.Model.Dto;
@@ -28,7 +29,11 @@ namespace XcelTech.HRMS.Bloc.Service
         {
 
 
+
             var user = await _accountRegister.checkOnlyEmail(login);
+            
+            var roleName  = await _accountRegister.getRoleOfUser(user);
+
 
             if (user == null)
             {
@@ -50,12 +55,18 @@ namespace XcelTech.HRMS.Bloc.Service
 
             //var authCookie = Request.Cookies[".AspNetCore.Identity.Application"];
             //Console.WriteLine($"Remember Me Cookie: {authCookie}");
+            
+            
+            
+
+
 
             var newUserDto = new NewUserDto
             {
                 EmployeeName = user.UserName,
                 EmployeeEmail = user.Email,
-                Token = _tokenService.CreateToken(user)
+                Token = _tokenService.CreateToken(user),
+                RoleName = roleName,
             };
 
 
