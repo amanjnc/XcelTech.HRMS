@@ -16,7 +16,9 @@ namespace XcelTech.HRMS.Repo
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseNpgsql("Server=localhost;Database=Hrms;User Id=postgres;Password=Portal_0;");
+                //optionsBuilder.UseNpgsql("Server=localhost;Database=Hrms;User Id=postgres;Password=Portal_0;");
+                optionsBuilder.UseNpgsql("Host=xcelTech.hrms.repo;Port=5432;Database=xceltechhrmsNeww;Username=postgres;Password=postgres;Include Error Detail=true;");
+
             }
         }
 
@@ -33,26 +35,7 @@ namespace XcelTech.HRMS.Repo
         {
             base.OnModelCreating(builder);
 
-            List<IdentityRole> roles = new List<IdentityRole>
-            {
-                new IdentityRole
-                {
-                    Name = "admin",
-                    NormalizedName = "ADMIN"
-                },
-                new IdentityRole
-                {
-                    Name = "buyer",
-                    NormalizedName = "BUYER"
-                },
-                new IdentityRole
-                {
-                    Name = "seller",
-                    NormalizedName = "SELLER"
-                }
-            };
-
-            builder.Entity<IdentityRole>().HasData(roles);
+            ConfigureIdentityModel.ConfigureIdentity(builder);
         }
     }
 }

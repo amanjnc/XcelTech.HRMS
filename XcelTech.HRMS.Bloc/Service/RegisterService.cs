@@ -12,13 +12,15 @@ namespace XcelTech.HRMS.Bloc.Service
     public class RegisterService : IRegisterService
     {
         private readonly IAccountRegister _accountRegister;
+        private readonly IEmployeeRepository _employeeRepository;
         private readonly IMapper _mapper;
         private readonly IValidator<DtoRegister> _validator;
         private readonly ITokeNService _tokenService;
 
 
-        public RegisterService(IAccountRegister accountRegister, IMapper mapper, IValidator<DtoRegister> validator, ITokeNService tokenService)
+        public RegisterService(IEmployeeRepository employeeRepository,IAccountRegister accountRegister, IMapper mapper, IValidator<DtoRegister> validator, ITokeNService tokenService)
         {
+            _employeeRepository = employeeRepository;
             _accountRegister = accountRegister;
             _mapper = mapper;
             _validator = validator;
@@ -45,15 +47,14 @@ namespace XcelTech.HRMS.Bloc.Service
                 var employee = _mapper.Map<Employee>(appUser);
 
 
-
-
                 var CreatedUser= await _accountRegister.createUser(appUser, dtoRegister.Password, employee);
 
 
                 if (CreatedUser.Succeeded)
                 {
-                    
-                    var  userRole = "buyer";
+
+                    var userRole = DetermineUserRoleByEmail(dtoRegister.EmployeeEmail);
+
 
                     var roleResult = await _accountRegister.createRole(appUser, userRole);
 
@@ -67,6 +68,7 @@ namespace XcelTech.HRMS.Bloc.Service
                             Token = _tokenService.CreateToken(appUser)
                         };
 
+                        await _employeeRepository.addEmployyetoTable(employee);
 
                         return new OkObjectResult(newUserDto);
                     }
@@ -84,7 +86,6 @@ namespace XcelTech.HRMS.Bloc.Service
 
 
 
-                await _accountRegister.addEmployyetoTable(employee);
 
 
             }
@@ -97,6 +98,26 @@ namespace XcelTech.HRMS.Bloc.Service
         private string GetIdentityErrorMessage(IEnumerable<IdentityError> errors)
         {
             return string.Join(", ", errors.Select(e => e.Description));
+        }
+
+        private string DetermineUserRoleByEmail(string email)
+        {
+            ///splitin based on the @ and shoosing the 2nd indexed part
+            string domain = email.Split('@')[1];
+
+            if (domain == "admin.com")
+            {
+                return "admin";
+            }
+            else if (domain == "employee.com")
+            {
+                return "employee";
+            }
+            else if (domain == "hr.com")
+            {
+                return "hr";
+            }
+            return null;
         }
 
     }

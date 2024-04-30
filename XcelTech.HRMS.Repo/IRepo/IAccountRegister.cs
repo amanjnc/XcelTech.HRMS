@@ -15,7 +15,7 @@ namespace XcelTech.HRMS.Repo.IRepo
     {
         Task<IdentityResult> createUser(AppUser appUser, string Password,Employee employee);
         Task<bool> isUniqueEmail(string Email,CancellationToken cancellationToken);
-        Task addEmployyetoTable(Employee employee);
+        //Task addEmployyetoTable(Employee employee);
         Task<IdentityResult> createRole(AppUser appUser, string userRole);
 
 

@@ -5,6 +5,7 @@ using XcelTech.HRMS.Bloc;
 using XcelTech.HRMS.Model.Dto;
 using XcelTech.HRMS.Model.Model;
 using XcelTech.HRMS.Bloc.IService;
+using Microsoft.AspNetCore.Authorization;
 
 namespace XcelTech.HRMS.Api.Controllers
 {
@@ -64,11 +65,18 @@ namespace XcelTech.HRMS.Api.Controllers
             return Ok(finalResult);
         }
 
-        //    [HttpGet("getEmployee")]
-        //public async Task<Employee> GetEmployeebyName()
-        //}
-    }
-}
+
+        [Authorize]
+        [HttpGet("logout")]
+        public async Task logout() {
+
+
+
+
+        }
+        
+
+}}
 
 
 

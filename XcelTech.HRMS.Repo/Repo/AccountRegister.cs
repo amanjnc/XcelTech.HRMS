@@ -23,13 +23,15 @@ namespace XcelTech.HRMS.Repo.Repo
             _applicationDbContext = applicationDbContext;
             _signInManager = signInManager;
         }
-        public async Task addEmployyetoTable(Employee employee)
-        {
 
-            _applicationDbContext.Employees.Add(employee);
-            await _applicationDbContext.SaveChangesAsync();
+        //defined in employee repository
+        //public async Task addEmployyetoTable(Employee employee)
+        //{
 
-        }
+        //    _applicationDbContext.Employees.Add(employee);
+        //    await _applicationDbContext.SaveChangesAsync();
+
+        //}
 
         public async Task<IdentityResult> createUser(AppUser appUser, string password, Employee employee)
         {
