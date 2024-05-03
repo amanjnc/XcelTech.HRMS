@@ -17,7 +17,17 @@ namespace XcelTech.HRMS.Api.Extensions
             dbContext.Database.Migrate();
 
         }
+
+        public static void ConfigureDbContext(this IServiceCollection services, IConfiguration configuration)
+        {
+            services.AddDbContext<ApplicationDbContext>(options =>
+            {
+                options.UseNpgsql(configuration.GetConnectionString("DefaultConnection"));
+            });
+        }
     }
+
+
 }
 
 
