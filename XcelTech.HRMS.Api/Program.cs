@@ -111,13 +111,15 @@ builder.Services.AddAutoMapper(typeof(RegInfo_AppUser));
 builder.Services.AddAutoMapper(typeof(UserProfile));
 
 
-
+builder .Services.AddScoped<IDepartmentRepository, DepartmentRepository>();
+builder.Services.AddScoped<IDepartmentService, DepartmentService>();
 builder.Services.AddScoped<ILoginService, LoginService>();
 builder.Services.AddScoped<IEmployeeService, EmployeeService>();
 builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
 builder.Services.AddScoped<IAccountRegister, AccountRegister>();
 builder.Services.AddScoped<IRegisterService, RegisterService>();
 builder.Services.AddScoped<IValidator<DtoRegister>, UserInfoValidator>();
+builder.Services.AddScoped<IValidator<Department>, DepartmentValidator>();
 
 builder.Services.AddScoped<ITokeNService, TokenService>();
 

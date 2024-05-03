@@ -4,14 +4,15 @@ C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\bin\Debug\appsettings.Developme
 C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\bin\Debug\appsettings.json
 C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\bin\Debug\XcelTech.HRMS.Api.exe
 C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\bin\Debug\XcelTech.HRMS.Api.dll
+C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\bin\Debug\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\bin\Debug\Microsoft.Extensions.Identity.Core.dll
 C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\bin\Debug\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\bin\Debug\Microsoft.OpenApi.dll
 C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\bin\Debug\Microsoft.EntityFrameworkCore.dll
 C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\bin\Debug\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\bin\Debug\XcelTech.HRMS.Repo.dll
 C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\bin\Debug\XcelTech.HRMS.Bloc.dll
 C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\bin\Debug\XcelTech.HRMS.Model.dll
-C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\bin\Debug\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\bin\Debug\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\bin\Debug\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
@@ -32,7 +33,6 @@ C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\bin\Debug\System.IdentityModel.
 C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\bin\Debug\Microsoft.IdentityModel.Protocols.dll
 C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\bin\Debug\AutoMapper.dll
-C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\bin\Debug\Microsoft.OpenApi.dll
 C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\bin\Debug\Npgsql.dll
 C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\bin\Debug\Microsoft.IdentityModel.Logging.dll
 C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
