@@ -1,11 +1,13 @@
-﻿using System.Security.Claims;
+﻿using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 using XcelTech.HRMS.Model.Model;
 
 namespace XcelTech.HRMS.Bloc.IService
 {
     public interface ITokenService
     {
-        string CreateToken(AppUser appUser);
+        public JwtSecurityToken CreateToken(AppUser appUser);
+
         ClaimsPrincipal ValidateToken(string token);
 
     }

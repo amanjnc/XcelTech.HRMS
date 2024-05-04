@@ -54,7 +54,7 @@ namespace XcelTech.HRMS.Bloc.Service
         public ExecutionContext Context { get; set; }
 
 
-        public async Task<IActionResult> updateEmployee(ProfileInfoDto profileInfoDto)
+        public async Task<IActionResult> updateEmployee(ProfileInfoDto profileInfoDto,string email)
         {
             // will do validation here
             //var fluentValidationResult = await _validator.ValidateAsync(profileInfoDto);
@@ -71,24 +71,19 @@ namespace XcelTech.HRMS.Bloc.Service
             //}
 
 
-
-            var token = _httpContextAccessor.HttpContext.Request.Headers["Authorization"].FirstOrDefault()?.Split(" ").Last();
-            var currentUser = _tokenService.ValidateToken(token);
-            Console.WriteLine("token", token);
-            if (currentUser == null)
+           
+           
+            if (email == null)
             {
-                Console.WriteLine("this shit hurts");
+                Console.WriteLine("You have failed this coty this shit hurts");
                 // Token validation failed or user not found
                 return new UnauthorizedResult();
             }
-            // Extract user information from the claims
-            var userName = currentUser.FindFirstValue(JwtRegisteredClaimNames.GivenName);
-            var userEmail = currentUser.FindFirstValue(JwtRegisteredClaimNames.Email);
-
+           
 
             var department = _mapper.Map<Department>(profileInfoDto);
             var employee = _mapper.Map<Employee>(profileInfoDto);
-            // fetching dep_Id
+            // i am fetching dep_Id
             
             var departmentName = department.DepartmentName;
             var departmentId = await _departmentRepository.getDepartmentByName(departmentName);
@@ -106,7 +101,7 @@ namespace XcelTech.HRMS.Bloc.Service
 
             Console.WriteLine("this shit!");
 
-            await _employeeRepository.updateEmployee(employee,userEmail);
+            await _employeeRepository.updateEmployee(employee,email);
             Console.WriteLine("ld!");
 
             return new OkResult();

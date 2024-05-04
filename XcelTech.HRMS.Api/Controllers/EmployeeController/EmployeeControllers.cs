@@ -19,8 +19,6 @@ namespace XcelTech.HRMS.Api.Controllers
             _employeeService = employeeService;
         }
 
-
-
         [Authorize]
         [HttpPatch("AddProfile")]
         public async Task<IActionResult> AddProfile([FromBody] ProfileInfoDto profileInfoDto)
@@ -29,16 +27,15 @@ namespace XcelTech.HRMS.Api.Controllers
             {
                 if (ModelState.IsValid)
                 {
-                    //var claimsIdentity = User.Identity as ClaimsIdentity;
-                    //var userEmail = claimsIdentity.FindFirst(ClaimTypes.Email)?.Value;
-
-
-                    var result = await _employeeService.updateEmployee(profileInfoDto);
+                    var email = HttpContext.User.FindFirstValue(ClaimTypes.Email);
+                    Console.WriteLine($"current email: {email}");
+                    var result = await _employeeService.updateEmployee(profileInfoDto, email);
                 Console.WriteLine("not Hello, world!");
 
                     return Ok(result);
 
                 }
+
                 Console.WriteLine("Hello, world!");
                 return BadRequest(ModelState);
             }

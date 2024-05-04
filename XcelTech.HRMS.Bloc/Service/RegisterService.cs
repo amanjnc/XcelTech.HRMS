@@ -2,6 +2,7 @@
 using FluentValidation;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System.IdentityModel.Tokens.Jwt;
 using XcelTech.HRMS.Bloc.IService;
 using XcelTech.HRMS.Model.Dto;
 using XcelTech.HRMS.Model.Model;
@@ -64,12 +65,18 @@ namespace XcelTech.HRMS.Bloc.Service
 
                     if (roleResult.Succeeded)
                     {
+                        var tokenn = _tokenService.CreateToken(appUser);
+
+
+                        //converting to strigin, i know so dummmmmmb
+                        var tokenHandler = new JwtSecurityTokenHandler();
+                        var token = tokenHandler.WriteToken(tokenn);
 
                         var newUserDto = new NewUserDto
                         {
                             EmployeeName = appUser.UserName,
                             EmployeeEmail = appUser.Email,
-                            Token = _tokenService.CreateToken(appUser),
+                            Token = token,
                             RoleName = roleName
                         };
 
@@ -79,7 +86,7 @@ namespace XcelTech.HRMS.Bloc.Service
                     }
                     else
                     {
-                        var errorMessage = "Failed to add user to the buyer role. Reason: " + GetIdentityErrorMessage(roleResult.Errors);
+                        var errorMessage = "Failed to add user to the role. Reason: " + GetIdentityErrorMessage(roleResult.Errors);
                         throw new Exception(errorMessage);
                     }
                 }

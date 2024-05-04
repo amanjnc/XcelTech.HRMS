@@ -20,15 +20,18 @@ namespace XcelTech.HRMS.Bloc
         public TokenService(IConfiguration config)
         {
             _config = config;
+            //encodin the seuritysingin key amanjnc, toughshit fron appsetting.json
             _key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["JWT:SigningKey"]));
         }
 
-        public string CreateToken(AppUser appUser)
+        public JwtSecurityToken CreateToken(AppUser appUser)
         {
             var claims = new List<Claim>
             {
                 new Claim(JwtRegisteredClaimNames.GivenName, appUser.UserName),
-                new Claim(JwtRegisteredClaimNames.Email, appUser.Email)
+                new Claim(JwtRegisteredClaimNames.Email, appUser.Email),
+                new Claim("userId", appUser.Id)
+
             };
 
             var creds = new SigningCredentials(_key, SecurityAlgorithms.HmacSha512Signature);
@@ -37,12 +40,14 @@ namespace XcelTech.HRMS.Bloc
                 issuer: _config["JWT:Issuer"],
                 audience: _config["JWT:Audience"],
                 claims: claims,
-                expires: DateTime.UtcNow.AddDays(7),
+                expires: DateTime.UtcNow.AddHours(48),
                 signingCredentials: creds
             );
 
-            var tokenHandler = new JwtSecurityTokenHandler();
-            return tokenHandler.WriteToken(token);
+            return token;
+            //to convert to string reprsentation
+            //var tokenHandler = new JwtSecurityTokenHandler();
+            //return tokenHandler.WriteToken(token);
         }
 
         public ClaimsPrincipal ValidateToken(string token)

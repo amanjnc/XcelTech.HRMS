@@ -25,15 +25,8 @@ namespace XcelTech.HRMS.Repo.Repo
         {
             _applicationDbContext.Departments.Add(department);
             int savedChanges = await _applicationDbContext.SaveChangesAsync();
-            
-            //if (savedChanges > 0)
-            //{
-            //    return Ok("Department created successfully.");
-            //}
-            //else
-            //{
-            //    return StatusCode(500, "Failed to create department.");
-            //}
+
+          
         }
 
         public async Task<bool> isNewDepartment(string DepartmentName)

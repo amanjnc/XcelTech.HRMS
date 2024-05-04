@@ -21,6 +21,36 @@ using System.Text;
 using XcelTech.HRMS.Bloc;
 var builder = WebApplication.CreateBuilder(args);
 
+
+ConfigurationManager configuration = builder.Configuration;
+
+builder.Services.AddAuthentication(options =>
+{
+
+    options.DefaultAuthenticateScheme =
+    options.DefaultChallengeScheme =
+    options.DefaultForbidScheme =
+    options.DefaultScheme =
+    options.DefaultSignInScheme =
+    options.DefaultSignOutScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(options =>
+{
+    options.SaveToken = true;
+    options.RequireHttpsMetadata = false;
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+
+        ValidateIssuer = true,
+        ValidIssuer = configuration["JWT:Issuer"],
+        ValidateAudience = true,
+        ValidAudience = configuration["jwt:Audience"],
+        //ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(
+            System.Text.Encoding.UTF8.GetBytes(configuration["JWT:SigningKey"])),
+    };
+});
+
+
 // Add services to the container.
 builder.Services.AddControllers();
 builder.Services.AddControllers();
@@ -82,23 +112,6 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
 
 }).AddEntityFrameworkStores<ApplicationDbContext>();
 
-
-builder.Services.AddAuthentication("Bearer")
-    .AddJwtBearer("Bearer", options =>
-    {
-        options.SaveToken = true;
-        options.TokenValidationParameters = new TokenValidationParameters
-        {
-            ValidateIssuer = true,
-            // ValidateLifetime = true,
-            ValidIssuer = builder.Configuration["JWT:Issuer"],
-            ValidateAudience = true,
-            ValidAudience = builder.Configuration["jwt:Audience"],
-            ValidateIssuerSigningKey = true,
-            IssuerSigningKey = new SymmetricSecurityKey(
-                Encoding.UTF8.GetBytes(builder.Configuration["JWT:SigningKey"])),
-        };
-    });
 
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddAutoMapper(typeof(RegInfo_AppUser));

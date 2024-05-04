@@ -35,88 +35,38 @@ namespace XcelTech.HRMS.Repo.Repo
         
         }
 
-
-
-
-
-        //public async Task updateEmployee(Employee employee)
-        //{
-
-        //    Console.WriteLine("this shit!");
-
-        //    var currentUser = await _userManager.GetUserAsync(_httpContextAccessor.HttpContext.User);
-        //    Console.WriteLine("this shiriririt!");
-
-
-
-
-        //    try
-        //    {
-        //        var existingEmployee = await _applicationDbContext.Employees.FirstOrDefaultAsync(emp => emp.AppUserId == currentUser.Id);
-        //        var savedChanges = await _applicationDbContext.SaveChangesAsync();
-
-        //        //if (existingEmployee == null)
-        //        //{
-        //        //    Console.WriteLine("this shirasdfljasdfjlasdjflkasjfdiririt!");
-
-        //        //    throw new Exception("Employee not found.");
-        //        //}
-        //        //Console.WriteLine("this shirasdfljasdasdfkjasdlkfjaslkdfjalksdfjalksdjflkasjdflkasjdflaksjdflkfjlasdjflkasjfdiririt!");
-
-
-        //        //// Update the existing employee object with values from the input employee object
-        //        //foreach (var property in typeof(Employee).GetProperties())
-        //        //{
-        //        //    var inputValue = property.GetValue(employee);
-        //        //    if (inputValue != null)
-        //        //    {
-        //        //        property.SetValue(existingEmployee, inputValue);
-        //        //    }
-        //        //}
-        //        //Console.WriteLine("shirasdfljasdfjlasdjflkasjfdiririt!");
-
-        //        Console.WriteLine("fjl!");
-
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        Console.WriteLine("fjdkfjsl!");
-
-        //        // Handle the exception appropriately
-        //        Console.WriteLine("An error occurred while updating the employee: " + ex.Message);
-        //    }
-
-        //}
-
-        public async Task updateEmployee(Employee employee,string UserEmail)
+       
+        public async Task updateEmployee(Employee employee,string email)
         {
             //var currentUser = await _userManager.GetUserAsync(_httpContextAccessor.HttpContext.User);
 
-
-
-          
-
-            var existingEmployee = await _applicationDbContext.Employees.FirstOrDefaultAsync(emp => emp.EmployeeEmail == UserEmail);
+            var existingEmployee = await _applicationDbContext.Employees.FirstOrDefaultAsync(emp => emp.EmployeeEmail == email);
 
             if (existingEmployee == null)
             {
-                Console.WriteLine("eail",UserEmail);
-
                 throw new Exception("Employee not found.");
             }
 
-            var employeeType = typeof(Employee);
+            existingEmployee.EmployeeAge = employee.EmployeeAge;
+            existingEmployee.EmployeeAddress = employee.EmployeeAddress;
+            existingEmployee.DepartmentId = employee.DepartmentId;
 
-            var properties = employeeType.GetProperties();
 
-            foreach (var property in properties)
-            {
-                var inputValue = property.GetValue(employee);
-                if (inputValue != null)
-                {
-                    property.SetValue(existingEmployee, inputValue);
-                }
-            }
+
+
+
+            //var employeeType = typeof(Employee);
+
+            //var properties = employeeType.GetProperties();
+
+            //foreach (var property in properties)
+            //{
+            //    var inputValue = property.GetValue(employee);
+            //    if (inputValue != null)
+            //    {
+            //        property.SetValue(existingEmployee, inputValue);
+            //    }
+            //}
             Console.WriteLine("notllskdfjalksjd founs world!");
 
             await _applicationDbContext.SaveChangesAsync();

@@ -12,7 +12,7 @@ namespace XcelTech.HRMS.Repo.IRepo
     public interface IEmployeeRepository
     {
         Task addEmployyetoTable(Employee employee);
-        Task updateEmployee(Employee employee,string Email);
+        Task updateEmployee(Employee employee,string email);
 
     }
 }

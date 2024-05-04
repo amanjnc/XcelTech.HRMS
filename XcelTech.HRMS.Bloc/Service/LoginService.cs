@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using NuGet.Common;
+using System.IdentityModel.Tokens.Jwt;
 using XcelTech.HRMS.Bloc.IService;
 using XcelTech.HRMS.Model.Dto;
 using XcelTech.HRMS.Model.Model;
@@ -26,16 +28,16 @@ namespace XcelTech.HRMS.Bloc.Service
 
             var user = await _accountRegister.checkOnlyEmail(login);
             
-            var roleName  = await _accountRegister.getRoleOfUser(user);
 
 
             if (user == null)
             {
                 throw new UnauthorizedAccessException("Invalid Email");
             }
-        
 
-        var loginResult  =  await _accountRegister.checkPasswordThenSignIn(user , login  , rememberMe);
+            var roleName = await _accountRegister.getRoleOfUser(user);
+
+            var loginResult  =  await _accountRegister.checkPasswordThenSignIn(user , login  , rememberMe);
 
 
             if (!loginResult.Succeeded)
@@ -49,17 +51,22 @@ namespace XcelTech.HRMS.Bloc.Service
 
             //var authCookie = Request.Cookies[".AspNetCore.Identity.Application"];
             //Console.WriteLine($"Remember Me Cookie: {authCookie}");
-            
-            
-            
 
+
+            var tokenn = _tokenService.CreateToken(user);
+
+
+            //converting to strigin, i know so dummmmmmb
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var token = tokenHandler.WriteToken(tokenn);
 
 
             var newUserDto = new NewUserDto
             {
                 EmployeeName = user.UserName,
                 EmployeeEmail = user.Email,
-                Token = _tokenService.CreateToken(user),
+                Token = token,
+                //expiration = token.ValidTo,
                 RoleName = roleName,
             };
 
