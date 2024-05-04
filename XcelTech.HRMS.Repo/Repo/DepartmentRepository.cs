@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using XcelTech.HRMS.Model.Model;
 using XcelTech.HRMS.Repo.IRepo;
 
+
 namespace XcelTech.HRMS.Repo.Repo
 {
    
@@ -24,6 +25,7 @@ namespace XcelTech.HRMS.Repo.Repo
         {
             _applicationDbContext.Departments.Add(department);
             int savedChanges = await _applicationDbContext.SaveChangesAsync();
+            
             //if (savedChanges > 0)
             //{
             //    return Ok("Department created successfully.");
@@ -41,5 +43,22 @@ namespace XcelTech.HRMS.Repo.Repo
                 return isNotNew == false; 
             //or simply return !isNonew
         }
+        public async Task<ActionResult<int>> getDepartmentByName(string DepartmentName)
+        {
+            var department = await _applicationDbContext.Departments.FirstOrDefaultAsync( dep => dep.DepartmentName == DepartmentName );
+            if (department != null)
+            {
+                var departmentId = department.DepartmentId;
+            Console.WriteLine("Hellasldjfisdf, world!");
+
+                return departmentId;
+
+            }
+            Console.WriteLine("Hell isdf, world!");
+
+            return new NotFoundResult(); 
+            //or simply return !isNonew
+        }
+
     }
 }

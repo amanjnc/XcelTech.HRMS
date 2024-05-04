@@ -13,7 +13,10 @@ namespace XcelTech.HRMS.Model.Model
 
         [Required]
         public string EmployeeName { get; set; }
-        public int EmployeeAge { get; set; } = 0;
+
+        public byte[]? EmployeeImage { get; set; }
+
+        public int? EmployeeAge { get; set; } = 0;
         public DateOnly? EmployyDOB { get; set; } 
         public DateOnly? EmployeeHiredDate { get; set; } 
 
@@ -39,6 +42,7 @@ namespace XcelTech.HRMS.Model.Model
         [ForeignKey("PayrollId")]
 
         public Payroll payroll { get; set; } 
+
 
         // Add the foreign key property
         public string? AppUserId { get; set; } 

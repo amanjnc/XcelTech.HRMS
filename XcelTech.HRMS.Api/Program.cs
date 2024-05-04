@@ -5,11 +5,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using XcelTech.HRMS.Model.Model;
-using XcelTech.HRMS.Bloc;
 using XcelTech.HRMS.Repo;
 using XcelTech.HRMS.Repo.IRepo;
 using XcelTech.HRMS.Repo.Repo;
-using XcelTech.HRMS.Bloc;
 using FluentValidation;
 using XcelTech.HRMS.Api.Extensions;
 using System;
@@ -19,6 +17,8 @@ using XcelTech.HRMS.Bloc.Validations;
 using XcelTech.HRMS.Bloc.IService;
 using XcelTech.HRMS.Bloc.Service;
 using Microsoft.OpenApi.Models;
+using System.Text;
+using XcelTech.HRMS.Bloc;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -57,7 +57,7 @@ builder.Services.AddSwaggerGen(opt =>
 });
 
 
-
+builder.Services.AddHttpContextAccessor();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
@@ -82,33 +82,28 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
 
 }).AddEntityFrameworkStores<ApplicationDbContext>();
 
-builder.Services.AddAuthentication(options =>
-{
 
-    options.DefaultAuthenticateScheme =
-    options.DefaultChallengeScheme =
-    options.DefaultForbidScheme =
-    options.DefaultScheme =
-    options.DefaultSignInScheme =
-    options.DefaultSignOutScheme = JwtBearerDefaults.AuthenticationScheme;
-}).AddJwtBearer(options =>
-{
-    options.TokenValidationParameters = new TokenValidationParameters
+builder.Services.AddAuthentication("Bearer")
+    .AddJwtBearer("Bearer", options =>
     {
-        ValidateIssuer = true,
-        //VaidateLifetime = true,
-        ValidIssuer = builder.Configuration["JWT:Issuer"],
-        ValidateAudience = true,
-        ValidAudience = builder.Configuration["jwt:Audience"],
-        ValidateIssuerSigningKey = true,
-        IssuerSigningKey = new SymmetricSecurityKey(
-            System.Text.Encoding.UTF8.GetBytes(builder.Configuration["JWT:SigningKey"])),
-    };
-});
+        options.SaveToken = true;
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            // ValidateLifetime = true,
+            ValidIssuer = builder.Configuration["JWT:Issuer"],
+            ValidateAudience = true,
+            ValidAudience = builder.Configuration["jwt:Audience"],
+            ValidateIssuerSigningKey = true,
+            IssuerSigningKey = new SymmetricSecurityKey(
+                Encoding.UTF8.GetBytes(builder.Configuration["JWT:SigningKey"])),
+        };
+    });
 
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddAutoMapper(typeof(RegInfo_AppUser));
 builder.Services.AddAutoMapper(typeof(UserProfile));
+builder.Services.AddAutoMapper(typeof(ProfileInfoDto));
 
 
 builder .Services.AddScoped<IDepartmentRepository, DepartmentRepository>();
@@ -120,8 +115,7 @@ builder.Services.AddScoped<IAccountRegister, AccountRegister>();
 builder.Services.AddScoped<IRegisterService, RegisterService>();
 builder.Services.AddScoped<IValidator<DtoRegister>, UserInfoValidator>();
 builder.Services.AddScoped<IValidator<Department>, DepartmentValidator>();
-
-builder.Services.AddScoped<ITokeNService, TokenService>();
+builder.Services.AddScoped<ITokenService, TokenService>();
 
 
 builder.Services.AddControllers().AddNewtonsoftJson(options =>
@@ -148,8 +142,6 @@ app.UseHttpsRedirection();
 app.UseAuthentication();
 
 app.UseAuthorization();
-
-app.MapControllers();
 
 app.MapControllers();
 

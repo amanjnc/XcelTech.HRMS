@@ -50,19 +50,19 @@ namespace XcelTech.HRMS.Repo.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "83f196e9-c9a8-402a-a78f-89d85094fcde",
+                            Id = "dbdf94b8-1b06-4b83-b42c-f8253368b365",
                             Name = "admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "85420270-ae8e-4628-ae65-0f55d1cfda7c",
+                            Id = "ce14eb87-8362-4baa-871a-93e0f6774e8c",
                             Name = "employee",
                             NormalizedName = "EMPLOYEE"
                         },
                         new
                         {
-                            Id = "e41eb6d0-55c7-4d5f-b763-89f33ec3f56c",
+                            Id = "33a1c422-bad9-4c02-822b-fdfc1eea4c73",
                             Name = "hr",
                             NormalizedName = "HR"
                         });
@@ -277,11 +277,9 @@ namespace XcelTech.HRMS.Repo.Migrations
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("DepartmentId"));
 
                     b.Property<string>("DepartmentDescription")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("DepartmentName")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.HasKey("DepartmentId");
@@ -310,7 +308,7 @@ namespace XcelTech.HRMS.Repo.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<int>("EmployeeAge")
+                    b.Property<int?>("EmployeeAge")
                         .HasColumnType("integer");
 
                     b.Property<string>("EmployeeEmail")
@@ -318,6 +316,9 @@ namespace XcelTech.HRMS.Repo.Migrations
 
                     b.Property<DateOnly?>("EmployeeHiredDate")
                         .HasColumnType("date");
+
+                    b.Property<byte[]>("EmployeeImage")
+                        .HasColumnType("bytea");
 
                     b.Property<string>("EmployeeName")
                         .IsRequired()

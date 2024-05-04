@@ -12,5 +12,8 @@ namespace XcelTech.HRMS.Repo.IRepo
     {
         Task  createDepartment(Department department);
         Task<bool> isNewDepartment(string DepartmentName);
+
+        public Task<ActionResult<int>> getDepartmentByName(string departmentName);
+
     }
 }

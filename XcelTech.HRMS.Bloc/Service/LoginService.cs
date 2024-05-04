@@ -1,8 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
-using System.Threading.Tasks;
 using XcelTech.HRMS.Bloc.IService;
 using XcelTech.HRMS.Model.Dto;
 using XcelTech.HRMS.Model.Model;
@@ -14,21 +12,17 @@ namespace XcelTech.HRMS.Bloc.Service
     {
 
         private readonly IAccountRegister _accountRegister;
-        private readonly ITokeNService _tokenService;
-        private readonly IHttpContextAccessor _httpContextAccessor;
+        private readonly ITokenService _tokenService;
 
-        public LoginService( IAccountRegister accountRegister, ITokeNService tokenService, IHttpContextAccessor httpContextAccessor)
+        public LoginService( IAccountRegister accountRegister, ITokenService tokenService)
         {
             _accountRegister = accountRegister;
-            _accountRegister = accountRegister;
+          
 
             _tokenService = tokenService;
-
         }
         public async Task<IActionResult> checkPasswordThenSignIn(DtoToLogin login, bool rememberMe = false)
         {
-
-
 
             var user = await _accountRegister.checkOnlyEmail(login);
             

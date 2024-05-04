@@ -8,8 +8,8 @@ namespace XcelTech.HRMS.Model.Model
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int DepartmentId { get; set; }
-        public string DepartmentName { get; set; }
-        public string DepartmentDescription { get; set; }
+        public string? DepartmentName { get; set; }
+        public string? DepartmentDescription { get; set; }
 
     }
 }

@@ -15,10 +15,10 @@ namespace XcelTech.HRMS.Bloc.Service
         private readonly IEmployeeRepository _employeeRepository;
         private readonly IMapper _mapper;
         private readonly IValidator<DtoRegister> _validator;
-        private readonly ITokeNService _tokenService;
+        private readonly ITokenService _tokenService;
 
 
-        public RegisterService(IEmployeeRepository employeeRepository,IAccountRegister accountRegister, IMapper mapper, IValidator<DtoRegister> validator, ITokeNService tokenService)
+        public RegisterService(IEmployeeRepository employeeRepository,IAccountRegister accountRegister, IMapper mapper, IValidator<DtoRegister> validator, ITokenService tokenService)
         {
             _employeeRepository = employeeRepository;
             _accountRegister = accountRegister;

@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using XcelTech.HRMS.Bloc;
 using XcelTech.HRMS.Model.Dto;
 using XcelTech.HRMS.Model.Model;
 using XcelTech.HRMS.Bloc.IService;
@@ -15,13 +14,13 @@ namespace XcelTech.HRMS.Api.Controllers
     {
         private readonly IRegisterService _registerService;
         private readonly UserManager<AppUser> _userManager;
-        private readonly ITokeNService _tokenService;
+        private readonly ITokenService _tokenService;
         private readonly SignInManager<AppUser> _signInManager;
         private readonly ILoginService _loginService;
 
 
 
-        public AccountController(UserManager<AppUser> userManager, ITokeNService tokenService, SignInManager<AppUser> signInManager, IRegisterService registerService, ILoginService loginService
+        public AccountController(UserManager<AppUser> userManager, ITokenService tokenService, SignInManager<AppUser> signInManager, IRegisterService registerService, ILoginService loginService
             )
         {
             _loginService = loginService;
