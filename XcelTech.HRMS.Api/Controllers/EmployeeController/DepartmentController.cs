@@ -34,6 +34,18 @@ namespace XcelTech.HRMS.Api.Controllers.EmployeeController
 
         }
 
+        [HttpGet("GetAllDepartment")]
+        public async Task<ActionResult<List<string>>> getAllDepartment()
+        {
+            return await _departmentService.getAllDepartment();
+
+        }
+
+
+
+
+
+
 
 
 

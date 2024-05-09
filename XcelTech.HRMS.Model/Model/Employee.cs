@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Http;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace XcelTech.HRMS.Model.Model
@@ -8,15 +9,15 @@ namespace XcelTech.HRMS.Model.Model
     {
         public int EmployeeId { get; set; }
 
-
-
-
         [Required]
-        public string EmployeeName { get; set; }
+        public string EmployeeFirstName { get; set; }
+        public string EmployeeLastName { get; set; }
 
-        public byte[]? EmployeeImage { get; set; }
+        public byte[] EmployeeImage { get; set; }
+        public byte[] employeeCredentailFile { get; set; }
 
-        public int? EmployeeAge { get; set; } = 0;
+
+        //public int? EmployeeAge { get; set; } = 0;
         public DateOnly? EmployyDOB { get; set; } 
         public DateOnly? EmployeeHiredDate { get; set; } 
 
@@ -24,12 +25,12 @@ namespace XcelTech.HRMS.Model.Model
         public int? EmployeePhone { get; set; }
 
         [EmailAddress]
-        public string? EmployeeEmail { get; set; } 
+        public string? EmployeeEmail { get; set; }
+
+        public string? Gender { get; set; }
 
         public int? DepartmentId { get; set; }
-
-        
-        [ForeignKey("DepartmentID")]
+        [ForeignKey("DepartmentId")]
         public Department? department { get; set; } 
 
 
@@ -50,7 +51,7 @@ namespace XcelTech.HRMS.Model.Model
         // Define the relationship with AppUser
         [ForeignKey("AppUserId")]
         public AppUser AppUser { get; set; }
-
+        
 
 
     }

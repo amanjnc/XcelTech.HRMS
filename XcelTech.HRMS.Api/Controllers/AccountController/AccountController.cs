@@ -30,26 +30,26 @@ namespace XcelTech.HRMS.Api.Controllers
             _signInManager = signInManager;
         }
 
-        [HttpPost("Register")]
-        public async Task<IActionResult> Register([FromBody] DtoRegister dtoRegister)
-        {
+        //[HttpPost("Register")]
+        //public async Task<IActionResult> Register([FromBody] DtoRegister dtoRegister)
+        //{
 
 
-            try
-            {
+        //    try
+        //    {
 
-                if (ModelState.IsValid)
-                {
-                    var result = await _registerService.createUser(dtoRegister);
-                    return Ok(result);
-                }
-                return BadRequest(ModelState);
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, ex.Message);
-            }
-        }
+        //        if (ModelState.IsValid)
+        //        {
+        //            var result = await _registerService.createUser(dtoRegister);
+        //            return Ok(result);
+        //        }
+        //        return BadRequest(ModelState);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return StatusCode(500, ex.Message);
+        //    }
+        //}
 
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] DtoToLogin login, bool rememberMe = false)

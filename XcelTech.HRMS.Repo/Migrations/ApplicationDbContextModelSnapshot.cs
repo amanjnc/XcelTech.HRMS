@@ -50,19 +50,19 @@ namespace XcelTech.HRMS.Repo.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "dbdf94b8-1b06-4b83-b42c-f8253368b365",
+                            Id = "67fadb69-fd08-4366-b023-39088b3282d9",
                             Name = "admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "ce14eb87-8362-4baa-871a-93e0f6774e8c",
+                            Id = "908dd869-05a3-403a-b792-e6a18c574564",
                             Name = "employee",
                             NormalizedName = "EMPLOYEE"
                         },
                         new
                         {
-                            Id = "33a1c422-bad9-4c02-822b-fdfc1eea4c73",
+                            Id = "b5ccb7a1-3f43-435c-863c-763c6100dbf3",
                             Name = "hr",
                             NormalizedName = "HR"
                         });
@@ -298,9 +298,6 @@ namespace XcelTech.HRMS.Repo.Migrations
                     b.Property<string>("AppUserId")
                         .HasColumnType("text");
 
-                    b.Property<int?>("DepartmentID")
-                        .HasColumnType("integer");
-
                     b.Property<int?>("DepartmentId")
                         .HasColumnType("integer");
 
@@ -308,19 +305,21 @@ namespace XcelTech.HRMS.Repo.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<int?>("EmployeeAge")
-                        .HasColumnType("integer");
-
                     b.Property<string>("EmployeeEmail")
+                        .HasColumnType("text");
+
+                    b.Property<string>("EmployeeFirstName")
+                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<DateOnly?>("EmployeeHiredDate")
                         .HasColumnType("date");
 
                     b.Property<byte[]>("EmployeeImage")
+                        .IsRequired()
                         .HasColumnType("bytea");
 
-                    b.Property<string>("EmployeeName")
+                    b.Property<string>("EmployeeLastName")
                         .IsRequired()
                         .HasColumnType("text");
 
@@ -330,17 +329,24 @@ namespace XcelTech.HRMS.Repo.Migrations
                     b.Property<DateOnly?>("EmployyDOB")
                         .HasColumnType("date");
 
+                    b.Property<string>("Gender")
+                        .HasColumnType("text");
+
                     b.Property<int?>("PayrollId")
                         .HasColumnType("integer");
 
                     b.Property<int?>("ProjectId")
                         .HasColumnType("integer");
 
+                    b.Property<byte[]>("employeeCredentailFile")
+                        .IsRequired()
+                        .HasColumnType("bytea");
+
                     b.HasKey("EmployeeId");
 
                     b.HasIndex("AppUserId");
 
-                    b.HasIndex("DepartmentID");
+                    b.HasIndex("DepartmentId");
 
                     b.HasIndex("PayrollId");
 
@@ -591,7 +597,7 @@ namespace XcelTech.HRMS.Repo.Migrations
 
                     b.HasOne("XcelTech.HRMS.Model.Model.Department", "department")
                         .WithMany()
-                        .HasForeignKey("DepartmentID");
+                        .HasForeignKey("DepartmentId");
 
                     b.HasOne("XcelTech.HRMS.Model.Model.Payroll", "payroll")
                         .WithMany()

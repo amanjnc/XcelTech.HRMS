@@ -47,9 +47,9 @@ namespace XcelTech.HRMS.Repo.Repo
                 throw new Exception("Employee not found.");
             }
 
-            existingEmployee.EmployeeAge = employee.EmployeeAge;
+            //existingEmployee.EmployeeAge = employee.EmployeeAge;
             existingEmployee.EmployeeAddress = employee.EmployeeAddress;
-            existingEmployee.DepartmentId = employee.DepartmentId;
+            //existingEmployee.DepartmentId = employee.DepartmentId;
 
 
 

@@ -115,7 +115,7 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
 
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddAutoMapper(typeof(RegInfo_AppUser));
-builder.Services.AddAutoMapper(typeof(UserProfile));
+//builder.Services.AddAutoMapper(typeof(UserProfile));
 builder.Services.AddAutoMapper(typeof(ProfileInfoDto));
 
 

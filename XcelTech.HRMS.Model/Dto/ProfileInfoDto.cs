@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -9,18 +10,24 @@ namespace XcelTech.HRMS.Model.Dto
 {
     public class ProfileInfoDto
     {
-        //public string EmployeeName { get; set; }
+        public string EmployeeFirstName { get; set; }
+        public string EmployeeLastName { get; set; }
 
-        //public byte[]? EmployeeImage { get; set; }
+        public IFormFile EmployeeImage { get; set; }
 
-        public int? EmployeeAge { get; set; }
+        //public int? EmployeeAge { get; set; }
         //public DateOnly? EmployyDOB { get; set; }
         public string? EmployeeAddress { get; set; } = string.Empty;
-        //public int? EmployeePhone { get; set; }
+        
+      
+        public int? EmployeePhone { get; set; }
 
-        //[EmailAddress]
-        //public string? EmployeeEmail { get; set; }
-
+        //public IFormFile employeeId{ get; set; }
+        public IFormFile employeeCredentailFile{ get; set; }
+        [EmailAddress]
+        public string? EmployeeEmail { get; set; }
+        public string? Gender { get; set; }
+        public String? Password { get; set; }
         public string? DepartmentName { get; set; }
     }
 }

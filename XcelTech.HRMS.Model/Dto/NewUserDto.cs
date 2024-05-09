@@ -23,5 +23,8 @@ namespace XcelTech.HRMS.Model.Dto
         public string Token { get; set; } = String.Empty;
         [Required]
         public string RoleName { get; set; }
+        public string departmentName { get; set; }
+
+
     }
 }

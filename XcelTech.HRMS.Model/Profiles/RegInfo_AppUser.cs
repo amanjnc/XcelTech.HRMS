@@ -15,9 +15,9 @@ namespace XcelTech.HRMS.Model.Profiles
         public RegInfo_AppUser()
         {
 
-            CreateMap<DtoRegister, AppUser>()
+            CreateMap<ProfileInfoDto, AppUser>()
             .ForMember(dest => dest.Email, opt => opt.MapFrom(src => src.EmployeeEmail))
-            .ForMember(det => det.UserName, opt => opt.MapFrom(src => src.EmployeeName));
+            .ForMember(det => det.UserName, opt => opt.MapFrom(src => src.EmployeeFirstName));
         }
 
 

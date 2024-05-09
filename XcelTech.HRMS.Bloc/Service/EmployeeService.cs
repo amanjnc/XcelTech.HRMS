@@ -9,6 +9,7 @@ using XcelTech.HRMS.Model.Dto;
 using XcelTech.HRMS.Model.Model;
 using XcelTech.HRMS.Repo.IRepo;
 using System.Security.Claims;
+using System.IO;
 
 namespace XcelTech.HRMS.Bloc.Service
 {
@@ -79,12 +80,13 @@ namespace XcelTech.HRMS.Bloc.Service
                 // Token validation failed or user not found
                 return new UnauthorizedResult();
             }
-           
 
             var department = _mapper.Map<Department>(profileInfoDto);
             var employee = _mapper.Map<Employee>(profileInfoDto);
             // i am fetching dep_Id
-            
+
+
+
             var departmentName = department.DepartmentName;
             var departmentId = await _departmentRepository.getDepartmentByName(departmentName);
             if (departmentId == null)

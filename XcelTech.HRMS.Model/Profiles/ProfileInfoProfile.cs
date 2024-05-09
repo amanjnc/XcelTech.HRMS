@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,15 +14,31 @@ namespace XcelTech.HRMS.Model.Profiles
     {
         public ProfileInfoProfile()
         {
-
             CreateMap<ProfileInfoDto, Employee>()
                 .ForMember(dest => dest.EmployeeAddress, opt => opt.MapFrom(src => src.EmployeeAddress))
-                .ForMember(dest => dest.EmployeeAge, opt => opt.MapFrom(src => src.EmployeeAge));
+                .ForMember(dest => dest.EmployeePhone, opt => opt.MapFrom(src => src.EmployeePhone))
+                .ForMember(dest => dest.EmployeeLastName, opt => opt.MapFrom(src => src.EmployeeLastName))
+                .ForMember(dest => dest.Gender, opt => opt.MapFrom(src => src.Gender))
+                //.ForMember(dest => dest.departmentName, opt => opt.MapFrom(src => src.DepartmentName))
+                .ForMember(dest => dest.EmployeeEmail, opt => opt.MapFrom(src => src.EmployeeEmail))
+                .ForMember(dest => dest.EmployeeFirstName, opt => opt.MapFrom(src => src.EmployeeFirstName))
+                .ForMember(dest => dest.EmployeeImage, opt => opt.MapFrom(src => GetByteArrayFromIFormFile(src.EmployeeImage)))
+                .ForMember(dest => dest.employeeCredentailFile, opt => opt.MapFrom(src => GetByteArrayFromIFormFile(src.employeeCredentailFile)));
+
             CreateMap<ProfileInfoDto, Department>()
                 .ForMember(dest => dest.DepartmentName, opt => opt.MapFrom(src => src.DepartmentName));
-
-
         }
-        // for bothe department and employee
+
+        private static byte[] GetByteArrayFromIFormFile(IFormFile file)
+        {
+            if (file == null)
+                return null;
+
+            using (var stream = new MemoryStream())
+            {
+                file.CopyTo(stream);
+                return stream.ToArray();
+            }
+        }
     }
 }

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -38,20 +39,28 @@ namespace XcelTech.HRMS.Repo.Repo
         }
         public async Task<ActionResult<int>> getDepartmentByName(string DepartmentName)
         {
-            var department = await _applicationDbContext.Departments.FirstOrDefaultAsync( dep => dep.DepartmentName == DepartmentName );
+            var department = await _applicationDbContext.Departments.FirstOrDefaultAsync(dep => dep.DepartmentName == DepartmentName);
             if (department != null)
             {
                 var departmentId = department.DepartmentId;
-            Console.WriteLine("Hellasldjfisdf, world!");
+                Console.WriteLine("Hellasldjfisdf, world!");
 
                 return departmentId;
 
             }
             Console.WriteLine("Hell isdf, world!");
 
-            return new NotFoundResult(); 
+            return new NotFoundResult();
             //or simply return !isNonew
         }
 
+        public async Task<ActionResult<List<string>>> getAllDepartment()
+        {
+            var departmentNames = await _applicationDbContext.Departments
+                .Select(d => d.DepartmentName)
+                .ToListAsync();
+
+            return departmentNames;
+        }
     }
 }
