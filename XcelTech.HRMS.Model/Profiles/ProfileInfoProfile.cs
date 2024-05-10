@@ -14,14 +14,15 @@ namespace XcelTech.HRMS.Model.Profiles
         public ProfileInfoProfile()
         {
 
-            CreateMap<ProfileInfoDto, Employee>()
-                .ForMember(dest => dest.EmployeeAddress, opt => opt.MapFrom(src => src.EmployeeAddress))
-                .ForMember(dest => dest.EmployeeAge, opt => opt.MapFrom(src => src.EmployeeAge));
+            CreateMap<ProfileInfoDto, Employee>();
+                //.ForMember(dest => dest.EmployeeAddress, opt => opt.MapFrom(src => src.EmployeeAddress))
+                //.ForMember(dest => dest.EmployeeAge, opt => opt.MapFrom(src => src.EmployeeAge))
+                //.ForMember(dest => dest.EmployeeImage, opt => opt.MapFrom(src => src.EmployeeImage));
             CreateMap<ProfileInfoDto, Department>()
                 .ForMember(dest => dest.DepartmentName, opt => opt.MapFrom(src => src.DepartmentName));
 
 
         }
-        // for bothe department and employee
+       
     }
 }

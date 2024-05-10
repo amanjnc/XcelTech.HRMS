@@ -9,6 +9,7 @@ using XcelTech.HRMS.Model.Dto;
 using XcelTech.HRMS.Model.Model;
 using XcelTech.HRMS.Repo.IRepo;
 using System.Security.Claims;
+using XcelTech.HRMS.Repo;
 
 namespace XcelTech.HRMS.Bloc.Service
 {
@@ -54,7 +55,7 @@ namespace XcelTech.HRMS.Bloc.Service
         public ExecutionContext Context { get; set; }
 
 
-        public async Task<IActionResult> updateEmployee(ProfileInfoDto profileInfoDto,string email)
+        public async Task<IActionResult> updateEmployee(ProfileInfoDto profileInfoDto,string email,string imagepath)
         {
             // will do validation here
             //var fluentValidationResult = await _validator.ValidateAsync(profileInfoDto);
@@ -79,12 +80,25 @@ namespace XcelTech.HRMS.Bloc.Service
                 // Token validation failed or user not found
                 return new UnauthorizedResult();
             }
-           
+
+
+           // var config = new MapperConfiguration(cfg =>
+            //{
+               // cfg.CreateMap<ProfileInfoDto, Employee>()
+                    //.ForMember(dest => dest.EmployeeImage, opt => opt.MapFrom(src => ConvertToByteArrayAsync(src.EmployeeImage).Result));
+           // });
+
+            //var mapper = config.CreateMapper();
 
             var department = _mapper.Map<Department>(profileInfoDto);
             var employee = _mapper.Map<Employee>(profileInfoDto);
+            //employee.EmployeeImage = imagepath;
+
+            Console.WriteLine(employee.EmployeeImage==null);
+            Console.WriteLine(profileInfoDto.EmployeeImage==null);
+
             // i am fetching dep_Id
-            
+
             var departmentName = department.DepartmentName;
             var departmentId = await _departmentRepository.getDepartmentByName(departmentName);
             if (departmentId == null)
@@ -101,12 +115,28 @@ namespace XcelTech.HRMS.Bloc.Service
 
             Console.WriteLine("this shit!");
 
-            await _employeeRepository.updateEmployee(employee,email);
+            await _employeeRepository.updateEmployee(employee,email,imagepath);
             Console.WriteLine("ld!");
 
             return new OkResult();
 
             
         }
+        private async Task<byte[]> ConvertToByteArrayAsync(IFormFile file)
+        {
+            using (var memoryStream = new MemoryStream())
+            {
+                await file.CopyToAsync(memoryStream);
+                return memoryStream.ToArray();
+            }
+        }
+
+       public async Task<Employee> GetEmployeeProfile(string email)
+        {
+            return await _employeeRepository.GetEmployeeProfile(email);
+
+        }
+
+
     }
 }

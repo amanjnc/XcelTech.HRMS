@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Http;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace XcelTech.HRMS.Model.Model
@@ -8,25 +9,28 @@ namespace XcelTech.HRMS.Model.Model
     {
         public int EmployeeId { get; set; }
 
-
-
-
         [Required]
-        public string EmployeeName { get; set; }
+        public string? EmployeeName { get; set; }
 
-        public byte[]? EmployeeImage { get; set; }
+        public string? EmployeeImage { get; set; } //profilephoto
 
         public int? EmployeeAge { get; set; } = 0;
-        public DateOnly? EmployyDOB { get; set; } 
-        public DateOnly? EmployeeHiredDate { get; set; } 
+        public DateOnly? EmployeeDOB { get; set; } 
+        //public DateOnly? EmployeeHiredDate { get; set; } 
 
-        public string EmployeeAddress { get; set; }  = string.Empty;
-        public int? EmployeePhone { get; set; }
+        public string? EmployeeAddress { get; set; }  = string.Empty;
+        //public string? EmployeePhone { get; set; }
 
         [EmailAddress]
-        public string? EmployeeEmail { get; set; } 
+        public string? EmployeeEmail { get; set; } //in signup
 
         public int? DepartmentId { get; set; }
+
+        public string? PhotoId { get; set; }
+
+        public string? Gender { get; set; }
+
+        public string? EducationCredentials { get; set; }
 
         
         [ForeignKey("DepartmentID")]

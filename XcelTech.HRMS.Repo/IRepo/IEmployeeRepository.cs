@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,7 +13,8 @@ namespace XcelTech.HRMS.Repo.IRepo
     public interface IEmployeeRepository
     {
         Task addEmployyetoTable(Employee employee);
-        Task updateEmployee(Employee employee,string email);
+        Task updateEmployee(Employee employee,string email,string imagepath);
 
+       Task<Employee> GetEmployeeProfile(string email);
     }
 }

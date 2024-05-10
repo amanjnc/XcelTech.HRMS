@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\ross.jpg\\image.png",
+      "PackagePath": "staticwebassets\\Images\\ross.jpg\\image.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\string12@hr.com\\EmployeeImage.jpg",
+      "PackagePath": "staticwebassets\\Images\\string12@hr.com\\EmployeeImage.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\string12@hr.com\\EmployeePhone.json",
+      "PackagePath": "staticwebassets\\Images\\string12@hr.com\\EmployeePhone.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.XcelTech.HRMS.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.XcelTech.HRMS.Api.props",
+      "PackagePath": "build\\XcelTech.HRMS.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.XcelTech.HRMS.Api.props",
+      "PackagePath": "buildMultiTargeting\\XcelTech.HRMS.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.XcelTech.HRMS.Api.props",
+      "PackagePath": "buildTransitive\\XcelTech.HRMS.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

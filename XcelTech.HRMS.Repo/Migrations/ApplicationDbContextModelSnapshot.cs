@@ -50,19 +50,19 @@ namespace XcelTech.HRMS.Repo.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "dbdf94b8-1b06-4b83-b42c-f8253368b365",
+                            Id = "c65508b3-9d83-475c-b1d8-c2d41bc61167",
                             Name = "admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "ce14eb87-8362-4baa-871a-93e0f6774e8c",
+                            Id = "01c86795-c161-48b3-8432-7ba367eb18c6",
                             Name = "employee",
                             NormalizedName = "EMPLOYEE"
                         },
                         new
                         {
-                            Id = "33a1c422-bad9-4c02-822b-fdfc1eea4c73",
+                            Id = "5faab4a1-bdb8-48ee-8523-c2fd55a0b7fb",
                             Name = "hr",
                             NormalizedName = "HR"
                         });
@@ -304,34 +304,36 @@ namespace XcelTech.HRMS.Repo.Migrations
                     b.Property<int?>("DepartmentId")
                         .HasColumnType("integer");
 
+                    b.Property<string>("EducationCredentials")
+                        .HasColumnType("text");
+
                     b.Property<string>("EmployeeAddress")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<int?>("EmployeeAge")
                         .HasColumnType("integer");
 
+                    b.Property<DateOnly?>("EmployeeDOB")
+                        .HasColumnType("date");
+
                     b.Property<string>("EmployeeEmail")
                         .HasColumnType("text");
 
-                    b.Property<DateOnly?>("EmployeeHiredDate")
-                        .HasColumnType("date");
-
-                    b.Property<byte[]>("EmployeeImage")
-                        .HasColumnType("bytea");
+                    b.Property<string>("EmployeeImage")
+                        .HasColumnType("text");
 
                     b.Property<string>("EmployeeName")
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<int?>("EmployeePhone")
-                        .HasColumnType("integer");
-
-                    b.Property<DateOnly?>("EmployyDOB")
-                        .HasColumnType("date");
+                    b.Property<string>("Gender")
+                        .HasColumnType("text");
 
                     b.Property<int?>("PayrollId")
                         .HasColumnType("integer");
+
+                    b.Property<string>("PhotoId")
+                        .HasColumnType("text");
 
                     b.Property<int?>("ProjectId")
                         .HasColumnType("integer");

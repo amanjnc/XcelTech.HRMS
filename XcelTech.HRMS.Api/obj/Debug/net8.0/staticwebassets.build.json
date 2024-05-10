@@ -1,11 +1,77 @@
 {
   "Version": 1,
-  "Hash": "FdHefOmUw0eMoDepxnT2sEYaxrR1GDaFMNfR9C/H9S8=",
+  "Hash": "OtjZafryLashgcnVrF25P1VnVLD0NezlpNypbJc4PQg=",
   "Source": "XcelTech.HRMS.Api",
   "BasePath": "_content/XcelTech.HRMS.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "XcelTech.HRMS.Api\\wwwroot",
+      "Source": "XcelTech.HRMS.Api",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "BasePath": "_content/XcelTech.HRMS.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\ross.jpg\\image.png",
+      "SourceId": "XcelTech.HRMS.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "BasePath": "_content/XcelTech.HRMS.Api",
+      "RelativePath": "Images/ross.jpg/image.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\ross.jpg\\image.png"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\string12@hr.com\\EmployeeImage.jpg",
+      "SourceId": "XcelTech.HRMS.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "BasePath": "_content/XcelTech.HRMS.Api",
+      "RelativePath": "Images/string12@hr.com/EmployeeImage.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\string12@hr.com\\EmployeeImage.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\string12@hr.com\\EmployeePhone.json",
+      "SourceId": "XcelTech.HRMS.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "BasePath": "_content/XcelTech.HRMS.Api",
+      "RelativePath": "Images/string12@hr.com/EmployeePhone.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\string12@hr.com\\EmployeePhone.json"
+    }
+  ]
 }

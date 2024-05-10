@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -19,12 +20,14 @@ namespace XcelTech.HRMS.Repo.Repo
         private readonly UserManager<AppUser> _userManager;
         private readonly IHttpContextAccessor _httpContextAccessor;
         private readonly ApplicationDbContext _applicationDbContext;
+        private static IWebHostEnvironment _environment;
 
-        public EmployeeRepository(ApplicationDbContext applicationDbContext, IHttpContextAccessor httpContextAccessor, UserManager<AppUser> userManager)
+        public EmployeeRepository(ApplicationDbContext applicationDbContext, IHttpContextAccessor httpContextAccessor, UserManager<AppUser> userManager, IWebHostEnvironment environment)
         {
             _httpContextAccessor = httpContextAccessor;
             _applicationDbContext = applicationDbContext;
             _userManager = userManager;
+            _environment = environment;
         }
 
         public async Task addEmployyetoTable(Employee employee)
@@ -35,8 +38,20 @@ namespace XcelTech.HRMS.Repo.Repo
         
         }
 
-       
-        public async Task updateEmployee(Employee employee,string email)
+        public async Task<Employee> GetEmployeeProfile(string email)
+        {
+            var existingEmployee = await _applicationDbContext.Employees.FirstOrDefaultAsync(emp => emp.EmployeeEmail == email);
+
+            /*if (existingEmployee == null)
+            {
+                throw new Exception("Employee not found.");
+            }*/
+
+            return existingEmployee;
+        }
+
+
+        public async Task updateEmployee(Employee employee,string email,string imagepath)
         {
             //var currentUser = await _userManager.GetUserAsync(_httpContextAccessor.HttpContext.User);
 
@@ -47,26 +62,18 @@ namespace XcelTech.HRMS.Repo.Repo
                 throw new Exception("Employee not found.");
             }
 
+            var all= _environment.WebRootPath + "\\Images\\" + email;
+
             existingEmployee.EmployeeAge = employee.EmployeeAge;
             existingEmployee.EmployeeAddress = employee.EmployeeAddress;
             existingEmployee.DepartmentId = employee.DepartmentId;
+            existingEmployee.EmployeeImage = Path.Combine(all,"EmployeeImage.jpg");
+            existingEmployee.PhotoId = Path.Combine(all, "PhotoId.pdf");
+            existingEmployee.EducationCredentials = Path.Combine(all, "EducationCredentials.pdf");
 
 
 
 
-
-            //var employeeType = typeof(Employee);
-
-            //var properties = employeeType.GetProperties();
-
-            //foreach (var property in properties)
-            //{
-            //    var inputValue = property.GetValue(employee);
-            //    if (inputValue != null)
-            //    {
-            //        property.SetValue(existingEmployee, inputValue);
-            //    }
-            //}
             Console.WriteLine("notllskdfjalksjd founs world!");
 
             await _applicationDbContext.SaveChangesAsync();
@@ -74,36 +81,6 @@ namespace XcelTech.HRMS.Repo.Repo
 
 
 
-
-
-
-
-
-
-        //public async Task updateEmployee(Employee employee)
-        //{
-
-
-        //    var email = _httpContextAccessor.HttpContext.User.Claims.FirstOrDefault(c => c.Type == "sub")?.Value;
-        //    var user = await _userManager.FindByEmailAsync(email);
-
-        //    var existingEmployee = await _applicationDbContext.Employees.FirstOrDefaultAsync(emp => emp.AppUserId == user.Id);
-
-
-        //    if (existingEmployee == null)
-        //    {
-        //        throw new Exception("Employee not found."); 
-        //    }
-
-
-        //    existingEmployee.EmployeeImage = employee.EmployeeImage;
-
-        //    await _applicationDbContext.SaveChangesAsync();
-
-
-
-        //    throw new NotImplementedException();
-        //}
 
 
 
