@@ -10,9 +10,9 @@
 //        {
 
 //            CreateMap<AppUser, Employee>()
-//            .ForMember(dest => dest.AppUserId, opt => opt.MapFrom(src => src.Id))
-//            .ForMember(dest => dest.EmployeeEmail, opt => opt.MapFrom(src => src.Email))
-//            .ForMember(dest => dest.EmployeeFirstName, opt => opt.MapFrom(src => src.UserName));
+//            .ForMember(dest => dest.AppUserId, opt => opt.MapFrom(src => src.Id));
+//            //.ForMember(dest => dest.EmployeeEmail, opt => opt.MapFrom(src => src.Email))
+//            //.ForMember(dest => dest.EmployeeFirstName, opt => opt.MapFrom(src => src.UserName));
 
 //        }
 

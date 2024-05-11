@@ -13,8 +13,9 @@ namespace XcelTech.HRMS.Model.Model
         public string EmployeeFirstName { get; set; }
         public string EmployeeLastName { get; set; }
 
-        public byte[] EmployeeImage { get; set; }
-        public byte[] employeeCredentailFile { get; set; }
+        public string? EmployeeImage { get; set; } //profilephoto
+        public string? EducationCredentials { get; set; }
+        public string? PhotoId {get; set;}
 
 
         //public int? EmployeeAge { get; set; } = 0;

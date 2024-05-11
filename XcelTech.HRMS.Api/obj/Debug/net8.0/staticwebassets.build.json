@@ -1,11 +1,39 @@
 {
   "Version": 1,
-  "Hash": "FdHefOmUw0eMoDepxnT2sEYaxrR1GDaFMNfR9C/H9S8=",
+  "Hash": "UEKhTc6KLPx8tbqMZ/hD8jrOecpfWK6JKQP5BPDS8fo=",
   "Source": "XcelTech.HRMS.Api",
   "BasePath": "_content/XcelTech.HRMS.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "XcelTech.HRMS.Api\\wwwroot",
+      "Source": "XcelTech.HRMS.Api",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "BasePath": "_content/XcelTech.HRMS.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\\uF05CImages\uF05C\\amanuelbeyene662@hr.com\\PhotoId.jpg",
+      "SourceId": "XcelTech.HRMS.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "BasePath": "_content/XcelTech.HRMS.Api",
+      "RelativePath": "\uF05CImages\uF05C/amanuelbeyene662@hr.com/PhotoId.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\\uF05CImages\uF05C\\amanuelbeyene662@hr.com\\PhotoId.jpg"
+    }
+  ]
 }

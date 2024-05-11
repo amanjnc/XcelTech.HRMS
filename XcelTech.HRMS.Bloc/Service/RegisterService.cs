@@ -1,7 +1,9 @@
 ﻿using AutoMapper;
 using FluentValidation;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
 using System.IdentityModel.Tokens.Jwt;
 using XcelTech.HRMS.Bloc.IService;
 using XcelTech.HRMS.Model.Dto;
@@ -13,22 +15,24 @@ namespace XcelTech.HRMS.Bloc.Service
 {
     public class RegisterService : IRegisterService
     {
+        private readonly IWebHostEnvironment _webHostEnvironment;
         private readonly IAccountRegister _accountRegister;
-        //private readonly DepartmentRepository _departmentRepository;
+        private readonly IDepartmentRepository _departmentRepository;
         private readonly IEmployeeRepository _employeeRepository;
         private readonly IMapper _mapper;
         private readonly IValidator<DtoRegister> _validator;
         private readonly ITokenService _tokenService;
 
 
-        public RegisterService(IEmployeeRepository employeeRepository,IAccountRegister accountRegister, IMapper mapper, IValidator<DtoRegister> validator, ITokenService tokenService)
+        public RegisterService(IDepartmentRepository departmentRepository, IEmployeeRepository employeeRepository,IAccountRegister accountRegister, IMapper mapper, IValidator<DtoRegister> validator, ITokenService tokenService, IWebHostEnvironment webHostEnvironment)
         {
             _employeeRepository = employeeRepository;
             _accountRegister = accountRegister;
             _mapper = mapper;
             _validator = validator;
             _tokenService = tokenService;
-            //_departmentRepository = departmentRepository;   
+            _departmentRepository = departmentRepository;
+            _webHostEnvironment = webHostEnvironment;
         }
 
         //public async Task<IActionResult> createUser(DtoRegister dtoRegister)
@@ -131,42 +135,52 @@ namespace XcelTech.HRMS.Bloc.Service
                 var appUser = _mapper.Map<AppUser>(profileInfoDto);
 
                 var employee = _mapper.Map<Employee>(profileInfoDto);
+                //var employee = _mapper.Map<Employee>(AppUser);
+
                 employee.AppUserId = appUser.Id;
+                Console.WriteLine(employee);
 
-                //// to write the depId instead of the depName
-                ////var departmentId = await _departmentRepository.getDepartmentByName(profileInfoDto.DepartmentName);
-                ////if (departmentId == null)
-                ////{
-                ////    Console.WriteLine("not founsdfjaslkdfslkdfjalkfdjalksdf world!");
+                //to write the depId instead of the depName
+                var departmentId = await _departmentRepository.getDepartmentByName(profileInfoDto.DepartmentName);
+                if (departmentId == null)
+                {
+                    Console.WriteLine("not founsdfjaslkdfslkdfjalkfdjalksdf world!");
 
-                ////    return new NotFoundObjectResult("Department not found");
-                ////}
-                ////Console.WriteLine(" world!");
-
-
-                ////employee.DepartmentId = departmentId.Value;
+                    return new NotFoundObjectResult("Department not found");
+                }
+                Console.WriteLine(" world!");
+                var all = _webHostEnvironment.WebRootPath + "\\Images\\" + profileInfoDto.EmployeeEmail;
 
 
+                employee.EmployeeImage = Path.Combine(all, "EmployeeImage.jpg");
+                employee.EducationCredentials = Path.Combine(all, "EducationCredentials.pdf");
+                employee.PhotoId = Path.Combine(all, "PhotoId.jpg");
+
+
+
+                employee.DepartmentId = departmentId.Value;
+                Console.WriteLine("departmentId");
+                Console.WriteLine(employee.DepartmentId);
 
                 // Handle image file upload
-                if (profileInfoDto.EmployeeImage != null && profileInfoDto.EmployeeImage.Length > 0)
-                {
-                    using (var stream = new MemoryStream())
-                    {
-                        await profileInfoDto.EmployeeImage.CopyToAsync(stream);
-                        employee.EmployeeImage = stream.ToArray();
-                    }
-                }
+                //if (profileInfoDto.EmployeeImage != null && profileInfoDto.EmployeeImage.Length > 0)
+                //{
+                //    using (var stream = new MemoryStream())
+                //    {
+                //        await profileInfoDto.EmployeeImage.CopyToAsync(stream);
+                //        employee.EmployeeImage = stream.ToArray();
+                //    }
+                //}
 
-                // Handle credential ID file upload
-                if (profileInfoDto.employeeCredentailFile != null && profileInfoDto.employeeCredentailFile.Length > 0)
-                {
-                    using (var stream = new MemoryStream())
-                    {
-                        await profileInfoDto.employeeCredentailFile.CopyToAsync(stream);
-                        employee.employeeCredentailFile = stream.ToArray();
-                    }
-                }
+                //// Handle credential ID file upload
+                //if (profileInfoDto.employeeCredentailFile != null && profileInfoDto.employeeCredentailFile.Length > 0)
+                //{
+                //    using (var stream = new MemoryStream())
+                //    {
+                //        await profileInfoDto.employeeCredentailFile.CopyToAsync(stream);
+                //        employee.employeeCredentailFile = stream.ToArray();
+                //    }
+                //}
 
                 // Create the user and employee
                 var createdUser = await _accountRegister.createUser(appUser, profileInfoDto.Password, employee);
@@ -193,10 +207,11 @@ namespace XcelTech.HRMS.Bloc.Service
                             departmentName = profileInfoDto.DepartmentName
 
                         };
-
-                        await _employeeRepository.addEmployyetoTable(employee);
-                        Console.WriteLine("shiiiiiii");
-                        return new OkObjectResult(newUserDto);
+                        Console.WriteLine("gonna addd to employee tableee");
+                        _employeeRepository.addEmployyetoTable(employee);
+                        Console.WriteLine("asdkfjlsd");
+                        Console.WriteLine(employee);
+                        return new OkObjectResult(employee);
                     }
                     else
                     {

@@ -19,6 +19,7 @@ using XcelTech.HRMS.Bloc.Service;
 using Microsoft.OpenApi.Models;
 using System.Text;
 using XcelTech.HRMS.Bloc;
+using Microsoft.AspNetCore.Identity.UI.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 
@@ -119,7 +120,12 @@ builder.Services.AddAutoMapper(typeof(RegInfo_AppUser));
 builder.Services.AddAutoMapper(typeof(ProfileInfoDto));
 
 
-builder .Services.AddScoped<IDepartmentRepository, DepartmentRepository>();
+builder.Services.AddTransient<IEmailsender, EmailSender>();
+
+
+
+builder.Services.AddScoped<IDepartmentRepository, DepartmentRepository>();
+builder.Services.AddScoped<IFilehandleService, FileHandleService>();
 builder.Services.AddScoped<IDepartmentService, DepartmentService>();
 builder.Services.AddScoped<ILoginService, LoginService>();
 builder.Services.AddScoped<IEmployeeService, EmployeeService>();

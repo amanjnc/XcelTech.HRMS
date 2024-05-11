@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\\uF05CImages\uF05C\\amanuelbeyene662@hr.com\\PhotoId.jpg",
+      "PackagePath": "staticwebassets\\\uF05CImages\uF05C\\amanuelbeyene662@hr.com\\PhotoId.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.XcelTech.HRMS.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.XcelTech.HRMS.Api.props",
+      "PackagePath": "build\\XcelTech.HRMS.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.XcelTech.HRMS.Api.props",
+      "PackagePath": "buildMultiTargeting\\XcelTech.HRMS.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.XcelTech.HRMS.Api.props",
+      "PackagePath": "buildTransitive\\XcelTech.HRMS.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

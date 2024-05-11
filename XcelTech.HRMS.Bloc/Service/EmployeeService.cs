@@ -10,12 +10,14 @@ using XcelTech.HRMS.Model.Model;
 using XcelTech.HRMS.Repo.IRepo;
 using System.Security.Claims;
 using System.IO;
+using Microsoft.AspNetCore.Hosting;
 
 namespace XcelTech.HRMS.Bloc.Service
 {
     public class EmployeeService : IEmployeeService
     {
         private readonly ITokenService _tokenService;
+        private readonly IWebHostEnvironment _webHostEnvironment;
 
         private readonly IHttpContextAccessor _httpContextAccessor;
 
@@ -24,8 +26,9 @@ namespace XcelTech.HRMS.Bloc.Service
         private readonly IMapper _mapper;
         private readonly IDepartmentRepository _departmentRepository;
 
-        public EmployeeService(IHttpContextAccessor httpContextAccessor,ITokenService tokenService, IEmployeeRepository employeeRepository, IMapper mapper, IDepartmentRepository departmentRepository)
+        public EmployeeService(IHttpContextAccessor httpContextAccessor,ITokenService tokenService, IEmployeeRepository employeeRepository, IMapper mapper, IDepartmentRepository departmentRepository,IWebHostEnvironment webHostEnvironment)
         {
+            _webHostEnvironment = webHostEnvironment;
             _httpContextAccessor = httpContextAccessor;
             _tokenService = tokenService;
             _departmentRepository = departmentRepository;
@@ -51,8 +54,8 @@ namespace XcelTech.HRMS.Bloc.Service
 
         }
 
-        [JsonIgnore]
-        public ExecutionContext Context { get; set; }
+        //[JsonIgnore]
+        //public ExecutionContext Context { get; set; }
 
 
         public async Task<IActionResult> updateEmployee(ProfileInfoDto profileInfoDto,string email)
@@ -100,6 +103,14 @@ namespace XcelTech.HRMS.Bloc.Service
 
             employee.DepartmentId = departmentId.Value;
             //updating employeetable
+
+
+            var all = _webHostEnvironment.WebRootPath + "\\Images\\" + email;
+
+           
+            employee.EmployeeImage = Path.Combine(all, "EmployeeImage.jpg");
+            employee.EducationCredentials = Path.Combine(all, "EducationCredentials.pdf");
+
 
             Console.WriteLine("this shit!");
 

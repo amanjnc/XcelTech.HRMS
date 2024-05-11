@@ -21,9 +21,7 @@ namespace XcelTech.HRMS.Model.Profiles
                 .ForMember(dest => dest.Gender, opt => opt.MapFrom(src => src.Gender))
                 //.ForMember(dest => dest.departmentName, opt => opt.MapFrom(src => src.DepartmentName))
                 .ForMember(dest => dest.EmployeeEmail, opt => opt.MapFrom(src => src.EmployeeEmail))
-                .ForMember(dest => dest.EmployeeFirstName, opt => opt.MapFrom(src => src.EmployeeFirstName))
-                .ForMember(dest => dest.EmployeeImage, opt => opt.MapFrom(src => GetByteArrayFromIFormFile(src.EmployeeImage)))
-                .ForMember(dest => dest.employeeCredentailFile, opt => opt.MapFrom(src => GetByteArrayFromIFormFile(src.employeeCredentailFile)));
+                .ForMember(dest => dest.EmployeeFirstName, opt => opt.MapFrom(src => src.EmployeeFirstName));
 
             CreateMap<ProfileInfoDto, Department>()
                 .ForMember(dest => dest.DepartmentName, opt => opt.MapFrom(src => src.DepartmentName));

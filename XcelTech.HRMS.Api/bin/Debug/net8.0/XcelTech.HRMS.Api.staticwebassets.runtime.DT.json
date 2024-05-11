@@ -1,0 +1,37 @@
+{
+  "ContentRoots": [
+    "/src/XcelTech.HRMS.Api/wwwroot/"
+  ],
+  "Root": {
+    "Children": {
+      "Images": {
+        "Children": {
+          "amanuelbeyene662@hr.com": {
+            "Children": {
+              "PhotoId.jpg": {
+                "Children": null,
+                "Asset": {
+                  "ContentRootIndex": 0,
+                  "SubPath": "Images/amanuelbeyene662@hr.com/PhotoId.jpg"
+                },
+                "Patterns": null
+              }
+            },
+            "Asset": null,
+            "Patterns": null
+          }
+        },
+        "Asset": null,
+        "Patterns": null
+      }
+    },
+    "Asset": null,
+    "Patterns": [
+      {
+        "ContentRootIndex": 0,
+        "Pattern": "**",
+        "Depth": 0
+      }
+    ]
+  }
+}

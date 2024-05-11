@@ -390,3 +390,4 @@ C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\XcelTech.HRMS.Api\obj\Debug\net
 C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\XcelTech.HRMS.Api\obj\Debug\net8.0\XcelTech.HRMS.Api.pdb
 C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\XcelTech.HRMS.Api\obj\Debug\net8.0\XcelTech.HRMS.Api.genruntimeconfig.cache
 C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\XcelTech.HRMS.Api\obj\Debug\net8.0\ref\XcelTech.HRMS.Api.dll
+C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\XcelTech.HRMS.Api\bin\Debug\net8.0\XcelTech.HRMS.Api.staticwebassets.runtime.json

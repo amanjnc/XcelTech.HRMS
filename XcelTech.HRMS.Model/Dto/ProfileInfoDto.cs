@@ -13,7 +13,10 @@ namespace XcelTech.HRMS.Model.Dto
         public string EmployeeFirstName { get; set; }
         public string EmployeeLastName { get; set; }
 
-        public IFormFile EmployeeImage { get; set; }
+        public IFormFile? EmployeeImage { get; set; }
+        public IFormFile? PhotoId { get; set; }
+
+        public IFormFile? EducationCredentials { get; set; }
 
         //public int? EmployeeAge { get; set; }
         //public DateOnly? EmployyDOB { get; set; }
@@ -23,7 +26,6 @@ namespace XcelTech.HRMS.Model.Dto
         public int? EmployeePhone { get; set; }
 
         //public IFormFile employeeId{ get; set; }
-        public IFormFile employeeCredentailFile{ get; set; }
         [EmailAddress]
         public string? EmployeeEmail { get; set; }
         public string? Gender { get; set; }

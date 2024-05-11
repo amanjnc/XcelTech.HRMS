@@ -50,19 +50,19 @@ namespace XcelTech.HRMS.Repo.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "67fadb69-fd08-4366-b023-39088b3282d9",
+                            Id = "618cc361-770e-407c-bb2e-d21f086f3f20",
                             Name = "admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "908dd869-05a3-403a-b792-e6a18c574564",
+                            Id = "429983d2-9664-4a9f-88e1-384a91ae0863",
                             Name = "employee",
                             NormalizedName = "EMPLOYEE"
                         },
                         new
                         {
-                            Id = "b5ccb7a1-3f43-435c-863c-763c6100dbf3",
+                            Id = "19394a9b-d518-4aaa-9ff7-344e72a8f16a",
                             Name = "hr",
                             NormalizedName = "HR"
                         });
@@ -301,6 +301,9 @@ namespace XcelTech.HRMS.Repo.Migrations
                     b.Property<int?>("DepartmentId")
                         .HasColumnType("integer");
 
+                    b.Property<string>("EducationCredentials")
+                        .HasColumnType("text");
+
                     b.Property<string>("EmployeeAddress")
                         .IsRequired()
                         .HasColumnType("text");
@@ -315,9 +318,8 @@ namespace XcelTech.HRMS.Repo.Migrations
                     b.Property<DateOnly?>("EmployeeHiredDate")
                         .HasColumnType("date");
 
-                    b.Property<byte[]>("EmployeeImage")
-                        .IsRequired()
-                        .HasColumnType("bytea");
+                    b.Property<string>("EmployeeImage")
+                        .HasColumnType("text");
 
                     b.Property<string>("EmployeeLastName")
                         .IsRequired()
@@ -335,12 +337,11 @@ namespace XcelTech.HRMS.Repo.Migrations
                     b.Property<int?>("PayrollId")
                         .HasColumnType("integer");
 
+                    b.Property<string>("PhotoId")
+                        .HasColumnType("text");
+
                     b.Property<int?>("ProjectId")
                         .HasColumnType("integer");
-
-                    b.Property<byte[]>("employeeCredentailFile")
-                        .IsRequired()
-                        .HasColumnType("bytea");
 
                     b.HasKey("EmployeeId");
 

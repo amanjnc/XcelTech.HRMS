@@ -29,6 +29,9 @@ namespace XcelTech.HRMS.Repo.Repo
 
         public async Task addEmployyetoTable(Employee employee)
         {
+            Console.WriteLine("not def shit");
+
+
 
             _applicationDbContext.Employees.Add(employee);
             await _applicationDbContext.SaveChangesAsync();
