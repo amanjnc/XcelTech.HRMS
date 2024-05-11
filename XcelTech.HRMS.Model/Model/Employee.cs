@@ -10,8 +10,8 @@ namespace XcelTech.HRMS.Model.Model
         public int EmployeeId { get; set; }
 
         [Required]
-        public string EmployeeFirstName { get; set; }
-        public string EmployeeLastName { get; set; }
+        public string? EmployeeFirstName { get; set; }
+        public string? EmployeeLastName { get; set; }
 
         public string? EmployeeImage { get; set; } //profilephoto
         public string? EducationCredentials { get; set; }
@@ -22,8 +22,8 @@ namespace XcelTech.HRMS.Model.Model
         public DateOnly? EmployyDOB { get; set; } 
         public DateOnly? EmployeeHiredDate { get; set; } 
 
-        public string EmployeeAddress { get; set; }  = string.Empty;
-        public int? EmployeePhone { get; set; }
+        public string? EmployeeAddress { get; set; }  = string.Empty;
+        public string? EmployeePhone { get; set; }
 
         [EmailAddress]
         public string? EmployeeEmail { get; set; }

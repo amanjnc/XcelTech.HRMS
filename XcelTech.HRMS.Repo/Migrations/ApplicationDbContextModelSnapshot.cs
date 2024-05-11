@@ -50,19 +50,19 @@ namespace XcelTech.HRMS.Repo.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "618cc361-770e-407c-bb2e-d21f086f3f20",
+                            Id = "efc1087c-15c1-4d14-9697-48bed055556b",
                             Name = "admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "429983d2-9664-4a9f-88e1-384a91ae0863",
+                            Id = "dcb705cf-45e3-4a66-bf1d-2b3280f5f276",
                             Name = "employee",
                             NormalizedName = "EMPLOYEE"
                         },
                         new
                         {
-                            Id = "19394a9b-d518-4aaa-9ff7-344e72a8f16a",
+                            Id = "a96a59f5-1d34-4f5a-b7e6-3bbc747e1b4d",
                             Name = "hr",
                             NormalizedName = "HR"
                         });
@@ -305,7 +305,6 @@ namespace XcelTech.HRMS.Repo.Migrations
                         .HasColumnType("text");
 
                     b.Property<string>("EmployeeAddress")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("EmployeeEmail")
@@ -322,11 +321,10 @@ namespace XcelTech.HRMS.Repo.Migrations
                         .HasColumnType("text");
 
                     b.Property<string>("EmployeeLastName")
-                        .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<int?>("EmployeePhone")
-                        .HasColumnType("integer");
+                    b.Property<string>("EmployeePhone")
+                        .HasColumnType("text");
 
                     b.Property<DateOnly?>("EmployyDOB")
                         .HasColumnType("date");

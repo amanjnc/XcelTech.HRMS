@@ -36,7 +36,7 @@ namespace XcelTech.HRMS.Repo.Repo
         public async Task<IdentityResult> createUser(AppUser appUser, string password, Employee employee)
         {
 
-            //internal password hashing-with salt PBKDF2 (Password-Based Key Derivation Function 2)
+            //not sure though but it is an internal password hashing-with salt PBKDF2 (Password-Based Key Derivation Function 2)
             var createdUser = await _userManager.CreateAsync(appUser, password);
             return createdUser;
         }

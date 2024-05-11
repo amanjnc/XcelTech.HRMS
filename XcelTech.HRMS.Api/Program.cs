@@ -116,7 +116,7 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
 
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddAutoMapper(typeof(RegInfo_AppUser));
-//builder.Services.AddAutoMapper(typeof(UserProfile));
+builder.Services.AddAutoMapper(typeof(UserProfile));
 builder.Services.AddAutoMapper(typeof(ProfileInfoDto));
 
 
@@ -133,6 +133,7 @@ builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
 builder.Services.AddScoped<IAccountRegister, AccountRegister>();
 builder.Services.AddScoped<IRegisterService, RegisterService>();
 builder.Services.AddScoped<IValidator<DtoRegister>, UserInfoValidator>();
+builder.Services.AddScoped<IValidator<ProfileInfoDto>, ProfileInfoDtoValidator>();
 builder.Services.AddScoped<IValidator<Department>, DepartmentValidator>();
 builder.Services.AddScoped<ITokenService, TokenService>();
 

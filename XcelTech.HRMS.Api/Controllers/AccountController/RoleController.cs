@@ -36,6 +36,11 @@ namespace XcelTech.HRMS.Api.Controllers
         {
             try
             {
+                if (string.IsNullOrEmpty(roleName))
+                {
+                    return BadRequest("Role name is required.");
+                }
+
                 var existingRole = await _roleManager.FindByNameAsync(roleName);
                 if (existingRole != null)
                 {

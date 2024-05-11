@@ -27,16 +27,6 @@ namespace XcelTech.HRMS.Model.Profiles
                 .ForMember(dest => dest.DepartmentName, opt => opt.MapFrom(src => src.DepartmentName));
         }
 
-        private static byte[] GetByteArrayFromIFormFile(IFormFile file)
-        {
-            if (file == null)
-                return null;
-
-            using (var stream = new MemoryStream())
-            {
-                file.CopyTo(stream);
-                return stream.ToArray();
-            }
-        }
+      
     }
 }

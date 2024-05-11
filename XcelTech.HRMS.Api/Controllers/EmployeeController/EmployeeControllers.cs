@@ -54,8 +54,8 @@ namespace XcelTech.HRMS.Api.Controllers
             }
         }
 
-        
         [HttpPost("registerProfile")]
+        
         public async Task<IActionResult> registerProfile([FromForm] ProfileInfoDto profileInfoDto)
         {
             try
@@ -64,9 +64,6 @@ namespace XcelTech.HRMS.Api.Controllers
                 {
                     var _uploadedfiles = Request.Form.Files;
                     string imagepath = await _filehandleService.FilehandlePath(_uploadedfiles, profileInfoDto.EmployeeEmail);
-                    Console.WriteLine(imagepath);
-                    Console.WriteLine("sdafasdfasdfasdfasdfasdf");
-
                     var result = await _registerService.createUser(profileInfoDto);
                     return Ok(result);
                 }

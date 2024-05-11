@@ -32,8 +32,6 @@ namespace XcelTech.HRMS.Bloc.Service
                 {
                     Directory.CreateDirectory(Filepath);
                 }
-
-                // This is the file path, not just the image path
                 string imagepath = Path.Combine(Filepath, fieldname + FileExtension);
 
                 if (File.Exists(imagepath))
@@ -45,16 +43,12 @@ namespace XcelTech.HRMS.Bloc.Service
                 {
                     await source.CopyToAsync(stream);
                 }
-
-            
             }
-
             return null;
         }
-
         private string GetFilePath(string ProductCode)
         {
-            return Path.Combine(_webHostEnvironment.WebRootPath, "\\Images\\", ProductCode);
+            return Path.Combine(_webHostEnvironment.WebRootPath, "Images", ProductCode);
         }
     }
 }

@@ -20,11 +20,12 @@ namespace XcelTech.HRMS.Bloc.Service
         private readonly IDepartmentRepository _departmentRepository;
         private readonly IEmployeeRepository _employeeRepository;
         private readonly IMapper _mapper;
-        private readonly IValidator<DtoRegister> _validator;
+        private readonly IValidator<ProfileInfoDto> _validator;
+        private readonly IValidator<DtoRegister> _validator2;
         private readonly ITokenService _tokenService;
 
 
-        public RegisterService(IDepartmentRepository departmentRepository, IEmployeeRepository employeeRepository,IAccountRegister accountRegister, IMapper mapper, IValidator<DtoRegister> validator, ITokenService tokenService, IWebHostEnvironment webHostEnvironment)
+        public RegisterService(IDepartmentRepository departmentRepository, IEmployeeRepository employeeRepository,IAccountRegister accountRegister, IMapper mapper, IValidator<ProfileInfoDto> validator,IValidator<DtoRegister> validator2, ITokenService tokenService, IWebHostEnvironment webHostEnvironment)
         {
             _employeeRepository = employeeRepository;
             _accountRegister = accountRegister;
@@ -33,165 +34,114 @@ namespace XcelTech.HRMS.Bloc.Service
             _tokenService = tokenService;
             _departmentRepository = departmentRepository;
             _webHostEnvironment = webHostEnvironment;
+            _validator2 = validator2;
         }
 
-        //public async Task<IActionResult> createUser(DtoRegister dtoRegister)
-        //{
-        //    try
-        //    {
-        //        var fluentValidationResult = await _validator.ValidateAsync(dtoRegister);
+        public async Task<IActionResult> CreateAdmin(DtoRegister dtoRegister)
+        {
+            try
+            {
+                var fluentValidationResult = await _validator2.ValidateAsync(dtoRegister);
 
-        //        if (!fluentValidationResult.IsValid)
+                if (!fluentValidationResult.IsValid)
 
-        //        {
-        //            var validationErrors = new List<string>();
-        //            foreach (var error in fluentValidationResult.Errors)
-        //            {
-        //                validationErrors.Add($"{error.PropertyName}: {error.ErrorMessage}");
-        //            }
-        //            return new BadRequestObjectResult(validationErrors);
-        //        }
-        //        var appUser = _mapper.Map<AppUser>(dtoRegister);
-        //        var employee = _mapper.Map<Employee>(appUser);
+                {
+                    var validationErrors = new List<string>();
+                    foreach (var error in fluentValidationResult.Errors)
+                    {
+                        validationErrors.Add($"{error.PropertyName}: {error.ErrorMessage}");
+                    }
+                    return new BadRequestObjectResult(validationErrors);
+                }
+                var appUser = _mapper.Map<AppUser>(dtoRegister);
+                var employee = _mapper.Map<Employee>(appUser);
 
+                var CreatedUser = await _accountRegister.createUser(appUser, dtoRegister.Password, employee);
 
+                if (CreatedUser.Succeeded)
+                {
+                    var userRole = "admin";
+                    var roleName = userRole;
+                    var roleResult = await _accountRegister.createRole(appUser, userRole);
 
+                    if (roleResult.Succeeded)
+                    {
+                        var tokenn = _tokenService.CreateToken(appUser);
 
-        //        var CreatedUser = await _accountRegister.createUser(appUser, dtoRegister.Password, employee);
+                        //converting to strigin, i know so dummmmmmb
+                        var tokenHandler = new JwtSecurityTokenHandler();
+                        var token = tokenHandler.WriteToken(tokenn);
 
+                        var newUserDto = new NewUserDto
+                        {
+                            EmployeeName = appUser.UserName,
+                            EmployeeEmail = appUser.Email,
+                            Token = token,
+                            RoleName = roleName
+                        };
 
-        //        if (CreatedUser.Succeeded)
-        //        {
+                        await _employeeRepository.addEmployyetoTable(employee);
 
+                        return new OkObjectResult(newUserDto);
+                    }
+                    else
+                    {
+                        var errorMessage = "Failed to add user to the role. Reason: " + GetIdentityErrorMessage(roleResult.Errors);
+                        throw new Exception(errorMessage);
+                    }
+                }
+                else
+                {
+                    var errorMessage = "Failed to create user. Reason: " + GetIdentityErrorMessage(CreatedUser.Errors);
+                    throw new Exception(errorMessage);
+                }
 
-        //            var userRole = DetermineUserRoleByEmail(dtoRegister.EmployeeEmail);
-        //            var roleName =  userRole;
-
-
-        //            var roleResult = await _accountRegister.createRole(appUser, userRole);
-
-        //            if (roleResult.Succeeded)
-        //            {
-        //                var tokenn = _tokenService.CreateToken(appUser);
-
-
-        //                //converting to strigin, i know so dummmmmmb
-        //                var tokenHandler = new JwtSecurityTokenHandler();
-        //                var token = tokenHandler.WriteToken(tokenn);
-
-        //                var newUserDto = new NewUserDto
-        //                {
-        //                    EmployeeName = appUser.UserName,
-        //                    EmployeeEmail = appUser.Email,
-        //                    Token = token,
-        //                    RoleName = roleName
-        //                };
-
-        //                await _employeeRepository.addEmployyetoTable(employee);
-
-        //                return new OkObjectResult(newUserDto);
-        //            }
-        //            else
-        //            {
-        //                var errorMessage = "Failed to add user to the role. Reason: " + GetIdentityErrorMessage(roleResult.Errors);
-        //                throw new Exception(errorMessage);
-        //            }
-        //        }
-        //        else
-        //        {
-        //            var errorMessage = "Failed to create user. Reason: " + GetIdentityErrorMessage(CreatedUser.Errors);
-        //            throw new Exception(errorMessage);
-        //        }
-
-
-
-
-
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return new BadRequestObjectResult(ex.Message);
-        //    }
-        //}
+            }
+            catch (Exception ex)
+            {
+                return new BadRequestObjectResult(ex.Message);
+            }
+        }
 
 
         public async Task<IActionResult> createUser(ProfileInfoDto profileInfoDto)
         {
             try
             {
-                // Perform validation if needed
-                // var fluentValidationResult = await _validator.ValidateAsync(dtoRegister);
-                // if (!fluentValidationResult.IsValid)
-                // {
-                //     var validationErrors = new List<string>();
-                //     foreach (var error in fluentValidationResult.Errors)
-                //     {
-                //         validationErrors.Add($"{error.PropertyName}: {error.ErrorMessage}");
-                //     }
-                //     return new BadRequestObjectResult(validationErrors);
-                // }
-
-                // Map profileInfoDto to AppUser and Employee entities
-                var appUser = _mapper.Map<AppUser>(profileInfoDto);
-
-                var employee = _mapper.Map<Employee>(profileInfoDto);
-                //var employee = _mapper.Map<Employee>(AppUser);
-
-                employee.AppUserId = appUser.Id;
-                Console.WriteLine(employee);
-
-                //to write the depId instead of the depName
-                var departmentId = await _departmentRepository.getDepartmentByName(profileInfoDto.DepartmentName);
-                if (departmentId == null)
+                
+                var fluentValidationResult = await _validator.ValidateAsync(profileInfoDto);
+                if (!fluentValidationResult.IsValid)
                 {
-                    Console.WriteLine("not founsdfjaslkdfslkdfjalkfdjalksdf world!");
-
-                    return new NotFoundObjectResult("Department not found");
+                    var validationErrors = new List<string>();
+                    foreach (var error in fluentValidationResult.Errors)
+                    {
+                        validationErrors.Add($"{error.PropertyName}: {error.ErrorMessage}");
+                    }
+                    return new BadRequestObjectResult(validationErrors);
                 }
-                Console.WriteLine(" world!");
+
+                var appUser = _mapper.Map<AppUser>(profileInfoDto);
+                var employee = _mapper.Map<Employee>(profileInfoDto);
+                employee.AppUserId = appUser.Id;
+
+                var departmentId = await _departmentRepository.getDepartmentByName(profileInfoDto.DepartmentName);
+                if (departmentId == null) return new NotFoundObjectResult("Department not found");
+                
                 var all = _webHostEnvironment.WebRootPath + "\\Images\\" + profileInfoDto.EmployeeEmail;
-
-
                 employee.EmployeeImage = Path.Combine(all, "EmployeeImage.jpg");
                 employee.EducationCredentials = Path.Combine(all, "EducationCredentials.pdf");
                 employee.PhotoId = Path.Combine(all, "PhotoId.jpg");
 
-
-
                 employee.DepartmentId = departmentId.Value;
-                Console.WriteLine("departmentId");
-                Console.WriteLine(employee.DepartmentId);
 
-                // Handle image file upload
-                //if (profileInfoDto.EmployeeImage != null && profileInfoDto.EmployeeImage.Length > 0)
-                //{
-                //    using (var stream = new MemoryStream())
-                //    {
-                //        await profileInfoDto.EmployeeImage.CopyToAsync(stream);
-                //        employee.EmployeeImage = stream.ToArray();
-                //    }
-                //}
-
-                //// Handle credential ID file upload
-                //if (profileInfoDto.employeeCredentailFile != null && profileInfoDto.employeeCredentailFile.Length > 0)
-                //{
-                //    using (var stream = new MemoryStream())
-                //    {
-                //        await profileInfoDto.employeeCredentailFile.CopyToAsync(stream);
-                //        employee.employeeCredentailFile = stream.ToArray();
-                //    }
-                //}
-
-                // Create the user and employee
+                
                 var createdUser = await _accountRegister.createUser(appUser, profileInfoDto.Password, employee);
 
                 if (createdUser.Succeeded)
                 {
 
                     var userRole = profileInfoDto.adminAssignedRole;
-                    //var userRole = DetermineUserRoleByEmail(profileInfoDto.EmployeeEmail);
                     var roleName = userRole;
-
                     var roleResult = await _accountRegister.createRole(appUser, userRole);
 
                     if (roleResult.Succeeded)
@@ -209,11 +159,8 @@ namespace XcelTech.HRMS.Bloc.Service
                             departmentName = profileInfoDto.DepartmentName
 
                         };
-                        Console.WriteLine("gonna addd to employee tableee");
                         _employeeRepository.addEmployyetoTable(employee);
-                        Console.WriteLine("asdkfjlsd");
-                        Console.WriteLine(employee);
-                        return new OkObjectResult(employee);
+                        return new OkObjectResult(newUserDto);
                     }
                     else
                     {

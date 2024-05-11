@@ -20,9 +20,6 @@ namespace XcelTech.HRMS.Bloc.Validations
                 .Length(2, 30).WithMessage(("name length should be between  2 and 30 "));
             RuleFor(dep => dep.DepartmentDescription).NotEmpty().WithMessage("descirption can not be empty")
                 .Length(10, 100).WithMessage(("description should be between  10 and 100 words"));
-
-
-
         }
     }
 }

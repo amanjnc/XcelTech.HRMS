@@ -6,6 +6,36 @@
     "Children": {
       "Images": {
         "Children": {
+          "amanueene662@gmail.com": {
+            "Children": {
+              "EducationCredentials.pdf": {
+                "Children": null,
+                "Asset": {
+                  "ContentRootIndex": 0,
+                  "SubPath": "Images/amanueene662@gmail.com/EducationCredentials.pdf"
+                },
+                "Patterns": null
+              },
+              "EmployeeImage.jpg": {
+                "Children": null,
+                "Asset": {
+                  "ContentRootIndex": 0,
+                  "SubPath": "Images/amanueene662@gmail.com/EmployeeImage.jpg"
+                },
+                "Patterns": null
+              },
+              "PhotoId.jpg": {
+                "Children": null,
+                "Asset": {
+                  "ContentRootIndex": 0,
+                  "SubPath": "Images/amanueene662@gmail.com/PhotoId.jpg"
+                },
+                "Patterns": null
+              }
+            },
+            "Asset": null,
+            "Patterns": null
+          },
           "amanuelbeyene662@gmail.com": {
             "Children": {
               "EducationCredentials.pdf": {

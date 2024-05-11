@@ -10,6 +10,7 @@ namespace XcelTech.HRMS.Bloc.IService
 {
     public interface IRegisterService
     {
-        Task<IActionResult>  createUser(ProfileInfoDto profileInfoDto);
+        Task<IActionResult> createUser(ProfileInfoDto profileInfoDto);
+        Task<IActionResult> CreateAdmin(DtoRegister dtoRegister);
     }
 }

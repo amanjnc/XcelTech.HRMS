@@ -25,7 +25,7 @@ namespace XcelTech.HRMS.Model.Dto
         public string? EmployeeAddress { get; set; } = string.Empty;
         
       
-        public int? EmployeePhone { get; set; }
+        public string? EmployeePhone { get; set; }
 
         //public IFormFile employeeId{ get; set; }
         [EmailAddress]
