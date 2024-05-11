@@ -39,7 +39,10 @@ namespace XcelTech.HRMS.Bloc.Service
         }
 
 
-
+        public async Task<List<Employee>> getAllEmployeesAsync()
+        {
+            return await _employeeRepository.GetAllEmployeesAsync();
+        }
 
 
         public async  Task<IActionResult> addEmployee(Employee employee)
@@ -53,6 +56,14 @@ namespace XcelTech.HRMS.Bloc.Service
 
 
         }
+
+        public async Task<IActionResult> getAllEmployee()
+        {
+            throw new NotImplementedException();
+        }
+
+
+
 
         //[JsonIgnore]
         //public ExecutionContext Context { get; set; }

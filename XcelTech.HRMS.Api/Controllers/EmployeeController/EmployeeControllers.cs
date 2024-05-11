@@ -78,5 +78,18 @@ namespace XcelTech.HRMS.Api.Controllers
                 return StatusCode(500, ex.Message);
             }
         }
+        [HttpGet("getAllEmployeesInfo")]
+        public async Task<ActionResult> getAllDepartment()
+        {
+            try
+            {
+                var employees = await _employeeService.getAllEmployeesAsync();
+                return Ok(employees);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
+        }
     }
 }

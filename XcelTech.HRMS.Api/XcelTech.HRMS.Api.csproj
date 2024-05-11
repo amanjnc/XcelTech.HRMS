@@ -38,8 +38,4 @@
     <ProjectReference Include="..\XcelTech.HRMS.Repo\XcelTech.HRMS.Repo.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="wwwroot\" />
-  </ItemGroup>
-
 </Project>

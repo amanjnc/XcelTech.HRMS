@@ -46,7 +46,7 @@ namespace XcelTech.HRMS.Bloc.Service
                     await source.CopyToAsync(stream);
                 }
 
-                return imagepath;
+            
             }
 
             return null;

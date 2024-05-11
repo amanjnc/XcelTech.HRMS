@@ -13,6 +13,8 @@ namespace XcelTech.HRMS.Repo.IRepo
     {
         Task addEmployyetoTable(Employee employee);
         Task updateEmployee(Employee employee,string email);
+        public Task<List<Employee>> GetAllEmployeesAsync();
+
 
     }
 }

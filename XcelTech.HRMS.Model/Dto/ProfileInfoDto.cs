@@ -13,6 +13,8 @@ namespace XcelTech.HRMS.Model.Dto
         public string EmployeeFirstName { get; set; }
         public string EmployeeLastName { get; set; }
 
+        public string adminAssignedRole{ get; set; }
+
         public IFormFile? EmployeeImage { get; set; }
         public IFormFile? PhotoId { get; set; }
 

@@ -13,6 +13,8 @@ namespace XcelTech.HRMS.Bloc.IService
     {
         public Task<IActionResult> addEmployee(Employee employee);
         public Task<IActionResult> updateEmployee(ProfileInfoDto profileInfoDto,string email);
+        public Task<List<Employee>> getAllEmployeesAsync();
+
 
     }
 }

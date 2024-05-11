@@ -187,7 +187,9 @@ namespace XcelTech.HRMS.Bloc.Service
 
                 if (createdUser.Succeeded)
                 {
-                    var userRole = DetermineUserRoleByEmail(profileInfoDto.EmployeeEmail);
+
+                    var userRole = profileInfoDto.adminAssignedRole;
+                    //var userRole = DetermineUserRoleByEmail(profileInfoDto.EmployeeEmail);
                     var roleName = userRole;
 
                     var roleResult = await _accountRegister.createRole(appUser, userRole);
