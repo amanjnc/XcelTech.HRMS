@@ -17,5 +17,8 @@ services:
       - POSTGRES_DB=xceltechhrmsNeww
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
+
+    volumes:
+      - ~/Downloads/containers:/var/lib/postgresql/data
     ports:
       - 5432:5432
