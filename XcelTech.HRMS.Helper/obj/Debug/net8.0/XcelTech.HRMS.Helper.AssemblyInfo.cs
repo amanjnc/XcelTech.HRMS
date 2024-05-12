@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XcelTech.HRMS.Helper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a8407f39d7e6d4f08f3bf20401af4d9adc2b9b09")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47c845f6115c8a6e022232e7fbaa49929610e614")]
 [assembly: System.Reflection.AssemblyProductAttribute("XcelTech.HRMS.Helper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XcelTech.HRMS.Helper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
