@@ -50,19 +50,19 @@ namespace XcelTech.HRMS.Repo.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "efc1087c-15c1-4d14-9697-48bed055556b",
+                            Id = "00f28f5e-29fc-4f62-b0b8-5a573759a80d",
                             Name = "admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "dcb705cf-45e3-4a66-bf1d-2b3280f5f276",
+                            Id = "1ed85390-3ebc-4ce1-b338-f4bac6ca412a",
                             Name = "employee",
                             NormalizedName = "EMPLOYEE"
                         },
                         new
                         {
-                            Id = "a96a59f5-1d34-4f5a-b7e6-3bbc747e1b4d",
+                            Id = "e27cf912-2b97-4cce-a56d-25e5a6aa30d0",
                             Name = "hr",
                             NormalizedName = "HR"
                         });

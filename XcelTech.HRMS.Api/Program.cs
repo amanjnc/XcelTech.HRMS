@@ -114,6 +114,7 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
 }).AddEntityFrameworkStores<ApplicationDbContext>();
 
 
+
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddAutoMapper(typeof(RegInfo_AppUser));
 builder.Services.AddAutoMapper(typeof(UserProfile));
@@ -143,6 +144,19 @@ builder.Services.AddControllers().AddNewtonsoftJson(options =>
     options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
 });
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("vite", PolicyBuilder =>
+    {
+        PolicyBuilder.WithOrigins("http://localhost:5173");
+        PolicyBuilder.AllowAnyHeader();
+        PolicyBuilder.AllowAnyMethod();
+        PolicyBuilder.AllowCredentials();
+
+    }
+   );
+});
+
 
 var app = builder.Build();
 
@@ -151,7 +165,7 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
-    app.ApplyMigrations();
+    //app.ApplyMigrations();
 
 }
 
@@ -164,6 +178,8 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.UseCors("vite");
 
 app.Run();
 
