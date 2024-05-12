@@ -9,7 +9,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace XcelTech.HRMS.Repo.Migrations
 {
     /// <inheritdoc />
-    public partial class hopefullitworks : Migration
+    public partial class one : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -214,14 +214,14 @@ namespace XcelTech.HRMS.Repo.Migrations
                     EmployeeId = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     EmployeeFirstName = table.Column<string>(type: "text", nullable: false),
-                    EmployeeLastName = table.Column<string>(type: "text", nullable: false),
+                    EmployeeLastName = table.Column<string>(type: "text", nullable: true),
                     EmployeeImage = table.Column<string>(type: "text", nullable: true),
                     EducationCredentials = table.Column<string>(type: "text", nullable: true),
                     PhotoId = table.Column<string>(type: "text", nullable: true),
                     EmployyDOB = table.Column<DateOnly>(type: "date", nullable: true),
                     EmployeeHiredDate = table.Column<DateOnly>(type: "date", nullable: true),
-                    EmployeeAddress = table.Column<string>(type: "text", nullable: false),
-                    EmployeePhone = table.Column<int>(type: "integer", nullable: true),
+                    EmployeeAddress = table.Column<string>(type: "text", nullable: true),
+                    EmployeePhone = table.Column<string>(type: "text", nullable: true),
                     EmployeeEmail = table.Column<string>(type: "text", nullable: true),
                     Gender = table.Column<string>(type: "text", nullable: true),
                     DepartmentId = table.Column<int>(type: "integer", nullable: true),
@@ -367,9 +367,9 @@ namespace XcelTech.HRMS.Repo.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "19394a9b-d518-4aaa-9ff7-344e72a8f16a", null, "hr", "HR" },
-                    { "429983d2-9664-4a9f-88e1-384a91ae0863", null, "employee", "EMPLOYEE" },
-                    { "618cc361-770e-407c-bb2e-d21f086f3f20", null, "admin", "ADMIN" }
+                    { "00f28f5e-29fc-4f62-b0b8-5a573759a80d", null, "admin", "ADMIN" },
+                    { "1ed85390-3ebc-4ce1-b338-f4bac6ca412a", null, "employee", "EMPLOYEE" },
+                    { "e27cf912-2b97-4cce-a56d-25e5a6aa30d0", null, "hr", "HR" }
                 });
 
             migrationBuilder.CreateIndex(

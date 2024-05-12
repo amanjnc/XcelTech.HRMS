@@ -15,22 +15,21 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=
     volumes:
-      - C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS\XcelTech.HRMS.Api:/app
-      - C:\Users\yeabb\Music\C#\xcelllllll\XcelTech.HRMS:/src
-      - C:\Users\yeabb\vsdbg\vs2017u5:/remote_debugger:rw
-      - C:\Users\yeabb\.nuget\packages\:/.nuget/packages:ro
-      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
-      - ${APPDATA}/ASP.NET/Https:/home/app/.aspnet/https:ro
-      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
-      - ${APPDATA}/Microsoft/UserSecrets:/home/app/.microsoft/usersecrets:ro
-      - C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\TokenService.Proxy\linux-x64\net6.0:/TokenService.Proxy:ro
-      - C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\HotReloadProxy\linux-x64\net8.0:/HotReloadProxy:ro
-      - C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\HotReload:/HotReloadAgent:ro
+      - C:\Users\DELL\Desktop\incase4\XcelTech.HRMS\XcelTech.HRMS.Api:/app:rw
+      - C:\Users\DELL\Desktop\incase4\XcelTech.HRMS:/src:rw
+      - C:\Users\DELL\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\DELL\.nuget\packages:/.nuget/packages:ro
+      - C:\Users\DELL\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+      - C:\Users\DELL\AppData\Roaming\ASP.NET\Https:/home/app/.aspnet/https:ro
+      - C:\Users\DELL\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+      - C:\Users\DELL\AppData\Roaming\Microsoft\UserSecrets:/home/app/.microsoft/usersecrets:ro
+      - C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\linux-x64\net8.0:/VSTools:ro
+      - C:\Program Files\Microsoft Visual Studio\2022\Preview\Common7\IDE\CommonExtensions\Microsoft\HotReload:/HotReloadAgent:ro
 
-    entrypoint: tail -f /dev/null
+    entrypoint: "dotnet --roll-forward Major /VSTools/DistrolessHelper/DistrolessHelper.dll --wait"
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
       com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /.nuget/packages  \"/app/bin/Debug/net8.0/XcelTech.HRMS.Api.dll\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
-      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+      com.microsoft.visualstudio.debuggee.killprogram: "dotnet --roll-forward Major /VSTools/DistrolessHelper/DistrolessHelper.dll --stop dotnet"
     tty: true

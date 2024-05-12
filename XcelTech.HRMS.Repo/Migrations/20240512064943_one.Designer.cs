@@ -12,8 +12,8 @@ using XcelTech.HRMS.Repo;
 namespace XcelTech.HRMS.Repo.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240511162157_hopefull it works")]
-    partial class hopefullitworks
+    [Migration("20240512064943_one")]
+    partial class one
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -53,19 +53,19 @@ namespace XcelTech.HRMS.Repo.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "618cc361-770e-407c-bb2e-d21f086f3f20",
+                            Id = "00f28f5e-29fc-4f62-b0b8-5a573759a80d",
                             Name = "admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "429983d2-9664-4a9f-88e1-384a91ae0863",
+                            Id = "1ed85390-3ebc-4ce1-b338-f4bac6ca412a",
                             Name = "employee",
                             NormalizedName = "EMPLOYEE"
                         },
                         new
                         {
-                            Id = "19394a9b-d518-4aaa-9ff7-344e72a8f16a",
+                            Id = "e27cf912-2b97-4cce-a56d-25e5a6aa30d0",
                             Name = "hr",
                             NormalizedName = "HR"
                         });
@@ -308,7 +308,6 @@ namespace XcelTech.HRMS.Repo.Migrations
                         .HasColumnType("text");
 
                     b.Property<string>("EmployeeAddress")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("EmployeeEmail")
@@ -325,11 +324,10 @@ namespace XcelTech.HRMS.Repo.Migrations
                         .HasColumnType("text");
 
                     b.Property<string>("EmployeeLastName")
-                        .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<int?>("EmployeePhone")
-                        .HasColumnType("integer");
+                    b.Property<string>("EmployeePhone")
+                        .HasColumnType("text");
 
                     b.Property<DateOnly?>("EmployyDOB")
                         .HasColumnType("date");

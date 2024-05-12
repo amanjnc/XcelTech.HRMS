@@ -39,9 +39,15 @@ namespace XcelTech.HRMS.Bloc.Service
         }
 
 
-        public async Task<List<Employee>> getAllEmployeesAsync()
+
+        public async Task<List<EmployeeGetDto>> getAllEmployeesAsync()
         {
-            return await _employeeRepository.GetAllEmployeesAsync();
+
+            var employees = await _employeeRepository.GetAllEmployeesAsync();
+
+            var employeeGetDtos = _mapper.Map<List<EmployeeGetDto>>(employees);
+
+            return employeeGetDtos;
         }
 
 

@@ -76,11 +76,13 @@ namespace XcelTech.HRMS.Api.Controllers
             }
         }
         [HttpGet("getAllEmployeesInfo")]
-        public async Task<ActionResult> getAllDepartment()
+        public async Task<ActionResult<IEnumerable<EmployeeGetDto>>> getAllDepartment()
         {
             try
             {
                 var employees = await _employeeService.getAllEmployeesAsync();
+
+
                 return Ok(employees);
             }
             catch (Exception ex)

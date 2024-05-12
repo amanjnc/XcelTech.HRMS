@@ -76,13 +76,16 @@ namespace XcelTech.HRMS.Repo.Repo
         public async Task<List<Employee>> GetAllEmployeesAsync()
         {
             var employees = await _applicationDbContext.Employees
-                .Include(e => e.department)
-                //.Include(e => e.project)
-                //.Include(e => e.e)
-                //.Include(e => e.EmployeeImage)
-                .Include(e => e.EmployeeEmail)
-                .Include(e => e.EmployeeFirstName)
-                .Include(e => e.EmployeeLastName)
+                .Select(e => new Employee
+        {
+
+            EmployeeImage = e.EmployeeImage,
+            EmployeeFirstName = e.EmployeeFirstName,
+            EmployeeLastName = e.EmployeeLastName,
+           EmployeeEmail = e.EmployeeEmail,
+                    department =e.department
+
+        })
                 .ToListAsync();
 
             return employees;
