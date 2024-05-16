@@ -77,21 +77,6 @@ namespace XcelTech.HRMS.Bloc.Service
 
         public async Task<IActionResult> updateEmployee(ProfileInfoDto profileInfoDto,string email)
         {
-            // will do validation here
-            //var fluentValidationResult = await _validator.ValidateAsync(profileInfoDto);
-
-            //if (!fluentValidationResult.IsValid)
-
-            //{
-            //    var validationErrors = new List<string>();
-            //    foreach (var error in fluentValidationResult.Errors)
-            //    {
-            //        validationErrors.Add($"{error.PropertyName}: {error.ErrorMessage}");
-            //    }
-            //    return new BadRequestObjectResult(validationErrors);
-            //}
-
-
            
            
             if (email == null)

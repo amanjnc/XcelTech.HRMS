@@ -2,18 +2,31 @@
 
 namespace XcelTech.HRMS.Model.Model
 {
+
+    public enum Status
+    {
+        Pending,
+        Approved,
+        Disapproved
+    }
     public class Leave
     {
         public int LeaveId { get; set; }
 
 
-        public string LeaveReasonType { get; set; }
+        public string LeaveType { get; set; }
         public DateOnly StartDate { get; set; }
         public DateOnly EndDate { get; set; }
 
 
         public int EmployeeId { get; set; }
-        [ForeignKey("EmployeeId")]
+       [ForeignKey("EmployeeId")]
         public Employee employee { get; set; }
+
+        public string status { get; set; } = "Pending";
+
+        //public int? DepartmentId { get; set; }
+        //[ForeignKey("DepartmentId")]
+        //public Department? department { get; set; }
     }
 }

@@ -60,7 +60,7 @@ namespace XcelTech.HRMS.Bloc.Service
 
         }
 
-        public async Task<ActionResult<List<string>>> getAllDepartment()
+        public async Task<ActionResult<List<Department>>> getAllDepartment()
         {
             return await _departmentRepository.getAllDepartment();
         }

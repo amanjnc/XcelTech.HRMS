@@ -3,44 +3,112 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.repo\\repo\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|solutionrelative:xceltech.hrms.repo\\repo\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.api\\controllers\\employeecontroller\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|solutionrelative:xceltech.hrms.api\\controllers\\employeecontroller\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Migrations\\20240512064943_one.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:XcelTech.HRMS.Repo\\Migrations\\20240512064943_one.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.api\\extensions\\swaggerserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|solutionrelative:xceltech.hrms.api\\extensions\\swaggerserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|solutionrelative:xceltech.hrms.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|solutionrelative:xceltech.hrms.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.api\\extensions\\identityextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|solutionrelative:xceltech.hrms.api\\extensions\\identityextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.repo\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|solutionrelative:xceltech.hrms.repo\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.api\\extensions\\serviceregistrations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|solutionrelative:xceltech.hrms.api\\extensions\\serviceregistrations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.model\\profiles\\profileinfoprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\profiles\\profileinfoprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.api\\extensions\\migrationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|solutionrelative:xceltech.hrms.api\\extensions\\migrationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.bloc\\service\\registerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|solutionrelative:xceltech.hrms.bloc\\service\\registerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.api\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|solutionrelative:xceltech.hrms.api\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.bloc\\iservice\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|solutionrelative:xceltech.hrms.bloc\\iservice\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.api\\controllers\\accountcontroller\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|solutionrelative:xceltech.hrms.api\\controllers\\accountcontroller\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.repo\\repo\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|solutionrelative:xceltech.hrms.repo\\repo\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.bloc\\service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|solutionrelative:xceltech.hrms.bloc\\service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.api\\controllers\\employeecontroller\\employeecontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|solutionrelative:xceltech.hrms.api\\controllers\\employeecontroller\\employeecontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.bloc\\iservice\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|solutionrelative:xceltech.hrms.bloc\\iservice\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.bloc\\service\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|solutionrelative:xceltech.hrms.bloc\\service\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.repo\\irepo\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|solutionrelative:xceltech.hrms.repo\\irepo\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.model\\model\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\model\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.model\\model\\leave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\model\\leave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.model\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.bloc\\service\\leaveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|solutionrelative:xceltech.hrms.bloc\\service\\leaveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.repo\\repo\\leaverepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|solutionrelative:xceltech.hrms.repo\\repo\\leaverepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.repo\\repo\\attendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|solutionrelative:xceltech.hrms.repo\\repo\\attendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.bloc\\service\\attendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|solutionrelative:xceltech.hrms.bloc\\service\\attendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.model\\dto\\attendancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\dto\\attendancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.model\\profiles\\attendancepostprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\profiles\\attendancepostprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.model\\profiles\\leavecreateprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\profiles\\leavecreateprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.repo\\irepo\\iattendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|solutionrelative:xceltech.hrms.repo\\irepo\\iattendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.bloc\\iservice\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|solutionrelative:xceltech.hrms.bloc\\iservice\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.bloc\\iservice\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|solutionrelative:xceltech.hrms.bloc\\iservice\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.model\\profiles\\reginfo_appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\profiles\\reginfo_appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.model\\profiles\\employeeget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,32 +119,12 @@
       "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\dto\\employeegetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.model\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.api\\controllers\\employeecontroller\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|solutionrelative:xceltech.hrms.api\\controllers\\employeecontroller\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.repo\\repo\\accountregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|solutionrelative:xceltech.hrms.repo\\repo\\accountregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.repo\\repo\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|solutionrelative:xceltech.hrms.repo\\repo\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.model\\profiles\\reginfo_appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\profiles\\reginfo_appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.model\\profiles\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\profiles\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.api\\controllers\\accountcontroller\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|solutionrelative:xceltech.hrms.api\\controllers\\accountcontroller\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.bloc\\iservice\\iregisterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -99,16 +147,8 @@
       "RelativeMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|solutionrelative:xceltech.hrms.api\\controllers\\accountcontroller\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.model\\dto\\profileinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\dto\\profileinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.model\\dto\\newuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\dto\\newuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.bloc\\service\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|solutionrelative:xceltech.hrms.bloc\\service\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.bloc\\service\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -119,20 +159,8 @@
       "RelativeMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|solutionrelative:xceltech.hrms.bloc\\service\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.bloc\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|solutionrelative:xceltech.hrms.bloc\\service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.bloc\\iservice\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|solutionrelative:xceltech.hrms.bloc\\iservice\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.bloc\\iservice\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|solutionrelative:xceltech.hrms.bloc\\iservice\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.bloc\\iservice\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|solutionrelative:xceltech.hrms.bloc\\iservice\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.bloc\\validations\\userinfovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -143,32 +171,12 @@
       "RelativeMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|solutionrelative:xceltech.hrms.bloc\\validations\\departmentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.repo\\irepo\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|solutionrelative:xceltech.hrms.repo\\irepo\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.repo\\irepo\\iaccountregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|solutionrelative:xceltech.hrms.repo\\irepo\\iaccountregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{12B19178-81D1-4D24-B11B-E1531581DA84}|docker-compose.dcproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{12B19178-81D1-4D24-B11B-E1531581DA84}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.api\\extensions\\migrationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|solutionrelative:xceltech.hrms.api\\extensions\\migrationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.model\\model\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\model\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|solutionrelative:xceltech.hrms.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.repo\\irepo\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|solutionrelative:xceltech.hrms.repo\\irepo\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.repo\\configureidentitymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -177,10 +185,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|solutionrelative:xceltech.hrms.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.api\\xceltech.hrms.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|solutionrelative:xceltech.hrms.api\\xceltech.hrms.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.bloc\\xceltech.hrms.bloc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -211,14 +215,6 @@
       "RelativeMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|solutionrelative:xceltech.hrms.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.model\\model\\leave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\model\\leave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.model\\model\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\model\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.repo\\xceltech.hrms.repo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|solutionrelative:xceltech.hrms.repo\\xceltech.hrms.repo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -234,10 +230,6 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.model\\model\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\model\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.repo\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|solutionrelative:xceltech.hrms.repo\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -248,6 +240,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.model\\xceltech.hrms.model.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\xceltech.hrms.model.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|c:\\users\\dell\\desktop\\incase4\\xceltech.hrms\\xceltech.hrms.repo\\migrations\\20240516201751_add fk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|solutionrelative:xceltech.hrms.repo\\migrations\\20240516201751_add fk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -257,8 +253,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Controllers\\EmployeeController\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\Controllers\\EmployeeController\\DepartmentController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Controllers\\EmployeeController\\DepartmentController.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Api\\Controllers\\EmployeeController\\DepartmentController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAACUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T22:11:45.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ServiceRegistrations.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Extensions\\ServiceRegistrations.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\Extensions\\ServiceRegistrations.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Extensions\\ServiceRegistrations.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Api\\Extensions\\ServiceRegistrations.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T21:58:09.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SwaggerServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Extensions\\SwaggerServiceExtensions.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\Extensions\\SwaggerServiceExtensions.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Extensions\\SwaggerServiceExtensions.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Api\\Extensions\\SwaggerServiceExtensions.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAiwAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T21:43:29.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IdentityExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Extensions\\IdentityExtensions.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\Extensions\\IdentityExtensions.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Extensions\\IdentityExtensions.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Api\\Extensions\\IdentityExtensions.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAQwB8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T21:31:19.474Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -267,145 +313,301 @@
               "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\Program.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Program.cs",
               "RelativeToolTip": "XcelTech.HRMS.Api\\Program.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAAKUAAAAVAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T19:14:03.493Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-16T19:30:36.737Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20240512064943_one.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Migrations\\20240512064943_one.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\Migrations\\20240512064943_one.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Migrations\\20240512064943_one.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Repo\\Migrations\\20240512064943_one.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T06:49:44.109Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "EmployeeRepository.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Repo\\EmployeeRepository.cs",
               "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\Repo\\EmployeeRepository.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Repo\\EmployeeRepository.cs",
               "RelativeToolTip": "XcelTech.HRMS.Repo\\Repo\\EmployeeRepository.cs",
-              "ViewState": "AQIAAEkAAAAAAAAAAAAgwFQAAAArAAAA",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAqwF0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T02:33:53.213Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RegisterService.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\RegisterService.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\Service\\RegisterService.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\RegisterService.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Bloc\\Service\\RegisterService.cs",
-              "ViewState": "AQIAAH8AAAAAAAAAAAAAAGQAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T10:07:02.76Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProfileInfoProfile.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Profiles\\ProfileInfoProfile.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Profiles\\ProfileInfoProfile.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Profiles\\ProfileInfoProfile.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Model\\Profiles\\ProfileInfoProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T17:20:50.068Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\ApplicationDbContext.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Repo\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T08:45:25.772Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Api\\appsettings.json",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\appsettings.json",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Api\\appsettings.json",
-              "RelativeToolTip": "XcelTech.HRMS.Api\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-26T08:32:09.961Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-16T19:20:26.581Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "IEmployeeService.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\IEmployeeService.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\IService\\IEmployeeService.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\IEmployeeService.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Bloc\\IService\\IEmployeeService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Controllers\\AccountController\\AccountController.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\Controllers\\AccountController\\AccountController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Controllers\\AccountController\\AccountController.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Api\\Controllers\\AccountController\\AccountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T02:51:02.768Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-27T20:45:26.371Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
+              "Title": "MigrationExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Extensions\\MigrationExtensions.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\Extensions\\MigrationExtensions.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Extensions\\MigrationExtensions.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Api\\Extensions\\MigrationExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T17:12:39.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AttendanceController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Controllers\\AttendanceController.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\Controllers\\AttendanceController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Controllers\\AttendanceController.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Api\\Controllers\\AttendanceController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAABEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T19:45:01.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "EmployeeService.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\EmployeeService.cs",
               "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\Service\\EmployeeService.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\EmployeeService.cs",
               "RelativeToolTip": "XcelTech.HRMS.Bloc\\Service\\EmployeeService.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAqwDIAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T02:51:38.728Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EmployeeControllers.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Controllers\\EmployeeController\\EmployeeControllers.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\Controllers\\EmployeeController\\EmployeeControllers.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Controllers\\EmployeeController\\EmployeeControllers.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Api\\Controllers\\EmployeeController\\EmployeeControllers.cs",
-              "ViewState": "AQIAAEwAAAAAAAAAAAAYwFsAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T17:56:21.894Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-16T19:17:01.522Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "IDepartmentService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\IDepartmentService.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\IService\\IDepartmentService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\IDepartmentService.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Bloc\\IService\\IDepartmentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T20:34:26.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DepartmentService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\DepartmentService.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\Service\\DepartmentService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\DepartmentService.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Bloc\\Service\\DepartmentService.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAAAD4AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T20:30:26.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IDepartmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\IRepo\\IDepartmentRepository.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\IRepo\\IDepartmentRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\IRepo\\IDepartmentRepository.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Repo\\IRepo\\IDepartmentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T14:10:21.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "20240516201751_add fk.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Migrations\\20240516201751_add fk.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\Migrations\\20240516201751_add fk.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Migrations\\20240516201751_add fk.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Repo\\Migrations\\20240516201751_add fk.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T20:17:51.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AttendanceService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\AttendanceService.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\Service\\AttendanceService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\AttendanceService.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Bloc\\Service\\AttendanceService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T18:50:58.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AttendanceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Repo\\AttendanceRepository.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\Repo\\AttendanceRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Repo\\AttendanceRepository.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Repo\\Repo\\AttendanceRepository.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAqwBsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T18:48:38.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Attendance.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Attendance.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Model\\Attendance.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Attendance.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Model\\Model\\Attendance.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T19:18:48.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Employee.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Model\\Employee.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Employee.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Model\\Model\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T17:05:16.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Leave.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Leave.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Model\\Leave.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Leave.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Model\\Model\\Leave.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T18:37:37.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LeaveService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\LeaveService.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\Service\\LeaveService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\LeaveService.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Bloc\\Service\\LeaveService.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAqwB0AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T19:02:43.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LeaveRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Repo\\LeaveRepository.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\Repo\\LeaveRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Repo\\LeaveRepository.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Repo\\Repo\\LeaveRepository.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T19:11:26.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AttendanceDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Dto\\AttendanceDto.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Dto\\AttendanceDto.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Dto\\AttendanceDto.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Model\\Dto\\AttendanceDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T18:38:28.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LeaveCreateProfile.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Profiles\\LeaveCreateProfile.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Profiles\\LeaveCreateProfile.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Profiles\\LeaveCreateProfile.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Model\\Profiles\\LeaveCreateProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T19:47:06.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AttendancePostProfile.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Profiles\\AttendancePostProfile.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Profiles\\AttendancePostProfile.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Profiles\\AttendancePostProfile.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Model\\Profiles\\AttendancePostProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T18:39:44.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IAttendanceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\IRepo\\IAttendanceRepository.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\IRepo\\IAttendanceRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\IRepo\\IAttendanceRepository.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Repo\\IRepo\\IAttendanceRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T19:18:16.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\IService\\IEmployeeService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\IEmployeeService.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Bloc\\IService\\IEmployeeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T18:50:08.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IEmailsender.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\IEmailsender.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\IService\\IEmailsender.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\IEmailsender.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Bloc\\IService\\IEmailsender.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T18:50:02.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RegInfo_AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Profiles\\RegInfo_AppUser.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Profiles\\RegInfo_AppUser.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Profiles\\RegInfo_AppUser.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Model\\Profiles\\RegInfo_AppUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T18:41:48.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "EmployeeGet.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Profiles\\EmployeeGet.cs",
               "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Profiles\\EmployeeGet.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Profiles\\EmployeeGet.cs",
               "RelativeToolTip": "XcelTech.HRMS.Model\\Profiles\\EmployeeGet.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBUAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T06:33:14.862Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-16T18:41:32.92Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 28,
               "Title": "EmployeeGetDto.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Dto\\EmployeeGetDto.cs",
               "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Dto\\EmployeeGetDto.cs",
@@ -413,37 +615,11 @@
               "RelativeToolTip": "XcelTech.HRMS.Model\\Dto\\EmployeeGetDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T06:30:59.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-12T06:30:59.494Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Employee.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Model\\Employee.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Employee.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Model\\Model\\Employee.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAA4wBwAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T12:32:43.631Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DepartmentController.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Controllers\\EmployeeController\\DepartmentController.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\Controllers\\EmployeeController\\DepartmentController.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Controllers\\EmployeeController\\DepartmentController.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Api\\Controllers\\EmployeeController\\DepartmentController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwCEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T13:35:59.21Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 29,
               "Title": "AccountRegister.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Repo\\AccountRegister.cs",
               "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\Repo\\AccountRegister.cs",
@@ -455,43 +631,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "DepartmentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Repo\\DepartmentRepository.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\Repo\\DepartmentRepository.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Repo\\DepartmentRepository.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Repo\\Repo\\DepartmentRepository.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAAwC0AAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T14:11:39.497Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Controllers\\AccountController\\AccountController.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\Controllers\\AccountController\\AccountController.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Controllers\\AccountController\\AccountController.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Api\\Controllers\\AccountController\\AccountController.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAYwDMAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T20:45:26.371Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "RegInfo_AppUser.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Profiles\\RegInfo_AppUser.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Profiles\\RegInfo_AppUser.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Profiles\\RegInfo_AppUser.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Model\\Profiles\\RegInfo_AppUser.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T10:42:05.049Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 30,
               "Title": "UserProfile.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Profiles\\UserProfile.cs",
               "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Profiles\\UserProfile.cs",
@@ -503,7 +643,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 31,
               "Title": "IRegisterService.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\IRegisterService.cs",
               "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\IService\\IRegisterService.cs",
@@ -515,7 +655,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 32,
               "Title": "ITokenService.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\ITokenService.cs",
               "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\IService\\ITokenService.cs",
@@ -527,7 +667,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 33,
               "Title": "FileHandleService.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\FileHandleService.cs",
               "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\Service\\FileHandleService.cs",
@@ -539,7 +679,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 34,
               "Title": "IFilehandleService.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\IFilehandleService.cs",
               "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\IService\\IFilehandleService.cs",
@@ -551,7 +691,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 35,
               "Title": "RoleController.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Controllers\\AccountController\\RoleController.cs",
               "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\Controllers\\AccountController\\RoleController.cs",
@@ -563,19 +703,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ProfileInfoDto.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Dto\\ProfileInfoDto.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Dto\\ProfileInfoDto.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Dto\\ProfileInfoDto.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Model\\Dto\\ProfileInfoDto.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAYwBAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T17:33:48.616Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 36,
               "Title": "NewUserDto.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Dto\\NewUserDto.cs",
               "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Dto\\NewUserDto.cs",
@@ -587,19 +715,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "DepartmentService.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\DepartmentService.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\Service\\DepartmentService.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\DepartmentService.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Bloc\\Service\\DepartmentService.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACEAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T14:03:20.889Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 37,
               "Title": "EmailSender.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\EmailSender.cs",
               "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\Service\\EmailSender.cs",
@@ -611,7 +727,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 38,
               "Title": "LoginService.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\LoginService.cs",
               "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\Service\\LoginService.cs",
@@ -623,19 +739,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\TokenService.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\Service\\TokenService.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\TokenService.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Bloc\\Service\\TokenService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T21:06:41.629Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 39,
               "Title": "ILoginService.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\ILoginService.cs",
               "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\IService\\ILoginService.cs",
@@ -647,31 +751,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "IEmailsender.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\IEmailsender.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\IService\\IEmailsender.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\IEmailsender.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Bloc\\IService\\IEmailsender.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T14:44:47.338Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "IDepartmentService.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\IDepartmentService.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\IService\\IDepartmentService.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\IDepartmentService.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Bloc\\IService\\IDepartmentService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T14:02:55.721Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 40,
               "Title": "UserInfoValidator.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Validations\\UserInfoValidator.cs",
               "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\Validations\\UserInfoValidator.cs",
@@ -683,7 +763,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 41,
               "Title": "DepartmentValidator.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Validations\\DepartmentValidator.cs",
               "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\Validations\\DepartmentValidator.cs",
@@ -695,31 +775,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "IDepartmentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\IRepo\\IDepartmentRepository.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\IRepo\\IDepartmentRepository.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\IRepo\\IDepartmentRepository.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Repo\\IRepo\\IDepartmentRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T14:10:21.322Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "IAccountRegister.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\IRepo\\IAccountRegister.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\IRepo\\IAccountRegister.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\IRepo\\IAccountRegister.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Repo\\IRepo\\IAccountRegister.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAcwBUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T13:12:42.09Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 42,
               "Title": "docker-compose.override.yml",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\docker-compose.override.yml",
               "RelativeDocumentMoniker": "docker-compose.override.yml",
@@ -731,31 +787,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "MigrationExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Extensions\\MigrationExtensions.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\Extensions\\MigrationExtensions.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Extensions\\MigrationExtensions.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Api\\Extensions\\MigrationExtensions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T17:12:39.07Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "Department.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Department.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Model\\Department.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Department.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Model\\Model\\Department.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T13:11:51.87Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 43,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Api\\appsettings.Development.json",
               "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\appsettings.Development.json",
@@ -767,19 +799,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "IEmployeeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\IRepo\\IEmployeeRepository.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\IRepo\\IEmployeeRepository.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\IRepo\\IEmployeeRepository.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Repo\\IRepo\\IEmployeeRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T02:32:52.807Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 44,
               "Title": "ConfigureIdentityModel.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\ConfigureIdentityModel.cs",
               "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\ConfigureIdentityModel.cs",
@@ -791,7 +811,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 45,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\Controllers\\WeatherForecastController.cs",
@@ -803,19 +823,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "XcelTech.HRMS.Api.csproj",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj",
-              "RelativeToolTip": "XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-24T13:46:09.662Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "EmailRegistrationModel.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Dto\\EmailRegistrationModel.cs",
               "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Dto\\EmailRegistrationModel.cs",
@@ -827,7 +835,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "XcelTech.HRMS.Bloc.csproj",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj",
               "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj",
@@ -839,7 +847,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Class1.cs",
               "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Model\\Class1.cs",
@@ -851,7 +859,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "Training.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Training.cs",
               "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Model\\Training.cs",
@@ -863,7 +871,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "Recruitment.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Recruitment.cs",
               "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Model\\Recruitment.cs",
@@ -875,7 +883,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Dockerfile",
               "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\Dockerfile",
@@ -887,7 +895,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Api\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\WeatherForecast.cs",
@@ -899,31 +907,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "Leave.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Leave.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Model\\Leave.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Leave.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Model\\Model\\Leave.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T23:46:59.866Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "AppUser.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\AppUser.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Model\\AppUser.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\AppUser.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Model\\Model\\AppUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T10:42:02.989Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 54,
               "Title": "DtoRegister.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Dto\\DtoRegister.cs",
               "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Dto\\DtoRegister.cs",
@@ -935,7 +919,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 55,
               "Title": "DtoToLogin.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Dto\\DtoToLogin.cs",
               "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Dto\\DtoToLogin.cs",
@@ -947,7 +931,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 53,
               "Title": "XcelTech.HRMS.Repo.csproj",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj",
               "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj",
@@ -959,7 +943,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 56,
               "Title": "Microsoft.VisualStudio.Docker.Compose.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
@@ -971,19 +955,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "Attendance.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Attendance.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Model\\Attendance.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Attendance.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Model\\Model\\Attendance.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T06:52:20.583Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 57,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Class1.cs",
               "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\Class1.cs",
@@ -995,7 +967,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 58,
               "Title": "Payroll.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Payroll.cs",
               "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Model\\Payroll.cs",
@@ -1007,7 +979,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 59,
               "Title": "XcelTech.HRMS.Model.csproj",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj",
               "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj",

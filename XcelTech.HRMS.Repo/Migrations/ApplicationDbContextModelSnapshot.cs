@@ -50,19 +50,19 @@ namespace XcelTech.HRMS.Repo.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "00f28f5e-29fc-4f62-b0b8-5a573759a80d",
+                            Id = "b89b12e1-f4b9-42d3-b6e8-0bb5c0c1d21f",
                             Name = "admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "1ed85390-3ebc-4ce1-b338-f4bac6ca412a",
+                            Id = "656a0d92-4282-4d19-beb7-9ee97f584c0f",
                             Name = "employee",
                             NormalizedName = "EMPLOYEE"
                         },
                         new
                         {
-                            Id = "e27cf912-2b97-4cce-a56d-25e5a6aa30d0",
+                            Id = "ca68b4cb-74cd-43d4-9f74-3f26be2e2726",
                             Name = "hr",
                             NormalizedName = "HR"
                         });
@@ -191,15 +191,12 @@ namespace XcelTech.HRMS.Repo.Migrations
                     b.Property<DateOnly>("Date")
                         .HasColumnType("date");
 
-                    b.Property<int>("EmployeeID")
-                        .HasColumnType("integer");
-
                     b.Property<int>("EmployeeId")
                         .HasColumnType("integer");
 
                     b.HasKey("AttendanceId");
 
-                    b.HasIndex("EmployeeID");
+                    b.HasIndex("EmployeeId");
 
                     b.ToTable("Attendances");
                 });
@@ -368,12 +365,16 @@ namespace XcelTech.HRMS.Repo.Migrations
                     b.Property<DateOnly>("EndDate")
                         .HasColumnType("date");
 
-                    b.Property<string>("LeaveReasonType")
+                    b.Property<string>("LeaveType")
                         .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<DateOnly>("StartDate")
                         .HasColumnType("date");
+
+                    b.Property<string>("status")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.HasKey("LeaveId");
 
@@ -579,13 +580,13 @@ namespace XcelTech.HRMS.Repo.Migrations
 
             modelBuilder.Entity("XcelTech.HRMS.Model.Attendance", b =>
                 {
-                    b.HasOne("XcelTech.HRMS.Model.Model.Employee", "Employee")
+                    b.HasOne("XcelTech.HRMS.Model.Model.Employee", "employee")
                         .WithMany()
-                        .HasForeignKey("EmployeeID")
+                        .HasForeignKey("EmployeeId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Employee");
+                    b.Navigation("employee");
                 });
 
             modelBuilder.Entity("XcelTech.HRMS.Model.Model.Employee", b =>
