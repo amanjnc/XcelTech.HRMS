@@ -90,5 +90,15 @@ namespace XcelTech.HRMS.Api.Controllers
                 return StatusCode(500, ex.Message);
             }
         }
+
+        [HttpDelete("delateEmployeeUserByEmail")]
+        public async Task<IActionResult> deleteEmployeeUserByEmail(string Email)
+        {
+
+
+        }
+
+
+
     }
 }

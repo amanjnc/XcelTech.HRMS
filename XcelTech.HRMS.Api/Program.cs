@@ -74,14 +74,13 @@ builder.Services.AddCors(options =>
 });
 
 builder.Services.AddAuthorization(options =>
-   {
-       options.AddPolicy("ManageDepartment", policy =>
-       policy.RequireClaim("Permission", "ManageDepartment"));
+{
+    options.AddPolicy("ManageDepartment", policy =>
+        policy.RequireRole("manager"));
 
-       options.AddPolicy("ViewDepartment", policy =>
-       policy.RequireClaim("Permission", "ViewDepartment"));
-   });
-
+    options.AddPolicy("ViewDepartment", policy =>
+        policy.RequireRole( "manager", "employee"));
+});
 
 var app = builder.Build();
 

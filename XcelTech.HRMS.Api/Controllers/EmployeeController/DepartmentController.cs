@@ -35,8 +35,8 @@ namespace XcelTech.HRMS.Api.Controllers.EmployeeController
 
         }
 
-        //[Authorize(Policy = "ViewDepartment")]
-        [Authorize(Roles ="admin")]
+        [Authorize(Policy = "ManageDepartment")]
+        //[Authorize(Roles ="admin")]
         [HttpGet("GetAllDepartment")]
         public async Task<ActionResult<List<Department>>> getAllDepartment()
         {

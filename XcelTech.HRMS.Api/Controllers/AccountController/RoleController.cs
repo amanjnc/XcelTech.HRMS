@@ -107,6 +107,20 @@ namespace XcelTech.HRMS.Api.Controllers
         }
 
 
+        [HttpDelete("DeleteRole")]
+        public async Task<IActionResult> DeleteRole(string roleName)
+        {
+            var role = await _roleManager.FindByNameAsync(roleName);
+            await _roleManager.DeleteAsync(role);
+            return Ok("Role deleted successfully.");
+
+
+
+
+        }
+
+
+
 
     }
 }
