@@ -3,7 +3,6 @@ using FluentValidation;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
 using System.IdentityModel.Tokens.Jwt;
 using XcelTech.HRMS.Bloc.IService;
 using XcelTech.HRMS.Model.Dto;
@@ -25,7 +24,7 @@ namespace XcelTech.HRMS.Bloc.Service
         private readonly ITokenService _tokenService;
 
 
-        public RegisterService(IDepartmentRepository departmentRepository, IEmployeeRepository employeeRepository,IAccountRegister accountRegister, IMapper mapper, IValidator<ProfileInfoDto> validator,IValidator<DtoRegister> validator2, ITokenService tokenService, IWebHostEnvironment webHostEnvironment)
+        public RegisterService(IDepartmentRepository departmentRepository, IEmployeeRepository employeeRepository, IAccountRegister accountRegister, IMapper mapper, IValidator<ProfileInfoDto> validator, IValidator<DtoRegister> validator2, ITokenService tokenService, IWebHostEnvironment webHostEnvironment)
         {
             _employeeRepository = employeeRepository;
             _accountRegister = accountRegister;
@@ -66,21 +65,26 @@ namespace XcelTech.HRMS.Bloc.Service
 
                     if (roleResult.Succeeded)
                     {
-                        var tokenn = _tokenService.CreateToken(appUser);
+
 
                         //converting to strigin, i know so dummmmmmb
-                        var tokenHandler = new JwtSecurityTokenHandler();
-                        var token = tokenHandler.WriteToken(tokenn);
+                        //var tokenHandler = new JwtSecurityTokenHandler();
+                        //var token = tokenHandler.CreateToken(tokennDescriptor);
+                        //var token = tokenHandler.WriteToken(tokenn);
+
+                        await _employeeRepository.addEmployyetoTable(employee);
+
+                        Console.WriteLine(appUser.UserName);
+                        Console.WriteLine(appUser.Email);
 
                         var newUserDto = new NewUserDto
                         {
                             EmployeeName = appUser.UserName,
                             EmployeeEmail = appUser.Email,
-                            Token = token,
+                            Token = await _tokenService.CreateToken(appUser),
                             RoleName = roleName
                         };
 
-                        await _employeeRepository.addEmployyetoTable(employee);
 
                         return new OkObjectResult(newUserDto);
                     }
@@ -108,7 +112,7 @@ namespace XcelTech.HRMS.Bloc.Service
         {
             try
             {
-                
+
                 var fluentValidationResult = await _validator.ValidateAsync(profileInfoDto);
                 if (!fluentValidationResult.IsValid)
                 {
@@ -126,7 +130,7 @@ namespace XcelTech.HRMS.Bloc.Service
 
                 var departmentId = await _departmentRepository.getDepartmentByName(profileInfoDto.DepartmentName);
                 if (departmentId == null) return new NotFoundObjectResult("Department not found");
-                
+
                 var all = _webHostEnvironment.WebRootPath + "\\Images\\" + profileInfoDto.EmployeeEmail;
                 employee.EmployeeImage = Path.Combine(all, "EmployeeImage.jpg");
                 employee.EducationCredentials = Path.Combine(all, "EducationCredentials.pdf");
@@ -134,7 +138,7 @@ namespace XcelTech.HRMS.Bloc.Service
 
                 employee.DepartmentId = departmentId.Value;
 
-                
+
                 var createdUser = await _accountRegister.createUser(appUser, profileInfoDto.Password, employee);
 
                 if (createdUser.Succeeded)
@@ -146,15 +150,15 @@ namespace XcelTech.HRMS.Bloc.Service
 
                     if (roleResult.Succeeded)
                     {
-                        var token = _tokenService.CreateToken(appUser);
-                        var tokenHandler = new JwtSecurityTokenHandler();
-                        var tokenString = tokenHandler.WriteToken(token);
+
+                        //var tokenHandler = new JwtSecurityTokenHandler();
+                        //var tokenString = tokenHandler.WriteToken(token);
 
                         var newUserDto = new NewUserDto
                         {
                             EmployeeName = appUser.UserName,
                             EmployeeEmail = appUser.Email,
-                            Token = tokenString,
+                            Token = await _tokenService.CreateToken(appUser),
                             RoleName = roleName,
                             departmentName = profileInfoDto.DepartmentName
 

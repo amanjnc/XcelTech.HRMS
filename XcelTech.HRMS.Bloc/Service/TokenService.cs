@@ -1,9 +1,9 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,38 +16,47 @@ namespace XcelTech.HRMS.Bloc
     {
         private readonly SymmetricSecurityKey _key;
         private readonly IConfiguration _config;
+        private readonly UserManager<AppUser> _userManager;
 
-        public TokenService(IConfiguration config)
+        public TokenService(IConfiguration config, UserManager<AppUser> userManager)
         {
             _config = config;
-            //encodin the seuritysingin key amanjnc, toughshit fron appsetting.json
+            _userManager = userManager;
             _key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["JWT:SigningKey"]));
         }
 
-        public JwtSecurityToken CreateToken(AppUser appUser)
+        public async Task<string> CreateToken(AppUser appUser)
         {
             var claims = new List<Claim>
             {
                 new Claim(JwtRegisteredClaimNames.GivenName, appUser.UserName),
-                new Claim(JwtRegisteredClaimNames.Email, appUser.Email),
-                new Claim("userId", appUser.Id)
-
+                new Claim(JwtRegisteredClaimNames.Email, appUser.Email)
             };
+
+            var userRoles = await _userManager.GetRolesAsync(appUser);
+            //just assuming  user having multiple roles, currntly i dont.
+            foreach (var userRole in userRoles)
+            {
+                Console.WriteLine(userRole);
+                claims.Add(new Claim(ClaimTypes.Role, userRole));
+            }
+
+
 
             var creds = new SigningCredentials(_key, SecurityAlgorithms.HmacSha512Signature);
 
-            var token = new JwtSecurityToken(
-                issuer: _config["JWT:Issuer"],
-                audience: _config["JWT:Audience"],
-                claims: claims,
-                expires: DateTime.UtcNow.AddHours(48),
-                signingCredentials: creds
-            );
+            var tokenDescriptor = new SecurityTokenDescriptor
+            {
+                Subject = new ClaimsIdentity(claims),
+                Expires = DateTime.UtcNow.AddDays(7),
+                SigningCredentials = creds,
+                Issuer = _config["JWT:Issuer"],
+                Audience = _config["JWT:Audience"]
+            };
 
-            return token;
-            //to convert to string reprsentation
-            //var tokenHandler = new JwtSecurityTokenHandler();
-            //return tokenHandler.WriteToken(token);
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var token = tokenHandler.CreateToken(tokenDescriptor);
+            return tokenHandler.WriteToken(token);
         }
 
         public ClaimsPrincipal ValidateToken(string token)

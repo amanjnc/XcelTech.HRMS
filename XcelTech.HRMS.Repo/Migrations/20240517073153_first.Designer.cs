@@ -12,8 +12,8 @@ using XcelTech.HRMS.Repo;
 namespace XcelTech.HRMS.Repo.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240516160457_one")]
-    partial class one
+    [Migration("20240517073153_first")]
+    partial class first
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -53,19 +53,19 @@ namespace XcelTech.HRMS.Repo.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "fd6c4945-4a42-44d5-9924-2c07df9d78e9",
+                            Id = "96feb066-2cce-4ba8-8fb3-2a34c1c73f56",
                             Name = "admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "c7364df7-806b-405e-9c04-6595e07c7e91",
+                            Id = "0dace14b-39e6-4ef0-8da5-2818f46598b9",
                             Name = "employee",
                             NormalizedName = "EMPLOYEE"
                         },
                         new
                         {
-                            Id = "c32aa8ba-c8f8-4be5-adad-1cbcd4bac8a8",
+                            Id = "d90a75db-fd28-4422-b988-49f54d3b788d",
                             Name = "hr",
                             NormalizedName = "HR"
                         });
@@ -194,15 +194,12 @@ namespace XcelTech.HRMS.Repo.Migrations
                     b.Property<DateOnly>("Date")
                         .HasColumnType("date");
 
-                    b.Property<int>("EmployeeID")
-                        .HasColumnType("integer");
-
                     b.Property<int>("EmployeeId")
                         .HasColumnType("integer");
 
                     b.HasKey("AttendanceId");
 
-                    b.HasIndex("EmployeeID");
+                    b.HasIndex("EmployeeId");
 
                     b.ToTable("Attendances");
                 });
@@ -586,13 +583,13 @@ namespace XcelTech.HRMS.Repo.Migrations
 
             modelBuilder.Entity("XcelTech.HRMS.Model.Attendance", b =>
                 {
-                    b.HasOne("XcelTech.HRMS.Model.Model.Employee", "Employee")
+                    b.HasOne("XcelTech.HRMS.Model.Model.Employee", "employee")
                         .WithMany()
-                        .HasForeignKey("EmployeeID")
+                        .HasForeignKey("EmployeeId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Employee");
+                    b.Navigation("employee");
                 });
 
             modelBuilder.Entity("XcelTech.HRMS.Model.Model.Employee", b =>

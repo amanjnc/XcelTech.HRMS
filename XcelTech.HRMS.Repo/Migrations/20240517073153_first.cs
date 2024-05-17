@@ -9,7 +9,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace XcelTech.HRMS.Repo.Migrations
 {
     /// <inheritdoc />
-    public partial class one : Migration
+    public partial class first : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -263,15 +263,14 @@ namespace XcelTech.HRMS.Repo.Migrations
                     Date = table.Column<DateOnly>(type: "date", nullable: false),
                     ClockInTime = table.Column<TimeOnly>(type: "time without time zone", nullable: false),
                     ClockOutTime = table.Column<TimeOnly>(type: "time without time zone", nullable: false),
-                    EmployeeId = table.Column<int>(type: "integer", nullable: false),
-                    EmployeeID = table.Column<int>(type: "integer", nullable: false)
+                    EmployeeId = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Attendances", x => x.AttendanceId);
                     table.ForeignKey(
-                        name: "FK_Attendances_Employees_EmployeeID",
-                        column: x => x.EmployeeID,
+                        name: "FK_Attendances_Employees_EmployeeId",
+                        column: x => x.EmployeeId,
                         principalTable: "Employees",
                         principalColumn: "EmployeeId",
                         onDelete: ReferentialAction.Cascade);
@@ -368,9 +367,9 @@ namespace XcelTech.HRMS.Repo.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "c32aa8ba-c8f8-4be5-adad-1cbcd4bac8a8", null, "hr", "HR" },
-                    { "c7364df7-806b-405e-9c04-6595e07c7e91", null, "employee", "EMPLOYEE" },
-                    { "fd6c4945-4a42-44d5-9924-2c07df9d78e9", null, "admin", "ADMIN" }
+                    { "0dace14b-39e6-4ef0-8da5-2818f46598b9", null, "employee", "EMPLOYEE" },
+                    { "96feb066-2cce-4ba8-8fb3-2a34c1c73f56", null, "admin", "ADMIN" },
+                    { "d90a75db-fd28-4422-b988-49f54d3b788d", null, "hr", "HR" }
                 });
 
             migrationBuilder.CreateIndex(
@@ -411,9 +410,9 @@ namespace XcelTech.HRMS.Repo.Migrations
                 unique: true);
 
             migrationBuilder.CreateIndex(
-                name: "IX_Attendances_EmployeeID",
+                name: "IX_Attendances_EmployeeId",
                 table: "Attendances",
-                column: "EmployeeID");
+                column: "EmployeeId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Employees_AppUserId",

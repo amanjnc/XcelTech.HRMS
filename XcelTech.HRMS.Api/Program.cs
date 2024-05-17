@@ -20,6 +20,7 @@ using Microsoft.OpenApi.Models;
 using System.Text;
 using XcelTech.HRMS.Bloc;
 using Microsoft.AspNetCore.Identity.UI.Services;
+using Microsoft.VisualStudio.Web.CodeGeneration.Design;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -68,10 +69,18 @@ builder.Services.AddCors(options =>
         PolicyBuilder.AllowAnyHeader();
         PolicyBuilder.AllowAnyMethod();
         PolicyBuilder.AllowCredentials();
-
     }
    );
 });
+
+builder.Services.AddAuthorization(options =>
+   {
+       options.AddPolicy("ManageDepartment", policy =>
+       policy.RequireClaim("Permission", "ManageDepartment"));
+
+       options.AddPolicy("ViewDepartment", policy =>
+       policy.RequireClaim("Permission", "ViewDepartment"));
+   });
 
 
 var app = builder.Build();

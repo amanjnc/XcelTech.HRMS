@@ -6,7 +6,7 @@ namespace XcelTech.HRMS.Bloc.IService
 {
     public interface ITokenService
     {
-        public JwtSecurityToken CreateToken(AppUser appUser);
+        public Task<string> CreateToken(AppUser appUser);
 
         ClaimsPrincipal ValidateToken(string token);
 

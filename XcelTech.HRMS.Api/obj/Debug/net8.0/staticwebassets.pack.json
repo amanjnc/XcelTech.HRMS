@@ -1,6 +1,18 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\abcd@hr.com\\EducationCredentials.pdf",
+      "PackagePath": "staticwebassets\\Images\\abcd@hr.com\\EducationCredentials.pdf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\abcd@hr.com\\EmployeeImage.jpg",
+      "PackagePath": "staticwebassets\\Images\\abcd@hr.com\\EmployeeImage.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\abcd@hr.com\\PhotoId.pdf",
+      "PackagePath": "staticwebassets\\Images\\abcd@hr.com\\PhotoId.pdf"
+    },
+    {
       "Id": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\abebe@gmail.com\\EducationCredentials.pdf",
       "PackagePath": "staticwebassets\\Images\\abebe@gmail.com\\EducationCredentials.pdf"
     },

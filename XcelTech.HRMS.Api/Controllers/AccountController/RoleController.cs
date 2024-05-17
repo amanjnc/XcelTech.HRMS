@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
 
 namespace XcelTech.HRMS.Api.Controllers
 {
@@ -31,6 +32,43 @@ namespace XcelTech.HRMS.Api.Controllers
                 return StatusCode(500, $"An error occurred: {ex.Message}");
             }
         }
+
+        [HttpPost("AssignPermissionClaim")]
+        public async Task AssignPermissionClaimToRole(string roleName, string permission)
+        {
+            var role = await _roleManager.FindByNameAsync(roleName);
+            var existingClaims = await _roleManager.GetClaimsAsync(role);
+
+            Console.WriteLine(existingClaims);
+
+            if (!existingClaims.Any(c => c.Type == "Permission" && c.Value == permission))
+            {
+                await _roleManager.AddClaimAsync(role, new Claim("Permission", permission));
+
+                var newClaims = await _roleManager.GetClaimsAsync(role);
+                Console.WriteLine(newClaims);
+
+
+                Console.WriteLine("The permission claim has been assigned to the role.");
+            }
+            else
+            {
+                Console.WriteLine("The permission claim is already assigned to the role.");
+            }
+        }
+
+        [HttpGet("getPermissionsForRole")]
+        public async Task<List<string>> GetPermissionValuesForRole(string roleName)
+        {
+            var role = await _roleManager.FindByNameAsync(roleName);
+            var claims = await _roleManager.GetClaimsAsync(role);
+
+            var permissionClaims = claims.Where(c => c.Type == "Permission").Select(c => c.Value).ToList();
+
+            return permissionClaims;
+        }
+
+
         [HttpPost("createNewRole")]
         public async Task<IActionResult> CreateRole(string roleName)
         {
