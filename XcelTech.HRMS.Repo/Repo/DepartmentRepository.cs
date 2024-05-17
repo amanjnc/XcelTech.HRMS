@@ -68,5 +68,14 @@ namespace XcelTech.HRMS.Repo.Repo
 
             return departments;
         }
+        public async Task<ActionResult<List<string>>> getAllDepartmentNames()
+        {
+            var departmentNames = await _applicationDbContext.Departments
+                .Select(d => d.DepartmentName)
+                .ToListAsync();
+
+            return departmentNames;
+        }
+
     }
 }

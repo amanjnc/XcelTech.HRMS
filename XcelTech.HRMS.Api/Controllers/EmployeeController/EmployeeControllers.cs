@@ -94,7 +94,8 @@ namespace XcelTech.HRMS.Api.Controllers
         [HttpDelete("delateEmployeeUserByEmail")]
         public async Task<IActionResult> deleteEmployeeUserByEmail(string Email)
         {
-
+             var result = await _employeeService.deleteEmployeeUserByEmail(Email);
+             return Ok(result);
 
         }
 

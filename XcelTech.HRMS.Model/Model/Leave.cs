@@ -21,7 +21,15 @@ namespace XcelTech.HRMS.Model.Model
 
         public int EmployeeId { get; set; }
        [ForeignKey("EmployeeId")]
-        public Employee employee { get; set; }
+       public Employee employee { get; set; }
+
+
+
+        //public int? LeaveTypeId { get; set; }
+        //[ForeignKey("LeaveTypeId")]
+        //public LeaveTypes? LeaveTypes { get; set; }
+
+
 
         public string status { get; set; } = "Pending";
 

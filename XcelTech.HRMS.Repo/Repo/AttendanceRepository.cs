@@ -34,5 +34,35 @@ namespace XcelTech.HRMS.Repo.Repo
         {
             throw new NotImplementedException();
         }
+
+        public async Task<IEnumerable<Attendance>> GetAttendanceByEmployeeId(int employeeId)
+        {
+            try
+            {
+              
+             return await _applicationDbContext.Attendances
+                .Where(a => a.EmployeeId == employeeId)
+                .Include(a => a.employee)
+                .ToListAsync();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"Error fetching attendance by employeeId: {ex.Message}");
+            }
+        }
+        public async Task<bool> DeleteAttendance(Attendance attendance)
+        {
+            try
+            {
+                _applicationDbContext.Attendances.Remove(attendance);
+                await _applicationDbContext.SaveChangesAsync();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"Error deleting attendance: {ex.Message}");
+            }
+        }
+
     }
 }

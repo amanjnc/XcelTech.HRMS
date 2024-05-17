@@ -14,6 +14,9 @@ namespace XcelTech.HRMS.Repo.IRepo
         Task addEmployyetoTable(Employee employee);
         Task updateEmployee(Employee employee,string email);
         public Task<List<Employee>> GetAllEmployeesAsync();
+        public Task<Employee> GetEmployeeByAppUserIdAsync(string appUserId);
+        public  Task<bool> DeleteEmployee(Employee employee);
+
 
 
     }

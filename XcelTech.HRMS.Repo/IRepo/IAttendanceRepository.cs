@@ -14,5 +14,8 @@ namespace XcelTech.HRMS.Repo.IRepo
         Task AddAttendance(Attendance attendance, string email);
 
         Task <List<AttendanceDto>> GetAllAttendances();
+        public Task<IEnumerable<Attendance>> GetAttendanceByEmployeeId(int employeeId);
+        public Task<bool> DeleteAttendance(Attendance attendance);
+
     }
 }

@@ -10,6 +10,7 @@ namespace XcelTech.HRMS.Model.Model
 {
     public class AppUser : IdentityUser
     {
+        public Employee? Employee { get; set; }
     }
 }
 

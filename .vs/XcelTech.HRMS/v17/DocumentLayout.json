@@ -3,76 +3,188 @@
   "WorkspaceRootPath": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.model\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.model\\model\\leave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\model\\leave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.repo\\repo\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|solutionrelative:xceltech.hrms.repo\\repo\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.model\\profiles\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\profiles\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.bloc\\service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|solutionrelative:xceltech.hrms.bloc\\service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.api\\controllers\\employeecontroller\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|solutionrelative:xceltech.hrms.api\\controllers\\employeecontroller\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.api\\controllers\\employeecontroller\\employeecontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|solutionrelative:xceltech.hrms.api\\controllers\\employeecontroller\\employeecontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.api\\controllers\\employeecontroller\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|solutionrelative:xceltech.hrms.api\\controllers\\employeecontroller\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.repo\\repo\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|solutionrelative:xceltech.hrms.repo\\repo\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.api\\controllers\\accountcontroller\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|solutionrelative:xceltech.hrms.api\\controllers\\accountcontroller\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.bloc\\service\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|solutionrelative:xceltech.hrms.bloc\\service\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|solutionrelative:xceltech.hrms.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.bloc\\iservice\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|solutionrelative:xceltech.hrms.bloc\\iservice\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.repo\\repo\\accountregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|solutionrelative:xceltech.hrms.repo\\repo\\accountregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.repo\\irepo\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|solutionrelative:xceltech.hrms.repo\\irepo\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.repo\\repo\\leaverepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|solutionrelative:xceltech.hrms.repo\\repo\\leaverepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.repo\\irepo\\iattendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|solutionrelative:xceltech.hrms.repo\\irepo\\iattendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Migrations\\20240517065928_fixed some bs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:XcelTech.HRMS.Repo\\Migrations\\20240517065928_fixed some bs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.repo\\repo\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|solutionrelative:xceltech.hrms.repo\\repo\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|solutionrelative:xceltech.hrms.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.model\\dto\\employeegetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\dto\\employeegetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.repo\\repo\\attendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|solutionrelative:xceltech.hrms.repo\\repo\\attendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Migrations\\20240517193129_fev_i really do hate youfdsfhjhkgj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:XcelTech.HRMS.Repo\\Migrations\\20240517193129_fev_i really do hate youfdsfhjhkgj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.model\\model\\leave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\model\\leave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.api\\controllers\\leavecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|solutionrelative:xceltech.hrms.api\\controllers\\leavecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.model\\model\\leavetypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\model\\leavetypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.model\\model\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\model\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.model\\dto\\leavedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\dto\\leavedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.repo\\migrations\\20240517190527_fev_i really do hate youfdsf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|solutionrelative:xceltech.hrms.repo\\migrations\\20240517190527_fev_i really do hate youfdsf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.bloc\\service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|solutionrelative:xceltech.hrms.bloc\\service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.repo\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|solutionrelative:xceltech.hrms.repo\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.api\\controllers\\accountcontroller\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|solutionrelative:xceltech.hrms.api\\controllers\\accountcontroller\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.api\\extensions\\migrationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|solutionrelative:xceltech.hrms.api\\extensions\\migrationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|solutionrelative:xceltech.hrms.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{12B19178-81D1-4D24-B11B-E1531581DA84}|docker-compose.dcproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{12B19178-81D1-4D24-B11B-E1531581DA84}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Migrations\\20240517184223_fev_i really do hate youf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:XcelTech.HRMS.Repo\\Migrations\\20240517184223_fev_i really do hate youf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.model\\model\\training.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\model\\training.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.model\\profiles\\leavecreateprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\profiles\\leavecreateprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.repo\\irepo\\ileaverepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|solutionrelative:xceltech.hrms.repo\\irepo\\ileaverepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.repo\\repo\\leaverepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|solutionrelative:xceltech.hrms.repo\\repo\\leaverepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|solutionrelative:xceltech.hrms.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.repo\\repo\\attendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|solutionrelative:xceltech.hrms.repo\\repo\\attendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.model\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.model\\model\\payroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\model\\payroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.model\\model\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\model\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.model\\model\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\model\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.repo\\irepo\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|solutionrelative:xceltech.hrms.repo\\irepo\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.bloc\\iservice\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|solutionrelative:xceltech.hrms.bloc\\iservice\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.bloc\\service\\attendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|solutionrelative:xceltech.hrms.bloc\\service\\attendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.model\\model\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\model\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.model\\model\\recruitment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\model\\recruitment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.repo\\repo\\accountregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|solutionrelative:xceltech.hrms.repo\\repo\\accountregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.model\\profiles\\attendancepostprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\profiles\\attendancepostprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.bloc\\service\\registerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|solutionrelative:xceltech.hrms.bloc\\service\\registerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.model\\dto\\emailregistrationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\dto\\emailregistrationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.bloc\\validations\\userinfovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|solutionrelative:xceltech.hrms.bloc\\validations\\userinfovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.bloc\\iservice\\iregisterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|solutionrelative:xceltech.hrms.bloc\\iservice\\iregisterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.bloc\\service\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|solutionrelative:xceltech.hrms.bloc\\service\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.bloc\\service\\registerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|solutionrelative:xceltech.hrms.bloc\\service\\registerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.model\\profiles\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\profiles\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.bloc\\iservice\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -98,10 +210,6 @@
       "RelativeMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|solutionrelative:xceltech.hrms.api\\extensions\\identityextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.api\\extensions\\migrationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|solutionrelative:xceltech.hrms.api\\extensions\\migrationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.api\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|solutionrelative:xceltech.hrms.api\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -110,48 +218,12 @@
       "RelativeMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|solutionrelative:xceltech.hrms.api\\controllers\\accountcontroller\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.bloc\\iservice\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|solutionrelative:xceltech.hrms.bloc\\iservice\\idepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.bloc\\service\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|solutionrelative:xceltech.hrms.bloc\\service\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.repo\\irepo\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|solutionrelative:xceltech.hrms.repo\\irepo\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.model\\model\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\model\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.bloc\\service\\leaveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|solutionrelative:xceltech.hrms.bloc\\service\\leaveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.bloc\\service\\attendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|solutionrelative:xceltech.hrms.bloc\\service\\attendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.model\\dto\\attendancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\dto\\attendancedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.model\\profiles\\attendancepostprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\profiles\\attendancepostprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.model\\profiles\\leavecreateprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\profiles\\leavecreateprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.repo\\irepo\\iattendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|solutionrelative:xceltech.hrms.repo\\irepo\\iattendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.bloc\\iservice\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|solutionrelative:xceltech.hrms.bloc\\iservice\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.bloc\\iservice\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -164,14 +236,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.model\\profiles\\employeeget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\profiles\\employeeget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.model\\dto\\employeegetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\dto\\employeegetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.bloc\\iservice\\iregisterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|solutionrelative:xceltech.hrms.bloc\\iservice\\iregisterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.bloc\\service\\filehandleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -192,10 +256,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.bloc\\iservice\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|solutionrelative:xceltech.hrms.bloc\\iservice\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.bloc\\validations\\userinfovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|solutionrelative:xceltech.hrms.bloc\\validations\\userinfovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.bloc\\validations\\departmentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -220,22 +280,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.bloc\\xceltech.hrms.bloc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{893B7898-3342-43F4-94F0-1054208EA8FE}|XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj|solutionrelative:xceltech.hrms.bloc\\xceltech.hrms.bloc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.model\\dto\\emailregistrationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\dto\\emailregistrationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.model\\model\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\model\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.model\\model\\training.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\model\\training.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.model\\model\\recruitment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\model\\recruitment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17C871AF-E862-4A03-B23E-1207BFC35073}|XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -265,16 +309,8 @@
       "RelativeMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|solutionrelative:xceltech.hrms.repo\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.model\\model\\payroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\model\\payroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.model\\xceltech.hrms.model.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{E8616F2C-92CC-4E10-A52B-E96EE6320083}|XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj|solutionrelative:xceltech.hrms.model\\xceltech.hrms.model.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|c:\\users\\yeabb\\music\\c#\\xcelllllll\\xceltech.hrms\\xceltech.hrms.repo\\migrations\\20240517073153_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F1361CF-BF73-4B15-AB0B-D38EAD184528}|XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj|solutionrelative:xceltech.hrms.repo\\migrations\\20240517073153_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -284,30 +320,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RoleController.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Controllers\\AccountController\\RoleController.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\Controllers\\AccountController\\RoleController.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Controllers\\AccountController\\RoleController.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Api\\Controllers\\AccountController\\RoleController.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAgwEgAAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T17:28:56.685Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "DepartmentController.cs",
               "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Controllers\\EmployeeController\\DepartmentController.cs",
               "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\Controllers\\EmployeeController\\DepartmentController.cs",
               "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Controllers\\EmployeeController\\DepartmentController.cs",
               "RelativeToolTip": "XcelTech.HRMS.Api\\Controllers\\EmployeeController\\DepartmentController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwBgAAABQAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAmwBYAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-16T22:11:45.266Z",
               "EditorCaption": ""
@@ -315,181 +338,181 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "EmployeeControllers.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Controllers\\EmployeeController\\EmployeeControllers.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\Controllers\\EmployeeController\\EmployeeControllers.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Controllers\\EmployeeController\\EmployeeControllers.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Api\\Controllers\\EmployeeController\\EmployeeControllers.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAQwCYAAAARAAAA",
+              "Title": "IDepartmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\IRepo\\IDepartmentRepository.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\IRepo\\IDepartmentRepository.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\IRepo\\IDepartmentRepository.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Repo\\IRepo\\IDepartmentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBEAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T09:26:36.584Z",
+              "WhenOpened": "2024-05-03T14:10:21.322Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LeaveRepository.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Repo\\LeaveRepository.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\Repo\\LeaveRepository.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Repo\\LeaveRepository.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Repo\\Repo\\LeaveRepository.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "DepartmentService.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\DepartmentService.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\Service\\DepartmentService.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\DepartmentService.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Bloc\\Service\\DepartmentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T19:11:26.137Z",
+              "WhenOpened": "2024-05-16T20:30:26.505Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "EmployeeService.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\EmployeeService.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\Service\\EmployeeService.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\EmployeeService.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Bloc\\Service\\EmployeeService.cs",
-              "ViewState": "AQIAAFcAAAAAAAAAAAAowHUAAAAAAAAA",
+              "Title": "IDepartmentService.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\IDepartmentService.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\IService\\IDepartmentService.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\IDepartmentService.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Bloc\\IService\\IDepartmentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T19:17:01.522Z",
+              "WhenOpened": "2024-05-16T20:34:26.485Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "DepartmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Repo\\DepartmentRepository.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\Repo\\DepartmentRepository.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Repo\\DepartmentRepository.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Repo\\Repo\\DepartmentRepository.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwB0AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T13:52:12.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "EmployeeRepository.cs",
               "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Repo\\EmployeeRepository.cs",
               "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\Repo\\EmployeeRepository.cs",
               "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Repo\\EmployeeRepository.cs",
               "RelativeToolTip": "XcelTech.HRMS.Repo\\Repo\\EmployeeRepository.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAmwF0AAAAAAAAA",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAuwG0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-16T19:20:26.581Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Employee.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Model\\Employee.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Employee.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Model\\Model\\Employee.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAowDsAAAAAAAAA",
+              "DocumentIndex": 6,
+              "Title": "IAttendanceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\IRepo\\IAttendanceRepository.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\IRepo\\IAttendanceRepository.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\IRepo\\IAttendanceRepository.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Repo\\IRepo\\IAttendanceRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T17:05:16.349Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Program.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Program.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Api\\Program.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAAAE4AAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T19:30:36.737Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserProfile.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Profiles\\UserProfile.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Profiles\\UserProfile.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Profiles\\UserProfile.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Model\\Profiles\\UserProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T12:55:28.691Z",
+              "WhenOpened": "2024-05-16T19:18:16.25Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "EmployeeControllers.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Controllers\\EmployeeController\\EmployeeControllers.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\Controllers\\EmployeeController\\EmployeeControllers.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Controllers\\EmployeeController\\EmployeeControllers.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Api\\Controllers\\EmployeeController\\EmployeeControllers.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAgwEwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T09:26:36.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmployeeGetDto.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Dto\\EmployeeGetDto.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Dto\\EmployeeGetDto.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Dto\\EmployeeGetDto.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Model\\Dto\\EmployeeGetDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T06:30:59.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20240517193129_fev_i really do hate youfdsfhjhkgj.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Migrations\\20240517193129_fev_i really do hate youfdsfhjhkgj.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\Migrations\\20240517193129_fev_i really do hate youfdsfhjhkgj.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Migrations\\20240517193129_fev_i really do hate youfdsfhjhkgj.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Repo\\Migrations\\20240517193129_fev_i really do hate youfdsfhjhkgj.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T19:31:30.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LeaveController.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Controllers\\LeaveController.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\Controllers\\LeaveController.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Controllers\\LeaveController.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Api\\Controllers\\LeaveController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAswCcAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T17:57:58.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Leave.cs",
               "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Leave.cs",
               "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Model\\Leave.cs",
               "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Leave.cs",
               "RelativeToolTip": "XcelTech.HRMS.Model\\Model\\Leave.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBUAAAAAAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBEAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-16T18:37:37.597Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AttendanceRepository.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Repo\\AttendanceRepository.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\Repo\\AttendanceRepository.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Repo\\AttendanceRepository.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Repo\\Repo\\AttendanceRepository.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAqwCYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T18:48:38.911Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AccountRegister.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Repo\\AccountRegister.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\Repo\\AccountRegister.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Repo\\AccountRegister.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Repo\\Repo\\AccountRegister.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAQwCMAAABkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T18:52:55.2Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "20240517065928_fixed some bs.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Migrations\\20240517065928_fixed some bs.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\Migrations\\20240517065928_fixed some bs.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Migrations\\20240517065928_fixed some bs.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Repo\\Migrations\\20240517065928_fixed some bs.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAwwAwAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T06:59:29.258Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\ApplicationDbContext.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Repo\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAYwBsAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T06:55:35.315Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\appsettings.json",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\appsettings.json",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\appsettings.json",
-              "RelativeToolTip": "XcelTech.HRMS.Api\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-17T06:56:09.82Z",
+              "Title": "LeaveTypes.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\LeaveTypes.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Model\\LeaveTypes.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\LeaveTypes.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Model\\Model\\LeaveTypes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T17:54:15.808Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 13,
+              "Title": "Attendance.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Attendance.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Model\\Attendance.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Attendance.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Model\\Model\\Attendance.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T19:18:48.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "docker-compose.yml",
               "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\docker-compose.yml",
               "RelativeDocumentMoniker": "docker-compose.yml",
               "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\docker-compose.yml",
               "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
               "WhenOpened": "2024-05-17T06:55:20.979Z",
               "EditorCaption": ""
@@ -497,234 +520,149 @@
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "ITokenService.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\ITokenService.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\IService\\ITokenService.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\ITokenService.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Bloc\\IService\\ITokenService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAACAAAA",
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Controllers\\AccountController\\RoleController.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\Controllers\\AccountController\\RoleController.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Controllers\\AccountController\\RoleController.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Api\\Controllers\\AccountController\\RoleController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAiwBYAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T10:05:04.68Z"
+              "WhenOpened": "2024-05-11T17:28:56.685Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\TokenService.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\Service\\TokenService.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\TokenService.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Bloc\\Service\\TokenService.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAAAFgAAAABAAAA",
+              "DocumentIndex": 27,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Program.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Program.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Api\\Program.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAwGEAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T07:06:27.968Z"
+              "WhenOpened": "2024-05-16T19:30:36.737Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "RegisterService.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\RegisterService.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\Service\\RegisterService.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\RegisterService.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Bloc\\Service\\RegisterService.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAAANYAAAABAAAA",
+              "DocumentIndex": 15,
+              "Title": "20240517190527_fev_i really do hate youfdsf.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Migrations\\20240517190527_fev_i really do hate youfdsf.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\Migrations\\20240517190527_fev_i really do hate youfdsf.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Migrations\\20240517190527_fev_i really do hate youfdsf.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Repo\\Migrations\\20240517190527_fev_i really do hate youfdsf.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T07:10:33.794Z"
+              "WhenOpened": "2024-05-17T19:05:28.413Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "LoginService.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\LoginService.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\Service\\LoginService.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\LoginService.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Bloc\\Service\\LoginService.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAqwEoAAAABAAAA",
+              "DocumentIndex": 14,
+              "Title": "LeaveDto.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Dto\\LeaveDto.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Dto\\LeaveDto.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Dto\\LeaveDto.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Model\\Dto\\LeaveDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T21:24:28.326Z"
+              "WhenOpened": "2024-05-17T19:13:50.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ILeaveRepository.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\IRepo\\ILeaveRepository.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\IRepo\\ILeaveRepository.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\IRepo\\ILeaveRepository.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Repo\\IRepo\\ILeaveRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T15:33:59.457Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "ServiceRegistrations.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Extensions\\ServiceRegistrations.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\Extensions\\ServiceRegistrations.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Extensions\\ServiceRegistrations.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Api\\Extensions\\ServiceRegistrations.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T21:58:09.639Z"
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\appsettings.json",
+              "RelativeToolTip": "XcelTech.HRMS.Api\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-17T06:56:09.82Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
-              "Title": "20240517073153_first.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Migrations\\20240517073153_first.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\Migrations\\20240517073153_first.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Migrations\\20240517073153_first.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Repo\\Migrations\\20240517073153_first.cs",
-              "ViewState": "AQIAALQAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 16,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\Service\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\EmployeeService.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Bloc\\Service\\EmployeeService.cs",
+              "ViewState": "AQIAAKIAAAAAAAAAAAAAALkAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T07:31:53.691Z"
+              "WhenOpened": "2024-05-16T19:17:01.522Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "20240517071954_four.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Migrations\\20240517071954_four.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Migrations\\20240517071954_four.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Migrations\\20240517071954_four.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Migrations\\20240517071954_four.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 17,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\ApplicationDbContext.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Repo\\ApplicationDbContext.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAA/wCEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T07:19:54.877Z"
+              "WhenOpened": "2024-05-17T06:55:35.315Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "IdentityExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Extensions\\IdentityExtensions.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\Extensions\\IdentityExtensions.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Extensions\\IdentityExtensions.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Api\\Extensions\\IdentityExtensions.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAQwB8AAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T21:31:19.474Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "SwaggerServiceExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Extensions\\SwaggerServiceExtensions.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\Extensions\\SwaggerServiceExtensions.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Extensions\\SwaggerServiceExtensions.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Api\\Extensions\\SwaggerServiceExtensions.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAiwAoAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T21:43:29.626Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Controllers\\AccountController\\AccountController.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\Controllers\\AccountController\\AccountController.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Controllers\\AccountController\\AccountController.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Api\\Controllers\\AccountController\\AccountController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T20:45:26.371Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 19,
               "Title": "MigrationExtensions.cs",
               "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Extensions\\MigrationExtensions.cs",
               "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\Extensions\\MigrationExtensions.cs",
               "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Extensions\\MigrationExtensions.cs",
               "RelativeToolTip": "XcelTech.HRMS.Api\\Extensions\\MigrationExtensions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T17:12:39.07Z"
+              "WhenOpened": "2024-04-29T17:12:39.07Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "AttendanceController.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Controllers\\AttendanceController.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\Controllers\\AttendanceController.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Controllers\\AttendanceController.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Api\\Controllers\\AttendanceController.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAABEAAAAMAAAA",
+              "DocumentIndex": 22,
+              "Title": "20240517184223_fev_i really do hate youf.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Migrations\\20240517184223_fev_i really do hate youf.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\Migrations\\20240517184223_fev_i really do hate youf.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Migrations\\20240517184223_fev_i really do hate youf.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Repo\\Migrations\\20240517184223_fev_i really do hate youf.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T19:45:01.683Z"
+              "WhenOpened": "2024-05-17T18:42:23.89Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "IDepartmentService.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\IDepartmentService.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\IService\\IDepartmentService.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\IDepartmentService.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Bloc\\IService\\IDepartmentService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "DocumentIndex": 23,
+              "Title": "Training.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Training.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Model\\Training.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Training.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Model\\Model\\Training.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T20:34:26.485Z"
+              "WhenOpened": "2024-04-27T23:46:54.854Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "DepartmentService.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\DepartmentService.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\Service\\DepartmentService.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\DepartmentService.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Bloc\\Service\\DepartmentService.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAAAD4AAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T20:30:26.505Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "IDepartmentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\IRepo\\IDepartmentRepository.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\IRepo\\IDepartmentRepository.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\IRepo\\IDepartmentRepository.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Repo\\IRepo\\IDepartmentRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T14:10:21.322Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "AttendanceService.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\AttendanceService.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\Service\\AttendanceService.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\AttendanceService.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Bloc\\Service\\AttendanceService.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABYAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T18:50:58.752Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Attendance.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Attendance.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Model\\Attendance.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Attendance.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Model\\Model\\Attendance.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T19:18:48.817Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "LeaveService.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\LeaveService.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\Service\\LeaveService.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\LeaveService.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Bloc\\Service\\LeaveService.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAqwB0AAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T19:02:43.756Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "AttendanceDto.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Dto\\AttendanceDto.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Dto\\AttendanceDto.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Dto\\AttendanceDto.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Model\\Dto\\AttendanceDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T18:38:28.543Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 24,
               "Title": "LeaveCreateProfile.cs",
               "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Profiles\\LeaveCreateProfile.cs",
               "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Profiles\\LeaveCreateProfile.cs",
@@ -732,383 +670,51 @@
               "RelativeToolTip": "XcelTech.HRMS.Model\\Profiles\\LeaveCreateProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T19:47:06.195Z"
+              "WhenOpened": "2024-05-16T19:47:06.195Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "AttendancePostProfile.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Profiles\\AttendancePostProfile.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Profiles\\AttendancePostProfile.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Profiles\\AttendancePostProfile.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Model\\Profiles\\AttendancePostProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "DocumentIndex": 26,
+              "Title": "LeaveRepository.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Repo\\LeaveRepository.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\Repo\\LeaveRepository.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Repo\\LeaveRepository.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Repo\\Repo\\LeaveRepository.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACYAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T18:39:44.808Z"
+              "WhenOpened": "2024-05-16T19:11:26.137Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "IAttendanceRepository.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\IRepo\\IAttendanceRepository.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\IRepo\\IAttendanceRepository.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\IRepo\\IAttendanceRepository.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Repo\\IRepo\\IAttendanceRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "DocumentIndex": 29,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Employee.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Model\\Employee.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Employee.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Model\\Model\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T19:18:16.25Z"
+              "WhenOpened": "2024-05-16T17:05:16.349Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "IEmployeeService.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\IEmployeeService.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\IService\\IEmployeeService.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\IEmployeeService.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Bloc\\IService\\IEmployeeService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 28,
+              "Title": "AttendanceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Repo\\AttendanceRepository.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\Repo\\AttendanceRepository.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Repo\\AttendanceRepository.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Repo\\Repo\\AttendanceRepository.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAzwA0AAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T18:50:08.847Z"
+              "WhenOpened": "2024-05-16T18:48:38.911Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "IEmailsender.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\IEmailsender.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\IService\\IEmailsender.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\IEmailsender.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Bloc\\IService\\IEmailsender.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T18:50:02.103Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "RegInfo_AppUser.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Profiles\\RegInfo_AppUser.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Profiles\\RegInfo_AppUser.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Profiles\\RegInfo_AppUser.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Model\\Profiles\\RegInfo_AppUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T18:41:48.571Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "EmployeeGet.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Profiles\\EmployeeGet.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Profiles\\EmployeeGet.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Profiles\\EmployeeGet.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Model\\Profiles\\EmployeeGet.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T18:41:32.92Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "EmployeeGetDto.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Dto\\EmployeeGetDto.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Dto\\EmployeeGetDto.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Dto\\EmployeeGetDto.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Model\\Dto\\EmployeeGetDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T06:30:59.494Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "IRegisterService.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\IRegisterService.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\IService\\IRegisterService.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\IRegisterService.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Bloc\\IService\\IRegisterService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T09:34:22.758Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "FileHandleService.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\FileHandleService.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\Service\\FileHandleService.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\FileHandleService.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Bloc\\Service\\FileHandleService.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAYwC8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T15:27:26.897Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "IFilehandleService.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\IFilehandleService.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\IService\\IFilehandleService.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\IFilehandleService.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Bloc\\IService\\IFilehandleService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T15:27:06.752Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "NewUserDto.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Dto\\NewUserDto.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Dto\\NewUserDto.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Dto\\NewUserDto.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Model\\Dto\\NewUserDto.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAqwBgAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T19:37:29.877Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "EmailSender.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\EmailSender.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\Service\\EmailSender.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\EmailSender.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Bloc\\Service\\EmailSender.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAswAoAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T09:59:25.958Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "ILoginService.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\ILoginService.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\IService\\ILoginService.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\ILoginService.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Bloc\\IService\\ILoginService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T21:24:11.582Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "UserInfoValidator.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Validations\\UserInfoValidator.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\Validations\\UserInfoValidator.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Validations\\UserInfoValidator.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Bloc\\Validations\\UserInfoValidator.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAABwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T17:42:21.088Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "DepartmentValidator.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Validations\\DepartmentValidator.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\Validations\\DepartmentValidator.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Validations\\DepartmentValidator.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Bloc\\Validations\\DepartmentValidator.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABUAAABJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T15:16:51.915Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "docker-compose.override.yml",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\docker-compose.override.yml",
-              "RelativeDocumentMoniker": "docker-compose.override.yml",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\docker-compose.override.yml",
-              "RelativeToolTip": "docker-compose.override.yml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-04-29T16:52:27.886Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\appsettings.Development.json",
-              "RelativeToolTip": "XcelTech.HRMS.Api\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-27T09:20:08.086Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "ConfigureIdentityModel.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\ConfigureIdentityModel.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\ConfigureIdentityModel.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\ConfigureIdentityModel.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Repo\\ConfigureIdentityModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T06:47:22.424Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Api\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T20:34:12.445Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "EmailRegistrationModel.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Dto\\EmailRegistrationModel.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Dto\\EmailRegistrationModel.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Dto\\EmailRegistrationModel.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Model\\Dto\\EmailRegistrationModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T10:32:28.838Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "XcelTech.HRMS.Bloc.csproj",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj",
-              "RelativeToolTip": "XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-24T21:04:57.188Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Class1.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Model\\Class1.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Class1.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Model\\Model\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T06:52:21.541Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "Training.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Training.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Model\\Training.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Training.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Model\\Model\\Training.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T23:46:54.854Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "Recruitment.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Recruitment.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Model\\Recruitment.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Recruitment.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Model\\Model\\Recruitment.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T14:10:54.366Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Dockerfile",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\Dockerfile",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Dockerfile",
-              "RelativeToolTip": "XcelTech.HRMS.Api\\Dockerfile",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-04-29T16:52:03.732Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\WeatherForecast.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Api\\WeatherForecast.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T08:28:26.88Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "DtoRegister.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Dto\\DtoRegister.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Dto\\DtoRegister.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Dto\\DtoRegister.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Model\\Dto\\DtoRegister.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T12:30:56.596Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "DtoToLogin.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Dto\\DtoToLogin.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Dto\\DtoToLogin.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Dto\\DtoToLogin.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Model\\Dto\\DtoToLogin.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T12:29:59.357Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "XcelTech.HRMS.Repo.csproj",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj",
-              "RelativeToolTip": "XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj",
-              "ViewState": "AQIAAAMAAACAbI2Y8bkjwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-27T09:39:16.631Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 64,
-              "Title": "Microsoft.VisualStudio.Docker.Compose.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAABTAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-05-03T15:31:53.936Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 65,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Class1.cs",
-              "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\Class1.cs",
-              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Class1.cs",
-              "RelativeToolTip": "XcelTech.HRMS.Repo\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T13:52:40.274Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 30,
               "Title": "Payroll.cs",
               "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Payroll.cs",
               "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Model\\Payroll.cs",
@@ -1120,7 +726,559 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\AppUser.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Model\\AppUser.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\AppUser.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Model\\Model\\AppUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T13:47:33.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Department.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Model\\Department.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Department.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Model\\Model\\Department.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T13:47:40.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\IRepo\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\IRepo\\IEmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\IRepo\\IEmployeeRepository.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Repo\\IRepo\\IEmployeeRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T13:58:54.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\IService\\IEmployeeService.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\IEmployeeService.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Bloc\\IService\\IEmployeeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T18:50:08.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AttendanceService.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\AttendanceService.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\Service\\AttendanceService.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\AttendanceService.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Bloc\\Service\\AttendanceService.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwB0AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T18:50:58.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Class1.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Model\\Class1.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Class1.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Model\\Model\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T06:52:21.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Recruitment.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Recruitment.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Model\\Recruitment.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Model\\Recruitment.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Model\\Model\\Recruitment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T14:10:54.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AccountRegister.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Repo\\AccountRegister.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\Repo\\AccountRegister.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Repo\\AccountRegister.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Repo\\Repo\\AccountRegister.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwCMAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T18:52:55.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AttendancePostProfile.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Profiles\\AttendancePostProfile.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Profiles\\AttendancePostProfile.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Profiles\\AttendancePostProfile.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Model\\Profiles\\AttendancePostProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T18:39:44.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "RegisterService.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\RegisterService.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\Service\\RegisterService.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\RegisterService.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Bloc\\Service\\RegisterService.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAYwNYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T07:10:33.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "EmailRegistrationModel.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Dto\\EmailRegistrationModel.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Dto\\EmailRegistrationModel.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Dto\\EmailRegistrationModel.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Model\\Dto\\EmailRegistrationModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T10:32:28.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "UserInfoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Validations\\UserInfoValidator.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\Validations\\UserInfoValidator.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Validations\\UserInfoValidator.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Bloc\\Validations\\UserInfoValidator.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAABwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T17:42:21.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IRegisterService.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\IRegisterService.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\IService\\IRegisterService.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\IRegisterService.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Bloc\\IService\\IRegisterService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T09:34:22.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\LoginService.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\Service\\LoginService.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\LoginService.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Bloc\\Service\\LoginService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAEoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T21:24:28.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Profiles\\UserProfile.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Profiles\\UserProfile.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Profiles\\UserProfile.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Model\\Profiles\\UserProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T12:55:28.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\ITokenService.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\IService\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\ITokenService.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Bloc\\IService\\ITokenService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T10:05:04.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\TokenService.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\Service\\TokenService.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\TokenService.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Bloc\\Service\\TokenService.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAFgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T07:06:27.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ServiceRegistrations.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Extensions\\ServiceRegistrations.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\Extensions\\ServiceRegistrations.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Extensions\\ServiceRegistrations.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Api\\Extensions\\ServiceRegistrations.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T21:58:09.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "20240517071954_four.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Migrations\\20240517071954_four.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Migrations\\20240517071954_four.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Migrations\\20240517071954_four.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\DELL\\Desktop\\incase4\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Migrations\\20240517071954_four.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T07:19:54.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "IdentityExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Extensions\\IdentityExtensions.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\Extensions\\IdentityExtensions.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Extensions\\IdentityExtensions.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Api\\Extensions\\IdentityExtensions.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAQwB8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T21:31:19.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "SwaggerServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Extensions\\SwaggerServiceExtensions.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\Extensions\\SwaggerServiceExtensions.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Extensions\\SwaggerServiceExtensions.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Api\\Extensions\\SwaggerServiceExtensions.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAiwAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T21:43:29.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Controllers\\AccountController\\AccountController.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\Controllers\\AccountController\\AccountController.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Controllers\\AccountController\\AccountController.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Api\\Controllers\\AccountController\\AccountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T20:45:26.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "AttendanceController.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Controllers\\AttendanceController.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\Controllers\\AttendanceController.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Controllers\\AttendanceController.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Api\\Controllers\\AttendanceController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAABEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T19:45:01.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "LeaveService.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\LeaveService.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\Service\\LeaveService.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\LeaveService.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Bloc\\Service\\LeaveService.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAqwB0AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T19:02:43.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "AttendanceDto.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Dto\\AttendanceDto.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Dto\\AttendanceDto.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Dto\\AttendanceDto.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Model\\Dto\\AttendanceDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T18:38:28.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "IEmailsender.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\IEmailsender.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\IService\\IEmailsender.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\IEmailsender.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Bloc\\IService\\IEmailsender.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T18:50:02.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "RegInfo_AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Profiles\\RegInfo_AppUser.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Profiles\\RegInfo_AppUser.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Profiles\\RegInfo_AppUser.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Model\\Profiles\\RegInfo_AppUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T18:41:48.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "EmployeeGet.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Profiles\\EmployeeGet.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Profiles\\EmployeeGet.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Profiles\\EmployeeGet.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Model\\Profiles\\EmployeeGet.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T18:41:32.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "FileHandleService.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\FileHandleService.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\Service\\FileHandleService.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\FileHandleService.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Bloc\\Service\\FileHandleService.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwC8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T15:27:26.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "IFilehandleService.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\IFilehandleService.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\IService\\IFilehandleService.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\IFilehandleService.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Bloc\\IService\\IFilehandleService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T15:27:06.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "NewUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Dto\\NewUserDto.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Dto\\NewUserDto.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Dto\\NewUserDto.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Model\\Dto\\NewUserDto.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAqwBgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T19:37:29.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\EmailSender.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\Service\\EmailSender.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Service\\EmailSender.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Bloc\\Service\\EmailSender.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAswAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T09:59:25.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "ILoginService.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\ILoginService.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\IService\\ILoginService.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\IService\\ILoginService.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Bloc\\IService\\ILoginService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T21:24:11.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "DepartmentValidator.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Validations\\DepartmentValidator.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\Validations\\DepartmentValidator.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\Validations\\DepartmentValidator.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Bloc\\Validations\\DepartmentValidator.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABUAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T15:16:51.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "docker-compose.override.yml",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\docker-compose.override.yml",
+              "RelativeDocumentMoniker": "docker-compose.override.yml",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\docker-compose.override.yml",
+              "RelativeToolTip": "docker-compose.override.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-04-29T16:52:27.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\appsettings.Development.json",
+              "RelativeToolTip": "XcelTech.HRMS.Api\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-27T09:20:08.086Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 67,
+              "Title": "ConfigureIdentityModel.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\ConfigureIdentityModel.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\ConfigureIdentityModel.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\ConfigureIdentityModel.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Repo\\ConfigureIdentityModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T06:47:22.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Api\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T20:34:12.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "XcelTech.HRMS.Bloc.csproj",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj",
+              "RelativeToolTip": "XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-24T21:04:57.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Dockerfile",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\Dockerfile",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\Dockerfile",
+              "RelativeToolTip": "XcelTech.HRMS.Api\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-29T16:52:03.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Api\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Api\\WeatherForecast.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Api\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T08:28:26.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "DtoRegister.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Dto\\DtoRegister.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Dto\\DtoRegister.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Dto\\DtoRegister.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Model\\Dto\\DtoRegister.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T12:30:56.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "DtoToLogin.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Dto\\DtoToLogin.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\Dto\\DtoToLogin.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\Dto\\DtoToLogin.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Model\\Dto\\DtoToLogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T12:29:59.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "XcelTech.HRMS.Repo.csproj",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj",
+              "RelativeToolTip": "XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj",
+              "ViewState": "AQIAAAMAAACAbI2Y8bkjwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-27T09:39:16.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "Microsoft.VisualStudio.Docker.Compose.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-05-03T15:31:53.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Class1.cs",
+              "RelativeDocumentMoniker": "XcelTech.HRMS.Repo\\Class1.cs",
+              "ToolTip": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\Class1.cs",
+              "RelativeToolTip": "XcelTech.HRMS.Repo\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T13:52:40.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
               "Title": "XcelTech.HRMS.Model.csproj",
               "DocumentMoniker": "C:\\Users\\yeabb\\Music\\C#\\xcelllllll\\XcelTech.HRMS\\XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj",
               "RelativeDocumentMoniker": "XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj",

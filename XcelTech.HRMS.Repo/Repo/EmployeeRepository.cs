@@ -20,7 +20,8 @@ namespace XcelTech.HRMS.Repo.Repo
         private readonly IHttpContextAccessor _httpContextAccessor;
         private readonly ApplicationDbContext _applicationDbContext;
 
-        public EmployeeRepository(ApplicationDbContext applicationDbContext, IHttpContextAccessor httpContextAccessor, UserManager<AppUser> userManager)
+
+        public EmployeeRepository( IHttpContextAccessor httpContextAccessor, UserManager<AppUser> userManager, ApplicationDbContext applicationDbContext)
         {
             _httpContextAccessor = httpContextAccessor;
             _applicationDbContext = applicationDbContext;
@@ -73,22 +74,52 @@ namespace XcelTech.HRMS.Repo.Repo
             await _applicationDbContext.SaveChangesAsync();
         }
 
+
+        public async Task<Employee> GetEmployeeByAppUserIdAsync(string appUserId)
+        {
+            try
+            {
+                return await _applicationDbContext.Employees
+                    .Include(e => e.AppUser)
+                    .FirstOrDefaultAsync(e => e.AppUserId == appUserId);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"Error fetching employee by AppUserId: {ex.Message}");
+            }
+        }
+
         public async Task<List<Employee>> GetAllEmployeesAsync()
         {
             var employees = await _applicationDbContext.Employees
                 .Select(e => new Employee
-        {
+                {
 
-            EmployeeImage = e.EmployeeImage,
-            EmployeeFirstName = e.EmployeeFirstName,
-            EmployeeLastName = e.EmployeeLastName,
-           EmployeeEmail = e.EmployeeEmail,
-                    department =e.department
+                    EmployeeImage = e.EmployeeImage,
+                    EmployeeFirstName = e.EmployeeFirstName,
+                    EmployeeLastName = e.EmployeeLastName,
+                    EmployeeEmail = e.EmployeeEmail,
+                    PhotoId = e.PhotoId,
+                    department = e.department,
+                    AppUser = e.AppUser
 
-        })
+                })
                 .ToListAsync();
 
             return employees;
+        }
+        public async Task<bool> DeleteEmployee(Employee employee)
+        {
+            try
+            {
+                _applicationDbContext.Employees.Remove(employee);
+                await _applicationDbContext.SaveChangesAsync();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"Error deleting employee: {ex.Message}");
+            }
         }
 
 

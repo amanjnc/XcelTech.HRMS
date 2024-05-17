@@ -4,12 +4,10 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
-#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
-
 namespace XcelTech.HRMS.Repo.Migrations
 {
     /// <inheritdoc />
-    public partial class first : Migration
+    public partial class fev_ireallydohateyouf : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -65,6 +63,19 @@ namespace XcelTech.HRMS.Repo.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Departments", x => x.DepartmentId);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "LeaveTypes",
+                columns: table => new
+                {
+                    LeaveTypeId = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    LeaveTypeName = table.Column<string>(type: "text", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_LeaveTypes", x => x.LeaveTypeId);
                 });
 
             migrationBuilder.CreateTable(
@@ -286,6 +297,7 @@ namespace XcelTech.HRMS.Repo.Migrations
                     StartDate = table.Column<DateOnly>(type: "date", nullable: false),
                     EndDate = table.Column<DateOnly>(type: "date", nullable: false),
                     EmployeeId = table.Column<int>(type: "integer", nullable: false),
+                    LeaveTypeId = table.Column<int>(type: "integer", nullable: false),
                     status = table.Column<string>(type: "text", nullable: false)
                 },
                 constraints: table =>
@@ -296,6 +308,12 @@ namespace XcelTech.HRMS.Repo.Migrations
                         column: x => x.EmployeeId,
                         principalTable: "Employees",
                         principalColumn: "EmployeeId",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Leaves_LeaveTypes_LeaveTypeId",
+                        column: x => x.LeaveTypeId,
+                        principalTable: "LeaveTypes",
+                        principalColumn: "LeaveTypeId",
                         onDelete: ReferentialAction.Cascade);
                 });
 
@@ -362,16 +380,6 @@ namespace XcelTech.HRMS.Repo.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
-            migrationBuilder.InsertData(
-                table: "AspNetRoles",
-                columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
-                values: new object[,]
-                {
-                    { "0dace14b-39e6-4ef0-8da5-2818f46598b9", null, "employee", "EMPLOYEE" },
-                    { "96feb066-2cce-4ba8-8fb3-2a34c1c73f56", null, "admin", "ADMIN" },
-                    { "d90a75db-fd28-4422-b988-49f54d3b788d", null, "hr", "HR" }
-                });
-
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
                 table: "AspNetRoleClaims",
@@ -417,7 +425,8 @@ namespace XcelTech.HRMS.Repo.Migrations
             migrationBuilder.CreateIndex(
                 name: "IX_Employees_AppUserId",
                 table: "Employees",
-                column: "AppUserId");
+                column: "AppUserId",
+                unique: true);
 
             migrationBuilder.CreateIndex(
                 name: "IX_Employees_DepartmentId",
@@ -438,6 +447,11 @@ namespace XcelTech.HRMS.Repo.Migrations
                 name: "IX_Leaves_EmployeeId",
                 table: "Leaves",
                 column: "EmployeeId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Leaves_LeaveTypeId",
+                table: "Leaves",
+                column: "LeaveTypeId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Recruitments_DepartmentId",
@@ -492,6 +506,9 @@ namespace XcelTech.HRMS.Repo.Migrations
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");
+
+            migrationBuilder.DropTable(
+                name: "LeaveTypes");
 
             migrationBuilder.DropTable(
                 name: "Employees");

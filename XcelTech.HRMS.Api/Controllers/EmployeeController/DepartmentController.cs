@@ -20,7 +20,7 @@ namespace XcelTech.HRMS.Api.Controllers.EmployeeController
 
         }
 
-        [Authorize(Policy = "ViewDepartment")]
+        //[Authorize(Policy = "ViewDepartment")]
         [HttpPost("CreateNewDepartment")]
         public async Task<IActionResult> CreateDepartment([FromBody] Department department)
         {
@@ -35,15 +35,20 @@ namespace XcelTech.HRMS.Api.Controllers.EmployeeController
 
         }
 
-        [Authorize(Policy = "ManageDepartment")]
-        //[Authorize(Roles ="admin")]
+        //[Authorize(Policy = "ManageDepartment")]
+        [Authorize(Roles = "admin")]
         [HttpGet("GetAllDepartment")]
         public async Task<ActionResult<List<Department>>> getAllDepartment()
         {
             return await _departmentService.getAllDepartment();
 
         }
+        [HttpGet("GetAllDepartmentNames")]
+        public async Task<ActionResult<List<string>>> getAllDepartmentNames()
+        {
+            return await _departmentService.getAllDepartmentNames();
 
+        }
 
 
 

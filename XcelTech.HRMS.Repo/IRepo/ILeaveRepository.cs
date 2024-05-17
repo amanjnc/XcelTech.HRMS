@@ -17,6 +17,7 @@ namespace XcelTech.HRMS.Repo.IRepo
 
         Task UpdateLeaveStatus(int leaveId, string Status);
 
+
         //public Task<List<Leave>> GetAllLeavesAsync();
 
     }

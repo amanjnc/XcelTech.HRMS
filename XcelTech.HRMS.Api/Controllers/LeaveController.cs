@@ -25,11 +25,11 @@ namespace XcelTech.HRMS.Api.Controllers
         }
 
         [HttpPost]
-
         public async Task<IActionResult> RequestLeave([FromForm] LeaveDto leaveDto) {
 
             if (!ModelState.IsValid)
             {
+                Console.WriteLine("thiss");
                 return BadRequest(ModelState);
             }
 
@@ -37,6 +37,9 @@ namespace XcelTech.HRMS.Api.Controllers
             {
                
                 var email = HttpContext.User.FindFirstValue(ClaimTypes.Email);
+                Console.WriteLine("email");
+                Console.WriteLine(email);
+                    
 
 
                 var result = await _leaveService.createLeave(leaveDto, email);
@@ -105,5 +108,43 @@ namespace XcelTech.HRMS.Api.Controllers
                 return StatusCode(500, ex.Message);
             }
         }
+
+
+        [HttpGet("getAllLeavesTypes")]
+        public async Task<List<string>> GetAllLeaveTypesAsync()
+        {
+            var leaveTypes = await _applicationDbContext.LeaveTypes
+                .Select(l => l.LeaveTypeName)
+                .Distinct()
+                .ToListAsync();
+
+            return leaveTypes;
+        }
+        [HttpPost("AddLeaveType")]
+        public async Task<LeaveTypes> AddLeaveType(string leaveTypeName)
+        {
+            // Check if the leave type already exists
+            var existingLeaveType = await _applicationDbContext.LeaveTypes
+                .Where(l => l.LeaveTypeName == leaveTypeName)
+                .FirstOrDefaultAsync();
+
+            if (existingLeaveType != null)
+            {
+                return existingLeaveType;
+            }
+
+            var newLeave = new LeaveTypes
+            {
+                LeaveTypeName = leaveTypeName,
+            };
+
+            _applicationDbContext.LeaveTypes.Add(newLeave);
+            await _applicationDbContext.SaveChangesAsync();
+
+            return newLeave;
+        }
+
+
+
     }
 }

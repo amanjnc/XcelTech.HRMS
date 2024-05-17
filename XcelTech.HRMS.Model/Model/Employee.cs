@@ -52,7 +52,9 @@ namespace XcelTech.HRMS.Model.Model
         // Define the relationship with AppUser
         [ForeignKey("AppUserId")]
         public AppUser AppUser { get; set; }
-        
+
+        public virtual ICollection<Attendance> Attendances { get; set; }
+
 
 
     }

@@ -12,8 +12,8 @@ using XcelTech.HRMS.Repo;
 namespace XcelTech.HRMS.Repo.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240517065928_fixed some bs")]
-    partial class fixedsomebs
+    [Migration("20240517190527_fev_i really do hate youfdsf")]
+    partial class fev_ireallydohateyoufdsf
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -49,26 +49,6 @@ namespace XcelTech.HRMS.Repo.Migrations
                         .HasDatabaseName("RoleNameIndex");
 
                     b.ToTable("AspNetRoles", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            Id = "45c00e74-7372-4879-827f-ac496a1257fd",
-                            Name = "admin",
-                            NormalizedName = "ADMIN"
-                        },
-                        new
-                        {
-                            Id = "872cd6f5-1599-4da2-bf06-b2b161c4cce5",
-                            Name = "employee",
-                            NormalizedName = "EMPLOYEE"
-                        },
-                        new
-                        {
-                            Id = "a448a5b6-04e9-46e1-8b63-289a664fb58e",
-                            Name = "hr",
-                            NormalizedName = "HR"
-                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -343,7 +323,8 @@ namespace XcelTech.HRMS.Repo.Migrations
 
                     b.HasKey("EmployeeId");
 
-                    b.HasIndex("AppUserId");
+                    b.HasIndex("AppUserId")
+                        .IsUnique();
 
                     b.HasIndex("DepartmentId");
 
@@ -372,6 +353,9 @@ namespace XcelTech.HRMS.Repo.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<int>("LeaveTypeId")
+                        .HasColumnType("integer");
+
                     b.Property<DateOnly>("StartDate")
                         .HasColumnType("date");
 
@@ -383,7 +367,25 @@ namespace XcelTech.HRMS.Repo.Migrations
 
                     b.HasIndex("EmployeeId");
 
+                    b.HasIndex("LeaveTypeId");
+
                     b.ToTable("Leaves");
+                });
+
+            modelBuilder.Entity("XcelTech.HRMS.Model.Model.LeaveTypes", b =>
+                {
+                    b.Property<int>("LeaveTypeId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("LeaveTypeId"));
+
+                    b.Property<string>("LeaveTypeName")
+                        .HasColumnType("text");
+
+                    b.HasKey("LeaveTypeId");
+
+                    b.ToTable("LeaveTypes");
                 });
 
             modelBuilder.Entity("XcelTech.HRMS.Model.Model.Payroll", b =>
@@ -584,7 +586,7 @@ namespace XcelTech.HRMS.Repo.Migrations
             modelBuilder.Entity("XcelTech.HRMS.Model.Attendance", b =>
                 {
                     b.HasOne("XcelTech.HRMS.Model.Model.Employee", "employee")
-                        .WithMany()
+                        .WithMany("Attendances")
                         .HasForeignKey("EmployeeId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -595,8 +597,9 @@ namespace XcelTech.HRMS.Repo.Migrations
             modelBuilder.Entity("XcelTech.HRMS.Model.Model.Employee", b =>
                 {
                     b.HasOne("XcelTech.HRMS.Model.Model.AppUser", "AppUser")
-                        .WithMany()
-                        .HasForeignKey("AppUserId");
+                        .WithOne("Employee")
+                        .HasForeignKey("XcelTech.HRMS.Model.Model.Employee", "AppUserId")
+                        .OnDelete(DeleteBehavior.Cascade);
 
                     b.HasOne("XcelTech.HRMS.Model.Model.Department", "department")
                         .WithMany()
@@ -626,6 +629,14 @@ namespace XcelTech.HRMS.Repo.Migrations
                         .HasForeignKey("EmployeeId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.HasOne("XcelTech.HRMS.Model.Model.LeaveTypes", "LeaveTypes")
+                        .WithMany()
+                        .HasForeignKey("LeaveTypeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("LeaveTypes");
 
                     b.Navigation("employee");
                 });
@@ -666,6 +677,16 @@ namespace XcelTech.HRMS.Repo.Migrations
                     b.Navigation("employeeTrainee");
 
                     b.Navigation("employeeTrainer");
+                });
+
+            modelBuilder.Entity("XcelTech.HRMS.Model.Model.AppUser", b =>
+                {
+                    b.Navigation("Employee");
+                });
+
+            modelBuilder.Entity("XcelTech.HRMS.Model.Model.Employee", b =>
+                {
+                    b.Navigation("Attendances");
                 });
 #pragma warning restore 612, 618
         }

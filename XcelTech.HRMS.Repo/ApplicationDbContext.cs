@@ -18,7 +18,7 @@ namespace XcelTech.HRMS.Repo
             {
                 optionsBuilder.EnableSensitiveDataLogging();
                 //optionsBuilder.UseNpgsql("Server=localhost;Database=Hrms;User Id=postgres;Password=1234;");
-                optionsBuilder.UseNpgsql("Host=xcelTech.hrms.repo;Port=5432;Database=xceltechhrmsNeww;Username=postgres;Password=postgres;Include Error Detail=true;");
+                optionsBuilder.UseNpgsql("Host=xcelTech.hrms.repo;Port=5432;Database=xceltechhrmsNewww;Username=postgres;Password=postgres;Include Error Detail=true;");
             }
         }
 
@@ -26,6 +26,7 @@ namespace XcelTech.HRMS.Repo
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Department> Departments { get; set; }
         public DbSet<Leave> Leaves { get; set; }
+        public DbSet<LeaveTypes> LeaveTypes  { get; set; }
         public DbSet<Payroll> Payrolls { get; set; }
         public DbSet<Project> Projects { get; set; }
         public DbSet<Recruitment> Recruitments { get; set; }
@@ -35,7 +36,19 @@ namespace XcelTech.HRMS.Repo
         {
             base.OnModelCreating(builder);
 
-            ConfigureIdentityModel.ConfigureIdentity(builder);
+            builder.Entity<Attendance>()
+     .HasOne(a => a.employee)
+     .WithMany(e => e.Attendances)
+     .HasForeignKey(a => a.EmployeeId)
+     .OnDelete(DeleteBehavior.Cascade);
+
+            builder.Entity<Employee>()
+                .HasOne(e => e.AppUser)
+                .WithOne(u => u.Employee)
+                .HasForeignKey<Employee>(e => e.AppUserId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+
         }
     }
 }

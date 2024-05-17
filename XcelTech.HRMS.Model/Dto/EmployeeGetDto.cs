@@ -14,7 +14,12 @@ namespace XcelTech.HRMS.Model.Dto
 
         public string? EmployeeImage { get; set; }
 
+        public string? PhotoId { get; set; }
+
         public string? EmployeeEmail { get; set; }
+
+        public string? DepartmentName { get; set; }
+
+        public string? Role { get; set; }
     }
 }
-

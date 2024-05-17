@@ -12,6 +12,8 @@ namespace XcelTech.HRMS.Bloc.IService
     {
         Task<IActionResult> createDepartment(Department department);
         Task<ActionResult<List<Department>>> getAllDepartment();
+        public Task<ActionResult<List<string>>> getAllDepartmentNames();
+
 
     }
 }
