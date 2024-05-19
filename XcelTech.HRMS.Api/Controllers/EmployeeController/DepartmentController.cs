@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using XcelTech.HRMS.Bloc.IService;
 using XcelTech.HRMS.Model.Model;
 using Microsoft.AspNetCore.Authorization;
+using System.Net;
 
 namespace XcelTech.HRMS.Api.Controllers.EmployeeController
 {
@@ -35,9 +36,10 @@ namespace XcelTech.HRMS.Api.Controllers.EmployeeController
 
         }
 
-        //[Authorize(Policy = "ManageDepartment")]
-        [Authorize(Roles = "admin")]
+        ////[Authorize(Policy = "ManageDepartment")]
+        //[Authorize(Roles = "admin")]
         [HttpGet("GetAllDepartment")]
+        [ProducesResponseType(typeof(IEnumerable<Department>), (int)HttpStatusCode.OK)]
         public async Task<ActionResult<List<Department>>> getAllDepartment()
         {
             return await _departmentService.getAllDepartment();

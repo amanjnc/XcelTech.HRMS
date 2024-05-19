@@ -15,6 +15,7 @@ using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pag
 using XcelTech.HRMS.Repo;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
+using System.Web.Helpers;
 
 namespace XcelTech.HRMS.Bloc.Service
 {
@@ -22,7 +23,7 @@ namespace XcelTech.HRMS.Bloc.Service
     {
         private readonly ITokenService _tokenService;
         private readonly IWebHostEnvironment _webHostEnvironment;
-
+        private readonly IAccountRegister _accountRegister;
         private readonly IHttpContextAccessor _httpContextAccessor;
         private readonly ApplicationDbContext _applicationDbContext;
         UserManager<AppUser> _userManager;
@@ -34,8 +35,9 @@ namespace XcelTech.HRMS.Bloc.Service
         private readonly IDepartmentRepository _departmentRepository;
 
         public EmployeeService(ApplicationDbContext applicationDbContext, IHttpContextAccessor httpContextAccessor, ITokenService tokenService, IEmployeeRepository employeeRepository, IMapper mapper, IDepartmentRepository departmentRepository, IWebHostEnvironment webHostEnvironment, UserManager<AppUser> userManager
-            , IAttendanceRepository attendanceRepository, ILeaveRepository leaveRepository)
+            , IAttendanceRepository attendanceRepository, ILeaveRepository leaveRepository, IAccountRegister accountRegister)
         {
+            _accountRegister = accountRegister;
             _leaveRepository = leaveRepository;
             _attendanceRepository = attendanceRepository;
             _applicationDbContext = applicationDbContext;
@@ -54,8 +56,22 @@ namespace XcelTech.HRMS.Bloc.Service
         public async Task<List<EmployeeGetDto>> getAllEmployeesAsync()
         {
 
+            List<EmployeeGetDto> employeeGetDtos = new List<EmployeeGetDto>();
             var employees = await _employeeRepository.GetAllEmployeesAsync();
-            var employeeGetDtos = _mapper.Map<List<EmployeeGetDto>>(employees);
+            foreach(Employee employee in employees)
+            {
+                int? departmentId = employee.DepartmentId;
+                var respectiveDepartmentName = await _departmentRepository.getDepartmentNameById(departmentId);
+                
+                var respectiveEmployeeEmail = employee.EmployeeEmail;
+                var user = await _userManager.FindByEmailAsync(respectiveEmployeeEmail);
+                var respectiveRole = await _accountRegister.getRoleOfUser(user);
+                var employeeGetDto = _mapper.Map<EmployeeGetDto>(employee);
+                employeeGetDto.DepartmentName = respectiveDepartmentName.Value;
+                employeeGetDto.Role = respectiveRole;
+                employeeGetDtos.Add(employeeGetDto);
+            }
+
             return employeeGetDtos;
         }
 

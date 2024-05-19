@@ -17,6 +17,10 @@ namespace XcelTech.HRMS.Repo.IRepo
         public Task<ActionResult<List<Department>>> getAllDepartment();
         public Task<ActionResult<List<string>>> getAllDepartmentNames();
 
+        public Task<ActionResult<string>> getDepartmentNameById(int? DepartmentId);
+
+
+
 
 
     }

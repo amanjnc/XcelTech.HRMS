@@ -53,6 +53,19 @@ namespace XcelTech.HRMS.Repo.Repo
             return new NotFoundResult();
             //or simply return !isNonew
         }
+        public async Task<ActionResult<string>> getDepartmentNameById(int? DepartmentId)
+        {
+            var department = await _applicationDbContext.Departments.FirstOrDefaultAsync(dep => dep.DepartmentId == DepartmentId);
+            if (department != null)
+            {
+                var departmentName = department.DepartmentName;
+
+                return departmentName;
+
+            }
+            return new NotFoundResult();
+            
+        }
 
 
 

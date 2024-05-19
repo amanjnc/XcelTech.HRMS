@@ -76,7 +76,7 @@ namespace XcelTech.HRMS.Api.Controllers
             }
         }
         [HttpGet("getAllEmployeesInfo")]
-        public async Task<ActionResult<IEnumerable<EmployeeGetDto>>> getAllDepartment()
+        public async Task<ActionResult<IEnumerable<EmployeeGetDto>>> getAllEmployee()
         {
             try
             {
