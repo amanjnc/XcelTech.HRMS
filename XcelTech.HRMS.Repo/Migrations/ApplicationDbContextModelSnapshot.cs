@@ -257,6 +257,7 @@ namespace XcelTech.HRMS.Repo.Migrations
                         .HasColumnType("text");
 
                     b.Property<string>("DepartmentName")
+                        .IsRequired()
                         .HasColumnType("text");
 
                     b.HasKey("DepartmentId");

@@ -7,10 +7,10 @@ namespace XcelTech.HRMS.Model.Model
 {
     public class Department
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        [JsonIgnore]
+        
         public int DepartmentId { get; set; }
+
+        [Required]
         public string? DepartmentName { get; set; }
         public string? DepartmentDescription { get; set; }
 

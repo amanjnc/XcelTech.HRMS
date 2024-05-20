@@ -100,7 +100,7 @@ namespace XcelTech.HRMS.Repo.Repo
                     EmployeeLastName = e.EmployeeLastName,
                     EmployeeEmail = e.EmployeeEmail,
                     PhotoId = e.PhotoId,
-                    department = e.department,
+                    DepartmentId = e.DepartmentId,
                     AppUser = e.AppUser
 
                 })

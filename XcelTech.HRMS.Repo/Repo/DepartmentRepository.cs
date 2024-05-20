@@ -61,6 +61,8 @@ namespace XcelTech.HRMS.Repo.Repo
                 var departmentName = department.DepartmentName;
 
                 return departmentName;
+                Console.WriteLine("aman");
+                Console.WriteLine(departmentName);
 
             }
             return new NotFoundResult();

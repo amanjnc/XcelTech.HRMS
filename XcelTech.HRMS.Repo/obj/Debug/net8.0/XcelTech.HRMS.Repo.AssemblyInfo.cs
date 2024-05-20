@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XcelTech.HRMS.Repo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f6fca3fd878a22695454f35b61d0de44d1c32bc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f9c89d957f741307afdbdcc9cf719733bccfe26")]
 [assembly: System.Reflection.AssemblyProductAttribute("XcelTech.HRMS.Repo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XcelTech.HRMS.Repo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

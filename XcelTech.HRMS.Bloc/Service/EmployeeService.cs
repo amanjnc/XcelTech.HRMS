@@ -60,9 +60,13 @@ namespace XcelTech.HRMS.Bloc.Service
             var employees = await _employeeRepository.GetAllEmployeesAsync();
             foreach(Employee employee in employees)
             {
-                int? departmentId = employee.DepartmentId;
+                var departmentId = employee.DepartmentId;
+                Console.WriteLine(departmentId);
+                Console.WriteLine("amanuel beyenee");
                 var respectiveDepartmentName = await _departmentRepository.getDepartmentNameById(departmentId);
-                
+                Console.WriteLine(respectiveDepartmentName);
+                Console.WriteLine(respectiveDepartmentName.Value);
+
                 var respectiveEmployeeEmail = employee.EmployeeEmail;
                 var user = await _userManager.FindByEmailAsync(respectiveEmployeeEmail);
                 var respectiveRole = await _accountRegister.getRoleOfUser(user);
