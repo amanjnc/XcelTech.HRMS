@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using XcelTech.HRMS.Model;
 using XcelTech.HRMS.Model.Model;
 using Microsoft.AspNetCore.Identity;
+using System.Reflection.Emit;
 
 namespace XcelTech.HRMS.Repo
 {
@@ -32,6 +33,8 @@ namespace XcelTech.HRMS.Repo
         public DbSet<Recruitment> Recruitments { get; set; }
         public DbSet<Training> Training { get; set; }
 
+        public DbSet<EmployeeFile> EmployeeFiles { get; set; }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
@@ -47,6 +50,10 @@ namespace XcelTech.HRMS.Repo
                 .WithOne(u => u.Employee)
                 .HasForeignKey<Employee>(e => e.AppUserId)
                 .OnDelete(DeleteBehavior.Cascade);
+
+            /*builder.Entity<Payroll>()
+                .Property(p => p.PayrollId)
+                .ValueGeneratedOnAdd();*/
 
 
         }

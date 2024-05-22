@@ -18,6 +18,8 @@ namespace XcelTech.HRMS.Api.Extensions
             services.AddScoped<IFilehandleService, FileHandleService>();
             services.AddScoped<ILeaveRepository, LeaveRepository>();
             services.AddScoped<ILeaveService, LeaveService>();
+            services.AddScoped<IPayRollService, PayRollService>();
+            services.AddScoped<IPayRollRepository, PayRollRepository>();
             services.AddScoped<IAttendanceRepository, AttendanceRepository>();
             services.AddScoped<IAttendanceService, AttendanceService>();
             services.AddScoped<IDepartmentService, DepartmentService>();

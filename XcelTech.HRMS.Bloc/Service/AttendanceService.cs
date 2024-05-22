@@ -37,7 +37,7 @@ namespace XcelTech.HRMS.Bloc.Service
             return new OkResult();
         }
 
-        public Task<List<AttendanceDto>> GetAllAttendances()
+        public Task<List<AttendanceDto>> GetTodaysAttendance()
         {
             throw new NotImplementedException();
         }

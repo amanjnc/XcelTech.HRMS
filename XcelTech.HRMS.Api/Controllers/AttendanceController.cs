@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
 using XcelTech.HRMS.Bloc.IService;
 using XcelTech.HRMS.Bloc.Service;
@@ -44,6 +45,28 @@ namespace XcelTech.HRMS.Api.Controllers
 
 
         }
+
+        /*[HttpGet("GetTodaysAttendance")]
+
+        public IActionResult GetTodaysAttendance()
+        {
+            try
+            {
+                // Get today's date
+                Date today = DateTime.Today;
+
+                var attendanceRecords = _attendanceService.GetTodaysAttendance(DateTime today);
+
+                return Ok(attendanceRecords);
+            }
+            catch (Exception ex)
+            {
+                // Handle exceptions appropriately (e.g., log, return error response)
+                return StatusCode(500);
+            }
+        }*/
+
+
 
     }
 }

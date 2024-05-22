@@ -30,7 +30,7 @@ namespace XcelTech.HRMS.Repo.Repo
             await _applicationDbContext.SaveChangesAsync();
         }
 
-        public Task<List<AttendanceDto>> GetAllAttendances()
+        public Task<List<AttendanceDto>> GetTodaysAttendance()
         {
             throw new NotImplementedException();
         }

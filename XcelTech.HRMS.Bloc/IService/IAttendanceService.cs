@@ -12,6 +12,6 @@ namespace XcelTech.HRMS.Bloc.IService
     {
         Task<IActionResult> AddAttendance(AttendanceDto attendanceDto, string email);
 
-        Task<List<AttendanceDto>> GetAllAttendances();
+        Task<List<AttendanceDto>> GetTodaysAttendance();
     }
 }

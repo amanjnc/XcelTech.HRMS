@@ -49,7 +49,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddAutoMapper(typeof(RegInfo_AppUser));
 builder.Services.AddAutoMapper(typeof(UserProfile));
 builder.Services.AddAutoMapper(typeof(ProfileInfoDto));
-
+builder.Services.AddAutoMapper(typeof(PayRollGetProfile));
+builder.Services.AddAutoMapper(typeof(PayRollPostProfile));
 
 builder.Services.AddTransient<IEmailsender, EmailSender>();
 
