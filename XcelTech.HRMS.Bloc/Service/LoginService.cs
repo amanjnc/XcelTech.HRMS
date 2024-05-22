@@ -23,7 +23,7 @@ namespace XcelTech.HRMS.Bloc.Service
 
             _tokenService = tokenService;
         }
-        public async Task<IActionResult> checkPasswordThenSignIn(DtoToLogin login, string departmentName,bool rememberMe = false)
+        public async Task<IActionResult> checkPasswordThenSignIn(DtoToLogin login,bool rememberMe = false)
         {
             var user = await _accountRegister.checkOnlyEmail(login);
 
