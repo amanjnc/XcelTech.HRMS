@@ -31,12 +31,10 @@ namespace XcelTech.HRMS.Bloc.Validations
                 Length(1, 20).WithMessage("name length should be between  1 and 20");
             RuleFor(p => p.EmployeeLastName).NotEmpty().WithMessage("please Enter  last Name").
                 Length(1, 20).WithMessage("name length should be between  1 and 20");
-            RuleFor(p => p.Password).NotEmpty().
-               MinimumLength(8).Matches("[A-Z]").WithMessage("password must contain at least 1 capital letter");
+            //RuleFor(p => p.Password).NotEmpty().
+            //   MinimumLength(8).Matches("[A-Z]").WithMessage("password must contain at least 1 capital letter");
 
-            RuleFor(p => p.Password).NotEmpty().
-               MinimumLength(8).Matches("[A-Z]").WithMessage("password must contain at least 1 capital letter");
-
+          
             RuleFor(p => p.EmployeePhone)
                 .NotEmpty().WithMessage("Please enter a phone number")
                 .Matches(@"^\+(?:[0-9] ?){6,14}[0-9]$").WithMessage("Invalid phone number format");

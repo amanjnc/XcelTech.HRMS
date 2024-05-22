@@ -31,7 +31,6 @@ namespace XcelTech.HRMS.Model.Dto
         [EmailAddress]
         public string? EmployeeEmail { get; set; }
         public string? Gender { get; set; }
-        public String? Password { get; set; }
         public string? DepartmentName { get; set; }
     }
 }

@@ -46,6 +46,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
+builder.Services.AddFluentEmail(builder.Configuration);
+
 builder.Services.AddAutoMapper(typeof(RegInfo_AppUser));
 builder.Services.AddAutoMapper(typeof(UserProfile));
 builder.Services.AddAutoMapper(typeof(ProfileInfoDto));
@@ -53,6 +55,8 @@ builder.Services.AddAutoMapper(typeof(PayRollGetProfile));
 builder.Services.AddAutoMapper(typeof(PayRollPostProfile));
 
 builder.Services.AddTransient<IEmailsender, EmailSender>();
+builder.Services.AddTransient<IAutoGeneratePassword, AutoGeneratePassword>();
+
 
 ServiceRegistrations.RegisterScopedServices(builder.Services);
 

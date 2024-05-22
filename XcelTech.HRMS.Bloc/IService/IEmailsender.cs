@@ -8,7 +8,9 @@ namespace XcelTech.HRMS.Bloc.IService
 {
     public interface IEmailsender
     {
-        Task SendEmailAsync(string email, string subject, String message);
+
+        public void SendEmail(string toEmail, string subject);
+
 
     }
 }

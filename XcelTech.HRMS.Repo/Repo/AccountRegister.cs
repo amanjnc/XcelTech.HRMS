@@ -72,7 +72,7 @@ namespace XcelTech.HRMS.Repo.Repo
 
         public async Task<AppUser> checkOnlyEmail(DtoToLogin login)
         {
-            return await  _userManager.Users.FirstOrDefaultAsync(u => u.Email == login.EmployeeEmail.ToLower());
+            return await  _userManager.Users.FirstOrDefaultAsync(u => u.Email == login.EmployeeEmail);
             
         }
 

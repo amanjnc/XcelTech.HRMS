@@ -60,6 +60,7 @@ namespace XcelTech.HRMS.Api.Controllers
             {
                 return BadRequest(ModelState);
             }
+            
 
             var finalResult = await _loginService.checkPasswordThenSignIn(login, rememberMe);
 
@@ -83,13 +84,7 @@ namespace XcelTech.HRMS.Api.Controllers
 
         //}
 
-        [HttpPost("emailRegistration")]
-        public async Task<IActionResult> EmialRegisterationController([FromBody] EmailRegistrationModel model )
-        {
-
-           await _emailSender.SendEmailAsync(model.Email, model.Subject, model.Message);
-            return Ok();
-        }
+      
         //[HttpGet("GetAllRoles")]
         //public async Task<ActionResult<List<string>>> getAllRoles()
         //{

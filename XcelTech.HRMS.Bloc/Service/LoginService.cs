@@ -23,7 +23,7 @@ namespace XcelTech.HRMS.Bloc.Service
 
             _tokenService = tokenService;
         }
-        public async Task<IActionResult> checkPasswordThenSignIn(DtoToLogin login, bool rememberMe = false)
+        public async Task<IActionResult> checkPasswordThenSignIn(DtoToLogin login, string departmentName,bool rememberMe = false)
         {
             var user = await _accountRegister.checkOnlyEmail(login);
 
@@ -63,6 +63,7 @@ namespace XcelTech.HRMS.Bloc.Service
                 Token = tokenn,
                 //expiration = token.ValidTo,
                 RoleName = roleName,
+                
             };
 
 

@@ -31,6 +31,30 @@
           "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
+      "FluentEmail.Core/3.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/FluentEmail.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentEmail.Core.dll": {}
+        }
+      },
+      "FluentEmail.Smtp/3.0.2": {
+        "type": "package",
+        "dependencies": {
+          "FluentEmail.Core": "3.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/FluentEmail.Smtp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentEmail.Smtp.dll": {}
+        }
+      },
       "FluentValidation/11.9.1": {
         "type": "package",
         "compile": {
@@ -3301,6 +3325,8 @@
         "dependencies": {
           "AutoMapper": "12.0.0",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
+          "FluentEmail.Core": "3.0.2",
+          "FluentEmail.Smtp": "3.0.2",
           "Microsoft.AspNet.Mvc": "5.3.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.2",
           "Microsoft.AspNetCore.Identity": "2.2.0",
@@ -3308,6 +3334,7 @@
           "Newtonsoft.Json": "13.0.3",
           "Npgsql": "8.0.2",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.2",
+          "XcelTech.HRMS.Helper": "1.0.0",
           "XcelTech.HRMS.Model": "1.0.0",
           "XcelTech.HRMS.Repo": "1.0.0"
         },
@@ -3413,6 +3440,32 @@
         "automapper.extensions.microsoft.dependencyinjection.nuspec",
         "icon.png",
         "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll"
+      ]
+    },
+    "FluentEmail.Core/3.0.2": {
+      "sha512": "uQFFbJgMhhCFUti7pfMi429fMNi7fLGMj+7uDtD7POlQzLxlhXJ6tmt4Y1SI51sZsA36GO5b7+o29eY/dKiICQ==",
+      "type": "package",
+      "path": "fluentemail.core/3.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluentemail.core.3.0.2.nupkg.sha512",
+        "fluentemail.core.nuspec",
+        "fluentemail_logo_64x64.png",
+        "lib/netstandard2.0/FluentEmail.Core.dll"
+      ]
+    },
+    "FluentEmail.Smtp/3.0.2": {
+      "sha512": "Y5pZKS/mXSl7D5WJWecvfo1kpIMDc6U0VRU6wRbE9wEv2IqMH3cQXa/97Pwi+m31COepIqc6dMhGMtAJ2Qh7rw==",
+      "type": "package",
+      "path": "fluentemail.smtp/3.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluentemail.smtp.3.0.2.nupkg.sha512",
+        "fluentemail.smtp.nuspec",
+        "fluentemail_logo_64x64.png",
+        "lib/netstandard2.0/FluentEmail.Smtp.dll"
       ]
     },
     "FluentValidation/11.9.1": {
@@ -8996,19 +9049,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DELL\\.nuget\\packages\\": {}
+    "C:\\Users\\yeabb\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\anotherone2\\XcelTech.HRMS\\XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj",
+      "projectUniqueName": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj",
       "projectName": "XcelTech.HRMS.Api",
-      "projectPath": "C:\\Users\\DELL\\Desktop\\anotherone2\\XcelTech.HRMS\\XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj",
-      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\Desktop\\anotherone2\\XcelTech.HRMS\\XcelTech.HRMS.Api\\obj\\",
+      "projectPath": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj",
+      "packagesPath": "C:\\Users\\yeabb\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\yeabb\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9016,24 +9069,23 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\DELL\\Desktop\\anotherone2\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj": {
-              "projectPath": "C:\\Users\\DELL\\Desktop\\anotherone2\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj"
+            "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj": {
+              "projectPath": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj"
             },
-            "C:\\Users\\DELL\\Desktop\\anotherone2\\XcelTech.HRMS\\XcelTech.HRMS.Helper\\XcelTech.HRMS.Helper.csproj": {
-              "projectPath": "C:\\Users\\DELL\\Desktop\\anotherone2\\XcelTech.HRMS\\XcelTech.HRMS.Helper\\XcelTech.HRMS.Helper.csproj"
+            "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Helper\\XcelTech.HRMS.Helper.csproj": {
+              "projectPath": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Helper\\XcelTech.HRMS.Helper.csproj"
             },
-            "C:\\Users\\DELL\\Desktop\\anotherone2\\XcelTech.HRMS\\XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj": {
-              "projectPath": "C:\\Users\\DELL\\Desktop\\anotherone2\\XcelTech.HRMS\\XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj"
+            "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj": {
+              "projectPath": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj"
             },
-            "C:\\Users\\DELL\\Desktop\\anotherone2\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj": {
-              "projectPath": "C:\\Users\\DELL\\Desktop\\anotherone2\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj"
+            "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj": {
+              "projectPath": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj"
             }
           }
         }
@@ -9139,7 +9191,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300-preview.24203.14/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   },

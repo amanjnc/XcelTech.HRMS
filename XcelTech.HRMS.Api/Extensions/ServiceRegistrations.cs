@@ -32,6 +32,7 @@ namespace XcelTech.HRMS.Api.Extensions
             services.AddScoped<IValidator<ProfileInfoDto>, ProfileInfoDtoValidator>();
             services.AddScoped<IValidator<Department>, DepartmentValidator>();
             services.AddScoped<ITokenService, TokenService>();
+            services.AddScoped<IEmailService, EmailService>();
 
 
         }
