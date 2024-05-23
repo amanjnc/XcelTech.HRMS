@@ -191,10 +191,10 @@ C:\Users\yeabb\Music\C#\xcell\bin\Debug\FluentEmail.Smtp.dll
 C:\Users\yeabb\Music\C#\xcell\bin\Debug\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\yeabb\Music\C#\xcell\bin\Debug\XcelTech.HRMS.Helper.dll
 C:\Users\yeabb\Music\C#\xcell\bin\Debug\XcelTech.HRMS.Helper.pdb
-C:\Users\DELL\Desktop\anotherone3\XcelTech.HRMS\bin\Debug\appsettings.Development.json
-C:\Users\DELL\Desktop\anotherone3\XcelTech.HRMS\bin\Debug\appsettings.json
 C:\Users\DELL\Desktop\anotherone3\XcelTech.HRMS\bin\Debug\XcelTech.HRMS.Api.deps.json
 C:\Users\DELL\Desktop\anotherone3\XcelTech.HRMS\bin\Debug\XcelTech.HRMS.Api.runtimeconfig.json
+C:\Users\DELL\Desktop\anotherone3\XcelTech.HRMS\bin\Debug\appsettings.Development.json
+C:\Users\DELL\Desktop\anotherone3\XcelTech.HRMS\bin\Debug\appsettings.json
 C:\Users\DELL\Desktop\anotherone3\XcelTech.HRMS\bin\Debug\XcelTech.HRMS.Api.staticwebassets.runtime.json
 C:\Users\DELL\Desktop\anotherone3\XcelTech.HRMS\bin\Debug\XcelTech.HRMS.Api.exe
 C:\Users\DELL\Desktop\anotherone3\XcelTech.HRMS\bin\Debug\XcelTech.HRMS.Api.dll

@@ -1,4 +1,4 @@
-name: dockercompose5985811497590072054
+name: dockercompose17509783635317500911
 services:
   xcelTech.hrms.repo:
     container_name: xcelTech.hrms.repo
@@ -22,7 +22,7 @@ services:
           create_host_path: true
   xceltech.hrms.api:
     build:
-      context: C:\Users\DELL\Desktop\anotherone2\XcelTech.HRMS
+      context: C:\Users\DELL\Desktop\anotherone3\XcelTech.HRMS
       dockerfile: XcelTech.HRMS.Api/Dockerfile
       args:
         BUILD_CONFIGURATION: Debug
@@ -76,12 +76,12 @@ services:
         bind:
           create_host_path: true
       - type: bind
-        source: C:\Users\DELL\Desktop\anotherone2\XcelTech.HRMS\XcelTech.HRMS.Api
+        source: C:\Users\DELL\Desktop\anotherone3\XcelTech.HRMS\XcelTech.HRMS.Api
         target: /app
         bind:
           create_host_path: true
       - type: bind
-        source: C:\Users\DELL\Desktop\anotherone2\XcelTech.HRMS
+        source: C:\Users\DELL\Desktop\anotherone3\XcelTech.HRMS
         target: /src
         bind:
           create_host_path: true
@@ -122,4 +122,4 @@ services:
           create_host_path: true
 networks:
   default:
-    name: dockercompose5985811497590072054_default
+    name: dockercompose17509783635317500911_default
