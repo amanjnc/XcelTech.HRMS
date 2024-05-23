@@ -7,6 +7,7 @@ namespace XcelTech.HRMS.Model.Model
     public class Employee
 
     {
+        [Key]
         public int EmployeeId { get; set; }
 
         [Required]

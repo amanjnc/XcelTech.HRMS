@@ -44,12 +44,12 @@ namespace XcelTech.HRMS.Bloc.Validations
                 .NotNull().WithMessage("Please select a role");
             RuleFor(p => p.DepartmentName)
                 .NotNull().WithMessage("Please select a department");
-            RuleFor(p => p.EmployeeImage)
+            /*RuleFor(p => p.EmployeeImage)
                 .NotNull().WithMessage("Please add a photo");
             RuleFor(p => p.EducationCredentials)
                 .NotNull().WithMessage("Please select add a certificate");
             RuleFor(p => p.PhotoId)
-                .NotNull().WithMessage("Please add a photoId");
+                .NotNull().WithMessage("Please add a photoId");*/
         }
     }
 }

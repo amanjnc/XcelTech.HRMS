@@ -8,6 +8,8 @@ using XcelTech.HRMS.Bloc.Service;
 using XcelTech.HRMS.Model.Dto;
 using XcelTech.HRMS.Model.Model;
 using XcelTech.HRMS.Repo;
+using Microsoft.AspNetCore.Authorization;
+using System.Net;
 
 namespace XcelTech.HRMS.Api.Controllers
 {
@@ -22,8 +24,10 @@ namespace XcelTech.HRMS.Api.Controllers
             _payRollService = payRollService;
         }
 
+        
         [HttpPost]
-        public async Task<IActionResult> CreatePayroll([FromBody] PayRollPostDto payrollpost)
+     
+        public async Task<IActionResult> CreatePayroll([FromForm] PayRollPostDto payrollpost)
         {
             if (ModelState.IsValid)
             {

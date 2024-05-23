@@ -9049,19 +9049,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\yeabb\\.nuget\\packages\\": {}
+    "C:\\Users\\DELL\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj",
       "projectName": "XcelTech.HRMS.Api",
-      "projectPath": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj",
-      "packagesPath": "C:\\Users\\yeabb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\obj\\",
+      "projectPath": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj",
+      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\yeabb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9069,23 +9069,24 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj": {
-              "projectPath": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj"
+            "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj"
             },
-            "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Helper\\XcelTech.HRMS.Helper.csproj": {
-              "projectPath": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Helper\\XcelTech.HRMS.Helper.csproj"
+            "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Helper\\XcelTech.HRMS.Helper.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Helper\\XcelTech.HRMS.Helper.csproj"
             },
-            "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj": {
-              "projectPath": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj"
+            "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj"
             },
-            "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj": {
-              "projectPath": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj"
+            "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj"
             }
           }
         }
@@ -9191,7 +9192,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300-preview.24203.14/PortableRuntimeIdentifierGraph.json"
       }
     }
   },

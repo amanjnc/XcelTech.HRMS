@@ -95,6 +95,11 @@ namespace XcelTech.HRMS.Repo.Repo
                 .Select(e => new Employee
                 {
 
+                    EmployeePhone= e.EmployeePhone,
+                    EmployeeId = e.EmployeeId,
+                    Gender = e.Gender,
+                    EmployyDOB = e.EmployyDOB,
+                    EmployeeAddress = e.EmployeeAddress,
                     EmployeeImage = e.EmployeeImage,
                     EmployeeFirstName = e.EmployeeFirstName,
                     EmployeeLastName = e.EmployeeLastName,
@@ -121,40 +126,6 @@ namespace XcelTech.HRMS.Repo.Repo
                 throw new Exception($"Error deleting employee: {ex.Message}");
             }
         }
-
-
-
-
-
-
-
-
-        //public async Task updateEmployee(Employee employee)
-        //{
-
-
-        //    var email = _httpContextAccessor.HttpContext.User.Claims.FirstOrDefault(c => c.Type == "sub")?.Value;
-        //    var user = await _userManager.FindByEmailAsync(email);
-
-        //    var existingEmployee = await _applicationDbContext.Employees.FirstOrDefaultAsync(emp => emp.AppUserId == user.Id);
-
-
-        //    if (existingEmployee == null)
-        //    {
-        //        throw new Exception("Employee not found."); 
-        //    }
-
-
-        //    existingEmployee.EmployeeImage = employee.EmployeeImage;
-
-        //    await _applicationDbContext.SaveChangesAsync();
-
-
-
-        //    throw new NotImplementedException();
-        //}
-
-
 
     }
 }

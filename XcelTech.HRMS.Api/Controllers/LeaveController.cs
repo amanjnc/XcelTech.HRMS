@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Net;
 using System.Security.Claims;
 using XcelTech.HRMS.Bloc.IService;
 using XcelTech.HRMS.Bloc.Service;
@@ -24,7 +26,9 @@ namespace XcelTech.HRMS.Api.Controllers
             _leaveService = leaveService;
         }
 
+        [Authorize]
         [HttpPost]
+        [ProducesResponseType(typeof(LeaveDto), (int)HttpStatusCode.OK)]
         public async Task<IActionResult> RequestLeave([FromForm] LeaveDto leaveDto) {
 
             if (!ModelState.IsValid)
@@ -55,6 +59,7 @@ namespace XcelTech.HRMS.Api.Controllers
 
         }
 
+        [Authorize]
         [HttpPatch("{leaveId}/approve")]
         public async Task<IActionResult> ApproveLeave(int leaveId)
         {
@@ -74,6 +79,7 @@ namespace XcelTech.HRMS.Api.Controllers
 
         }
 
+        [Authorize]
         [HttpPatch("{leaveId}/disapprove")]
         public async Task<IActionResult> DisapproveLeave(int leaveId)
         {
@@ -93,6 +99,7 @@ namespace XcelTech.HRMS.Api.Controllers
 
         }
 
+        
         [HttpGet("getAllLeaves")]
         public async Task<ActionResult<IEnumerable<Leave>>> getAllDepartment()
         {
@@ -120,6 +127,8 @@ namespace XcelTech.HRMS.Api.Controllers
 
             return leaveTypes;
         }
+
+        
         [HttpPost("AddLeaveType")]
         public async Task<LeaveTypes> AddLeaveType(string leaveTypeName)
         {

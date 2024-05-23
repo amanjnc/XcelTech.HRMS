@@ -1,10 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.IO;
+using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+using XcelTech.HRMS.Model.Dto;
+using XcelTech.HRMS.Model.Model;
+using XcelTech.HRMS.Repo;
 
 namespace XcelTech.HRMS.Api.Controllers
 {
@@ -12,43 +14,115 @@ namespace XcelTech.HRMS.Api.Controllers
     [ApiController]
     public class EmployeeFileController : ControllerBase
     {
+        private readonly ApplicationDbContext _applicationDbContext;
         private readonly IWebHostEnvironment _hostingEnvironment;
 
-        public EmployeeFileController(IWebHostEnvironment hostingEnvironment)
+        public EmployeeFileController(ApplicationDbContext context, IWebHostEnvironment hostingEnvironment)
         {
+            _applicationDbContext = context;
             _hostingEnvironment = hostingEnvironment;
         }
 
         [HttpPost]
-        public async Task<IActionResult> UploadFiles([FromQuery] int userId, [FromBody] List<string> base64Files)
+        public async Task<IActionResult> CreateEmployeeFile([FromBody] EmployeeFileDto employeeFileDto, [FromQuery] int userId)
         {
             try
             {
-                foreach (var base64File in base64Files)
+                var employeeFile = new EmployeeFile
                 {
-                    // Decode the Base64 string into bytes
-                    byte[] fileBytes = Convert.FromBase64String(base64File);
+                    EmployeeId = userId, // Use the userId from the query parameter
+                    Resume = await SaveFile(employeeFileDto.Resume, "Resume"),
+                    Certeficate = await SaveFile(employeeFileDto.Certeficate, "Certificate"),
+                    EducationalCredential = await SaveFile(employeeFileDto.EducationalCredential, "EducationalCredential")
+                };
 
-                    // Generate a unique filename
-                    string fileName = $"{Guid.NewGuid()}.dat";
+                _applicationDbContext.EmployeeFiles.Add(employeeFile);
+                await _applicationDbContext.SaveChangesAsync();
 
-                    // Specify the file path where the file will be saved
-                    string relativeFilePath = Path.Combine("uploads", fileName);
-                    string absoluteFilePath = Path.Combine(_hostingEnvironment.WebRootPath, relativeFilePath);
-
-                    // Write the file to disk
-                    await System.IO.File.WriteAllBytesAsync(absoluteFilePath, fileBytes);
-
-                    // Save the relative file path in the database or perform any additional processing
-                    string savedFilePath = $"/{relativeFilePath}";
-                    Console.WriteLine($"File saved: {savedFilePath}");
-                }
-
-                return Ok($"Received userId: {userId}");
+                return Ok(new { Message = "Files uploaded successfully", EmployeeFile = employeeFile });
             }
             catch (Exception ex)
             {
                 return StatusCode(500, $"An error occurred: {ex.Message}");
+            }
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetEmployeeFiles([FromQuery] int userId)
+        {
+            var employeeFiles = await _applicationDbContext.EmployeeFiles
+                .Where(ef => ef.EmployeeId == userId)
+                .ToListAsync();
+
+            if (employeeFiles == null || !employeeFiles.Any())
+            {
+                return NotFound();
+            }
+
+            return Ok(employeeFiles);
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> DeleteEmployeeFiles([FromQuery] int userId)
+        {
+            var employeeFiles = await _applicationDbContext.EmployeeFiles
+                .Where(ef => ef.EmployeeId == userId)
+                .ToListAsync();
+
+            if (employeeFiles == null || !employeeFiles.Any())
+            {
+                return NotFound();
+            }
+
+            try
+            {
+                // Delete associated files
+                foreach (var employeeFile in employeeFiles)
+                {
+                    DeleteFiles(employeeFile.Resume, employeeFile.Certeficate, employeeFile.EducationalCredential);
+                }
+
+                _applicationDbContext.EmployeeFiles.RemoveRange(employeeFiles);
+                await _applicationDbContext.SaveChangesAsync();
+
+                return Ok(new { Message = "Employee files deleted successfully" });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"An error occurred: {ex.Message}");
+            }
+        }
+
+        private async Task<string> SaveFile(string base64String, string fileType)
+        {
+            if (string.IsNullOrEmpty(base64String))
+            {
+                return null;
+            }
+
+            var parts = base64String.Split(new[] { "base64," }, StringSplitOptions.None);
+            var contentType = parts[0].Split(':')[1].Split(';')[0];
+            var fileExtension = contentType.Split('/')[1];
+            var fileBytes = Convert.FromBase64String(parts[1]);
+
+            var fileName = $"{Guid.NewGuid()}.{fileExtension}";
+            var relativeFilePath = Path.Combine("uploads", fileName);
+            var absoluteFilePath = Path.Combine(_hostingEnvironment.WebRootPath, relativeFilePath);
+
+            await System.IO.File.WriteAllBytesAsync(absoluteFilePath, fileBytes);
+
+            return relativeFilePath;
+        }
+
+        private void DeleteFiles(params string[] filePaths)
+        {
+            foreach (var filePath in filePaths.Where(fp => !string.IsNullOrEmpty(fp)))
+            {
+                var absoluteFilePath = Path.Combine(_hostingEnvironment.WebRootPath, filePath);
+                if (System.IO.File.Exists(absoluteFilePath))
+                {
+                    System.IO.File.Delete(absoluteFilePath);
+                }
             }
         }
     }

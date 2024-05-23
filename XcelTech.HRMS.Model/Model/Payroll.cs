@@ -17,6 +17,8 @@ namespace XcelTech.HRMS.Model.Model
         public int EmployeeId { get; set; }
         [ForeignKey("EmployeeId")]
 
+       
+
         public string SalaryType {  get; set; }
 
         public Double Amount { get; set; }

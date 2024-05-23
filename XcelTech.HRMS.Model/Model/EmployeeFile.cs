@@ -10,10 +10,10 @@ namespace XcelTech.HRMS.Model.Model
 {
     public class EmployeeFile
     {
-        [Key]
+        [Key, ForeignKey("employee")]
         public int EmployeeId { get; set; }
 
-        [ForeignKey("EmployeeId")]
+        //[ForeignKey("EmployeeId")]
 
         public Employee employee { get; set; }
         public string Resume { get; set; } 

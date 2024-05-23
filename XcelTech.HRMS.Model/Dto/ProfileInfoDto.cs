@@ -15,17 +15,20 @@ namespace XcelTech.HRMS.Model.Dto
 
         public string adminAssignedRole{ get; set; }
 
-        public IFormFile? EmployeeImage { get; set; }
-        public IFormFile? PhotoId { get; set; }
+        //public IFormFile? EmployeeImage { get; set; }
+        //public IFormFile? PhotoId { get; set; }
 
-        public IFormFile? EducationCredentials { get; set; }
+        //public IFormFile? EducationCredentials { get; set; }
 
         //public int? EmployeeAge { get; set; }
-        //public DateOnly? EmployyDOB { get; set; }
+        public DateOnly? EmployyDOB { get; set; }
         public string? EmployeeAddress { get; set; } = string.Empty;
         
       
         public string? EmployeePhone { get; set; }
+
+        public long BankAccountNumber { get; set; }
+
 
         //public IFormFile employeeId{ get; set; }
         [EmailAddress]

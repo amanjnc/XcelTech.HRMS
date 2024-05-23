@@ -9,6 +9,7 @@ using XcelTech.HRMS.Bloc.Service;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using System.Threading.Tasks;
+using System.Net;
 
 namespace XcelTech.HRMS.Api.Controllers
 {
@@ -62,8 +63,8 @@ namespace XcelTech.HRMS.Api.Controllers
             {
                 if (ModelState.IsValid)
                 {
-                    var _uploadedfiles = Request.Form.Files;
-                    string imagepath = await _filehandleService.FilehandlePath(_uploadedfiles, profileInfoDto.EmployeeEmail);
+                    //var _uploadedfiles = Request.Form.Files;
+                    //string imagepath = await _filehandleService.FilehandlePath(_uploadedfiles, profileInfoDto.EmployeeEmail);
                     var result = await _registerService.createUser(profileInfoDto);
                     return Ok(result);
                 }
@@ -76,6 +77,7 @@ namespace XcelTech.HRMS.Api.Controllers
             }
         }
         [HttpGet("getAllEmployeesInfo")]
+        [ProducesResponseType(typeof(IEnumerable<EmployeeGetDto>), (int)HttpStatusCode.OK)]
         public async Task<ActionResult<IEnumerable<EmployeeGetDto>>> getAllEmployee()
         {
             try

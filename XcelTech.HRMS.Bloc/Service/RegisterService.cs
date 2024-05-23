@@ -144,10 +144,10 @@ namespace XcelTech.HRMS.Bloc.Service
                 var departmentId = await _departmentRepository.getDepartmentByName(profileInfoDto.DepartmentName);
                 if (departmentId == null) return new NotFoundObjectResult("Department not found");
 
-                var all = _webHostEnvironment.WebRootPath + "\\Images\\" + profileInfoDto.EmployeeEmail;
-                employee.EmployeeImage = Path.Combine(all, "EmployeeImage.jpg");
-                employee.EducationCredentials = Path.Combine(all, "EducationCredentials.pdf");
-                employee.PhotoId = Path.Combine(all, "PhotoId.jpg");
+                //var all = _webHostEnvironment.WebRootPath + "\\Images\\" + profileInfoDto.EmployeeEmail;
+                //employee.EmployeeImage = Path.Combine(all, "EmployeeImage.jpg");
+                //employee.EducationCredentials = Path.Combine(all, "EducationCredentials.pdf");
+                //employee.PhotoId = Path.Combine(all, "PhotoId.jpg");
 
                 employee.DepartmentId = departmentId.Value;
 

@@ -136,11 +136,11 @@ namespace XcelTech.HRMS.Bloc.Service
             //updating employeetable
 
 
-            var all = _webHostEnvironment.WebRootPath + "\\Images\\" + email;
+            //var all = _webHostEnvironment.WebRootPath + "\\Images\\" + email;
 
 
-            employee.EmployeeImage = Path.Combine(all, "EmployeeImage.jpg");
-            employee.EducationCredentials = Path.Combine(all, "EducationCredentials.pdf");
+            //employee.EmployeeImage = Path.Combine(all, "EmployeeImage.jpg");
+            //employee.EducationCredentials = Path.Combine(all, "EducationCredentials.pdf");
 
 
             Console.WriteLine("this shit!");
