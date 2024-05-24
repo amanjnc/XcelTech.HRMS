@@ -299,6 +299,7 @@ namespace XcelTech.HRMS.Repo.Migrations
                 columns: table => new
                 {
                     EmployeeId = table.Column<int>(type: "integer", nullable: false),
+                    EmployeeImage = table.Column<string>(type: "text", nullable: true),
                     Resume = table.Column<string>(type: "text", nullable: false),
                     Certeficate = table.Column<string>(type: "text", nullable: true),
                     EducationalCredential = table.Column<string>(type: "text", nullable: false)

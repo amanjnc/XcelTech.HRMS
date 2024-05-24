@@ -12,7 +12,7 @@ using XcelTech.HRMS.Repo;
 namespace XcelTech.HRMS.Repo.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240523070606_one")]
+    [Migration("20240524193143_one")]
     partial class one
     {
         /// <inheritdoc />
@@ -346,6 +346,9 @@ namespace XcelTech.HRMS.Repo.Migrations
 
                     b.Property<string>("EducationalCredential")
                         .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("EmployeeImage")
                         .HasColumnType("text");
 
                     b.Property<string>("Resume")

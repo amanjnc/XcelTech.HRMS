@@ -345,6 +345,9 @@ namespace XcelTech.HRMS.Repo.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<string>("EmployeeImage")
+                        .HasColumnType("text");
+
                     b.Property<string>("Resume")
                         .IsRequired()
                         .HasColumnType("text");

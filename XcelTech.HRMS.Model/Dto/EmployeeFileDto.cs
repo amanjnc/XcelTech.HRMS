@@ -11,12 +11,14 @@ namespace XcelTech.HRMS.Model.Dto
 {
     public class EmployeeFileDto
     {
-            
-        
+
+
         //public int EmployeeId { get; set; }
 
         public string Resume { get; set; }
         public string? Certeficate { get; set; }
+
+        public string? EmployeeImage { get; set; }
 
         public string EducationalCredential { get; set; }
     }

@@ -277,22 +277,6 @@
       "PackagePath": "staticwebassets\\Images\\vofomi@molecule.ink\\PhotoId.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\uploads\\17f8ed69-cf17-432c-85c5-e2b32ce51d23.pdf",
-      "PackagePath": "staticwebassets\\uploads\\17f8ed69-cf17-432c-85c5-e2b32ce51d23.pdf"
-    },
-    {
-      "Id": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\uploads\\8e092bc6-c911-41da-8787-6995e6541f6a.pdf",
-      "PackagePath": "staticwebassets\\uploads\\8e092bc6-c911-41da-8787-6995e6541f6a.pdf"
-    },
-    {
-      "Id": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\uploads\\a75c761f-038f-4b76-b867-e212e45d09d3.pdf",
-      "PackagePath": "staticwebassets\\uploads\\a75c761f-038f-4b76-b867-e212e45d09d3.pdf"
-    },
-    {
-      "Id": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\uploads\\bf6fda55-eede-4163-a6c5-5e77abbd1e66.pdf",
-      "PackagePath": "staticwebassets\\uploads\\bf6fda55-eede-4163-a6c5-5e77abbd1e66.pdf"
-    },
-    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.XcelTech.HRMS.Api.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

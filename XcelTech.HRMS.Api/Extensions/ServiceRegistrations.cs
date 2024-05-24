@@ -26,6 +26,8 @@ namespace XcelTech.HRMS.Api.Extensions
             services.AddScoped<ILoginService, LoginService>();
             services.AddScoped<IEmployeeService, EmployeeService>();
             services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+            services.AddScoped<IEmployeeFileService, EmployeeFileService>();
+            services.AddScoped<IEmployeeFileRepository, EmployeeFileRepository>();
             services.AddScoped<IAccountRegister, AccountRegister>();
             services.AddScoped<IRegisterService, RegisterService>();
             services.AddScoped<IValidator<DtoRegister>, UserInfoValidator>();

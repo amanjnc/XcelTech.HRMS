@@ -16,6 +16,8 @@ namespace XcelTech.HRMS.Model.Model
         //[ForeignKey("EmployeeId")]
 
         public Employee employee { get; set; }
+
+        public string? EmployeeImage { get; set; }
         public string Resume { get; set; } 
         public string? Certeficate { get; set; }
 

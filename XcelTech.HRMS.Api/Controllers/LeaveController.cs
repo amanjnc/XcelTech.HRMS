@@ -48,7 +48,7 @@ namespace XcelTech.HRMS.Api.Controllers
 
                 var result = await _leaveService.createLeave(leaveDto, email);
 
-                return Ok(result); // Optionally return the newly created leave
+                return Ok(result); 
             }
             catch (Exception ex)
             {

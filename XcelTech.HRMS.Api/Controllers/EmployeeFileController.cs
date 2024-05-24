@@ -1,9 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using XcelTech.HRMS.Bloc.IService;
 using XcelTech.HRMS.Model.Dto;
 using XcelTech.HRMS.Model.Model;
 using XcelTech.HRMS.Repo;
@@ -15,77 +17,53 @@ namespace XcelTech.HRMS.Api.Controllers
     public class EmployeeFileController : ControllerBase
     {
         private readonly ApplicationDbContext _applicationDbContext;
+        private readonly IEmployeeFileService _employeeFileService;
         private readonly IWebHostEnvironment _hostingEnvironment;
 
-        public EmployeeFileController(ApplicationDbContext context, IWebHostEnvironment hostingEnvironment)
+        public EmployeeFileController(ApplicationDbContext context, IWebHostEnvironment hostingEnvironment, IEmployeeFileService employeeFileService)
         {
             _applicationDbContext = context;
             _hostingEnvironment = hostingEnvironment;
+            _employeeFileService = employeeFileService;
         }
 
         [HttpPost]
         public async Task<IActionResult> CreateEmployeeFile([FromBody] EmployeeFileDto employeeFileDto, [FromQuery] int userId)
         {
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
             try
             {
-                var employeeFile = new EmployeeFile
-                {
-                    EmployeeId = userId, // Use the userId from the query parameter
-                    Resume = await SaveFile(employeeFileDto.Resume, "Resume"),
-                    Certeficate = await SaveFile(employeeFileDto.Certeficate, "Certificate"),
-                    EducationalCredential = await SaveFile(employeeFileDto.EducationalCredential, "EducationalCredential")
-                };
+                int UserId = userId;
 
-                _applicationDbContext.EmployeeFiles.Add(employeeFile);
-                await _applicationDbContext.SaveChangesAsync();
+                var result= await _employeeFileService.CreateEmployeeFile(employeeFileDto, UserId);
+                
+                return Ok(result);
+ 
 
-                return Ok(new { Message = "Files uploaded successfully", EmployeeFile = employeeFile });
+                //return Ok(new { Message = "Files uploaded successfully", EmployeeFile = employeeFile });
             }
             catch (Exception ex)
             {
                 return StatusCode(500, $"An error occurred: {ex.Message}");
             }
         }
+
 
         [HttpGet]
         public async Task<IActionResult> GetEmployeeFiles([FromQuery] int userId)
         {
-            var employeeFiles = await _applicationDbContext.EmployeeFiles
-                .Where(ef => ef.EmployeeId == userId)
-                .ToListAsync();
-
-            if (employeeFiles == null || !employeeFiles.Any())
-            {
-                return NotFound();
-            }
-
-            return Ok(employeeFiles);
-        }
-
-        [HttpDelete]
-        public async Task<IActionResult> DeleteEmployeeFiles([FromQuery] int userId)
-        {
-            var employeeFiles = await _applicationDbContext.EmployeeFiles
-                .Where(ef => ef.EmployeeId == userId)
-                .ToListAsync();
-
-            if (employeeFiles == null || !employeeFiles.Any())
-            {
-                return NotFound();
-            }
-
             try
             {
-                // Delete associated files
-                foreach (var employeeFile in employeeFiles)
-                {
-                    DeleteFiles(employeeFile.Resume, employeeFile.Certeficate, employeeFile.EducationalCredential);
-                }
+                int UserId = userId;
 
-                _applicationDbContext.EmployeeFiles.RemoveRange(employeeFiles);
-                await _applicationDbContext.SaveChangesAsync();
+                var result = await _employeeFileService.GetEmployeeFileById(UserId);
 
-                return Ok(new { Message = "Employee files deleted successfully" });
+                return Ok(result);
+
             }
             catch (Exception ex)
             {
@@ -93,37 +71,31 @@ namespace XcelTech.HRMS.Api.Controllers
             }
         }
 
-        private async Task<string> SaveFile(string base64String, string fileType)
+
+        [HttpDelete]
+        public async Task<IActionResult> DeleteEmployeeFiles([FromQuery] int userId)
         {
-            if (string.IsNullOrEmpty(base64String))
+            try
             {
-                return null;
+                int UserId = userId;
+
+                var result = await _employeeFileService.DeleteEmployeeFile(UserId);
+
+                return Ok(result);
+
             }
-
-            var parts = base64String.Split(new[] { "base64," }, StringSplitOptions.None);
-            var contentType = parts[0].Split(':')[1].Split(';')[0];
-            var fileExtension = contentType.Split('/')[1];
-            var fileBytes = Convert.FromBase64String(parts[1]);
-
-            var fileName = $"{Guid.NewGuid()}.{fileExtension}";
-            var relativeFilePath = Path.Combine("uploads", fileName);
-            var absoluteFilePath = Path.Combine(_hostingEnvironment.WebRootPath, relativeFilePath);
-
-            await System.IO.File.WriteAllBytesAsync(absoluteFilePath, fileBytes);
-
-            return relativeFilePath;
-        }
-
-        private void DeleteFiles(params string[] filePaths)
-        {
-            foreach (var filePath in filePaths.Where(fp => !string.IsNullOrEmpty(fp)))
+            catch (Exception ex)
             {
-                var absoluteFilePath = Path.Combine(_hostingEnvironment.WebRootPath, filePath);
-                if (System.IO.File.Exists(absoluteFilePath))
-                {
-                    System.IO.File.Delete(absoluteFilePath);
-                }
+                return StatusCode(500, $"An error occurred: {ex.Message}");
             }
         }
+
+
+
+
+
+
+
     }
+
 }

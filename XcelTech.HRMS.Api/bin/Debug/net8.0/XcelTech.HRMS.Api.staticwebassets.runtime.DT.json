@@ -699,44 +699,6 @@
         },
         "Asset": null,
         "Patterns": null
-      },
-      "uploads": {
-        "Children": {
-          "17f8ed69-cf17-432c-85c5-e2b32ce51d23.pdf": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 0,
-              "SubPath": "uploads/17f8ed69-cf17-432c-85c5-e2b32ce51d23.pdf"
-            },
-            "Patterns": null
-          },
-          "8e092bc6-c911-41da-8787-6995e6541f6a.pdf": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 0,
-              "SubPath": "uploads/8e092bc6-c911-41da-8787-6995e6541f6a.pdf"
-            },
-            "Patterns": null
-          },
-          "a75c761f-038f-4b76-b867-e212e45d09d3.pdf": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 0,
-              "SubPath": "uploads/a75c761f-038f-4b76-b867-e212e45d09d3.pdf"
-            },
-            "Patterns": null
-          },
-          "bf6fda55-eede-4163-a6c5-5e77abbd1e66.pdf": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 0,
-              "SubPath": "uploads/bf6fda55-eede-4163-a6c5-5e77abbd1e66.pdf"
-            },
-            "Patterns": null
-          }
-        },
-        "Asset": null,
-        "Patterns": null
       }
     },
     "Asset": null,
