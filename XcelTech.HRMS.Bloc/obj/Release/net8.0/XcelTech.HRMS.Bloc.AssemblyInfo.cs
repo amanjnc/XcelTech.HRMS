@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XcelTech.HRMS.Bloc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+35cc726fc07f6f966569c15c4acfc55a4c5f8c16")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9512cff363617a54fc2baba77fc56defe6156c1d")]
 [assembly: System.Reflection.AssemblyProductAttribute("XcelTech.HRMS.Bloc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XcelTech.HRMS.Bloc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
