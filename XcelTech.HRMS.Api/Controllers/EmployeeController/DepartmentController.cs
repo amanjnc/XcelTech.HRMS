@@ -38,13 +38,27 @@ namespace XcelTech.HRMS.Api.Controllers.EmployeeController
 
         ////[Authorize(Policy = "ManageDepartment")]
         //[Authorize(Roles = "admin")]
-        [HttpGet("GetAllDepartment")]
-        [ProducesResponseType(typeof(IEnumerable<Department>), (int)HttpStatusCode.OK)]
-        public async Task<ActionResult<List<Department>>> getAllDepartment()
-        {
-            return await _departmentService.getAllDepartment();
+        
+        
+        
+        
+//        [HttpGet("GetAllDepartment")]
+//        [ProducesResponseType(typeof(IEnumerable<Department>), (int)HttpStatusCode.OK)]
+//public async Task<ActionResult<List<Department>>> getAllDepartment()
+//        {
+//            return await _departmentService.getAllDepartment();
 
+//        }
+
+        [HttpGet("GetAllDepartment")]
+        //[ProducesResponseType(typeof(List<Department>), (int)HttpStatusCode.OK)]
+        public async Task<ActionResult<List<Department>>> GetAllDepartments()
+        {
+            var departments = await _departmentService.getAllDepartment();
+            return departments;
         }
+
+        [ProducesResponseType(typeof(List<string>), (int)HttpStatusCode.OK)]
         [HttpGet("GetAllDepartmentNames")]
         public async Task<ActionResult<List<string>>> getAllDepartmentNames()
         {

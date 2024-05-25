@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BlFQbrXflxo9Nux2+Tq3geXuNaCdCZV/InU4QIJIxWQ=",
+  "Hash": "WXJTzjYLQZiKZMaOWDDg3S213qiWFpZYF1g5sUnnkEg=",
   "Source": "XcelTech.HRMS.Api",
   "BasePath": "_content/XcelTech.HRMS.Api",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "XcelTech.HRMS.Api\\wwwroot",
       "Source": "XcelTech.HRMS.Api",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\abcd@gmail.com\\EducationCredentials.pdf",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\abcd@gmail.com\\EducationCredentials.pdf",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/abcd@gmail.com/EducationCredentials.pdf",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\abcd@gmail.com\\EducationCredentials.pdf"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\abcd@gmail.com\\EmployeeImage.jpg",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\abcd@gmail.com\\EmployeeImage.jpg",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/abcd@gmail.com/EmployeeImage.jpg",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\abcd@gmail.com\\EmployeeImage.jpg"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\abcd@gmail.com\\PhotoId.pdf",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\abcd@gmail.com\\PhotoId.pdf",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/abcd@gmail.com/PhotoId.pdf",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\abcd@gmail.com\\PhotoId.pdf"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\abce@gmail.com\\EducationCredentials.pdf",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\abce@gmail.com\\EducationCredentials.pdf",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/abce@gmail.com/EducationCredentials.pdf",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\abce@gmail.com\\EducationCredentials.pdf"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\abce@gmail.com\\EmployeeImage.jpg",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\abce@gmail.com\\EmployeeImage.jpg",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/abce@gmail.com/EmployeeImage.jpg",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\abce@gmail.com\\EmployeeImage.jpg"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\abce@gmail.com\\PhotoId.pdf",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\abce@gmail.com\\PhotoId.pdf",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/abce@gmail.com/PhotoId.pdf",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\abce@gmail.com\\PhotoId.pdf"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\abelbeyene2000@gmail.com\\EducationCredentials.jpg",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\abelbeyene2000@gmail.com\\EducationCredentials.jpg",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/abelbeyene2000@gmail.com/EducationCredentials.jpg",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\abelbeyene2000@gmail.com\\EducationCredentials.jpg"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\abelbeyene2000@gmail.com\\EmployeeImage.jpg",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\abelbeyene2000@gmail.com\\EmployeeImage.jpg",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/abelbeyene2000@gmail.com/EmployeeImage.jpg",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\abelbeyene2000@gmail.com\\EmployeeImage.jpg"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\abelbeyene2000@gmail.com\\PhotoId.jpg",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\abelbeyene2000@gmail.com\\PhotoId.jpg",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/abelbeyene2000@gmail.com/PhotoId.jpg",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\abelbeyene2000@gmail.com\\PhotoId.jpg"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbee662@gmail.com\\EducationCredentials.pdf",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbee662@gmail.com\\EducationCredentials.pdf",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/amanuelbee662@gmail.com/EducationCredentials.pdf",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\amanuelbee662@gmail.com\\EducationCredentials.pdf"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbee662@gmail.com\\EmployeeImage.jpg",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbee662@gmail.com\\EmployeeImage.jpg",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/amanuelbee662@gmail.com/EmployeeImage.jpg",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\amanuelbee662@gmail.com\\EmployeeImage.jpg"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbee662@gmail.com\\PhotoId.jpg",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbee662@gmail.com\\PhotoId.jpg",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/amanuelbee662@gmail.com/PhotoId.jpg",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\amanuelbee662@gmail.com\\PhotoId.jpg"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbejjkjjkyene662@gmail.com\\EducationCredentials.jpg",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbejjkjjkyene662@gmail.com\\EducationCredentials.jpg",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/amanuelbejjkjjkyene662@gmail.com/EducationCredentials.jpg",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\amanuelbejjkjjkyene662@gmail.com\\EducationCredentials.jpg"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbejjkjjkyene662@gmail.com\\EmployeeImage.jpg",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbejjkjjkyene662@gmail.com\\EmployeeImage.jpg",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/amanuelbejjkjjkyene662@gmail.com/EmployeeImage.jpg",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\amanuelbejjkjjkyene662@gmail.com\\EmployeeImage.jpg"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbejjkjjkyene662@gmail.com\\PhotoId.jpg",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbejjkjjkyene662@gmail.com\\PhotoId.jpg",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/amanuelbejjkjjkyene662@gmail.com/PhotoId.jpg",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\amanuelbejjkjjkyene662@gmail.com\\PhotoId.jpg"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbekjhkjyene662@gmail.com\\EducationCredentials.docx",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbekjhkjyene662@gmail.com\\EducationCredentials.docx",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/amanuelbekjhkjyene662@gmail.com/EducationCredentials.docx",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\amanuelbekjhkjyene662@gmail.com\\EducationCredentials.docx"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbekjhkjyene662@gmail.com\\EmployeeImage.docx",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbekjhkjyene662@gmail.com\\EmployeeImage.docx",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/amanuelbekjhkjyene662@gmail.com/EmployeeImage.docx",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\amanuelbekjhkjyene662@gmail.com\\EmployeeImage.docx"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbekjhkjyene662@gmail.com\\PhotoId.docx",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbekjhkjyene662@gmail.com\\PhotoId.docx",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/amanuelbekjhkjyene662@gmail.com/PhotoId.docx",
       "AssetKind": "All",
@@ -359,10 +359,67 @@
       "OriginalItemSpec": "wwwroot\\Images\\amanuelbekjhkjyene662@gmail.com\\PhotoId.docx"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbeyenfdfe662@gmail.com\\EducationCredentials.docx",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbenmbmnyene662@gmail.com\\EducationCredentials.jpg",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
+      "BasePath": "_content/XcelTech.HRMS.Api",
+      "RelativePath": "Images/amanuelbenmbmnyene662@gmail.com/EducationCredentials.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\amanuelbenmbmnyene662@gmail.com\\EducationCredentials.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbenmbmnyene662@gmail.com\\EmployeeImage.jpg",
+      "SourceId": "XcelTech.HRMS.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
+      "BasePath": "_content/XcelTech.HRMS.Api",
+      "RelativePath": "Images/amanuelbenmbmnyene662@gmail.com/EmployeeImage.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\amanuelbenmbmnyene662@gmail.com\\EmployeeImage.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbenmbmnyene662@gmail.com\\PhotoId.jpg",
+      "SourceId": "XcelTech.HRMS.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
+      "BasePath": "_content/XcelTech.HRMS.Api",
+      "RelativePath": "Images/amanuelbenmbmnyene662@gmail.com/PhotoId.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\amanuelbenmbmnyene662@gmail.com\\PhotoId.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbeyenfdfe662@gmail.com\\EducationCredentials.docx",
+      "SourceId": "XcelTech.HRMS.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/amanuelbeyenfdfe662@gmail.com/EducationCredentials.docx",
       "AssetKind": "All",
@@ -378,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\amanuelbeyenfdfe662@gmail.com\\EducationCredentials.docx"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbeyenfdfe662@gmail.com\\EmployeeImage.docx",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbeyenfdfe662@gmail.com\\EmployeeImage.docx",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/amanuelbeyenfdfe662@gmail.com/EmployeeImage.docx",
       "AssetKind": "All",
@@ -397,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\amanuelbeyenfdfe662@gmail.com\\EmployeeImage.docx"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbeyenfdfe662@gmail.com\\PhotoId.docx",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbeyenfdfe662@gmail.com\\PhotoId.docx",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/amanuelbeyenfdfe662@gmail.com/PhotoId.docx",
       "AssetKind": "All",
@@ -416,10 +473,67 @@
       "OriginalItemSpec": "wwwroot\\Images\\amanuelbeyenfdfe662@gmail.com\\PhotoId.docx"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbeyexczvxne662@gmail.com\\EducationCredentials.docx",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbeyenkjjkje662@gmail.com\\EducationCredentials.jpg",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
+      "BasePath": "_content/XcelTech.HRMS.Api",
+      "RelativePath": "Images/amanuelbeyenkjjkje662@gmail.com/EducationCredentials.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\amanuelbeyenkjjkje662@gmail.com\\EducationCredentials.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbeyenkjjkje662@gmail.com\\EmployeeImage.jpg",
+      "SourceId": "XcelTech.HRMS.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
+      "BasePath": "_content/XcelTech.HRMS.Api",
+      "RelativePath": "Images/amanuelbeyenkjjkje662@gmail.com/EmployeeImage.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\amanuelbeyenkjjkje662@gmail.com\\EmployeeImage.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbeyenkjjkje662@gmail.com\\PhotoId.jpg",
+      "SourceId": "XcelTech.HRMS.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
+      "BasePath": "_content/XcelTech.HRMS.Api",
+      "RelativePath": "Images/amanuelbeyenkjjkje662@gmail.com/PhotoId.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\amanuelbeyenkjjkje662@gmail.com\\PhotoId.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbeyexczvxne662@gmail.com\\EducationCredentials.docx",
+      "SourceId": "XcelTech.HRMS.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/amanuelbeyexczvxne662@gmail.com/EducationCredentials.docx",
       "AssetKind": "All",
@@ -435,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\amanuelbeyexczvxne662@gmail.com\\EducationCredentials.docx"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbeyexczvxne662@gmail.com\\EmployeeImage.docx",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbeyexczvxne662@gmail.com\\EmployeeImage.docx",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/amanuelbeyexczvxne662@gmail.com/EmployeeImage.docx",
       "AssetKind": "All",
@@ -454,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\amanuelbeyexczvxne662@gmail.com\\EmployeeImage.docx"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbeyexczvxne662@gmail.com\\PhotoId.docx",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbeyexczvxne662@gmail.com\\PhotoId.docx",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/amanuelbeyexczvxne662@gmail.com/PhotoId.docx",
       "AssetKind": "All",
@@ -473,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\amanuelbeyexczvxne662@gmail.com\\PhotoId.docx"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbeyjjkjkkene662@gmail.com\\EducationCredentials.docx",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbeyjjkjkkene662@gmail.com\\EducationCredentials.docx",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/amanuelbeyjjkjkkene662@gmail.com/EducationCredentials.docx",
       "AssetKind": "All",
@@ -492,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\amanuelbeyjjkjkkene662@gmail.com\\EducationCredentials.docx"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbeyjjkjkkene662@gmail.com\\EmployeeImage.docx",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbeyjjkjkkene662@gmail.com\\EmployeeImage.docx",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/amanuelbeyjjkjkkene662@gmail.com/EmployeeImage.docx",
       "AssetKind": "All",
@@ -511,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\amanuelbeyjjkjkkene662@gmail.com\\EmployeeImage.docx"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbeyjjkjkkene662@gmail.com\\PhotoId.docx",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbeyjjkjkkene662@gmail.com\\PhotoId.docx",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/amanuelbeyjjkjkkene662@gmail.com/PhotoId.docx",
       "AssetKind": "All",
@@ -530,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\amanuelbeyjjkjkkene662@gmail.com\\PhotoId.docx"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbeyjkhkjhene662@gmail.com\\EducationCredentials.docx",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbeyjkhkjhene662@gmail.com\\EducationCredentials.docx",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/amanuelbeyjkhkjhene662@gmail.com/EducationCredentials.docx",
       "AssetKind": "All",
@@ -549,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\amanuelbeyjkhkjhene662@gmail.com\\EducationCredentials.docx"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbeyjkhkjhene662@gmail.com\\EmployeeImage.docx",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbeyjkhkjhene662@gmail.com\\EmployeeImage.docx",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/amanuelbeyjkhkjhene662@gmail.com/EmployeeImage.docx",
       "AssetKind": "All",
@@ -568,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\amanuelbeyjkhkjhene662@gmail.com\\EmployeeImage.docx"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbeyjkhkjhene662@gmail.com\\PhotoId.docx",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbeyjkhkjhene662@gmail.com\\PhotoId.docx",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/amanuelbeyjkhkjhene662@gmail.com/PhotoId.docx",
       "AssetKind": "All",
@@ -587,10 +701,124 @@
       "OriginalItemSpec": "wwwroot\\Images\\amanuelbeyjkhkjhene662@gmail.com\\PhotoId.docx"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbjjkeyene662@gmail.com\\EducationCredentials.docx",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbeynmkjasdfene662@gmail.com\\EducationCredentials.jpg",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
+      "BasePath": "_content/XcelTech.HRMS.Api",
+      "RelativePath": "Images/amanuelbeynmkjasdfene662@gmail.com/EducationCredentials.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\amanuelbeynmkjasdfene662@gmail.com\\EducationCredentials.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbeynmkjasdfene662@gmail.com\\EmployeeImage.jpg",
+      "SourceId": "XcelTech.HRMS.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
+      "BasePath": "_content/XcelTech.HRMS.Api",
+      "RelativePath": "Images/amanuelbeynmkjasdfene662@gmail.com/EmployeeImage.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\amanuelbeynmkjasdfene662@gmail.com\\EmployeeImage.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbeynmkjasdfene662@gmail.com\\PhotoId.jpg",
+      "SourceId": "XcelTech.HRMS.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
+      "BasePath": "_content/XcelTech.HRMS.Api",
+      "RelativePath": "Images/amanuelbeynmkjasdfene662@gmail.com/PhotoId.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\amanuelbeynmkjasdfene662@gmail.com\\PhotoId.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbeynmkjkjjkjasdfasdfene662@gmail.com\\EducationCredentials.jpg",
+      "SourceId": "XcelTech.HRMS.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
+      "BasePath": "_content/XcelTech.HRMS.Api",
+      "RelativePath": "Images/amanuelbeynmkjkjjkjasdfasdfene662@gmail.com/EducationCredentials.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\amanuelbeynmkjkjjkjasdfasdfene662@gmail.com\\EducationCredentials.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbeynmkjkjjkjasdfasdfene662@gmail.com\\EmployeeImage.jpg",
+      "SourceId": "XcelTech.HRMS.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
+      "BasePath": "_content/XcelTech.HRMS.Api",
+      "RelativePath": "Images/amanuelbeynmkjkjjkjasdfasdfene662@gmail.com/EmployeeImage.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\amanuelbeynmkjkjjkjasdfasdfene662@gmail.com\\EmployeeImage.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbeynmkjkjjkjasdfasdfene662@gmail.com\\PhotoId.jpg",
+      "SourceId": "XcelTech.HRMS.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
+      "BasePath": "_content/XcelTech.HRMS.Api",
+      "RelativePath": "Images/amanuelbeynmkjkjjkjasdfasdfene662@gmail.com/PhotoId.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\amanuelbeynmkjkjjkjasdfasdfene662@gmail.com\\PhotoId.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbjjkeyene662@gmail.com\\EducationCredentials.docx",
+      "SourceId": "XcelTech.HRMS.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/amanuelbjjkeyene662@gmail.com/EducationCredentials.docx",
       "AssetKind": "All",
@@ -606,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\amanuelbjjkeyene662@gmail.com\\EducationCredentials.docx"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbjjkeyene662@gmail.com\\EmployeeImage.docx",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbjjkeyene662@gmail.com\\EmployeeImage.docx",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/amanuelbjjkeyene662@gmail.com/EmployeeImage.docx",
       "AssetKind": "All",
@@ -625,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\amanuelbjjkeyene662@gmail.com\\EmployeeImage.docx"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbjjkeyene662@gmail.com\\PhotoId.docx",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanuelbjjkeyene662@gmail.com\\PhotoId.docx",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/amanuelbjjkeyene662@gmail.com/PhotoId.docx",
       "AssetKind": "All",
@@ -644,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\amanuelbjjkeyene662@gmail.com\\PhotoId.docx"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanujkkjelbeyene662@gmail.com\\EducationCredentials.docx",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanujkkjelbeyene662@gmail.com\\EducationCredentials.docx",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/amanujkkjelbeyene662@gmail.com/EducationCredentials.docx",
       "AssetKind": "All",
@@ -663,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\amanujkkjelbeyene662@gmail.com\\EducationCredentials.docx"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanujkkjelbeyene662@gmail.com\\EmployeeImage.docx",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanujkkjelbeyene662@gmail.com\\EmployeeImage.docx",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/amanujkkjelbeyene662@gmail.com/EmployeeImage.docx",
       "AssetKind": "All",
@@ -682,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\amanujkkjelbeyene662@gmail.com\\EmployeeImage.docx"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanujkkjelbeyene662@gmail.com\\PhotoId.docx",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\amanujkkjelbeyene662@gmail.com\\PhotoId.docx",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/amanujkkjelbeyene662@gmail.com/PhotoId.docx",
       "AssetKind": "All",
@@ -701,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\amanujkkjelbeyene662@gmail.com\\PhotoId.docx"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\birukspace0900@gmail.com\\EducationCredentials.jpg",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\birukspace0900@gmail.com\\EducationCredentials.jpg",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/birukspace0900@gmail.com/EducationCredentials.jpg",
       "AssetKind": "All",
@@ -720,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\birukspace0900@gmail.com\\EducationCredentials.jpg"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\birukspace0900@gmail.com\\EmployeeImage.jpg",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\birukspace0900@gmail.com\\EmployeeImage.jpg",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/birukspace0900@gmail.com/EmployeeImage.jpg",
       "AssetKind": "All",
@@ -739,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\birukspace0900@gmail.com\\EmployeeImage.jpg"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\birukspace0900@gmail.com\\PhotoId.jpg",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\birukspace0900@gmail.com\\PhotoId.jpg",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/birukspace0900@gmail.com/PhotoId.jpg",
       "AssetKind": "All",
@@ -758,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\birukspace0900@gmail.com\\PhotoId.jpg"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\feven@gmail.com\\EducationCredentials.pdf",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\feven@gmail.com\\EducationCredentials.pdf",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/feven@gmail.com/EducationCredentials.pdf",
       "AssetKind": "All",
@@ -777,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\feven@gmail.com\\EducationCredentials.pdf"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\feven@gmail.com\\EmployeeImage.jpg",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\feven@gmail.com\\EmployeeImage.jpg",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/feven@gmail.com/EmployeeImage.jpg",
       "AssetKind": "All",
@@ -796,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\feven@gmail.com\\EmployeeImage.jpg"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\feven@gmail.com\\PhotoId.pdf",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\feven@gmail.com\\PhotoId.pdf",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/feven@gmail.com/PhotoId.pdf",
       "AssetKind": "All",
@@ -815,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\feven@gmail.com\\PhotoId.pdf"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\feven@hr.com\\EducationCredentials.pdf",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\feven@hr.com\\EducationCredentials.pdf",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/feven@hr.com/EducationCredentials.pdf",
       "AssetKind": "All",
@@ -834,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\feven@hr.com\\EducationCredentials.pdf"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\feven@hr.com\\EmployeeImage.jpg",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\feven@hr.com\\EmployeeImage.jpg",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/feven@hr.com/EmployeeImage.jpg",
       "AssetKind": "All",
@@ -853,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\feven@hr.com\\EmployeeImage.jpg"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\feven@hr.com\\PhotoId.pdf",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\feven@hr.com\\PhotoId.pdf",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/feven@hr.com/PhotoId.pdf",
       "AssetKind": "All",
@@ -872,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\feven@hr.com\\PhotoId.pdf"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\kebede@gmail.com\\EducationCredentials.pdf",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\kebede@gmail.com\\EducationCredentials.pdf",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/kebede@gmail.com/EducationCredentials.pdf",
       "AssetKind": "All",
@@ -891,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\kebede@gmail.com\\EducationCredentials.pdf"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\kebede@gmail.com\\EmployeeImage.jpg",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\kebede@gmail.com\\EmployeeImage.jpg",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/kebede@gmail.com/EmployeeImage.jpg",
       "AssetKind": "All",
@@ -910,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\kebede@gmail.com\\EmployeeImage.jpg"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\kebede@gmail.com\\PhotoId.pdf",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\kebede@gmail.com\\PhotoId.pdf",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/kebede@gmail.com/PhotoId.pdf",
       "AssetKind": "All",
@@ -929,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\kebede@gmail.com\\PhotoId.pdf"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\kisica1692@fincainc.com\\EducationCredentials.jpg",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\kisica1692@fincainc.com\\EducationCredentials.jpg",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/kisica1692@fincainc.com/EducationCredentials.jpg",
       "AssetKind": "All",
@@ -948,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\kisica1692@fincainc.com\\EducationCredentials.jpg"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\kisica1692@fincainc.com\\EmployeeImage.jpg",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\kisica1692@fincainc.com\\EmployeeImage.jpg",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/kisica1692@fincainc.com/EmployeeImage.jpg",
       "AssetKind": "All",
@@ -967,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\kisica1692@fincainc.com\\EmployeeImage.jpg"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\kisica1692@fincainc.com\\PhotoId.jpg",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\kisica1692@fincainc.com\\PhotoId.jpg",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/kisica1692@fincainc.com/PhotoId.jpg",
       "AssetKind": "All",
@@ -986,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\kisica1692@fincainc.com\\PhotoId.jpg"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\notlbeyene662@gmail.com\\EducationCredentials.pdf",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\notlbeyene662@gmail.com\\EducationCredentials.pdf",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/notlbeyene662@gmail.com/EducationCredentials.pdf",
       "AssetKind": "All",
@@ -1005,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\notlbeyene662@gmail.com\\EducationCredentials.pdf"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\notlbeyene662@gmail.com\\EmployeeImage.jpg",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\notlbeyene662@gmail.com\\EmployeeImage.jpg",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/notlbeyene662@gmail.com/EmployeeImage.jpg",
       "AssetKind": "All",
@@ -1024,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\notlbeyene662@gmail.com\\EmployeeImage.jpg"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\notlbeyene662@gmail.com\\PhotoId.jpg",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\notlbeyene662@gmail.com\\PhotoId.jpg",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/notlbeyene662@gmail.com/PhotoId.jpg",
       "AssetKind": "All",
@@ -1043,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\notlbeyene662@gmail.com\\PhotoId.jpg"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\notlbeyene6dff62@gmail.com\\EducationCredentials.pdf",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\notlbeyene6dff62@gmail.com\\EducationCredentials.pdf",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/notlbeyene6dff62@gmail.com/EducationCredentials.pdf",
       "AssetKind": "All",
@@ -1062,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\notlbeyene6dff62@gmail.com\\EducationCredentials.pdf"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\notlbeyene6dff62@gmail.com\\EmployeeImage.jpg",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\notlbeyene6dff62@gmail.com\\EmployeeImage.jpg",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/notlbeyene6dff62@gmail.com/EmployeeImage.jpg",
       "AssetKind": "All",
@@ -1081,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\notlbeyene6dff62@gmail.com\\EmployeeImage.jpg"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\notlbeyene6dff62@gmail.com\\PhotoId.jpg",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\notlbeyene6dff62@gmail.com\\PhotoId.jpg",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/notlbeyene6dff62@gmail.com/PhotoId.jpg",
       "AssetKind": "All",
@@ -1100,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\notlbeyene6dff62@gmail.com\\PhotoId.jpg"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\notlbeyene6ff62@gmail.com\\EducationCredentials.pdf",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\notlbeyene6ff62@gmail.com\\EducationCredentials.pdf",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/notlbeyene6ff62@gmail.com/EducationCredentials.pdf",
       "AssetKind": "All",
@@ -1119,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\notlbeyene6ff62@gmail.com\\EducationCredentials.pdf"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\notlbeyene6ff62@gmail.com\\EmployeeImage.jpg",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\notlbeyene6ff62@gmail.com\\EmployeeImage.jpg",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/notlbeyene6ff62@gmail.com/EmployeeImage.jpg",
       "AssetKind": "All",
@@ -1138,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\notlbeyene6ff62@gmail.com\\EmployeeImage.jpg"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\notlbeyene6ff62@gmail.com\\PhotoId.jpg",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\notlbeyene6ff62@gmail.com\\PhotoId.jpg",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/notlbeyene6ff62@gmail.com/PhotoId.jpg",
       "AssetKind": "All",
@@ -1157,10 +1385,67 @@
       "OriginalItemSpec": "wwwroot\\Images\\notlbeyene6ff62@gmail.com\\PhotoId.jpg"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\tojiye4228@huleos.com\\EducationCredentials.jpg",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\sadfasdf@gmail.com\\EducationCredentials.jpg",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
+      "BasePath": "_content/XcelTech.HRMS.Api",
+      "RelativePath": "Images/sadfasdf@gmail.com/EducationCredentials.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\sadfasdf@gmail.com\\EducationCredentials.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\sadfasdf@gmail.com\\EmployeeImage.jpg",
+      "SourceId": "XcelTech.HRMS.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
+      "BasePath": "_content/XcelTech.HRMS.Api",
+      "RelativePath": "Images/sadfasdf@gmail.com/EmployeeImage.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\sadfasdf@gmail.com\\EmployeeImage.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\sadfasdf@gmail.com\\PhotoId.jpg",
+      "SourceId": "XcelTech.HRMS.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
+      "BasePath": "_content/XcelTech.HRMS.Api",
+      "RelativePath": "Images/sadfasdf@gmail.com/PhotoId.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\sadfasdf@gmail.com\\PhotoId.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\tojiye4228@huleos.com\\EducationCredentials.jpg",
+      "SourceId": "XcelTech.HRMS.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/tojiye4228@huleos.com/EducationCredentials.jpg",
       "AssetKind": "All",
@@ -1176,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\tojiye4228@huleos.com\\EducationCredentials.jpg"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\tojiye4228@huleos.com\\EmployeeImage.jpg",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\tojiye4228@huleos.com\\EmployeeImage.jpg",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/tojiye4228@huleos.com/EmployeeImage.jpg",
       "AssetKind": "All",
@@ -1195,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\tojiye4228@huleos.com\\EmployeeImage.jpg"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\tojiye4228@huleos.com\\PhotoId.jpg",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\tojiye4228@huleos.com\\PhotoId.jpg",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/tojiye4228@huleos.com/PhotoId.jpg",
       "AssetKind": "All",
@@ -1214,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\tojiye4228@huleos.com\\PhotoId.jpg"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\tps11efaps@somelora.com\\EducationCredentials.jpg",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\tps11efaps@somelora.com\\EducationCredentials.jpg",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/tps11efaps@somelora.com/EducationCredentials.jpg",
       "AssetKind": "All",
@@ -1233,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\tps11efaps@somelora.com\\EducationCredentials.jpg"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\tps11efaps@somelora.com\\EmployeeImage.jpg",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\tps11efaps@somelora.com\\EmployeeImage.jpg",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/tps11efaps@somelora.com/EmployeeImage.jpg",
       "AssetKind": "All",
@@ -1252,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\tps11efaps@somelora.com\\EmployeeImage.jpg"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\tps11efaps@somelora.com\\PhotoId.jpg",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\tps11efaps@somelora.com\\PhotoId.jpg",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/tps11efaps@somelora.com/PhotoId.jpg",
       "AssetKind": "All",
@@ -1271,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\tps11efaps@somelora.com\\PhotoId.jpg"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\vofomi@molecule.ink\\EducationCredentials.jpg",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\vofomi@molecule.ink\\EducationCredentials.jpg",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/vofomi@molecule.ink/EducationCredentials.jpg",
       "AssetKind": "All",
@@ -1290,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\vofomi@molecule.ink\\EducationCredentials.jpg"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\vofomi@molecule.ink\\EmployeeImage.jpg",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\vofomi@molecule.ink\\EmployeeImage.jpg",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/vofomi@molecule.ink/EmployeeImage.jpg",
       "AssetKind": "All",
@@ -1309,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\vofomi@molecule.ink\\EmployeeImage.jpg"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\Images\\vofomi@molecule.ink\\PhotoId.jpg",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\Images\\vofomi@molecule.ink\\PhotoId.jpg",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "Images/vofomi@molecule.ink/PhotoId.jpg",
       "AssetKind": "All",
@@ -1328,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\vofomi@molecule.ink\\PhotoId.jpg"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\uploads\\17f8ed69-cf17-432c-85c5-e2b32ce51d23.pdf",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\uploads\\17f8ed69-cf17-432c-85c5-e2b32ce51d23.pdf",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "uploads/17f8ed69-cf17-432c-85c5-e2b32ce51d23.pdf",
       "AssetKind": "All",
@@ -1347,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\17f8ed69-cf17-432c-85c5-e2b32ce51d23.pdf"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\uploads\\8e092bc6-c911-41da-8787-6995e6541f6a.pdf",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\uploads\\8e092bc6-c911-41da-8787-6995e6541f6a.pdf",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "uploads/8e092bc6-c911-41da-8787-6995e6541f6a.pdf",
       "AssetKind": "All",
@@ -1366,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\8e092bc6-c911-41da-8787-6995e6541f6a.pdf"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\uploads\\a75c761f-038f-4b76-b867-e212e45d09d3.pdf",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\uploads\\a75c761f-038f-4b76-b867-e212e45d09d3.pdf",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "uploads/a75c761f-038f-4b76-b867-e212e45d09d3.pdf",
       "AssetKind": "All",
@@ -1385,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\a75c761f-038f-4b76-b867-e212e45d09d3.pdf"
     },
     {
-      "Identity": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\uploads\\bf6fda55-eede-4163-a6c5-5e77abbd1e66.pdf",
+      "Identity": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\uploads\\bf6fda55-eede-4163-a6c5-5e77abbd1e66.pdf",
       "SourceId": "XcelTech.HRMS.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yeabb\\Music\\C#\\xcell\\XcelTech.HRMS.Api\\wwwroot\\",
       "BasePath": "_content/XcelTech.HRMS.Api",
       "RelativePath": "uploads/bf6fda55-eede-4163-a6c5-5e77abbd1e66.pdf",
       "AssetKind": "All",

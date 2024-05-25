@@ -11,8 +11,9 @@
             var userName = emailSettings["UserName"];
             var password = emailSettings["Password"];
             services.AddFluentEmail(defaultFromEmail)
-            .AddSmtpSender(host, port, userName, password);
-            
+            .AddSmtpSender(host, port, userName, password)
+            .AddRazorRenderer();
+
         }
     }
 }

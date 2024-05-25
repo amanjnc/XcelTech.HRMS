@@ -54,6 +54,10 @@ namespace XcelTech.HRMS.Api.Controllers
         }
 
         [HttpPost("login")]
+
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(NewUserDto))]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> Login([FromBody] DtoToLogin login, bool rememberMe = false)
         {
             if (!ModelState.IsValid)

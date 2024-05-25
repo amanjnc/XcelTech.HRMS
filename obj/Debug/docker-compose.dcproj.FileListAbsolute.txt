@@ -243,3 +243,6 @@ C:\Users\DELL\Desktop\anotherone3\XcelTech.HRMS\bin\Debug\XcelTech.HRMS.Helper.p
 C:\Users\DELL\Desktop\anotherone3\XcelTech.HRMS\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 C:\Users\DELL\Desktop\anotherone3\XcelTech.HRMS\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\Users\DELL\Desktop\anotherone3\XcelTech.HRMS\obj\Debug\docker-c.35A3FFBA.Up2Date
+C:\Users\yeabb\Music\C#\xcell\bin\Debug\FluentEmail.Razor.dll
+C:\Users\yeabb\Music\C#\xcell\bin\Debug\RazorLight.dll
+C:\Users\yeabb\Music\C#\xcell\bin\Debug\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll

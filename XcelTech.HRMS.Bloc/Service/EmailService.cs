@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using XcelTech.HRMS.Bloc.IService;
+using XcelTech.HRMS.Model.Dto;
 using XcelTech.HRMS.Model.Model;
 
 namespace XcelTech.HRMS.Bloc.Service
@@ -21,10 +22,19 @@ namespace XcelTech.HRMS.Bloc.Service
         {
             await _iFluentEmail.To(emailFormatData.ToAddress)
                 .Subject(emailFormatData.Subject)
+                //.UsingTemplateFromFile(file,model,true)
                 .Body(emailFormatData.Body)
                 .SendAsync();
         }
-       
+       public async Task sendEmailAsHtmlTemplate(EmailFormatData emaiFormatData,ProfileInfoDto profileInfoDto,string EmailTemplatePath)
+        {
+            
+                await _iFluentEmail.To(emaiFormatData.ToAddress)
+                    .Subject(emaiFormatData.Subject)
+                    .UsingTemplateFromFile(EmailTemplatePath, profileInfoDto , true)
+                    .SendAsync();
+            
+        }
 
     }
 }

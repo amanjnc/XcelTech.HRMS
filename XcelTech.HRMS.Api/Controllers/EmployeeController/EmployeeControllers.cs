@@ -55,8 +55,13 @@ namespace XcelTech.HRMS.Api.Controllers
             }
         }
 
+
+
         [HttpPost("registerProfile")]
-        
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(NewUserDto))]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+
         public async Task<IActionResult> registerProfile([FromForm] ProfileInfoDto profileInfoDto)
         {
             try

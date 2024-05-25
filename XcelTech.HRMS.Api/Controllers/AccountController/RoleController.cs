@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
+using Microsoft.AspNetCore.Authorization;
 
 namespace XcelTech.HRMS.Api.Controllers
 {
@@ -19,6 +20,8 @@ namespace XcelTech.HRMS.Api.Controllers
             _roleManager = roleManager;
         }
 
+
+        [Authorize(Policy = "getROles")]
         [HttpGet("getAllRoles")]
         public async Task<ActionResult<IEnumerable<string>>> GetAllRoles()
         {
@@ -33,6 +36,8 @@ namespace XcelTech.HRMS.Api.Controllers
             }
         }
 
+
+        [Authorize(Policy = "ManageRolePermissions")]
         [HttpPost("AssignPermissionClaim")]
         public async Task AssignPermissionClaimToRole(string roleName, string permission)
         {
