@@ -152,7 +152,6 @@ namespace XcelTech.HRMS.Bloc.Service
 
 
         }
-
         public async Task<IActionResult> deleteEmployeeUserByEmail(string email)
         {
             try
