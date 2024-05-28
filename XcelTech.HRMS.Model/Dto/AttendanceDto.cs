@@ -14,7 +14,7 @@ namespace XcelTech.HRMS.Model.Dto
         public string ClockinTime { get; set; }
         public string? ClockoutTime { get; set; }
 
-        //public TimeOnly? TotalTime { get; set; }
+        public TimeOnly? TotalTime { get; set; }
 
         public string EmployeeName {  get; set; }
     }

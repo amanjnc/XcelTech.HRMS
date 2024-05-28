@@ -137,7 +137,11 @@ namespace XcelTech.HRMS.Repo.Repo
     .Select(emp => new Employee
     {
         EmployeeId = emp.EmployeeId,
+        EmployeePhone = emp.EmployeePhone,
         EmployeeEmail = emp.EmployeeEmail,
+        Gender = emp.Gender,
+        EmployyDOB = emp.EmployyDOB,
+        EmployeeAddress = emp.EmployeeAddress,
         EmployeeFirstName = emp.EmployeeFirstName,
         EmployeeLastName = emp.EmployeeLastName,
         DepartmentId = emp.DepartmentId,

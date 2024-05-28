@@ -15,6 +15,7 @@ namespace XcelTech.HRMS.Model.Profiles
         {
             CreateMap<Attendance, AttendanceDto>()
                .ForMember(dest => dest.ClockinTime, opt => opt.MapFrom(src => src.ClockinTime.ToString("HH:mm:ss")))
+               .ForMember(dest => dest.ClockoutTime, opt => opt.MapFrom(src => src.ClockoutTime.HasValue ? src.ClockoutTime.Value.ToString("HH:mm:ss") : null))
             .ForMember(dest => dest.EmployeeName, opt => opt.MapFrom(src => $"{src.employee.EmployeeFirstName} {src.employee.EmployeeLastName}"));
 
 
