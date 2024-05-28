@@ -31,7 +31,8 @@ namespace XcelTech.HRMS.Repo.Repo
 
         public async Task<List<Leave>> GetAllLeaves()
         {
-            var leaves = await _applicationDbContext.Leaves.ToListAsync();
+            var leaves = await _applicationDbContext.Leaves.Include(l => l.employee)
+                            .ToListAsync();
 
             return leaves;
         }

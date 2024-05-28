@@ -207,5 +207,26 @@ namespace XcelTech.HRMS.Bloc.Service
                 return new StatusCodeResult(StatusCodes.Status500InternalServerError);
             }
         }
+
+        public async Task<EmployeeGetDto> getloggedinEmployee(string email)
+        {
+            var user = await _userManager.FindByEmailAsync(email);
+            var respectiveRole = await _accountRegister.getRoleOfUser(user);
+  
+            var employee = await _employeeRepository.getloggedinEmployee(email);
+            var departmentId = employee.DepartmentId;
+            var respectiveDepartmentName = await _departmentRepository.getDepartmentNameById(departmentId);
+            var employeeDtos = _mapper.Map<EmployeeGetDto>(employee);
+            employeeDtos.Role = respectiveRole;
+            employeeDtos.DepartmentName = respectiveDepartmentName.Value;
+
+
+
+
+
+            //var employeeGetDtos = _mapper.Map<List<EmployeeGetDto>>(employees);
+
+            return employeeDtos;
+        }
     }
  }

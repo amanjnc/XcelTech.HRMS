@@ -102,6 +102,29 @@ namespace XcelTech.HRMS.Api.Controllers
         }
 
 
+        [HttpGet("getloggedinEmployee")]
+        public async Task<ActionResult<IEnumerable<EmployeeGetDto>>> getloggedinEmployee()
+        {
+            try
+            {
+                var email = HttpContext.User.FindFirstValue(ClaimTypes.Email);
+                var employee = await _employeeService.getloggedinEmployee(email);
+
+
+                return Ok(employee);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
+
+
+
+           
+            }
+      
+        }
+
+
 
     }
-}

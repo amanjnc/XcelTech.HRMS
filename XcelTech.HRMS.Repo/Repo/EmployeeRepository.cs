@@ -127,5 +127,27 @@ namespace XcelTech.HRMS.Repo.Repo
             }
         }
 
+
+        public async Task<Employee> getloggedinEmployee(string email)
+        {
+            var currentEmployee = await _applicationDbContext.Employees
+    .Include(emp => emp.department) // Assuming department is the navigation property for Department
+    .Include(emp => emp.AppUser)    // Assuming AppUser is the navigation property for AppUser
+    .Where(emp => emp.EmployeeEmail == email)
+    .Select(emp => new Employee
+    {
+        EmployeeId = emp.EmployeeId,
+        EmployeeEmail = emp.EmployeeEmail,
+        EmployeeFirstName = emp.EmployeeFirstName,
+        EmployeeLastName = emp.EmployeeLastName,
+        DepartmentId = emp.DepartmentId,
+        AppUser = emp.AppUser
+    })
+    .FirstOrDefaultAsync();
+
+
+
+            return currentEmployee;
+        }
     }
 }

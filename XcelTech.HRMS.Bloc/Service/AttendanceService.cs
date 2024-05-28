@@ -22,19 +22,57 @@ namespace XcelTech.HRMS.Bloc.Service
         _attendanceRepository = attendanceRepository;
             _mapper = mapper;
         }
-        public async Task<IActionResult> AddAttendance(AttendanceDto attendanceDto, string email)
+        public async Task<IActionResult> Clockin(DateTime _clockinTime, string email)
         {
             if (email == null)
             {
-                Console.WriteLine("You have failed this coty this shit hurts");
-                // Token validation failed or user not found
                 return new UnauthorizedResult();
             }
-            var attendance = _mapper.Map<Attendance>(attendanceDto);
+            //var attendance = _mapper.Map<Attendance>(attendanceDto);
+
+            var attendance = new Attendance { ClockinTime = _clockinTime };
 
             await _attendanceRepository.AddAttendance(attendance, email);
 
             return new OkResult();
+        }
+
+        public async Task<IActionResult> Clockout(DateTime _clockoutTime, string email)
+        {
+            if (email == null)
+            {
+                return new UnauthorizedResult();
+            }
+            //var attendance = _mapper.Map<Attendance>(attendanceDto);
+
+            var attendance = await _attendanceRepository.GetAttendanceByEmployeeEmail(email);
+            attendance.ClockoutTime = _clockoutTime;
+
+
+            TimeSpan? Total = attendance.ClockoutTime - attendance.ClockinTime;
+
+            int totalMinutes = (int)Total?.TotalMinutes;
+
+            int hours = totalMinutes / 60;
+            int minutes = totalMinutes % 60;
+
+            TimeOnly result = new TimeOnly(hours,minutes);
+
+            attendance.TotalTime = result;
+
+            await _attendanceRepository.UpdateAttendance(attendance, email);
+
+            return new OkResult();
+        }
+
+        public async Task<List<AttendanceDto>> getAllAttendances()
+        {
+            var attendances = await _attendanceRepository.GetAllAttendances();
+            var attendanceDtos = _mapper.Map<List<AttendanceDto>>(attendances);
+
+            //var employeeGetDtos = _mapper.Map<List<EmployeeGetDto>>(employees);
+
+            return attendanceDtos;
         }
 
         public Task<List<AttendanceDto>> GetTodaysAttendance()

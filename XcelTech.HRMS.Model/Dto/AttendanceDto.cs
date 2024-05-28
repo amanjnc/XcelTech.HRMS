@@ -8,8 +8,14 @@ namespace XcelTech.HRMS.Model.Dto
 {
     public class AttendanceDto
     {
-        public DateOnly Date { get; set; }
-        public TimeOnly ClockInTime { get; set; }
-        public TimeOnly ClockOutTime { get; set; }
+        //public int AttendanceId { get; set; }
+        //public DateOnly Date { get; set; }
+
+        public string ClockinTime { get; set; }
+        public string? ClockoutTime { get; set; }
+
+        //public TimeOnly? TotalTime { get; set; }
+
+        public string EmployeeName {  get; set; }
     }
 }

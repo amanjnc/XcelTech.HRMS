@@ -43,13 +43,14 @@ namespace XcelTech.HRMS.Bloc.Service
             return new OkResult();
         }
 
-        public async Task<List<Leave>> getAllLeaves()
+        public async Task<List<GetLeaveDto>> getAllLeaves()
         {
             var leaves = await _leaveRepository.GetAllLeaves();
+            var leaveDtos = _mapper.Map<List<GetLeaveDto>>(leaves);
 
             //var employeeGetDtos = _mapper.Map<List<EmployeeGetDto>>(employees);
 
-            return leaves;
+            return leaveDtos;
         }
 
         public async Task<IActionResult> UpdateLeaveStatus(int leaveId, string Status)

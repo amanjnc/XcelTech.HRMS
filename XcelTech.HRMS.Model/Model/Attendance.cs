@@ -8,9 +8,14 @@ namespace XcelTech.HRMS.Model
         //can use Guid(Globally unique identifire) but for similicity
         //[DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int AttendanceId { get; set; }
-        public DateOnly Date { get; set; }
-        public TimeOnly ClockInTime { get; set; }
-        public TimeOnly ClockOutTime { get; set; }
+        //public DateOnly Date { get; set; }
+
+        public DateTime ClockinTime { get; set; }
+        public DateTime? ClockoutTime { get; set; }
+
+        public TimeOnly? TotalTime { get; set; }
+        //public TimeOnly ClockInTime { get; set; }
+        //public TimeOnly ClockOutTime { get; set; }
  
 
         public int EmployeeId { get; set; }

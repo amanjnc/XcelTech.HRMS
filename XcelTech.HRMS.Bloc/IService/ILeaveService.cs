@@ -13,7 +13,7 @@ namespace XcelTech.HRMS.Bloc.IService
     public interface ILeaveService
     {
         Task<IActionResult> createLeave(LeaveDto leaveDto, string email);
-        Task <List<Leave>> getAllLeaves();
+        Task <List<GetLeaveDto>> getAllLeaves();
 
         Task<IActionResult> UpdateLeaveStatus(int leaveId, string Status);
     }

@@ -16,6 +16,8 @@ namespace XcelTech.HRMS.Bloc.IService
         public Task<List<EmployeeGetDto>> getAllEmployeesAsync();
         public Task<IActionResult> deleteEmployeeUserByEmail(string Email);
 
+        public Task<EmployeeGetDto> getloggedinEmployee(string email);
+
 
     }
 }

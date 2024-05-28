@@ -18,14 +18,9 @@ namespace XcelTech.HRMS.Api.Controllers
             _attendanceService = attendanceService;
             
         }
-        [HttpPost]
-        public async Task<IActionResult> FillAttendance([FromForm] AttendanceDto attendanceDto)
+        [HttpPost("Clockin")]
+        public async Task<IActionResult> Clockin(DateTime _clockinTime)
         {
-
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
 
             try
             {
@@ -33,9 +28,9 @@ namespace XcelTech.HRMS.Api.Controllers
                 var email = HttpContext.User.FindFirstValue(ClaimTypes.Email);
 
 
-                var result = await _attendanceService.AddAttendance(attendanceDto, email);
+                var result = await _attendanceService.Clockin(_clockinTime, email);
 
-                return Ok(result); // Optionally return the newly created leave
+                return Ok(result); 
             }
             catch (Exception ex)
             {
@@ -44,6 +39,45 @@ namespace XcelTech.HRMS.Api.Controllers
             }
 
 
+        }
+
+        [HttpPatch("Clockout")]
+        public async Task<IActionResult> ClockOut(DateTime _clockoutTime)
+        {
+
+            try
+            {
+
+                var email = HttpContext.User.FindFirstValue(ClaimTypes.Email);
+
+
+                var result = await _attendanceService.Clockout(_clockoutTime, email);
+
+                return Ok(result); 
+            }
+            catch (Exception ex)
+            {
+                
+                return StatusCode(500, $"An error occurred: {ex.Message}");
+            }
+
+
+        }
+
+        [HttpGet("GetAllAttendances")]
+        public async Task<ActionResult<IEnumerable<AttendanceDto>>> GetAllAttendances()
+        {
+            try
+            {
+                var leaves = await _attendanceService.getAllAttendances();
+
+
+                return Ok(leaves);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
         }
 
         /*[HttpGet("GetTodaysAttendance")]

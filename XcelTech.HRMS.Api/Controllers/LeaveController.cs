@@ -101,7 +101,7 @@ namespace XcelTech.HRMS.Api.Controllers
 
         
         [HttpGet("getAllLeaves")]
-        public async Task<ActionResult<IEnumerable<Leave>>> getAllDepartment()
+        public async Task<ActionResult<IEnumerable<GetLeaveDto>>> getAllLeaves()
         {
             try
             {

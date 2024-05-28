@@ -278,9 +278,9 @@ namespace XcelTech.HRMS.Repo.Migrations
                 {
                     AttendanceId = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    Date = table.Column<DateOnly>(type: "date", nullable: false),
-                    ClockInTime = table.Column<TimeOnly>(type: "time without time zone", nullable: false),
-                    ClockOutTime = table.Column<TimeOnly>(type: "time without time zone", nullable: false),
+                    ClockinTime = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    ClockoutTime = table.Column<DateTime>(type: "timestamp with time zone", nullable: true),
+                    TotalTime = table.Column<TimeOnly>(type: "time without time zone", nullable: true),
                     EmployeeId = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>

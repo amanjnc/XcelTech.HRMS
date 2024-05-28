@@ -12,7 +12,7 @@ using XcelTech.HRMS.Repo;
 namespace XcelTech.HRMS.Repo.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240524193143_one")]
+    [Migration("20240527054529_one")]
     partial class one
     {
         /// <inheritdoc />
@@ -165,17 +165,17 @@ namespace XcelTech.HRMS.Repo.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("AttendanceId"));
 
-                    b.Property<TimeOnly>("ClockInTime")
-                        .HasColumnType("time without time zone");
+                    b.Property<DateTime>("ClockinTime")
+                        .HasColumnType("timestamp with time zone");
 
-                    b.Property<TimeOnly>("ClockOutTime")
-                        .HasColumnType("time without time zone");
-
-                    b.Property<DateOnly>("Date")
-                        .HasColumnType("date");
+                    b.Property<DateTime?>("ClockoutTime")
+                        .HasColumnType("timestamp with time zone");
 
                     b.Property<int>("EmployeeId")
                         .HasColumnType("integer");
+
+                    b.Property<TimeOnly?>("TotalTime")
+                        .HasColumnType("time without time zone");
 
                     b.HasKey("AttendanceId");
 

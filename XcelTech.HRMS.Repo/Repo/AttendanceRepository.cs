@@ -30,6 +30,20 @@ namespace XcelTech.HRMS.Repo.Repo
             await _applicationDbContext.SaveChangesAsync();
         }
 
+        public async Task UpdateAttendance(Attendance attendance, string email)
+        {
+            var CurrentEmployee = await _applicationDbContext.Employees.FirstOrDefaultAsync(emp => emp.EmployeeEmail == email);
+            if (CurrentEmployee == null)
+            {
+                throw new Exception("Employee not found.");
+            }
+
+            attendance.EmployeeId = CurrentEmployee.EmployeeId;
+
+            _applicationDbContext.Attendances.Update(attendance);
+            await _applicationDbContext.SaveChangesAsync();
+        }
+
         public Task<List<AttendanceDto>> GetTodaysAttendance()
         {
             throw new NotImplementedException();
@@ -48,6 +62,33 @@ namespace XcelTech.HRMS.Repo.Repo
             catch (Exception ex)
             {
                 throw new Exception($"Error fetching attendance by employeeId: {ex.Message}");
+            }
+        }
+
+
+        public async Task<List<Attendance>> GetAllAttendances()
+        {
+            var attendances = await _applicationDbContext.Attendances.Include(l => l.employee)
+                            .ToListAsync();
+
+            return attendances;
+        }
+
+        public async Task<Attendance> GetAttendanceByEmployeeEmail(string email)
+        {
+            try
+            {
+                var employee = await _applicationDbContext.Employees.FirstOrDefaultAsync(emp => emp.EmployeeEmail == email);
+                var employeeId = employee.EmployeeId;
+                var attendance = await _applicationDbContext.Attendances.FirstOrDefaultAsync(emp => emp.EmployeeId == employeeId);
+                return attendance;
+
+
+
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"Error fetching attendance by employeeemail: {ex.Message}");
             }
         }
         public async Task<bool> DeleteAttendance(Attendance attendance)
