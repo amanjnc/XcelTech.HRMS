@@ -8034,11 +8034,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\new2\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj",
       "projectName": "XcelTech.HRMS.Repo",
-      "projectPath": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj",
+      "projectPath": "C:\\Users\\DELL\\Desktop\\new2\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\obj\\",
+      "outputPath": "C:\\Users\\DELL\\Desktop\\new2\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8056,8 +8056,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj": {
-              "projectPath": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj"
+            "C:\\Users\\DELL\\Desktop\\new2\\XcelTech.HRMS\\XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\new2\\XcelTech.HRMS\\XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj"
             }
           }
         }

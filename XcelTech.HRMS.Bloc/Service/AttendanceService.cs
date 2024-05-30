@@ -22,7 +22,7 @@ namespace XcelTech.HRMS.Bloc.Service
         _attendanceRepository = attendanceRepository;
             _mapper = mapper;
         }
-        public async Task<IActionResult> Clockin(DateTime _clockinTime, string email)
+        public async Task<IActionResult> Clockin(AttendanceClockin _clockinTime, string email)
         {
             if (email == null)
             {
@@ -30,39 +30,63 @@ namespace XcelTech.HRMS.Bloc.Service
             }
             //var attendance = _mapper.Map<Attendance>(attendanceDto);
 
-            var attendance = new Attendance { ClockinTime = _clockinTime };
+            //var attendance = new Attendance { ClockinTime = _clockinTime };
+            var attendance = new Attendance { ClockinTime = _clockinTime.ClockinTime };
 
             await _attendanceRepository.AddAttendance(attendance, email);
 
             return new OkResult();
         }
 
-        public async Task<IActionResult> Clockout(DateTime _clockoutTime, string email)
+        public async Task<IActionResult> Clockout(AttendanceClockin _clockoutTime, string email)
         {
             if (email == null)
             {
                 return new UnauthorizedResult();
             }
             //var attendance = _mapper.Map<Attendance>(attendanceDto);
+            try
+            {
 
-            var attendance = await _attendanceRepository.GetAttendanceByEmployeeEmail(email);
-            attendance.ClockoutTime = _clockoutTime;
+                var attendance = await _attendanceRepository.GetAttendanceByEmployeeEmail(email);
+
+                if (attendance == null)
+                {
+                    // Handle the case where no attendance record is found for the user
+                    return new ObjectResult("No attendance record found for the user.")
+                    {
+                        StatusCode = 404 // Not Found
+                    };
+                }
 
 
-            TimeSpan? Total = attendance.ClockoutTime - attendance.ClockinTime;
+                attendance.ClockoutTime = _clockoutTime.ClockinTime;
 
-            int totalMinutes = (int)Total?.TotalMinutes;
 
-            int hours = totalMinutes / 60;
-            int minutes = totalMinutes % 60;
+                TimeSpan? Total = attendance.ClockoutTime - attendance.ClockinTime;
 
-            TimeOnly result = new TimeOnly(hours,minutes);
+                int totalMinutes = (int)Total?.TotalMinutes;
 
-            attendance.TotalTime = result;
+                int hours = totalMinutes / 60;
+                int minutes = totalMinutes % 60;
 
-            await _attendanceRepository.UpdateAttendance(attendance, email);
+                TimeOnly result = new TimeOnly(hours, minutes);
 
-            return new OkResult();
+                attendance.TotalTime = result;
+
+                await _attendanceRepository.UpdateAttendance(attendance, email);
+
+                return new OkResult();
+
+            }
+            catch (Exception ex)
+            {
+                return new ObjectResult(new { message = $"An error occurred: {ex.Message}" })
+                {
+                    StatusCode = 500
+                };
+            }
+
         }
 
         public async Task<List<AttendanceDto>> getAllAttendances()

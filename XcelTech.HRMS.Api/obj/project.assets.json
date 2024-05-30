@@ -9054,11 +9054,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\new2\\XcelTech.HRMS\\XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj",
       "projectName": "XcelTech.HRMS.Api",
-      "projectPath": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj",
+      "projectPath": "C:\\Users\\DELL\\Desktop\\new2\\XcelTech.HRMS\\XcelTech.HRMS.Api\\XcelTech.HRMS.Api.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Api\\obj\\",
+      "outputPath": "C:\\Users\\DELL\\Desktop\\new2\\XcelTech.HRMS\\XcelTech.HRMS.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9076,17 +9076,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj": {
-              "projectPath": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj"
+            "C:\\Users\\DELL\\Desktop\\new2\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\new2\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj"
             },
-            "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Helper\\XcelTech.HRMS.Helper.csproj": {
-              "projectPath": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Helper\\XcelTech.HRMS.Helper.csproj"
+            "C:\\Users\\DELL\\Desktop\\new2\\XcelTech.HRMS\\XcelTech.HRMS.Helper\\XcelTech.HRMS.Helper.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\new2\\XcelTech.HRMS\\XcelTech.HRMS.Helper\\XcelTech.HRMS.Helper.csproj"
             },
-            "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj": {
-              "projectPath": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj"
+            "C:\\Users\\DELL\\Desktop\\new2\\XcelTech.HRMS\\XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\new2\\XcelTech.HRMS\\XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj"
             },
-            "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj": {
-              "projectPath": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj"
+            "C:\\Users\\DELL\\Desktop\\new2\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj": {
+              "projectPath": "C:\\Users\\DELL\\Desktop\\new2\\XcelTech.HRMS\\XcelTech.HRMS.Repo\\XcelTech.HRMS.Repo.csproj"
             }
           }
         }

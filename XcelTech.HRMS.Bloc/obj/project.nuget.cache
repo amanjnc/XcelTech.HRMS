@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Opd/mS7VYpA=",
+  "dgSpecHash": "dKd/h5RzalI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj",
+  "projectFilePath": "C:\\Users\\DELL\\Desktop\\new2\\XcelTech.HRMS\\XcelTech.HRMS.Bloc\\XcelTech.HRMS.Bloc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

@@ -4050,11 +4050,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\new2\\XcelTech.HRMS\\XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj",
       "projectName": "XcelTech.HRMS.Model",
-      "projectPath": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj",
+      "projectPath": "C:\\Users\\DELL\\Desktop\\new2\\XcelTech.HRMS\\XcelTech.HRMS.Model\\XcelTech.HRMS.Model.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\Desktop\\anotherone3\\XcelTech.HRMS\\XcelTech.HRMS.Model\\obj\\",
+      "outputPath": "C:\\Users\\DELL\\Desktop\\new2\\XcelTech.HRMS\\XcelTech.HRMS.Model\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",

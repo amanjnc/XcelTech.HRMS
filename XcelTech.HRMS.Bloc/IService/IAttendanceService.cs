@@ -10,9 +10,9 @@ namespace XcelTech.HRMS.Bloc.IService
 {
     public interface IAttendanceService
     {
-        Task<IActionResult> Clockin(DateTime _clockinTime , string email);
+        Task<IActionResult> Clockin(AttendanceClockin _clockinTime , string email);
 
-        Task<IActionResult> Clockout(DateTime _clockoutTime, string email);
+        Task<IActionResult> Clockout(AttendanceClockin _clockoutTime, string email);
 
         Task<List<AttendanceDto>> GetTodaysAttendance();
 

@@ -1,4 +1,4 @@
-name: dockercompose17509783635317500911
+name: dockercompose8612697893424464791
 services:
   xcelTech.hrms.repo:
     container_name: xcelTech.hrms.repo
@@ -22,7 +22,7 @@ services:
           create_host_path: true
   xceltech.hrms.api:
     build:
-      context: C:\Users\DELL\Desktop\anotherone3\XcelTech.HRMS
+      context: C:\Users\DELL\Desktop\new2\XcelTech.HRMS
       dockerfile: XcelTech.HRMS.Api/Dockerfile
       args:
         BUILD_CONFIGURATION: Release
@@ -103,4 +103,4 @@ services:
           create_host_path: true
 networks:
   default:
-    name: dockercompose17509783635317500911_default
+    name: dockercompose8612697893424464791_default

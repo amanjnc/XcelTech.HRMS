@@ -19,13 +19,14 @@ namespace XcelTech.HRMS.Api.Controllers
             
         }
         [HttpPost("Clockin")]
-        public async Task<IActionResult> Clockin(DateTime _clockinTime)
+        public async Task<IActionResult> Clockin([FromBody]AttendanceClockin _clockinTime)
         {
 
             try
             {
 
                 var email = HttpContext.User.FindFirstValue(ClaimTypes.Email);
+
 
 
                 var result = await _attendanceService.Clockin(_clockinTime, email);
@@ -42,7 +43,7 @@ namespace XcelTech.HRMS.Api.Controllers
         }
 
         [HttpPatch("Clockout")]
-        public async Task<IActionResult> ClockOut(DateTime _clockoutTime)
+        public async Task<IActionResult> ClockOut([FromBody] AttendanceClockin _clockoutTime)
         {
 
             try

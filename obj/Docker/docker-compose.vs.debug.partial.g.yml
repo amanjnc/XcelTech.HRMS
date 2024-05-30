@@ -15,8 +15,8 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=
     volumes:
-      - C:\Users\DELL\Desktop\anotherone3\XcelTech.HRMS\XcelTech.HRMS.Api:/app:rw
-      - C:\Users\DELL\Desktop\anotherone3\XcelTech.HRMS:/src:rw
+      - C:\Users\DELL\Desktop\new2\XcelTech.HRMS\XcelTech.HRMS.Api:/app:rw
+      - C:\Users\DELL\Desktop\new2\XcelTech.HRMS:/src:rw
       - C:\Users\DELL\vsdbg\vs2017u5:/remote_debugger:rw
       - C:\Users\DELL\.nuget\packages:/.nuget/packages:ro
       - C:\Users\DELL\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
