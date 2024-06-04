@@ -42,7 +42,7 @@ namespace XcelTech.HRMS.Bloc.Service
                     return new BadRequestObjectResult(validationErrors);
             }
             string departmentName = department.DepartmentName;
-
+            
             if (await _departmentRepository.isNewDepartment(departmentName))
             {
                 await _departmentRepository.createDepartment(department);

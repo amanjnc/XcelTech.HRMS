@@ -26,10 +26,9 @@ namespace XcelTech.HRMS.Bloc.Service
                 .Body(emailFormatData.Body)
                 .SendAsync();
         }
-       public async Task sendEmailAsHtmlTemplate(EmailFormatData emaiFormatData,ProfileInfoDto profileInfoDto,string EmailTemplatePath)
+       public void sendEmailAsHtmlTemplate(EmailFormatData emaiFormatData,ProfileInfoDto profileInfoDto,string EmailTemplatePath)
         {
-            
-                await _iFluentEmail.To(emaiFormatData.ToAddress)
+               _iFluentEmail.To(emaiFormatData.ToAddress)
                     .Subject(emaiFormatData.Subject)
                     .UsingTemplateFromFile(EmailTemplatePath, profileInfoDto , true)
                     .SendAsync();

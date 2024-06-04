@@ -7,7 +7,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace XcelTech.HRMS.Repo.Migrations
 {
     /// <inheritdoc />
-    public partial class one : Migration
+    public partial class dsfa : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

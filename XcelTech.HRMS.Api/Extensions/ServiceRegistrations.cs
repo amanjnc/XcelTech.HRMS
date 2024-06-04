@@ -14,6 +14,7 @@ namespace XcelTech.HRMS.Api.Extensions
     {
         public static void RegisterScopedServices(IServiceCollection services)
         {
+            services.AddScoped<ICacheService, CacheService>();
             services.AddScoped<IDepartmentRepository, DepartmentRepository>();
             services.AddScoped<IFilehandleService, FileHandleService>();
             services.AddScoped<ILeaveRepository, LeaveRepository>();
@@ -31,6 +32,7 @@ namespace XcelTech.HRMS.Api.Extensions
             services.AddScoped<IValidator<DtoRegister>, UserInfoValidator>();
             services.AddScoped<IValidator<ProfileInfoDto>, ProfileInfoDtoValidator>();
             services.AddScoped<IValidator<Department>, DepartmentValidator>();
+            services.AddScoped<IValidator<PasswordDto>, PasswordValidator>();
             services.AddScoped<ITokenService, TokenService>();
             services.AddScoped<IEmailService, EmailService>();
 

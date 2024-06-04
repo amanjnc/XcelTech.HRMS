@@ -11,7 +11,7 @@ namespace XcelTech.HRMS.Bloc.IService
     public interface IEmailService
     {
         Task SendEmail(EmailFormatData emailFormatData);
-        public Task sendEmailAsHtmlTemplate(EmailFormatData emaiFormatData, ProfileInfoDto profileInfoDto, string EmailTemplatePath);
+        public void sendEmailAsHtmlTemplate(EmailFormatData emaiFormatData, ProfileInfoDto profileInfoDto, string EmailTemplatePath);
 
 
 

@@ -2,7 +2,7 @@
 {
     public static class FluentEmailExtension
     {
-        public static void AddFluentEmail(this IServiceCollection services, ConfigurationManager configuration)
+        public static void AddFluentEmail(this IServiceCollection services, Microsoft.Extensions.Configuration.ConfigurationManager configuration)
         {
             var emailSettings = configuration.GetSection("EmailSettings");
             var defaultFromEmail = emailSettings["DefaultFromEmail"];

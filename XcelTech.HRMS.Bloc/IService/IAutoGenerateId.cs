@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace XcelTech.HRMS.Bloc.IService
 {
-    public  interface IAutoGeneratePassword
+    public  interface IAutoGenerateId
     {
-        string GenerateRandomPassword(int length = 10);
+        //string GenerateRandomPassword(int length = 10);
+        string GenerateUniqueId(int length = 11);
     }
 }

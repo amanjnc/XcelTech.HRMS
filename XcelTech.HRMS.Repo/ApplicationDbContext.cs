@@ -18,8 +18,8 @@ namespace XcelTech.HRMS.Repo
             if (!optionsBuilder.IsConfigured)
             {
                 optionsBuilder.EnableSensitiveDataLogging();
-                //optionsBuilder.UseNpgsql("Server=localhost;Database=Hrms;User Id=postgres;Password=1234;");
-                optionsBuilder.UseNpgsql("Host=xcelTech.hrms.repo;Port=5432;Database=xceltechhrmsNewww2;Username=postgres;Password=postgres;Include Error Detail=true;");
+                optionsBuilder.UseNpgsql("Server=localhost;Database=HRMSS;User Id=postgres;Password=Portal_0;");
+                //optionsBuilder.UseNpgsql("Host=xcelTech.hrms.repo;Port=5432;Database=xceltechhrmsNewww2;Username=postgres;Password=postgres;Include Error Detail=true;");
             }
         }
 

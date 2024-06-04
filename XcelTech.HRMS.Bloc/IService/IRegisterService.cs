@@ -12,5 +12,10 @@ namespace XcelTech.HRMS.Bloc.IService
     {
         Task<IActionResult> createUser(ProfileInfoDto profileInfoDto);
         Task<IActionResult> CreateAdmin(DtoRegister dtoRegister);
+
+        public Task<IActionResult> setPasswordForExistingUser(PasswordDto passwordDto, string appUserId);
+        public Task<IActionResult> resetEmail(ProfileInfoDto profileInfoDto);
+
+
     }
 }

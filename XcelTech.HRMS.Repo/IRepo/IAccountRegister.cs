@@ -7,13 +7,19 @@ using System.Text;
 using System.Threading.Tasks;
 using XcelTech.HRMS.Model.Dto;
 using XcelTech.HRMS.Model.Model;
+using XcelTech.HRMS.Repo.Repo;
 using SignInResult = Microsoft.AspNetCore.Identity.SignInResult;
 
 namespace XcelTech.HRMS.Repo.IRepo
 {
     public interface IAccountRegister
     {
-        Task<IdentityResult> createUser(AppUser appUser, string Password,Employee employee);
+        Task<IdentityResult> createUser(AppUser appUser );
+        Task<IdentityResult> createAdminWithPassword(AppUser appUser, string password );
+
+        Task<IdentityResult>  setPasswordForExistingUser(PasswordDto password,string appuserid);
+
+
         Task<bool> isUniqueEmail(string Email,CancellationToken cancellationToken);
         //Task addEmployyetoTable(Employee employee);
         Task<IdentityResult> createRole(AppUser appUser, string userRole);

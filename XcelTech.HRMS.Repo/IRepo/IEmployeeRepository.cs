@@ -12,10 +12,15 @@ namespace XcelTech.HRMS.Repo.IRepo
     public interface IEmployeeRepository
     {
         Task addEmployyetoTable(Employee employee);
-        Task updateEmployee(Employee employee,string email);
+        Task updateEmployee(Employee employee);
         public Task<List<Employee>> GetAllEmployeesAsync();
         public Task<Employee> GetEmployeeByAppUserIdAsync(string appUserId);
-        public  Task<bool> DeleteEmployee(Employee employee);
+        public Task<int> GetEmployeeId(string Email);
+        public Task<string> GetEmployeeEmail(int employeeId);
+        
+
+        public Task<bool> DeleteEmployee(Employee employee);
+
 
 
 

@@ -104,49 +104,43 @@ namespace XcelTech.HRMS.Bloc.Service
         //public ExecutionContext Context { get; set; }
 
 
-        public async Task<IActionResult> updateEmployee(ProfileInfoDto profileInfoDto, string email)
+        public async Task<IActionResult> updateEmployee(EmployeeGetDto employeeGetDto)
         {
-
-
-            if (email == null)
+           
+            var employee = _mapper.Map<Employee>(employeeGetDto);
+            var employeeID = employee.EmployeeId;
+            if (employeeID == 0)
             {
                 Console.WriteLine("You have failed this coty this shit hurts");
-                // Token validation failed or user not found
                 return new UnauthorizedResult();
             }
+            var departmentName = employeeGetDto.DepartmentName;
+            var role = employeeGetDto.Role;
+            var constantEmployeeEmail = await _employeeRepository.GetEmployeeEmail(employeeID);
+            var user = await _userManager.FindByEmailAsync(constantEmployeeEmail);
+            var respectiveRole = await _accountRegister.getRoleOfUser(user);
+            var currentRole = await  _accountRegister.getRoleOfUser(user);
 
-            var department = _mapper.Map<Department>(profileInfoDto);
-            var employee = _mapper.Map<Employee>(profileInfoDto);
-            // i am fetching dep_Id
+            //there is await dumb urge to remove before adding or else you will just have 2 roles
+            await _userManager.RemoveFromRoleAsync(user, currentRole);
+            await _userManager.AddToRoleAsync(user, role);
 
 
-
-            var departmentName = department.DepartmentName;
-            var departmentId = await _departmentRepository.getDepartmentByName(departmentName);
-            if (departmentId == null)
+            var departmentID = await _departmentRepository.getDepartmentByName(departmentName);
+            var DepartmentID = departmentID.Value;
+            if (DepartmentID == 0)
             {
                 Console.WriteLine("not founsdfjaslkdfslkdfjalkfdjalksdf world!");
 
                 return new NotFoundObjectResult("Department not found");
             }
+            employee.DepartmentId = DepartmentID;
+            _employeeRepository.updateEmployee(employee);
+
+
             Console.WriteLine(" world!");
 
-
-            employee.DepartmentId = departmentId.Value;
-            //updating employeetable
-
-
-            //var all = _webHostEnvironment.WebRootPath + "\\Images\\" + email;
-
-
-            //employee.EmployeeImage = Path.Combine(all, "EmployeeImage.jpg");
-            //employee.EducationCredentials = Path.Combine(all, "EducationCredentials.pdf");
-
-
-            Console.WriteLine("this shit!");
-
-            await _employeeRepository.updateEmployee(employee, email);
-            Console.WriteLine("ld!");
+            await _employeeRepository.updateEmployee(employee);
 
             return new OkResult();
 

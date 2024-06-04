@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using System.Threading.Tasks;
 using System.Net;
+using StackExchange.Redis;
 
 namespace XcelTech.HRMS.Api.Controllers
 {
@@ -17,6 +18,9 @@ namespace XcelTech.HRMS.Api.Controllers
     [ApiController]
     public class EmployeeControllers : ControllerBase
     {
+        private readonly HttpClient _client;
+        private readonly IDatabase _redis;
+
         private readonly IEmployeeService _employeeService;
         private readonly IRegisterService _registerService;
         private readonly IFilehandleService _filehandleService;
@@ -30,17 +34,40 @@ namespace XcelTech.HRMS.Api.Controllers
             _webHostEnvironment = webHostEnvironment;
         }
 
-        [Authorize]
+        //[Authorize]
+        //[HttpPatch("updateProfile")]
+        //public async Task<IActionResult> updateProfile([FromBody] ProfileInfoDto profileInfoDto)
+        //{
+        //    try
+        //    {
+        //        if (ModelState.IsValid)
+        //        {
+        //            var email = HttpContext.User.FindFirstValue(ClaimTypes.Email);
+        //            Console.WriteLine($"current email: {email}");
+        //            var result = await _employeeService.updateEmployee(profileInfoDto, email);
+        //            Console.WriteLine("not Hello, world!");
+
+        //            return Ok(result);
+        //        }
+
+        //        Console.WriteLine("Hello, world!");
+        //        return BadRequest(ModelState);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return StatusCode(500, ex.Message);
+        //    }
+        //}
+
         [HttpPatch("updateProfile")]
-        public async Task<IActionResult> updateProfile([FromBody] ProfileInfoDto profileInfoDto)
+        public async Task<IActionResult> updateProfile([FromBody] EmployeeGetDto employeeGetDto)
         {
             try
             {
                 if (ModelState.IsValid)
                 {
-                    var email = HttpContext.User.FindFirstValue(ClaimTypes.Email);
-                    Console.WriteLine($"current email: {email}");
-                    var result = await _employeeService.updateEmployee(profileInfoDto, email);
+                    
+                    var result = await _employeeService.updateEmployee(employeeGetDto);
                     Console.WriteLine("not Hello, world!");
 
                     return Ok(result);
@@ -57,10 +84,15 @@ namespace XcelTech.HRMS.Api.Controllers
 
 
 
+
+
+
+
         [HttpPost("registerProfile")]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(NewUserDto))]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
+
 
         public async Task<IActionResult> registerProfile([FromForm] ProfileInfoDto profileInfoDto)
         {

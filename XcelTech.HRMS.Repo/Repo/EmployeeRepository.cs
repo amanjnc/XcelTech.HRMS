@@ -31,6 +31,7 @@ namespace XcelTech.HRMS.Repo.Repo
         public async Task addEmployyetoTable(Employee employee)
         {
             Console.WriteLine("not def shit");
+            Console.WriteLine(employee.AppUserId);
 
             _applicationDbContext.Employees.Add(employee);
             await _applicationDbContext.SaveChangesAsync();
@@ -38,42 +39,28 @@ namespace XcelTech.HRMS.Repo.Repo
         }
 
        
-        public async Task updateEmployee(Employee employee,string email)
+        public async Task updateEmployee(Employee employee)
         {
-            //var currentUser = await _userManager.GetUserAsync(_httpContextAccessor.HttpContext.User);
 
-            var existingEmployee = await _applicationDbContext.Employees.FirstOrDefaultAsync(emp => emp.EmployeeEmail == email);
-
-            if (existingEmployee == null)
-            {
-                throw new Exception("Employee not found.");
-            }
-
-            //existingEmployee.EmployeeAge = employee.EmployeeAge;
-            existingEmployee.EmployeeAddress = employee.EmployeeAddress;
-            //existingEmployee.DepartmentId = employee.DepartmentId;
-
-
-
-
-
-            //var employeeType = typeof(Employee);
-
-            //var properties = employeeType.GetProperties();
-
-            //foreach (var property in properties)
-            //{
-            //    var inputValue = property.GetValue(employee);
-            //    if (inputValue != null)
-            //    {
-            //        property.SetValue(existingEmployee, inputValue);
-            //    }
-            //}
-            Console.WriteLine("notllskdfjalksjd founs world!");
-
+            _applicationDbContext.Employees.Update(employee);
             await _applicationDbContext.SaveChangesAsync();
         }
 
+        public async Task<int> GetEmployeeId(string Email)
+        {
+
+            try
+            {
+                var employee = await _applicationDbContext.Employees
+                    .FirstOrDefaultAsync(e => e.EmployeeEmail == Email);
+
+                return employee.EmployeeId;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"Error fetching employee ID: {ex.Message}");
+            }
+        }
 
         public async Task<Employee> GetEmployeeByAppUserIdAsync(string appUserId)
         {
@@ -124,6 +111,21 @@ namespace XcelTech.HRMS.Repo.Repo
             catch (Exception ex)
             {
                 throw new Exception($"Error deleting employee: {ex.Message}");
+            }
+        }
+        public async Task<string> GetEmployeeEmail(int employeeId)
+        {
+
+            try
+            {
+                var employee = await _applicationDbContext.Employees
+                    .FirstOrDefaultAsync(e => e.EmployeeId == employeeId);
+
+                return employee.EmployeeEmail;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"Error fetching Email: {ex.Message}");
             }
         }
 

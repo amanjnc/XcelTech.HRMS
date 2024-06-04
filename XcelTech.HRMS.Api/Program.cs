@@ -21,12 +21,13 @@ using System.Text;
 using XcelTech.HRMS.Bloc;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.VisualStudio.Web.CodeGeneration.Design;
+using StackExchange.Redis;
+using System.Configuration;
 
 
 var builder = WebApplication.CreateBuilder(args);
 
-
-ConfigurationManager configuration = builder.Configuration;
+Microsoft.Extensions.Configuration.ConfigurationManager configuration = builder.Configuration;
 
 // Add services to the container.
 builder.Services.AddControllers();
@@ -38,7 +39,8 @@ builder.Services.AddCustomIdentity(builder.Configuration);
 
 builder.Services.AddSwaggerDocumentation();
 
-
+builder.Services.AddSingleton<IConnectionMultiplexer>(ConnectionMultiplexer.Connect("localhost"));
+builder.Services.AddHttpClient();
 
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
@@ -55,7 +57,7 @@ builder.Services.AddAutoMapper(typeof(PayRollGetProfile));
 builder.Services.AddAutoMapper(typeof(PayRollPostProfile));
 
 builder.Services.AddTransient<IEmailsender, EmailSender>();
-builder.Services.AddTransient<IAutoGeneratePassword, AutoGeneratePassword>();
+builder.Services.AddTransient<IAutoGenerateId, AutoGenerateId>();
 
 
 ServiceRegistrations.RegisterScopedServices(builder.Services);
