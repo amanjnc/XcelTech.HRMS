@@ -60,7 +60,7 @@ namespace XcelTech.HRMS.Api.Controllers
         //}
 
         [HttpPatch("updateProfile")]
-        public async Task<IActionResult> updateProfile([FromBody] EmployeeGetDto employeeGetDto)
+        public async Task<IActionResult> updateProfile([FromForm] EmployeeGetDto employeeGetDto)
         {
             try
             {
