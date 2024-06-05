@@ -16,6 +16,8 @@ namespace XcelTech.HRMS.Model.Profiles
         {
 
             CreateMap<Employee, EmployeeGetDto>();
+            CreateMap<EmployeeGetDto,Employee>();
+
         }
     }
 }

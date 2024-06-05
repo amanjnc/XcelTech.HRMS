@@ -38,14 +38,19 @@ namespace XcelTech.HRMS.Repo.Repo
         
         }
 
-       
+
         public async Task updateEmployee(Employee employee)
         {
+           
+                Console.WriteLine("xxxxxyyyyyy");
+                _applicationDbContext.Employees.Update(employee);
+                await _applicationDbContext.SaveChangesAsync();
+                Console.WriteLine("yyyyyy");
+           
 
-            _applicationDbContext.Employees.Update(employee);
-            await _applicationDbContext.SaveChangesAsync();
+
+             
         }
-
         public async Task<int> GetEmployeeId(string Email)
         {
 
@@ -87,11 +92,11 @@ namespace XcelTech.HRMS.Repo.Repo
                     Gender = e.Gender,
                     EmployyDOB = e.EmployyDOB,
                     EmployeeAddress = e.EmployeeAddress,
-                    EmployeeImage = e.EmployeeImage,
+                    //EmployeeImage = e.EmployeeImage,
                     EmployeeFirstName = e.EmployeeFirstName,
                     EmployeeLastName = e.EmployeeLastName,
                     EmployeeEmail = e.EmployeeEmail,
-                    PhotoId = e.PhotoId,
+                    //PhotoId = e.PhotoId,
                     DepartmentId = e.DepartmentId,
                     AppUser = e.AppUser
 

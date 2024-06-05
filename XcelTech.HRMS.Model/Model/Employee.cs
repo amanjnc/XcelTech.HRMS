@@ -14,9 +14,9 @@ namespace XcelTech.HRMS.Model.Model
         public string? EmployeeFirstName { get; set; }
         public string? EmployeeLastName { get; set; }
 
-        public string? EmployeeImage { get; set; } //profilephoto
-        public string? EducationCredentials { get; set; }
-        public string? PhotoId {get; set;}
+        //public string? EmployeeImage { get; set; } //profilephoto
+        //public string? EducationCredentials { get; set; }
+        //public string? PhotoId {get; set;}
 
 
         //public int? EmployeeAge { get; set; } = 0;
@@ -38,13 +38,13 @@ namespace XcelTech.HRMS.Model.Model
 
         public int? ProjectId { get; set; }
         [ForeignKey("ProjectId")]
-        public Project project { get; set; } 
+        public Project? project { get; set; } 
 
 
         public int? PayrollId { get; set; }  
         [ForeignKey("PayrollId")]
 
-        public Payroll payroll { get; set; } 
+        public Payroll? payroll { get; set; } 
 
 
         // Add the foreign key property
@@ -54,7 +54,7 @@ namespace XcelTech.HRMS.Model.Model
         [ForeignKey("AppUserId")]
         public AppUser AppUser { get; set; }
 
-        public virtual ICollection<Attendance> Attendances { get; set; }
+        public virtual ICollection<Attendance>? Attendances { get; set; }
 
 
 

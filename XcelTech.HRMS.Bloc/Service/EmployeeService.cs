@@ -106,45 +106,46 @@ namespace XcelTech.HRMS.Bloc.Service
 
         public async Task<IActionResult> updateEmployee(EmployeeGetDto employeeGetDto)
         {
-           
-            var employee = _mapper.Map<Employee>(employeeGetDto);
-            var employeeID = employee.EmployeeId;
-            if (employeeID == 0)
+            var employeeId = employeeGetDto.EmployeeId;
+            if (employeeId == 0)
             {
-                Console.WriteLine("You have failed this coty this shit hurts");
                 return new UnauthorizedResult();
             }
-            var departmentName = employeeGetDto.DepartmentName;
-            var role = employeeGetDto.Role;
-            var constantEmployeeEmail = await _employeeRepository.GetEmployeeEmail(employeeID);
+
+            var constantEmployeeEmail = await _employeeRepository.GetEmployeeEmail(employeeId);
             var user = await _userManager.FindByEmailAsync(constantEmployeeEmail);
-            var respectiveRole = await _accountRegister.getRoleOfUser(user);
-            var currentRole = await  _accountRegister.getRoleOfUser(user);
-
-            //there is await dumb urge to remove before adding or else you will just have 2 roles
-            await _userManager.RemoveFromRoleAsync(user, currentRole);
-            await _userManager.AddToRoleAsync(user, role);
-
-
-            var departmentID = await _departmentRepository.getDepartmentByName(departmentName);
-            var DepartmentID = departmentID.Value;
-            if (DepartmentID == 0)
+            if (user == null)
             {
-                Console.WriteLine("not founsdfjaslkdfslkdfjalkfdjalksdf world!");
+                return new NotFoundObjectResult("Employee not found");
+            }
 
+            var currentRole = await _accountRegister.getRoleOfUser(user);
+            await _userManager.RemoveFromRoleAsync(user, currentRole);
+            await _userManager.AddToRoleAsync(user, employeeGetDto.Role);
+
+            var departmentId = await _departmentRepository.getDepartmentByName(employeeGetDto.DepartmentName);
+            if (departmentId.Value == 0)
+            {
                 return new NotFoundObjectResult("Department not found");
             }
-            employee.DepartmentId = DepartmentID;
-            _employeeRepository.updateEmployee(employee);
 
+            var employee = _mapper.Map<Employee>(employeeGetDto);
+            employee.DepartmentId = departmentId.Value;
 
-            Console.WriteLine(" world!");
+            try
+            {
+                Console.WriteLine("maybe");
+                await _employeeRepository.updateEmployee(employee);
+                Console.WriteLine("mayb   e");
 
-            await _employeeRepository.updateEmployee(employee);
+            }
+            catch (Exception ex)
+            {
+                return new ObjectResult(employee);
+
+            }
 
             return new OkResult();
-
-
         }
         public async Task<IActionResult> deleteEmployeeUserByEmail(string email)
         {
