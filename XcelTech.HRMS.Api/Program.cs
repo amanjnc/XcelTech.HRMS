@@ -55,6 +55,7 @@ builder.Services.AddAutoMapper(typeof(PayRollGetProfile));
 builder.Services.AddAutoMapper(typeof(PayRollPostProfile));
 builder.Services.AddAutoMapper(typeof(GetLeaveProfile));
 builder.Services.AddAutoMapper(typeof(AttendanceGetProfile));
+builder.Services.AddAutoMapper(typeof(TrainingProfile));
 
 builder.Services.AddTransient<IEmailsender, EmailSender>();
 builder.Services.AddTransient<IAutoGeneratePassword, AutoGeneratePassword>();

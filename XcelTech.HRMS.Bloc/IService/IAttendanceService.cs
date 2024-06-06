@@ -17,5 +17,8 @@ namespace XcelTech.HRMS.Bloc.IService
         Task<List<AttendanceDto>> GetTodaysAttendance();
 
         Task<List<AttendanceDto>> getAllAttendances();
+
+        Task DeleteAllAttendances();
+        Task DeleteAttendancesByEmployeeId(int employeeId);
     }
 }

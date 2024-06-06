@@ -81,6 +81,21 @@ namespace XcelTech.HRMS.Api.Controllers
             }
         }
 
+
+
+        [HttpDelete("delete-all")]
+        public async Task<IActionResult> DeleteAllAttendances()
+        {
+            await _attendanceService.DeleteAllAttendances();
+            return NoContent();
+        }
+
+        [HttpDelete("delete-by-employee/{employeeId}")]
+        public async Task<IActionResult> DeleteAttendancesByEmployeeId(int employeeId)
+        {
+            await _attendanceService.DeleteAttendancesByEmployeeId(employeeId);
+            return NoContent();
+        }
         /*[HttpGet("GetTodaysAttendance")]
 
         public IActionResult GetTodaysAttendance()

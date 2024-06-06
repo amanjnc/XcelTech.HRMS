@@ -17,6 +17,8 @@ namespace XcelTech.HRMS.Model.Dto
         public DateOnly StartDate { get; set; }
         public DateOnly EndDate { get; set; }
 
+        public int UsedDays { get; set; }
+
 
         public int EmployeeId { get; set; }
         [ForeignKey("EmployeeId")]

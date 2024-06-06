@@ -357,6 +357,29 @@ namespace XcelTech.HRMS.Repo.Migrations
                     b.ToTable("EmployeeFiles");
                 });
 
+            modelBuilder.Entity("XcelTech.HRMS.Model.Model.Holiday", b =>
+                {
+                    b.Property<int>("HolidayId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("HolidayId"));
+
+                    b.Property<DateOnly>("HolidayDate")
+                        .HasColumnType("date");
+
+                    b.Property<string>("HolidayDescription")
+                        .HasColumnType("text");
+
+                    b.Property<string>("HolidayName")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("HolidayId");
+
+                    b.ToTable("Holidays");
+                });
+
             modelBuilder.Entity("XcelTech.HRMS.Model.Model.Leave", b =>
                 {
                     b.Property<int>("LeaveId")
@@ -378,6 +401,9 @@ namespace XcelTech.HRMS.Repo.Migrations
                     b.Property<DateOnly>("StartDate")
                         .HasColumnType("date");
 
+                    b.Property<int>("UsedDays")
+                        .HasColumnType("integer");
+
                     b.Property<string>("status")
                         .IsRequired()
                         .HasColumnType("text");
@@ -397,8 +423,17 @@ namespace XcelTech.HRMS.Repo.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("LeaveTypeId"));
 
+                    b.Property<bool>("DeductDays")
+                        .HasColumnType("boolean");
+
+                    b.Property<bool>("IsPaid")
+                        .HasColumnType("boolean");
+
                     b.Property<string>("LeaveTypeName")
                         .HasColumnType("text");
+
+                    b.Property<int>("TotalAllowedDays")
+                        .HasColumnType("integer");
 
                     b.HasKey("LeaveTypeId");
 
@@ -530,42 +565,33 @@ namespace XcelTech.HRMS.Repo.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("TrainingId"));
 
-                    b.Property<DateOnly>("EndDate")
-                        .HasColumnType("date");
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
 
-                    b.Property<int>("MyProperty1")
-                        .HasColumnType("integer");
-
-                    b.Property<DateOnly>("StartDate")
-                        .HasColumnType("date");
-
-                    b.Property<string>("Status")
+                    b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<int>("TraineeId")
-                        .HasColumnType("integer");
-
-                    b.Property<int>("TrainerId")
-                        .HasColumnType("integer");
-
-                    b.Property<string>("TrainingDescription")
+                    b.Property<string>("PostedBy")
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<string>("TrainingName")
+                    b.Property<string>("Title")
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<string>("TypeDescription")
+                    b.Property<string>("Type")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Url")
                         .IsRequired()
                         .HasColumnType("text");
 
                     b.HasKey("TrainingId");
-
-                    b.HasIndex("TraineeId");
-
-                    b.HasIndex("TrainerId");
 
                     b.ToTable("Training");
                 });
@@ -699,25 +725,6 @@ namespace XcelTech.HRMS.Repo.Migrations
                     b.Navigation("department");
 
                     b.Navigation("employee");
-                });
-
-            modelBuilder.Entity("XcelTech.HRMS.Model.Model.Training", b =>
-                {
-                    b.HasOne("XcelTech.HRMS.Model.Model.Employee", "employeeTrainee")
-                        .WithMany()
-                        .HasForeignKey("TraineeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("XcelTech.HRMS.Model.Model.Employee", "employeeTrainer")
-                        .WithMany()
-                        .HasForeignKey("TrainerId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("employeeTrainee");
-
-                    b.Navigation("employeeTrainer");
                 });
 
             modelBuilder.Entity("XcelTech.HRMS.Model.Model.AppUser", b =>

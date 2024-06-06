@@ -55,6 +55,33 @@ namespace XcelTech.HRMS.Api.Controllers
                 return StatusCode(500, ex.Message);
             }
         }
+
+        [HttpGet("by-employee/{employeeId}")]
+        public async Task<ActionResult<IEnumerable<Payroll>>> GetPayrollsByEmployeeId(int employeeId)
+        {
+            var payrolls = await _payRollService.GetPayrollsByEmployeeId(employeeId);
+            if (payrolls == null || !payrolls.Any())
+            {
+                return NotFound();
+            }
+            return Ok(payrolls);
+        }
+
+        [HttpGet("by-start-date/{startDate}")]
+        public async Task<ActionResult<IEnumerable<Payroll>>> GetPayrollsByStartDate(string startDate)
+        {
+            if (!DateOnly.TryParse(startDate, out var parsedDate))
+            {
+                return BadRequest("Invalid date format. Use 'YYYY-MM-DD'.");
+            }
+
+            var payrolls = await _payRollService.GetPayrollsByStartDate(parsedDate);
+            if (payrolls == null || !payrolls.Any())
+            {
+                return NotFound();
+            }
+            return Ok(payrolls);
+        }
     }
 
 }

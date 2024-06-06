@@ -277,12 +277,44 @@
       "PackagePath": "staticwebassets\\Images\\vofomi@molecule.ink\\PhotoId.jpg"
     },
     {
+      "Id": "C:\\Users\\DELL\\Desktop\\new2\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\uploads\\346c7c29-1707-4008-bff8-76cf415c3293.pdf",
+      "PackagePath": "staticwebassets\\uploads\\346c7c29-1707-4008-bff8-76cf415c3293.pdf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\new2\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\uploads\\3656649d-f64e-43bd-a695-5e82be6f571f.pdf",
+      "PackagePath": "staticwebassets\\uploads\\3656649d-f64e-43bd-a695-5e82be6f571f.pdf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\new2\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\uploads\\41f2e321-ae97-47b3-8b1f-bf8f95f9798d.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\41f2e321-ae97-47b3-8b1f-bf8f95f9798d.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\new2\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\uploads\\71963184-8d35-42c0-a377-a6f8f59601a2.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\71963184-8d35-42c0-a377-a6f8f59601a2.jpeg"
+    },
+    {
       "Id": "C:\\Users\\DELL\\Desktop\\new2\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\uploads\\75550732-7f62-4a19-afde-a2f24e04f6b1.jpeg",
       "PackagePath": "staticwebassets\\uploads\\75550732-7f62-4a19-afde-a2f24e04f6b1.jpeg"
     },
     {
+      "Id": "C:\\Users\\DELL\\Desktop\\new2\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\uploads\\89d1ab29-f429-434a-930c-b9e1c06d9c96.pdf",
+      "PackagePath": "staticwebassets\\uploads\\89d1ab29-f429-434a-930c-b9e1c06d9c96.pdf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\new2\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\uploads\\c17a2973-1306-46f4-a2f7-a3c49c7cc9e5.pdf",
+      "PackagePath": "staticwebassets\\uploads\\c17a2973-1306-46f4-a2f7-a3c49c7cc9e5.pdf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\new2\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\uploads\\c8ffdf6f-9fee-4463-8d1e-471c4f8223e3.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\c8ffdf6f-9fee-4463-8d1e-471c4f8223e3.jpeg"
+    },
+    {
       "Id": "C:\\Users\\DELL\\Desktop\\new2\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\uploads\\ce5ae70f-88e5-48cd-aefb-03e953cf7fb1.jpeg",
       "PackagePath": "staticwebassets\\uploads\\ce5ae70f-88e5-48cd-aefb-03e953cf7fb1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\Desktop\\new2\\XcelTech.HRMS\\XcelTech.HRMS.Api\\wwwroot\\uploads\\d23c6fd4-8d22-4e10-b6ed-f5463dd76144.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\d23c6fd4-8d22-4e10-b6ed-f5463dd76144.jpeg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.XcelTech.HRMS.Api.Microsoft.AspNetCore.StaticWebAssets.props",

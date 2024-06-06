@@ -57,5 +57,20 @@ namespace XcelTech.HRMS.Repo.Repo
 
             return fullName;
         }
+
+
+        public async Task<IEnumerable<Payroll>> GetPayrollsByEmployeeId(int employeeId)
+        {
+            return await _applicationDbContext.Payrolls
+                .Where(p => p.EmployeeId == employeeId)
+                .ToListAsync();
+        }
+
+        public async Task<IEnumerable<Payroll>> GetPayrollsByStartDate(DateOnly startDate)
+        {
+            return await _applicationDbContext.Payrolls
+                .Where(p => p.PayrollStartDate == startDate)
+                .ToListAsync();
+        }
     }
 }

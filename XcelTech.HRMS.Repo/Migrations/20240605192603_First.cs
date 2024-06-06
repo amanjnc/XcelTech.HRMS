@@ -7,7 +7,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace XcelTech.HRMS.Repo.Migrations
 {
     /// <inheritdoc />
-    public partial class one : Migration
+    public partial class First : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -66,12 +66,30 @@ namespace XcelTech.HRMS.Repo.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Holidays",
+                columns: table => new
+                {
+                    HolidayId = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    HolidayName = table.Column<string>(type: "text", nullable: false),
+                    HolidayDate = table.Column<DateOnly>(type: "date", nullable: false),
+                    HolidayDescription = table.Column<string>(type: "text", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Holidays", x => x.HolidayId);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "LeaveTypes",
                 columns: table => new
                 {
                     LeaveTypeId = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    LeaveTypeName = table.Column<string>(type: "text", nullable: true)
+                    LeaveTypeName = table.Column<string>(type: "text", nullable: true),
+                    IsPaid = table.Column<bool>(type: "boolean", nullable: false),
+                    DeductDays = table.Column<bool>(type: "boolean", nullable: false),
+                    TotalAllowedDays = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -324,6 +342,7 @@ namespace XcelTech.HRMS.Repo.Migrations
                     LeaveType = table.Column<string>(type: "text", nullable: false),
                     StartDate = table.Column<DateOnly>(type: "date", nullable: false),
                     EndDate = table.Column<DateOnly>(type: "date", nullable: false),
+                    UsedDays = table.Column<int>(type: "integer", nullable: false),
                     EmployeeId = table.Column<int>(type: "integer", nullable: false),
                     status = table.Column<string>(type: "text", nullable: false)
                 },
@@ -513,6 +532,9 @@ namespace XcelTech.HRMS.Repo.Migrations
 
             migrationBuilder.DropTable(
                 name: "EmployeeFiles");
+
+            migrationBuilder.DropTable(
+                name: "Holidays");
 
             migrationBuilder.DropTable(
                 name: "Leaves");

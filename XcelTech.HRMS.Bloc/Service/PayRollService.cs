@@ -54,5 +54,15 @@ namespace XcelTech.HRMS.Bloc.Service
 
             return payRollGetDtos;
         }
+
+        public async Task<IEnumerable<Payroll>> GetPayrollsByEmployeeId(int employeeId)
+        {
+            return await _payRollRepository.GetPayrollsByEmployeeId(employeeId);
+        }
+
+        public async Task<IEnumerable<Payroll>> GetPayrollsByStartDate(DateOnly startDate)
+        {
+            return await _payRollRepository.GetPayrollsByStartDate(startDate);
+        }
     }
 }

@@ -105,5 +105,18 @@ namespace XcelTech.HRMS.Repo.Repo
             }
         }
 
+        public async Task DeleteAllAttendances()
+        {
+            _applicationDbContext.Attendances.RemoveRange(_applicationDbContext.Attendances);
+            await _applicationDbContext.SaveChangesAsync();
+        }
+
+        public async Task DeleteAttendancesByEmployeeId(int employeeId)
+        {
+            var attendances = _applicationDbContext.Attendances.Where(a => a.EmployeeId == employeeId);
+            _applicationDbContext.Attendances.RemoveRange(attendances);
+            await _applicationDbContext.SaveChangesAsync();
+        }
+
     }
 }

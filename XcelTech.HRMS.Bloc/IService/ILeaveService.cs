@@ -16,5 +16,7 @@ namespace XcelTech.HRMS.Bloc.IService
         Task <List<GetLeaveDto>> getAllLeaves();
 
         Task<IActionResult> UpdateLeaveStatus(int leaveId, string Status);
+
+        Task<(bool Success, string Message)> ApproveLeaveAsync(int leaveId);
     }
 }

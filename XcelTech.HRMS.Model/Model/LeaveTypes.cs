@@ -16,6 +16,12 @@ namespace XcelTech.HRMS.Model.Model
         [JsonIgnore]
         public int LeaveTypeId { get; set; }
         public string? LeaveTypeName { get; set; }
+
+        public bool IsPaid { get; set; }
+
+        public bool DeductDays { get; set; }
+
+        public int TotalAllowedDays {  get; set; }
         
 
     }

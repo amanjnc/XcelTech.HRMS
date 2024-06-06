@@ -15,5 +15,8 @@ namespace XcelTech.HRMS.Bloc.IService
         Task<IActionResult> createPayroll(PayRollPostDto payroll);
 
         Task<List<PayRollGetDto>> getAllPayRolls();
+
+        Task<IEnumerable<Payroll>> GetPayrollsByEmployeeId(int employeeId);
+        Task<IEnumerable<Payroll>> GetPayrollsByStartDate(DateOnly startDate);
     }
 }

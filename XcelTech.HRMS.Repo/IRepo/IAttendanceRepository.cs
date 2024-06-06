@@ -23,5 +23,8 @@ namespace XcelTech.HRMS.Repo.IRepo
 
         Task<List<Attendance>> GetAllAttendances();
 
+        Task DeleteAllAttendances();
+        Task DeleteAttendancesByEmployeeId(int employeeId);
+
     }
 }

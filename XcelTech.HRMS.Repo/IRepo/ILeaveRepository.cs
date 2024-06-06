@@ -15,7 +15,13 @@ namespace XcelTech.HRMS.Repo.IRepo
         //Task updateLeave(Employee employee, string email);
         Task<List<Leave>> GetAllLeaves();
 
-        Task UpdateLeaveStatus(int leaveId, string Status);
+        Task<bool> UpdateLeaveStatus(int leaveId, string Status);
+
+        Task<LeaveTypes> GetLeaveTypeByNameAsync(string leaveTypeName);
+
+        Task<Leave> GetLeaveByIdAsync(int leaveId);
+
+        Task<IEnumerable<Leave>> GetLeavesByEmployeeIdAndTypeAsync(int employeeId, string leaveType);
 
 
         //public Task<List<Leave>> GetAllLeavesAsync();

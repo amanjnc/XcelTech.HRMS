@@ -15,5 +15,8 @@ namespace XcelTech.HRMS.Repo.IRepo
         Task<List<Payroll>> getAllPayRolls();
 
         Task<string> GetEmployeeFullNameByIdAsync(int employeeId);
+
+        Task<IEnumerable<Payroll>> GetPayrollsByEmployeeId(int employeeId);
+        Task<IEnumerable<Payroll>> GetPayrollsByStartDate(DateOnly startDate);
     }
 }

@@ -103,5 +103,15 @@ namespace XcelTech.HRMS.Bloc.Service
         {
             throw new NotImplementedException();
         }
+
+        public async Task DeleteAllAttendances()
+        {
+            await _attendanceRepository.DeleteAllAttendances();
+        }
+
+        public async Task DeleteAttendancesByEmployeeId(int employeeId)
+        {
+            await _attendanceRepository.DeleteAttendancesByEmployeeId(employeeId);
+        }
     }
 }

@@ -28,7 +28,7 @@ namespace XcelTech.HRMS.Api.Controllers
 
         [Authorize]
         [HttpPost]
-        [ProducesResponseType(typeof(LeaveDto), (int)HttpStatusCode.OK)]
+        //[ProducesResponseType(typeof(LeaveDto), (int)HttpStatusCode.OK)]
         public async Task<IActionResult> RequestLeave([FromForm] LeaveDto leaveDto) {
 
             if (!ModelState.IsValid)
@@ -63,13 +63,16 @@ namespace XcelTech.HRMS.Api.Controllers
         [HttpPatch("{leaveId}/approve")]
         public async Task<IActionResult> ApproveLeave(int leaveId)
         {
-            var Status = "Approved";
-
             try
             {
-                var result = await _leaveService.UpdateLeaveStatus(leaveId, Status);
+                var result = await _leaveService.ApproveLeaveAsync(leaveId);
 
-                return Ok(result); // Optionally return the newly created leave
+                if (!result.Success)
+                {
+                    return BadRequest(result.Message);
+                }
+
+                return Ok(result.Message);
             }
             catch (Exception ex)
             {
@@ -130,11 +133,11 @@ namespace XcelTech.HRMS.Api.Controllers
 
         
         [HttpPost("AddLeaveType")]
-        public async Task<LeaveTypes> AddLeaveType(string leaveTypeName)
+        public async Task<LeaveTypes> AddLeaveType([FromBody] LeaveTypes leaveType)
         {
             // Check if the leave type already exists
             var existingLeaveType = await _applicationDbContext.LeaveTypes
-                .Where(l => l.LeaveTypeName == leaveTypeName)
+                .Where(l => l.LeaveTypeName == leaveType.LeaveTypeName)
                 .FirstOrDefaultAsync();
 
             if (existingLeaveType != null)
@@ -142,15 +145,16 @@ namespace XcelTech.HRMS.Api.Controllers
                 return existingLeaveType;
             }
 
-            var newLeave = new LeaveTypes
+           /* var newLeave = new LeaveTypes
             {
                 LeaveTypeName = leaveTypeName,
-            };
+              
+            };*/
 
-            _applicationDbContext.LeaveTypes.Add(newLeave);
+            _applicationDbContext.LeaveTypes.Add(leaveType);
             await _applicationDbContext.SaveChangesAsync();
 
-            return newLeave;
+            return leaveType;
         }
 
 
