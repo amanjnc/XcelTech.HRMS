@@ -19,10 +19,16 @@ namespace XcelTech.HRMS.Model.Model
 
         public bool IsPaid { get; set; }
 
+        //public int FullyPaidDays { get; set; }
+
+        //public int HalfPaidDays { get; set; }
+
         public bool DeductDays { get; set; }
 
         public int TotalAllowedDays {  get; set; }
-        
+
+        public virtual ICollection<LeavePaymentDetail>? LeavePaymentDetails { get; set; }
+
 
     }
 }

@@ -14,6 +14,8 @@ namespace XcelTech.HRMS.Model
         public DateTime? ClockoutTime { get; set; }
 
         public TimeOnly? TotalTime { get; set; }
+
+        public DateOnly date {  get; set; }
         //public TimeOnly ClockInTime { get; set; }
         //public TimeOnly ClockOutTime { get; set; }
  

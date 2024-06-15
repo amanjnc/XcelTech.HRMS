@@ -8,10 +8,11 @@ namespace XcelTech.HRMS.Model.Dto
 {
         public class PayRollGetDto
         {
-
             public string EmployeeName {  get; set; }
 
-            public int EmployeeId { get; set; }
+            public int PayrollId { get; set; }
+
+            public string EmployeeEmail { get; set; }
 
             public string SalaryType { get; set; }
 

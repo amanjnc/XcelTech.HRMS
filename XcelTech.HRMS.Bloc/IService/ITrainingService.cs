@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,5 +14,7 @@ namespace XcelTech.HRMS.Bloc.IService
         Task<TrainingDto> CreateTrainingAsync(TrainingDto training ,string email);
         Task<List<Training>> GetAllTrainingAsync();
         Task<Training> GetTrainingAsync(int id);
+
+        Task<IActionResult> Deletetraining(int TrainingId);
     }
 }

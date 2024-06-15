@@ -174,6 +174,9 @@ namespace XcelTech.HRMS.Repo.Migrations
                     b.Property<TimeOnly?>("TotalTime")
                         .HasColumnType("time without time zone");
 
+                    b.Property<DateOnly>("date")
+                        .HasColumnType("date");
+
                     b.HasKey("AttendanceId");
 
                     b.HasIndex("EmployeeId");
@@ -415,6 +418,33 @@ namespace XcelTech.HRMS.Repo.Migrations
                     b.ToTable("Leaves");
                 });
 
+            modelBuilder.Entity("XcelTech.HRMS.Model.Model.LeavePaymentDetail", b =>
+                {
+                    b.Property<int>("LeavePaymentDetailId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("LeavePaymentDetailId"));
+
+                    b.Property<int>("DaysFrom")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("DaysTo")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("LeaveTypeId")
+                        .HasColumnType("integer");
+
+                    b.Property<double>("PaymentPercentage")
+                        .HasColumnType("double precision");
+
+                    b.HasKey("LeavePaymentDetailId");
+
+                    b.HasIndex("LeaveTypeId");
+
+                    b.ToTable("LeavePaymentDetails");
+                });
+
             modelBuilder.Entity("XcelTech.HRMS.Model.Model.LeaveTypes", b =>
                 {
                     b.Property<int>("LeaveTypeId")
@@ -596,6 +626,42 @@ namespace XcelTech.HRMS.Repo.Migrations
                     b.ToTable("Training");
                 });
 
+            modelBuilder.Entity("XcelTech.HRMS.Model.Model.WeeklyReport", b =>
+                {
+                    b.Property<int>("ReportId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("ReportId"));
+
+                    b.Property<int>("EmployeeId")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("FuturePlans")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("ModifiedDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Plan")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("SubmittedDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("WhatIDone")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("ReportId");
+
+                    b.HasIndex("EmployeeId");
+
+                    b.ToTable("WeeklyReports");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -708,6 +774,17 @@ namespace XcelTech.HRMS.Repo.Migrations
                     b.Navigation("employee");
                 });
 
+            modelBuilder.Entity("XcelTech.HRMS.Model.Model.LeavePaymentDetail", b =>
+                {
+                    b.HasOne("XcelTech.HRMS.Model.Model.LeaveTypes", "LeaveType")
+                        .WithMany("LeavePaymentDetails")
+                        .HasForeignKey("LeaveTypeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("LeaveType");
+                });
+
             modelBuilder.Entity("XcelTech.HRMS.Model.Model.Recruitment", b =>
                 {
                     b.HasOne("XcelTech.HRMS.Model.Model.Department", "department")
@@ -727,6 +804,17 @@ namespace XcelTech.HRMS.Repo.Migrations
                     b.Navigation("employee");
                 });
 
+            modelBuilder.Entity("XcelTech.HRMS.Model.Model.WeeklyReport", b =>
+                {
+                    b.HasOne("XcelTech.HRMS.Model.Model.Employee", "Employee")
+                        .WithMany()
+                        .HasForeignKey("EmployeeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Employee");
+                });
+
             modelBuilder.Entity("XcelTech.HRMS.Model.Model.AppUser", b =>
                 {
                     b.Navigation("Employee");
@@ -735,6 +823,11 @@ namespace XcelTech.HRMS.Repo.Migrations
             modelBuilder.Entity("XcelTech.HRMS.Model.Model.Employee", b =>
                 {
                     b.Navigation("Attendances");
+                });
+
+            modelBuilder.Entity("XcelTech.HRMS.Model.Model.LeaveTypes", b =>
+                {
+                    b.Navigation("LeavePaymentDetails");
                 });
 #pragma warning restore 612, 618
         }

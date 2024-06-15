@@ -17,7 +17,7 @@ namespace XcelTech.HRMS.Repo.IRepo
         Task<IEnumerable<Attendance>> GetAttendanceByEmployeeId(int employeeId);
         Task<bool> DeleteAttendance(Attendance attendance);
 
-        Task<Attendance> GetAttendanceByEmployeeEmail(string email);
+        Task<Attendance> GetAttendanceByEmployeeEmail(string email, DateTime Clockout);
 
         Task UpdateAttendance(Attendance attendance, string email);
 
@@ -25,6 +25,10 @@ namespace XcelTech.HRMS.Repo.IRepo
 
         Task DeleteAllAttendances();
         Task DeleteAttendancesByEmployeeId(int employeeId);
+
+        // Task<List<Attendance>> GetAttendancesByEmployeeIdAndDateRange(int EmployeeId, DateOnly startDate, DateOnly endDate);
+
+        Task<List<Attendance>> GetAttendancesByEmployeeIdAndDateRange(int EmployeeId, DateOnly startDate, DateOnly endDate);
 
     }
 }

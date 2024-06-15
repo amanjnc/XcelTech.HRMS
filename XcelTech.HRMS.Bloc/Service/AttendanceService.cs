@@ -31,7 +31,7 @@ namespace XcelTech.HRMS.Bloc.Service
             //var attendance = _mapper.Map<Attendance>(attendanceDto);
 
             //var attendance = new Attendance { ClockinTime = _clockinTime };
-            var attendance = new Attendance { ClockinTime = _clockinTime.ClockinTime };
+            var attendance = new Attendance { ClockinTime = _clockinTime.ClockinTime,date = DateOnly.FromDateTime(_clockinTime.ClockinTime) };
 
             await _attendanceRepository.AddAttendance(attendance, email);
 
@@ -48,7 +48,7 @@ namespace XcelTech.HRMS.Bloc.Service
             try
             {
 
-                var attendance = await _attendanceRepository.GetAttendanceByEmployeeEmail(email);
+                var attendance = await _attendanceRepository.GetAttendanceByEmployeeEmail(email, _clockoutTime.ClockinTime);
 
                 if (attendance == null)
                 {
@@ -96,6 +96,12 @@ namespace XcelTech.HRMS.Bloc.Service
 
             //var employeeGetDtos = _mapper.Map<List<EmployeeGetDto>>(employees);
 
+            return attendanceDtos;
+        }
+        public async Task<List<AttendanceDto>> GetAttendancesByEmployeeIdAndDateRange(int EmployeeId, DateOnly startDate, DateOnly endDate)
+        {
+            var attendance = await _attendanceRepository.GetAttendancesByEmployeeIdAndDateRange(EmployeeId, startDate, endDate);
+            var attendanceDtos = _mapper.Map<List<AttendanceDto>>(attendance);
             return attendanceDtos;
         }
 

@@ -43,18 +43,12 @@ namespace XcelTech.HRMS.Api.Controllers
         [HttpGet("getAllPayRolls")]
         public async Task<ActionResult<IEnumerable<PayRollGetDto>>> getAllPayRolls()
         {
-            try
-            {
-                var leaves = await _payRollService.getAllPayRolls();
-
-
-                return Ok(leaves);
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, ex.Message);
-            }
+           
+                var payrolls = await _payRollService.getAllPayRolls();
+                return Ok(payrolls);
+           
         }
+
 
         [HttpGet("by-employee/{employeeId}")]
         public async Task<ActionResult<IEnumerable<Payroll>>> GetPayrollsByEmployeeId(int employeeId)
@@ -81,6 +75,17 @@ namespace XcelTech.HRMS.Api.Controllers
                 return NotFound();
             }
             return Ok(payrolls);
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> DeletePayroll([FromQuery] int PayrollId)
+        {
+
+            int payrollId = PayrollId;
+
+            var result = await _payRollService.DeletePayroll(payrollId);
+
+            return Ok(result);
         }
     }
 

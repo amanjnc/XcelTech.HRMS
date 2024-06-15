@@ -49,6 +49,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddFluentEmail(builder.Configuration);
 
 builder.Services.AddAutoMapper(typeof(RegInfo_AppUser));
+builder.Services.AddAutoMapper(typeof(LeaveTypeProfile));
 builder.Services.AddAutoMapper(typeof(UserProfile));
 builder.Services.AddAutoMapper(typeof(ProfileInfoDto));
 builder.Services.AddAutoMapper(typeof(PayRollGetProfile));
@@ -69,6 +70,7 @@ builder.Services.AddControllers().AddNewtonsoftJson(options =>
     options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
 });
 
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("vite", PolicyBuilder =>
@@ -80,6 +82,9 @@ builder.Services.AddCors(options =>
     }
    );
 });
+
+builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
+builder.Services.AddProblemDetails();
 
 builder.Services.AddAuthorization(options =>
 {
@@ -104,6 +109,8 @@ if (app.Environment.IsDevelopment())
 
 
 app.UseHttpsRedirection();
+
+//app.UseExceptionHandler();
 
 app.UseAuthentication();
 

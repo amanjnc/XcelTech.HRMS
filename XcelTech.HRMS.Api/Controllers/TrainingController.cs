@@ -64,6 +64,24 @@ namespace XcelTech.HRMS.Api.Controllers
             }
             return Ok(training);
         }
+
+        [HttpDelete]
+        public async Task<IActionResult> DeleteTraining([FromQuery] int TrainingId)
+        {
+            try
+            {
+                int trainingId = TrainingId;
+
+                var result = await _trainingService.Deletetraining(trainingId);
+
+                return Ok(result);
+
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"An error occurred: {ex.Message}");
+            }
+        }
     }
 }
 

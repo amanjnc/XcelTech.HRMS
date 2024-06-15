@@ -11,6 +11,8 @@ namespace XcelTech.HRMS.Model.Dto
        
 
         public DateTime ClockinTime { get; set; }
+
+       
        
     }
 }

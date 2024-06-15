@@ -33,5 +33,14 @@ namespace XcelTech.HRMS.Repo.Repo
         {
             return await _context.Training.FindAsync(id);
         }
+
+        public async Task<Training> Deletetraining(int TrainingId)
+        {
+            var training = await _context.Training.FirstOrDefaultAsync(l => l.TrainingId == TrainingId);
+            _context.Training.Remove(training);
+
+            await _context.SaveChangesAsync();
+            return training;
+        }
     }
 }

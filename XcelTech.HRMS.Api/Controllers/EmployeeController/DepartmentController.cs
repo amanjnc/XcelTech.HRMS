@@ -21,7 +21,7 @@ namespace XcelTech.HRMS.Api.Controllers.EmployeeController
 
         }
 
-        //[Authorize(Policy = "ViewDepartment")]
+        //[Authorize(Policy = "ManageDepartment")]
         [HttpPost("CreateNewDepartment")]
         public async Task<IActionResult> CreateDepartment([FromBody] Department department)
         {
@@ -36,8 +36,8 @@ namespace XcelTech.HRMS.Api.Controllers.EmployeeController
 
         }
 
-        ////[Authorize(Policy = "ManageDepartment")]
-        //[Authorize(Roles = "admin")]
+        
+        //[Authorize(Roles = "employee")]
         [HttpGet("GetAllDepartment")]
         [ProducesResponseType(typeof(IEnumerable<Department>), (int)HttpStatusCode.OK)]
         public async Task<ActionResult<List<Department>>> getAllDepartment()
@@ -52,91 +52,5 @@ namespace XcelTech.HRMS.Api.Controllers.EmployeeController
 
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-        // GET: DepartmentController
-        //public ActionResult Index()
-        //{
-        //    return View();
-        //}
-
-        //// GET: DepartmentController/Details/5
-        //public ActionResult Details(int id)
-        //{
-        //    return View();
-        //}
-
-        //// GET: DepartmentController/Create
-        //public ActionResult Create()
-        //{
-        //    return View();
-        //}
-
-        //// POST: DepartmentController/Create
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public ActionResult Create(IFormCollection collection)
-        //{
-        //    try
-        //    {
-        //        return RedirectToAction(nameof(Index));
-        //    }
-        //    catch
-        //    {
-        //        return View();
-        //    }
-        //}
-
-        //// GET: DepartmentController/Edit/5
-        //public ActionResult Edit(int id)
-        //{
-        //    return View();
-        //}
-
-        //// POST: DepartmentController/Edit/5
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public ActionResult Edit(int id, IFormCollection collection)
-        //{
-        //    try
-        //    {
-        //        return RedirectToAction(nameof(Index));
-        //    }
-        //    catch
-        //    {
-        //        return View();
-        //    }
-        //}
-
-        //// GET: DepartmentController/Delete/5
-        //public ActionResult Delete(int id)
-        //{
-        //    return View();
-        //}
-
-        //// POST: DepartmentController/Delete/5
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public ActionResult Delete(int id, IFormCollection collection)
-        //{
-        //    try
-        //    {
-        //        return RedirectToAction(nameof(Index));
-        //    }
-        //    catch
-        //    {
-        //        return View();
-        //    }
-        //}
     }
 }

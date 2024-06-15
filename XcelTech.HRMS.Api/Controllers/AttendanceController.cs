@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
 using XcelTech.HRMS.Bloc.IService;
 using XcelTech.HRMS.Bloc.Service;
+using XcelTech.HRMS.Model;
 using XcelTech.HRMS.Model.Dto;
 
 namespace XcelTech.HRMS.Api.Controllers
@@ -70,10 +71,10 @@ namespace XcelTech.HRMS.Api.Controllers
         {
             try
             {
-                var leaves = await _attendanceService.getAllAttendances();
+                var attendances = await _attendanceService.getAllAttendances();
 
 
-                return Ok(leaves);
+                return Ok(attendances);
             }
             catch (Exception ex)
             {
@@ -95,6 +96,22 @@ namespace XcelTech.HRMS.Api.Controllers
         {
             await _attendanceService.DeleteAttendancesByEmployeeId(employeeId);
             return NoContent();
+        }
+        [HttpGet("some")]
+        public async Task<ActionResult<IEnumerable<AttendanceDto>>> GetAttendancesByEmployeeIdAndDateRange(int EmployeeId, DateOnly PayrollSDate, DateOnly PayrollEDate)
+        {
+            try
+            {
+                var attendances = await _attendanceService.GetAttendancesByEmployeeIdAndDateRange(EmployeeId , PayrollEDate, PayrollSDate);
+
+
+                return Ok(attendances);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
+
         }
         /*[HttpGet("GetTodaysAttendance")]
 

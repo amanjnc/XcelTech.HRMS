@@ -72,5 +72,13 @@ namespace XcelTech.HRMS.Repo.Repo
                 .Where(p => p.PayrollStartDate == startDate)
                 .ToListAsync();
         }
+
+        public async Task<Payroll> DeletePayroll(int payrollId)
+        {
+            var payroll = await _applicationDbContext.Payrolls.FirstOrDefaultAsync(l => l.PayrollId == payrollId);
+            _applicationDbContext.Payrolls.Remove(payroll);
+            await _applicationDbContext.SaveChangesAsync();
+            return payroll;
+        }
     }
 }

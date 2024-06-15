@@ -122,8 +122,15 @@ namespace XcelTech.HRMS.Api.Controllers
 
            
             }
-      
+
+        [HttpGet("emails")]
+        public async Task<IActionResult> GetAllEmployeeEmails()
+        {
+            var emails = await _employeeService.GetAllEmployeeEmailsAsync();
+            return Ok(emails);
         }
+
+    }
 
 
 

@@ -8,6 +8,10 @@ using Microsoft.EntityFrameworkCore;
 using XcelTech.HRMS.Model.Model;
 using XcelTech.HRMS.Repo.IRepo;
 using XcelTech.HRMS.Model;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+using Microsoft.EntityFrameworkCore;
+
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
 
 namespace XcelTech.HRMS.Repo.Repo
 {
@@ -74,13 +78,13 @@ namespace XcelTech.HRMS.Repo.Repo
             return attendances;
         }
 
-        public async Task<Attendance> GetAttendanceByEmployeeEmail(string email)
+        public async Task<Attendance> GetAttendanceByEmployeeEmail(string email, DateTime Clockout)
         {
             try
             {
                 var employee = await _applicationDbContext.Employees.FirstOrDefaultAsync(emp => emp.EmployeeEmail == email);
                 var employeeId = employee.EmployeeId;
-                var attendance = await _applicationDbContext.Attendances.FirstOrDefaultAsync(emp => emp.EmployeeId == employeeId);
+                var attendance = await _applicationDbContext.Attendances.FirstOrDefaultAsync(a => a.EmployeeId == employeeId && a.ClockinTime.Date == Clockout.Date);
                 return attendance;
 
 
@@ -116,6 +120,28 @@ namespace XcelTech.HRMS.Repo.Repo
             var attendances = _applicationDbContext.Attendances.Where(a => a.EmployeeId == employeeId);
             _applicationDbContext.Attendances.RemoveRange(attendances);
             await _applicationDbContext.SaveChangesAsync();
+        }
+
+        public async Task<List<Attendance>> GetAttendancesByEmployeeIdAndDateRange(int EmployeeId, DateOnly startDate, DateOnly endDate)
+        {
+           /* if (EmployeeId <= 0)
+            {
+                throw new ArgumentException($"{nameof(EmployeeId)} cannot be 0 or negative.");
+            }
+
+            if (startDate > endDate)
+            {
+                throw new ArgumentException($"{nameof(startDate)} cannot be greater than {nameof(endDate)}.");
+            }*/
+
+            
+                return await _applicationDbContext.Attendances
+                  .Where(h =>h.EmployeeId == EmployeeId)
+                  .ToListAsync();
+           // => h.date >= startDate && h.date <= endDate &&
+
+
+
         }
 
     }

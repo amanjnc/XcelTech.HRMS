@@ -19,20 +19,25 @@ namespace XcelTech.HRMS.Bloc.Service
     {
         private readonly IMapper _mapper;
         private readonly IPayRollRepository _payRollRepository;
+        private readonly ICalculateNetPay _calculateNetPay;
+        private readonly IEmployeeRepository _employeeRepository;
 
-        public PayRollService(IPayRollRepository payRollRepository, IMapper mapper)
+        public PayRollService(IPayRollRepository payRollRepository, IMapper mapper, ICalculateNetPay calculateNetPay,  IEmployeeRepository employeeRepository)
         {
             _payRollRepository = payRollRepository;
             _mapper = mapper;
-            
+            _calculateNetPay = calculateNetPay;
+            _employeeRepository = employeeRepository;
+
         }
 
         public async Task<IActionResult> createPayroll(PayRollPostDto payrollpost)
 
         {
+            var EmployeeId= await _employeeRepository.GetEmployeeIdByEmailAsync(payrollpost.EmployeeEmail); 
             var payroll = _mapper.Map<Payroll>(payrollpost);
-            //payroll.PayrollStartDate = DateOnly.ParseExact(payroll.PayrollStartDate.ToString("MM/dd/yyyy"), "MM/dd/yyyy", null);
-            //payroll.PayrollEndDate = DateOnly.ParseExact(payroll.PayrollEndDate.ToString("MM/dd/yyyy"), "MM/dd/yyyy", null);
+            payroll.EmployeeId = EmployeeId;
+            payroll.NetPay = await _calculateNetPay.CalculateNetSalary(payrollpost);
             await _payRollRepository.createPayroll(payroll);
 
             return new OkResult();
@@ -48,6 +53,7 @@ namespace XcelTech.HRMS.Bloc.Service
                 var employeeId = payroll.EmployeeId;
                 var FullName = await _payRollRepository.GetEmployeeFullNameByIdAsync(employeeId);
                 var payrollGetDto = _mapper.Map<PayRollGetDto>(payroll);
+                payrollGetDto.EmployeeEmail = await _employeeRepository.GetEmployeeEmailbyIdAsync(employeeId);
                 payrollGetDto.EmployeeName=FullName;
                 payRollGetDtos.Add(payrollGetDto);
             }
@@ -63,6 +69,16 @@ namespace XcelTech.HRMS.Bloc.Service
         public async Task<IEnumerable<Payroll>> GetPayrollsByStartDate(DateOnly startDate)
         {
             return await _payRollRepository.GetPayrollsByStartDate(startDate);
+        }
+
+        public async Task<IActionResult> DeletePayroll(int PayrollId)
+        {
+              var payroll = await _payRollRepository.DeletePayroll(PayrollId);
+
+
+                return new OkResult();
+           
+
         }
     }
 }

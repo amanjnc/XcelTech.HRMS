@@ -14,5 +14,7 @@ namespace XcelTech.HRMS.Repo.IRepo
         Task<Holiday> CreateHoliday(Holiday holiday);
         Task<Holiday> UpdateHoliday(Holiday holiday);
         Task<bool> DeleteHoliday(int id);
+
+        Task<List<Holiday>> GetHolidaysInDateRange(DateOnly startDate, DateOnly endDate);
     }
 }

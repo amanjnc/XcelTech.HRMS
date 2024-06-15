@@ -59,5 +59,12 @@ namespace XcelTech.HRMS.Repo.Repo
             await _context.SaveChangesAsync();
             return true;
         }
+
+        public async Task<List<Holiday>> GetHolidaysInDateRange(DateOnly startDate, DateOnly endDate)
+        {
+            return await _context.Holidays
+                .Where(h => h.HolidayDate >= startDate && h.HolidayDate <= endDate)
+                .ToListAsync();
+        }
     }
 }

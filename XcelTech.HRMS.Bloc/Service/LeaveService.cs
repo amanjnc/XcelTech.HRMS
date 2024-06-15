@@ -49,6 +49,16 @@ namespace XcelTech.HRMS.Bloc.Service
             return new OkResult();
         }
 
+
+        public async Task<IActionResult> DeleteLeave(int LeaveId)
+        {
+            var payroll = await _leaveRepository.DeleteLeave(LeaveId);
+
+
+            return new OkResult();
+
+
+        }
         public async Task<List<GetLeaveDto>> getAllLeaves()
         {
             var leaves = await _leaveRepository.GetAllLeaves();

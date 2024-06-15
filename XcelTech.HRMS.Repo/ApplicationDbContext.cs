@@ -19,7 +19,7 @@ namespace XcelTech.HRMS.Repo
             {
                 //optionsBuilder.EnableSensitiveDataLogging();
                 //optionsBuilder.UseNpgsql("Server=localhost;Database=Hrms;User Id=postgres;Password=1234;");
-                optionsBuilder.UseNpgsql("Host=xcelTech.hrms.repo;Port=5432;Database=xceltechhrmsNewww6;Username=postgres;Password=postgres;Include Error Detail=true;");
+                optionsBuilder.UseNpgsql("Host=xcelTech.hrms.repo;Port=5432;Database=xceltechhrmsNewww7;Username=postgres;Password=postgres;Include Error Detail=true;");
             }
         }
 
@@ -34,6 +34,10 @@ namespace XcelTech.HRMS.Repo
         public DbSet<Training> Training { get; set; }
 
         public DbSet<EmployeeFile> EmployeeFiles { get; set; }
+
+        public DbSet<LeavePaymentDetail> LeavePaymentDetails { get; set; }
+
+        public DbSet<WeeklyReport> WeeklyReports { get; set; }
 
         public DbSet<Holiday> Holidays { get; set; }
 

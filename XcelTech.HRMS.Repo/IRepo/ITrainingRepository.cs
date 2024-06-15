@@ -14,6 +14,8 @@ namespace XcelTech.HRMS.Repo.IRepo
         Task<List<Training>> GetAllTrainingAsync();
         Task<Training> GetTrainingAsync(int id);
 
+        Task<Training> Deletetraining(int TrainingId);
+
     }
 }
 

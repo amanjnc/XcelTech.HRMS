@@ -243,14 +243,13 @@ C:\Users\DELL\Desktop\anotherone3\XcelTech.HRMS\bin\Debug\XcelTech.HRMS.Helper.p
 C:\Users\DELL\Desktop\anotherone3\XcelTech.HRMS\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 C:\Users\DELL\Desktop\anotherone3\XcelTech.HRMS\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\Users\DELL\Desktop\anotherone3\XcelTech.HRMS\obj\Debug\docker-c.35A3FFBA.Up2Date
-C:\Users\DELL\Desktop\new2\XcelTech.HRMS\bin\Debug\XcelTech.HRMS.Api.dll
-C:\Users\DELL\Desktop\new2\XcelTech.HRMS\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\Users\DELL\Desktop\new2\XcelTech.HRMS\bin\Debug\XcelTech.HRMS.Api.deps.json
 C:\Users\DELL\Desktop\new2\XcelTech.HRMS\bin\Debug\XcelTech.HRMS.Api.runtimeconfig.json
 C:\Users\DELL\Desktop\new2\XcelTech.HRMS\bin\Debug\appsettings.Development.json
 C:\Users\DELL\Desktop\new2\XcelTech.HRMS\bin\Debug\appsettings.json
 C:\Users\DELL\Desktop\new2\XcelTech.HRMS\bin\Debug\XcelTech.HRMS.Api.staticwebassets.runtime.json
 C:\Users\DELL\Desktop\new2\XcelTech.HRMS\bin\Debug\XcelTech.HRMS.Api.exe
+C:\Users\DELL\Desktop\new2\XcelTech.HRMS\bin\Debug\XcelTech.HRMS.Api.dll
 C:\Users\DELL\Desktop\new2\XcelTech.HRMS\bin\Debug\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\DELL\Desktop\new2\XcelTech.HRMS\bin\Debug\Microsoft.EntityFrameworkCore.dll
 C:\Users\DELL\Desktop\new2\XcelTech.HRMS\bin\Debug\Microsoft.Extensions.Identity.Core.dll
@@ -294,4 +293,5 @@ C:\Users\DELL\Desktop\new2\XcelTech.HRMS\bin\Debug\XcelTech.HRMS.Bloc.pdb
 C:\Users\DELL\Desktop\new2\XcelTech.HRMS\bin\Debug\XcelTech.HRMS.Model.pdb
 C:\Users\DELL\Desktop\new2\XcelTech.HRMS\bin\Debug\XcelTech.HRMS.Helper.pdb
 C:\Users\DELL\Desktop\new2\XcelTech.HRMS\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\new2\XcelTech.HRMS\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\Users\DELL\Desktop\new2\XcelTech.HRMS\obj\Debug\docker-c.35A3FFBA.Up2Date

@@ -18,6 +18,8 @@ namespace XcelTech.HRMS.Bloc.IService
 
         public Task<EmployeeGetDto> getloggedinEmployee(string email);
 
+        Task<List<string>> GetAllEmployeeEmailsAsync();
+
 
     }
 }

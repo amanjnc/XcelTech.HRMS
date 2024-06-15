@@ -75,5 +75,20 @@ namespace XcelTech.HRMS.Repo.Repo
                                  .Where(l => l.EmployeeId == employeeId && l.LeaveType == leaveType && l.status == "Approved")
                                  .ToListAsync();
         }
+
+        public async Task<List<Leave>> GetLeavesByEmployeeIdAndDateRange(int employeeId, DateOnly startDate, DateOnly endDate)
+        {
+            return await _applicationDbContext.Leaves
+                .Where(l => l.EmployeeId == employeeId && l.status == "Approved" && l.StartDate <= endDate && l.EndDate >= startDate)
+                .ToListAsync();
+        }
+
+        public async Task<Leave> DeleteLeave(int LeaveId)
+        {
+            var leave = await _applicationDbContext.Leaves.FirstOrDefaultAsync(l => l.LeaveId == LeaveId);
+            _applicationDbContext.Leaves.Remove(leave);
+            await _applicationDbContext.SaveChangesAsync();
+            return leave;
+        }
     }
 }

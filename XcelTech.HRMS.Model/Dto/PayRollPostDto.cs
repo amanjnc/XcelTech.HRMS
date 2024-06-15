@@ -9,8 +9,8 @@ namespace XcelTech.HRMS.Model.Dto
 {
     public class PayRollPostDto
     {
-        public int EmployeeId { get; set; }
-        [ForeignKey("EmployeeId")]
+        public string EmployeeEmail { get; set; }
+        
 
         public string SalaryType { get; set; }
 
@@ -28,6 +28,6 @@ namespace XcelTech.HRMS.Model.Dto
         public DateOnly PayrollStartDate { get; set; }
         public DateOnly PayrollEndDate { get; set; }
 
-        public float NetPay { get; set; }
+        //public float NetPay { get; set; }
     }
 }

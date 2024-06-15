@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -19,11 +20,13 @@ namespace XcelTech.HRMS.Api.Controllers
 
         private readonly ApplicationDbContext _applicationDbContext;
         private readonly ILeaveService _leaveService;
+        private readonly IMapper _mapper;
 
-        public LeaveController(ApplicationDbContext applicationDbContext, ILeaveService leaveService)
+        public LeaveController(ApplicationDbContext applicationDbContext, ILeaveService leaveService, IMapper mapper)
         {
             _applicationDbContext = applicationDbContext;
             _leaveService = leaveService;
+            _mapper = mapper;
         }
 
         [Authorize]
@@ -133,28 +136,31 @@ namespace XcelTech.HRMS.Api.Controllers
 
         
         [HttpPost("AddLeaveType")]
-        public async Task<LeaveTypes> AddLeaveType([FromBody] LeaveTypes leaveType)
+        public async Task<LeaveTypeDto> AddLeaveType([FromBody] LeaveTypeDto leaveType)
         {
             // Check if the leave type already exists
             var existingLeaveType = await _applicationDbContext.LeaveTypes
                 .Where(l => l.LeaveTypeName == leaveType.LeaveTypeName)
                 .FirstOrDefaultAsync();
 
-            if (existingLeaveType != null)
-            {
-                return existingLeaveType;
-            }
+            var _leaveType = _mapper.Map<LeaveTypes>(leaveType);
 
-           /* var newLeave = new LeaveTypes
-            {
-                LeaveTypeName = leaveTypeName,
-              
-            };*/
 
-            _applicationDbContext.LeaveTypes.Add(leaveType);
+            _applicationDbContext.LeaveTypes.Add(_leaveType);
             await _applicationDbContext.SaveChangesAsync();
 
             return leaveType;
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> DeleteLeaveRequest([FromQuery] int LeaveId)
+        {
+
+            int leaveId = LeaveId;
+
+            var result = await _leaveService.DeleteLeave(leaveId);
+
+            return Ok(result);
         }
 
 

@@ -15,6 +15,9 @@ namespace XcelTech.HRMS.Model.Model
 
 
         public string LeaveType { get; set; }
+
+       /* [ForeignKey("LeaveTypeName")]
+        public LeaveTypes leavetype { get; set; }*/
         public DateOnly StartDate { get; set; }
         public DateOnly EndDate { get; set; }
 

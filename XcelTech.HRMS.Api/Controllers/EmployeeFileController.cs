@@ -75,25 +75,13 @@ namespace XcelTech.HRMS.Api.Controllers
         [HttpDelete]
         public async Task<IActionResult> DeleteEmployeeFiles([FromQuery] int userId)
         {
-            try
-            {
-                int UserId = userId;
 
-                var result = await _employeeFileService.DeleteEmployeeFile(UserId);
+            int UserId = userId;
 
-                return Ok(result);
+            var result = await _employeeFileService.DeleteEmployeeFile(UserId);
 
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, $"An error occurred: {ex.Message}");
-            }
+            return Ok(result);
         }
-
-
-
-
-
 
 
     }

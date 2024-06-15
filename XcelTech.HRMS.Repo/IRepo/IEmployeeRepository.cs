@@ -19,6 +19,12 @@ namespace XcelTech.HRMS.Repo.IRepo
 
         Task<Employee> getloggedinEmployee(string email);
 
+        Task<string> GetEmployeeEmailbyIdAsync(int id);
+
+        Task<int> GetEmployeeIdByEmailAsync(string email);
+
+        Task<List<string>> GetAllEmployeeEmailsAsync();
+
 
 
     }

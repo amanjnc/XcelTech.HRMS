@@ -40,7 +40,7 @@ namespace XcelTech.HRMS.Repo.Repo
        
         public async Task updateEmployee(Employee employee,string email)
         {
-            //var currentUser = await _userManager.GetUserAsync(_httpContextAccessor.HttpContext.User);
+           
 
             var existingEmployee = await _applicationDbContext.Employees.FirstOrDefaultAsync(emp => emp.EmployeeEmail == email);
 
@@ -49,28 +49,9 @@ namespace XcelTech.HRMS.Repo.Repo
                 throw new Exception("Employee not found.");
             }
 
-            //existingEmployee.EmployeeAge = employee.EmployeeAge;
+            
             existingEmployee.EmployeeAddress = employee.EmployeeAddress;
-            //existingEmployee.DepartmentId = employee.DepartmentId;
-
-
-
-
-
-            //var employeeType = typeof(Employee);
-
-            //var properties = employeeType.GetProperties();
-
-            //foreach (var property in properties)
-            //{
-            //    var inputValue = property.GetValue(employee);
-            //    if (inputValue != null)
-            //    {
-            //        property.SetValue(existingEmployee, inputValue);
-            //    }
-            //}
-            Console.WriteLine("notllskdfjalksjd founs world!");
-
+            
             await _applicationDbContext.SaveChangesAsync();
         }
 
@@ -152,6 +133,30 @@ namespace XcelTech.HRMS.Repo.Repo
 
 
             return currentEmployee;
+        }
+
+        public async Task<int> GetEmployeeIdByEmailAsync(string email)
+        {
+            var employeeId = await _applicationDbContext.Employees
+                                         .Where(e => e.EmployeeEmail == email)
+                                         .Select(e => e.EmployeeId)
+                                         .FirstOrDefaultAsync();
+            return employeeId;
+        }
+        public async Task<string> GetEmployeeEmailbyIdAsync(int id)
+        {
+            var employeeEmail = await _applicationDbContext.Employees
+                                         .Where(e => e.EmployeeId == id)
+                                         .Select(e => e.EmployeeEmail)
+                                         .FirstOrDefaultAsync();
+            return employeeEmail;
+        }
+
+        public async Task<List<string>> GetAllEmployeeEmailsAsync()
+        {
+            return await _applicationDbContext.Employees
+                                 .Select(e => e.EmployeeEmail)
+                                 .ToListAsync();
         }
     }
 }

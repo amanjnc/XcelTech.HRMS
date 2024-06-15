@@ -18,5 +18,7 @@ namespace XcelTech.HRMS.Repo.IRepo
 
         Task<IEnumerable<Payroll>> GetPayrollsByEmployeeId(int employeeId);
         Task<IEnumerable<Payroll>> GetPayrollsByStartDate(DateOnly startDate);
+
+        Task<Payroll> DeletePayroll(int payrollId);
     }
 }

@@ -16,6 +16,8 @@ namespace XcelTech.HRMS.Model.Dto
 
         public TimeOnly? TotalTime { get; set; }
 
+        public DateOnly date { set; get; }
+
         public string EmployeeName {  get; set; }
     }
 }

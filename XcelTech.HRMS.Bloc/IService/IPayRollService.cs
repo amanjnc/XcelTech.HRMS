@@ -18,5 +18,9 @@ namespace XcelTech.HRMS.Bloc.IService
 
         Task<IEnumerable<Payroll>> GetPayrollsByEmployeeId(int employeeId);
         Task<IEnumerable<Payroll>> GetPayrollsByStartDate(DateOnly startDate);
+
+        Task<IActionResult> DeletePayroll(int PayrollId);
+
+
     }
 }

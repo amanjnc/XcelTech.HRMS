@@ -39,6 +39,9 @@ namespace XcelTech.HRMS.Api.Extensions
             services.AddScoped<IHolidayRepository, HolidayRepository>();
             services.AddScoped<ITrainingService, TrainingService>();
             services.AddScoped<ITrainingRepository, TrainingRepository>();
+            services.AddScoped<ICalculateNetPay, CalculateNetPay>();
+            services.AddScoped<IWeeklyReportService, WeeklyReportService>();
+            services.AddScoped<IWeeklyReportRepository, WeeklyReportRepository>();
 
 
 

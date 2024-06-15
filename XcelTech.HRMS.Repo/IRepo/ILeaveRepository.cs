@@ -23,6 +23,12 @@ namespace XcelTech.HRMS.Repo.IRepo
 
         Task<IEnumerable<Leave>> GetLeavesByEmployeeIdAndTypeAsync(int employeeId, string leaveType);
 
+        Task<List<Leave>> GetLeavesByEmployeeIdAndDateRange(int employeeId, DateOnly startDate, DateOnly endDate);
+
+        Task<Leave> DeleteLeave(int LeaveId);
+
+
+
 
         //public Task<List<Leave>> GetAllLeavesAsync();
 

@@ -173,33 +173,6 @@ namespace XcelTech.HRMS.Bloc.Service
 
 
 
-                //// Fetch the employee
-                //var employee = await _employeeRepository.GetEmployeeByAppUserIdAsync(userId);
-                //if (employee == null)
-                //{
-                //    return new NotFoundObjectResult($"Employee with AppUserId '{userId}' not found.");
-                //}
-
-                //// Delete the employee
-
-                //// Delete the attendances
-                //var attendances = await _attendanceRepository.GetAttendanceByEmployeeId(employee.EmployeeId);
-
-                //if (!attendances.Any())
-                //{
-                //    return new NoContentResult();
-                //}
-
-                //foreach (var attendance in attendances)
-                //{
-                //    await _attendanceRepository.DeleteAttendance(attendance);
-                //}
-                //await _employeeRepository.DeleteEmployee(employee);
-                 
-                //await _userManager.DeleteAsync(toBeDeletedUser);
-
-                //// Return a successful response
-                //return new OkObjectResult("User, employee, and attendance records deleted successfully.");
             }
             catch (Exception ex)
             {
@@ -227,6 +200,11 @@ namespace XcelTech.HRMS.Bloc.Service
             //var employeeGetDtos = _mapper.Map<List<EmployeeGetDto>>(employees);
 
             return employeeDtos;
+        }
+
+        public async Task<List<string>> GetAllEmployeeEmailsAsync()
+        {
+            return await _employeeRepository.GetAllEmployeeEmailsAsync();
         }
     }
  }

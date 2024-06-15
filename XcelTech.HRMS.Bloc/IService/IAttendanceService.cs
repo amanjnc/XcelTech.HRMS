@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using XcelTech.HRMS.Model;
 using XcelTech.HRMS.Model.Dto;
 
 namespace XcelTech.HRMS.Bloc.IService
@@ -20,5 +21,7 @@ namespace XcelTech.HRMS.Bloc.IService
 
         Task DeleteAllAttendances();
         Task DeleteAttendancesByEmployeeId(int employeeId);
+
+        Task<List<AttendanceDto>> GetAttendancesByEmployeeIdAndDateRange(int EmployeeId, DateOnly startDate, DateOnly endDate);
     }
 }
