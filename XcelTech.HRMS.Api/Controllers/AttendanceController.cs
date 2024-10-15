@@ -26,10 +26,8 @@ namespace XcelTech.HRMS.Api.Controllers
             {
                 return BadRequest(ModelState);
             }
-
             try
             {
-
                 var email = HttpContext.User.FindFirstValue(ClaimTypes.Email);
 
 

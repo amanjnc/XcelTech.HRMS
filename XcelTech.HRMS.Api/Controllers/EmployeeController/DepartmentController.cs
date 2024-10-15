@@ -22,6 +22,7 @@ namespace XcelTech.HRMS.Api.Controllers.EmployeeController
         }
 
         //[Authorize(Policy = "ViewDepartment")]
+        [Authorize(Roles = "hr")]
         [HttpPost("CreateNewDepartment")]
         public async Task<IActionResult> CreateDepartment([FromBody] Department department)
         {
@@ -51,7 +52,9 @@ namespace XcelTech.HRMS.Api.Controllers.EmployeeController
 //        }
 
         [HttpGet("GetAllDepartment")]
-        //[ProducesResponseType(typeof(List<Department>), (int)HttpStatusCode.OK)]
+        [ProducesResponseType(typeof(List<Department>), (int)HttpStatusCode.OK)]
+        [Authorize(Policy = "ViewDepartment")]
+
         public async Task<ActionResult<List<Department>>> GetAllDepartments()
         {
             var departments = await _departmentService.getAllDepartment();

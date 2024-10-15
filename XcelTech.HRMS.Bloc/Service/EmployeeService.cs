@@ -136,13 +136,14 @@ namespace XcelTech.HRMS.Bloc.Service
             {
                 Console.WriteLine("maybe");
                 await _employeeRepository.updateEmployee(employee);
-                Console.WriteLine("mayb   e");
+                Console.WriteLine("maybe");
 
             }
             catch (Exception ex)
             {
-                return new ObjectResult(employee);
+                //return new ObjectResult(employee);
 
+                return new BadRequestObjectResult("Failed to update employee");
             }
 
             return new OkResult();
