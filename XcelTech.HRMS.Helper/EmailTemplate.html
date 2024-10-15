@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xceltech Email</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+
+        .header {
+            background-color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+            .header img {
+                width: 30%;
+                max-width: 150px;
+                height: auto;
+            }
+
+        .announcement {
+            background-color: #2d298e;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            transition: 0.5s;
+            width: 95%;
+        }
+
+            .announcement h1 {
+                color: white;
+                font-size: 45px;
+                margin-bottom: 20px;
+            }
+
+            .announcement p {
+                color: white;
+                font-size: 20px;
+                margin-bottom: 20px;
+                margin-right: 30px;
+                margin-left: 30px;
+            }
+
+        .button {
+            background: linear-gradient(to right, #ffdfdf, #c1b4e3);
+            background-color: #ffdfdf;
+            color: #2d298e;
+            font-family: Trebuchet MS;
+            font-size: 23px;
+            font-weight: 800;
+            text-decoration: none;
+            padding: 18px 25px;
+            border: 0px solid #000;
+            border-radius: 10px;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        .contact {
+            text-align: center;
+            padding: 5px;
+            margin: 5px;
+            border-radius: 10px;
+            transition: 0.5s;
+        }
+
+            .contact ul {
+                list-style-type: none;
+                padding: 0;
+            }
+
+            .contact li {
+                margin-bottom: 10px;
+            }
+
+            .contact p {
+                margin-top: 20px;
+            }
+      
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="#">
+            <img src="https://media.licdn.com/dms/image/D5603AQFTfWX_wxLidw/profile-displayphoto-shrink_400_400/0/1690715279416?e=1721865600&v=beta&t=sCxthn1KFmdElQ_3ZmFKg6QTiA8KaNjZCNEI5I7s4ow" alt="Xceltech Logo" class="Xcel-logo">
+        </a>
+    </div>
+    <div class="announcement">
+        <h1>Connect, Empower, Transform: Join Xceltech!</h1>
+        <p>Xcel tech is a company that provides both hardware and software solutions ... Innovation with Integrated Solutions Empowering organizations through Integrated Technological Solutions and Expert Support for digital transformation. We are here to unlock your business's potential with our comprehensive solutions.</p>
+        <!--<a href="localhost://signin/set-password?Email =@Model.EmployeeEmail&" class="button">SIGN IN</a>-->
+        <!--<a href="localhost://signin/set-password?Email =@Model.EmployeeEmail&" class="button">SIGN IN</a>-->
+        <a href="http://localhost:5173/Signup/id=@Model.UniqueIdentifier" class="button" >SIGN IN</a>
+    <div class="contact">
+        <ul>
+            <!--<li>Name: @Model.EmployeeFirstName</li>-->
+            <li>Name: @($"{Model.EmployeeFirstName} {Model.EmployeeLastName}")</li>
+         <!--   <li>Name: @(Model.EmployeeFirstName + " " + Model.EmployeeLastName)</li>-->
+            <li>Email: @Model.EmployeeEmail</li>
+            <li>Phone: @Model.EmployeePhone</li>
+        </ul>
+        <p>If you have any questions or need assistance, please don't hesitate to reach out to our support team.</p>
+        <p>Best regards,<br>Xceltech Team</p>
+    </div>
+</body>
+</html>
